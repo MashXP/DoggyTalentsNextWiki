@@ -118,7 +118,7 @@ function NavTree({ node, level = 0 }: { node: { [key: string]: NavTreeNode }; le
     if (level === 0) {
       const indexA = ROOT_ORDER.indexOf(a);
       const indexB = ROOT_ORDER.indexOf(b);
-      
+
       if (indexA !== -1 && indexB !== -1) {
         return indexA - indexB;
       }
@@ -190,6 +190,7 @@ export default function SidebarNav({ slugs, searchData }: { slugs: string[]; sea
             priority
           />
         </Link>
+        <div className="separator" style={{ marginLeft: '-1rem', marginRight: '-1rem' }} />
         <Search data={searchData} />
       </div>
       <nav className="nav-links">
