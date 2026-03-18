@@ -21,9 +21,7 @@ It can be used 10 times and can be enchanted with Unbreaking and Mending.
 ## Obtaining
 ### Crafting
 
-| Ingredients | Recipe |
-| --- | --- |
-| Bone<br>+ Glass Pane<br>+ Gold Ingot<br>+ Redstone Block | ![](/images/magnifying_bone_crafting.png) |
+<recipe id="magnifying_bone" />
 
 ## Usage
 - **<code>Right click</code>** on your dog to use the item.
