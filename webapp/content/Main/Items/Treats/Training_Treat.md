@@ -16,12 +16,7 @@ title: Training Treat
 > * Each treat raises your dog's level by 1 and also raises your spendable points by 1
 > * This treat is no longer usable once your dog is level 20. <ref>https://doggytalents.fandom.com/wiki/List_of_treats</ref>
 
-## Obtaining
-### Crafting
-
-| Ingredients | (Shapeless) Recipe |
-| --- | --- |
-| Gunpowder <br>+ Bone<br>+ String<br>+ Sugar<br>+ [Rice Bowl](Rice_Bowl) | ![](/images/training_treat_crafting.png) |
+<recipe id="training_treat" />
 
 ## Usage
 - **<code>Right click</code>** on your dog to use the item.

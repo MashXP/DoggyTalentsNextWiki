@@ -14,12 +14,7 @@ title: Whistle
 
 The **Whistle** item gives your dog commands that it can listen to. Different commands are expressed via several modes.
 
-## Obtaining
-### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| Iron Ingots <br>+ Redstone Dust | ![](/images/whistle_crafting.png) |
+<recipe id="whistle" />
 
 ## Usage
 - **<code>Right click</code>** to use the item.

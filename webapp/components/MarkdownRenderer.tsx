@@ -3,6 +3,8 @@ import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import Link from 'next/link';
 
+import RecipeDisplay from './RecipeDisplay';
+
 export default function MarkdownRenderer({ content }: { content: string }) {
   return (
     <div className="article-body">
@@ -37,7 +39,8 @@ export default function MarkdownRenderer({ content }: { content: string }) {
             <sup className="ref-tag" title="Reference">
               {props.children}
             </sup>
-          )
+          ),
+          recipe: ({ id }: { id: string }) => <RecipeDisplay id={id} />
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         } as any}
       >

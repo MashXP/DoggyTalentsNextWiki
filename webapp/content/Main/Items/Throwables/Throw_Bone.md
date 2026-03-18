@@ -14,12 +14,7 @@ title: Throw Bone
 
 **Throw Bone** is a throwable item that lets you play and interact with your doggo!
 
-## Obtaining
-### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Bone <br>+ Slime Ball | ![](/images/throw_bone_crafting.png) |
+<recipe id="throw_bone" />
 
 ## Usage
 
