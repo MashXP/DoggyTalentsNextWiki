@@ -1,6 +1,7 @@
 'use client';
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
@@ -125,7 +126,14 @@ export default function SidebarNav({ slugs }: { slugs: string[] }) {
     <aside className="sidebar glass">
       <div className="sidebar-header">
         <Link href="/" className="sidebar-logo">
-          <h3>Doggy Talents Next</h3>
+          <Image
+            src="/images/site-logo.png"
+            alt="Doggy Talents Next Logo"
+            width={500}
+            height={500}
+            style={{ width: '100%', height: 'auto' }}
+            priority
+          />
         </Link>
       </div>
       <nav className="nav-links">
