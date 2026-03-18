@@ -21,10 +21,7 @@ Your dog can also eat this, so don't be shy to share it with your furry pal!
 If your dog gets [incapacited](Immortal Dogs) by starving, this is the **only way** you can bring it back.
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Golden Nugget | ![](/images/golden_a_five_wagyu_crafting.png) |
+<recipe id="golden_a_five_wagyu" />
 
 ## Usage
 - **<code>Right click</code>** to use the item.

@@ -16,10 +16,7 @@ title: Tofu
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| [Soy Milk](Soy_Milk) | ![](/images/tofu_crafting.png) |
+<recipe id="tofu" />
 
 ## Usage
 - **<code>Right click</code>** to use the item.

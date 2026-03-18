@@ -18,10 +18,7 @@ title: Conan Suit
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| Bowtie <br>+ Paper<br>+ Blue Dye<br>+ Yellow Dye<br>+ White Dye<br>+ Red Dye<br>+ Leather Boots<br>+ Guard Suit | ![](/images/conan_suit_crafting.png) |
+<recipe id="conan_suit" />
 
 ## Usage
 {{Accessory_use}}

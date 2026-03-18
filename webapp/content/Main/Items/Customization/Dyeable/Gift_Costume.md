@@ -16,10 +16,7 @@ title: Gift Costume
 ## Obtaining
 
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| [Bowtie](Bowtie) | ![](/images/dog_gift_costume_crafting.png) |
+<recipe id="dog_gift_costume" />
 
 ## Usage
 {{Accessory_use}}

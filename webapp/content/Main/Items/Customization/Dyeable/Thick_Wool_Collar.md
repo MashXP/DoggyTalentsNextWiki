@@ -15,10 +15,7 @@ title: Thick Wool Collar
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Wool <br>+ Wool Collar | ![](/images/wool_collar_thicc_crafting.png) |
+<recipe id="wool_collar_thicc" />
 
 ## Usage
 {{Accessory_use}}

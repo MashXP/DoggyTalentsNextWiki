@@ -19,10 +19,7 @@ It can be used **10 times** and can be enchanted with Unbreaking and Mending.<br
 If used 4 times on a normal-sized doggo, it'll turn into a puppy and won't grow up until you use the [Magnifying Bone](Magnifying_Bone).
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Bone<br>+ Gold Ingot<br>+ Fire Coral | ![](/images/shrinking_mallet_crafting.png) |
+<recipe id="shrinking_mallet" />
 
 ## Usage
 {{Item_use}}

@@ -15,10 +15,7 @@ title: Bowtie
 **Bowtie** is a dyable equipable material that you wear on your dog.
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Strings <br>+ Wool | ![](/images/bowtie_crafting.png) |
+<recipe id="bowtie" />
 
 ![Doggo with fancy bowtie!](/images/bowtie_equipped.png "Doggo with fancy bowtie!")
 

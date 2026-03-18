@@ -16,10 +16,7 @@ title: Empty Locator Orb
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| White Carpet <br>+ [Radio Collar](Radio_Collar)<br>+ String<br>+ Glass Block | ![](/images/empty_locator_orb_crafting.png) |
+<recipe id="empty_locator_orb" />
 
 ## Used in
 - [Locator Orbs](Locator_Orbs)

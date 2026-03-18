@@ -18,10 +18,7 @@ title: Guard Suit
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| String <br>+ Black Wool<br> + White Wool | ![](/images/guard_suit_crafting.png) |
+<recipe id="guard_suit" />
 
 ## Usage
 {{Accessory_use}}

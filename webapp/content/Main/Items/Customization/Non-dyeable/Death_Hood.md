@@ -17,10 +17,7 @@ title: Death Hood
 ![frameless](/images/death_hood_display.png "frameless")
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| Cape <br>+ Soul Torch<br>+ Coal<br>+ Nether Wart | ![](/images/death_hood_crafting.png) |
+<recipe id="death_hood" />
 
 ## Usage
 {{Accessory_use}}

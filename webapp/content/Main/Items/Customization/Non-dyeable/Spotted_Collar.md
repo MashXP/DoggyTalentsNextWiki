@@ -18,10 +18,7 @@ title: Spotted Collar
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| [Wool Collar](Wool_Collar) <br>+ Black Dye<br>+ White Dye<br>+ String | ![](/images/spotted_collar_crafting.gif) |
+<recipe id="spotted_collar" />
 
 ## Usage
 {{Accessory_use}}

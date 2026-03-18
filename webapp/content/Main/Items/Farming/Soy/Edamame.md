@@ -15,10 +15,7 @@ title: Edamame
 <span></span>
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe (*shapeless***)** |
-| --- | --- |
-| [Soy Pods](Soy_Pods) + Sugar | ![](/images/edamame_crafting.png) |
+<recipe id="edamame" />
 
 ## Usage
 - **<code>Right click</code>** to use the item.

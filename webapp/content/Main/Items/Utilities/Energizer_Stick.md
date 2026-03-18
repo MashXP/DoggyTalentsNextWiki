@@ -18,10 +18,7 @@ title: Energizer Stick
 - **Regeneration III** for 5 seconds.
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Wheat <br>+ Sugar | ![](/images/energizer_stick_crafting.gif) |
+<recipe id="energizer_stick" />
 
 ## Usage
 - **<code>Right click</code>** on your dog to use the item.

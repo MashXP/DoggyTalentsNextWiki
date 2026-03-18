@@ -18,10 +18,7 @@ title: Kami Treat
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| [Master Treat](Master_Treat) <br>+ End Stone | ![](/images/kami_treat_crafting.png) |
+<recipe id="kami_treat" />
 
 ## Usage
 - **<code>Right click</code>** on your dog to use the item.

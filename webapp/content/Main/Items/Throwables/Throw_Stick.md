@@ -16,10 +16,7 @@ title: Throw Stick
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Stick <br>+ Slime Ball | ![](/images/throw_stick_crafting.png) |
+<recipe id="throw_stick" />
 
 ## Usage
 

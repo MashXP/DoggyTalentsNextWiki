@@ -27,10 +27,7 @@ If [Immortal Dogs](Immortal_Dogs) is set to False: This block allows a slain dog
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipes |
-| --- | --- |
-| Matching wool <br>+ Any Planks, or Logs | ![](/images/dog_bed_crafting.gif) |
+<recipe id="dog_bed" />
 
 ## Usage
 <code>Shift (or crouch) + Right click</code> with your dog nearby with **BOTH of your hands emptied** and they will come and make the bed their own.

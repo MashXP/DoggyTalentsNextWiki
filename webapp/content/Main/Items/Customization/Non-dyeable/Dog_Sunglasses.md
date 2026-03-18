@@ -18,10 +18,7 @@ title: Dog Sunglasses
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Sticks <br>+ Black Stained Glass Pane | ![](/images/sunglasses_crafting.png) |
+<recipe id="sunglasses" />
 
 ## Usage
 {{Accessory_use}}

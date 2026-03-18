@@ -21,10 +21,7 @@ The player can also eat the item lol. It fills up **6 hunger points** and gives 
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Red Dye <br> + Yellow Dye <br> + [Training Treat](Training_Treat) <br> + [Sausage](Sausage) <br> + Bread | ![](/images/hot_dog_crafting.png) |
+<recipe id="hot_dog" />
 
 ## Usage
 {{Accessory_use}}

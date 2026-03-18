@@ -16,10 +16,7 @@ title: Radio Collar
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| Iron Ingots <br>+ Redstone Dust |  |
+<recipe id="radio_collar" />
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog Menu#Style).

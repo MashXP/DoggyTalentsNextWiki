@@ -17,10 +17,7 @@ title: Bach Wig
 ![2023-08-01_18 51 47](/images/bach_wig_display.png "2023-08-01_18 51 47")
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Strings <br>+ Bone | ![](/images/bach_wig_crafting.png) |
+<recipe id="bach_wig" />
 
 ## Usage
 {{Accessory_use}}

@@ -17,13 +17,10 @@ title: Koji
 
 ### Breaking Rice Crops
 
-- It can be obtained in random chance by breaking [Rice Crops](Paddy Rice).
+- It can be obtained in random chance by breaking [Rice Crops](Paddy_Rice).
 
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Koji | ![](/images/koji_crafting.png) |
+<recipe id="koji" />
 
 ## Used In
 

@@ -18,10 +18,7 @@ title: Wool Collar
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Strings | ![](/images/wool_collar_crafting.png) |
+<recipe id="wool_collar" />
 
 ## Usage
 {{Accessory_use}}

@@ -19,11 +19,7 @@ Sadly, the model for the Puli was lost so we can't fix the stick so as to fit wi
 ![Best used for Hungarian Pulis!](/images/broomstick_display.png "Best used for Hungarian Pulis!")
 
 ## Obtaining
-### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Glass Pane <br>+ Bamboo<br> + Iron Ingot | ![](/images/broomstick_crafting.png) |
+<recipe id="giant_stick" />
 
 ## Usage
 {{Accessory_use}}

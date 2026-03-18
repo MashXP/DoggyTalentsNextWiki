@@ -16,10 +16,7 @@ title: Soy Milk
 Your dog can also drink this, so don't be shy to share it with your furry pal!
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| [Dried Soy Beans](Dried_Soy_Beans)+ Bowl | ![](/images/soy_milk_crafting.png) |
+<recipe id="soy_milk" />
 
 ## Used In
 - [Tofu](Tofu)

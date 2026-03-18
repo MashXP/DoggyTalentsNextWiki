@@ -16,9 +16,7 @@ title: Dried Soy Pods
 ## Obtaining
 ### Smelting
 
-| Ingredients | (Smelting, Campfire, Smoker) Recipe |
-| --- | --- |
-| [Soy Pods](Soy_Pods) | ![](/images/soy_pods_dried_smelting.png) |
+<recipe id="soy_pods_dried_smelting" />
 
 ## Usage
 - **<code>Right click</code>** to use the item.

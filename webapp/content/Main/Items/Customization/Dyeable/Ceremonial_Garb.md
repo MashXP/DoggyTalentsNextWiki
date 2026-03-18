@@ -15,10 +15,7 @@ title: Ceremonial Garb
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Wool Carpet | ![](/images/ceremonial_garb_crafting.png) |
+<recipe id="cere_garb" />
 
 ## Usage
 {{Accessory_use}}

@@ -20,10 +20,7 @@ title: Miso Soup
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| [Tofu](Tofu) | ![](/images/miso_soup_crafting.png) |
+<recipe id="miso_soup" />
 
 ## Usage
 - **<code>Right click</code>** to use the item.

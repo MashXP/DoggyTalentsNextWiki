@@ -19,10 +19,7 @@ title: Doggy Contact Lenses
 ![2023-08-01_18 51 47](/images/doggy_contacts_display.png "2023-08-01_18 51 47")
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Glass Pane | ![](/images/doggy_contacts_crafting.png) |
+<recipe id="doggy_contacts" />
 
 ## Usage
 {{Accessory_use}}

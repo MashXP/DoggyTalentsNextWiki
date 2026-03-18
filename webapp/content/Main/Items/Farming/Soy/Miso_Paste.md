@@ -15,10 +15,7 @@ title: Miso Paste
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| [Koji](Koji) + [Soy Beans](Soy_Beans) | ![](/images/miso_paste_crafting.png) |
+<recipe id="miso_paste" />
 
 ## Used in
 - [Miso Soup](Miso_Soup)

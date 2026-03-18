@@ -16,14 +16,7 @@ title: Onsen Tamago
 
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
-### Boiled Cauldron
-Can be instantly cooked by throwing an Egg into a Cauldron with a Burning block (Fire, Campfire, Magma Block, Lava...) underneath.
-
-### Crafting
-
-| Ingredients | (Smelting, Campfire, Smoker) Recipe |
-| --- | --- |
-| Egg | ![](/images/onsen_tamago_crafting.png) |
+<recipe id="onsen_tamago_smelting" />
 
 *Note: This recipe is just a way to let survival players know the items exist. The preferred method by far is the first one.*
 

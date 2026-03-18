@@ -12,6 +12,9 @@ title: Rice Grains
   </div>
   <div class="infobox-description">Right-click on Farmland to plant Rice Crops. Sneak + Right-Click on a Grindstone to Dehusk the rice.</div>
 </aside>
+
+<recipe id="rice_grains" />
+
 <span></span>
 
 It can also be dehusk and make [Uncooked Rice](Uncooked_Rice).
@@ -23,9 +26,7 @@ It can also be dehusk and make [Uncooked Rice](Uncooked_Rice).
 
 ### Crafting
 
-| Ingredients | (Shapeless) Recipe |
-| --- | --- |
-| [Paddy Rice](Paddy_Rice) | ![](/images/rice_grains_crafting.png) |
+
 
 ## Usage
 - To dehusk the rice, **<code>Sneak + Right click</code>** **Rice Grains** on a [Grindstone](https://minecraft.wiki/w/Grindstone). After dehusking you should have [Uncooked Rice](Uncooked_Rice).

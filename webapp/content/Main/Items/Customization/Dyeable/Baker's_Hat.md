@@ -18,10 +18,7 @@ Baker's Hat is a dyeable equipable item that stylizes your dog.
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Any Wool | ![](/images/baker_hat_crafting.png) |
+<recipe id="baker_hat" />
 
 *Requires Bread to unlock the recipe.*
 

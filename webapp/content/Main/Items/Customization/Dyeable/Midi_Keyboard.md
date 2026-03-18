@@ -15,10 +15,7 @@ title: Midi Keyboard
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Wool <br>+ Wool Collar | ![](/images/midi_keyboard_crafting.png) |
+<recipe id="midi_keyboard" />
 
 ## Usage
 {{Accessory_use}}

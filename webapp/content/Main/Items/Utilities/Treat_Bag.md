@@ -15,10 +15,7 @@ title: Treat Bag
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| [Energizer Stick](Energizer_Stick) <br>+ Leather | ![](/images/treat_bag_crafting.png) |
+<recipe id="treat_bag" />
 
 ## Usage
 

@@ -21,10 +21,7 @@ You can only use the item **8 times**.
 When granted **Operator permission,** you can **<code>Sneak + Right click</code>** to force claim the dog.
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Netherite Ingot<br>+ Blaze Rod<br>+ Nether Wart<br>+ Bone<br>+ Soul Sand | ![](/images/amnesia_bone_crafting.png) |
+<recipe id="amnesia_bone" />
 
 ## Used In
 - [Gender Bone](Gender_Bone)

@@ -16,10 +16,7 @@ title: Dog Bath
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Iron Ingots <br>+ Water Bucket | ![](/images/dog_bath_crafting.png) |
+<recipe id="dog_bath" />
 
 ## Trivia
 - Dog Bath used to have a function:

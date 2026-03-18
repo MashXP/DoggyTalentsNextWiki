@@ -16,10 +16,7 @@ title: Sausage
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Cooked Porkchops | ![](/images/sausage_crafting.png) |
+<recipe id="sausage" />
 
 ## Usage
 - **<code>Right click</code>** to use the item.

@@ -17,10 +17,7 @@ The number of band-aids needed for an injured dog to stand up is 8.
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Paper <br>+ Koji | ![](/images/band_aid_crafting.png) |
+<recipe id="bandaid" />
 
 ## Usage
 - **<code>Right click</code>** on your injured dog to use the item.

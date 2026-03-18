@@ -16,10 +16,7 @@ title: Scent Treat
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| Wool + [Training Treat](Training_Treat) | ![](/images/scent_treat_crafting.png) |
+<recipe id="scent_treat" />
 
 ## Usage
 

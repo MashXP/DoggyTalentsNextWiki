@@ -16,10 +16,7 @@ title: Kitsune Mask
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| Red Dye <br>+ White Dye<br>+ [Head Band](Head_Band) | ![](/images/kitsune_mask_crafting.png) |
+<recipe id="kitsune_mask" />
 
 ## Usage
 {{Accessory_use}}

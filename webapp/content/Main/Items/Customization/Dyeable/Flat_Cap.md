@@ -14,10 +14,7 @@ title: Flat Cap
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| [Training Treat](Training_Treat)<br>+ Wool Carpet | ![](/images/flat_cap_crafting.png) |
+<recipe id="flatcap" />
 
 ## Usage
 {{Accessory_use}}

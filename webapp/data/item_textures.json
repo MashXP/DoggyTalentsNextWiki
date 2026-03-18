@@ -812,27 +812,27 @@
     "name": "Yellow Wool"
   },
   "tag:fences": {
-    "texture": "/images/mcwikipull/fences.png",
-    "name": "Fences"
+    "texture": "/images/mcwikipull/oak_fence.png",
+    "name": "Fences (Any)"
   },
   "tag:flowers": {
-    "texture": "/images/mcwikipull/flowers.png",
-    "name": "Flowers"
+    "texture": "/images/mcwikipull/poppy.png",
+    "name": "Flowers (Any)"
   },
   "tag:logs": {
-    "texture": "/images/mcwikipull/logs.png",
-    "name": "Logs"
+    "texture": "/images/mcwikipull/oak_log.png",
+    "name": "Logs (Any)"
   },
   "tag:slabs": {
-    "texture": "/images/mcwikipull/slabs.png",
-    "name": "Slabs"
+    "texture": "/images/mcwikipull/oak_slab.png",
+    "name": "Slabs (Any)"
   },
   "tag:wool": {
-    "texture": "/images/mcwikipull/wool.png",
-    "name": "Wool"
+    "texture": "/images/mcwikipull/white_wool.png",
+    "name": "Wool (Any)"
   },
   "tag:wool_carpets": {
-    "texture": "/images/mcwikipull/wool_carpets.png",
-    "name": "Wool Carpets"
+    "texture": "/images/mcwikipull/white_carpet.png",
+    "name": "Wool Carpets (Any)"
   }
 }

@@ -33,10 +33,7 @@ for **1 to 2 minutes**.
 Your dog can also drink this, so don't be shy to share it with your furry pal! (Drink moderately.)
 ## Obtaining
 ### Brewing
-
-| Ingredients | Brewing Recipe |
-| --- | --- |
-| Water Bottle + [Koji](Koji) | ![](/images/sake_brewing.gif) |
+<recipe id="sake" />
 
 ## Usage
 - **<code>Right click</code>** to use the item.

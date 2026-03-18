@@ -24,11 +24,7 @@ title: Head Band
 
 ## Obtaining
 - Currently you can only craft the Head Band Blank, the others can be obtained via the Creative menu.
-### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Lead <br>+ Paper<br> + [Training Treat](Training_Treat) | ![](/images/head_band_crafting.png) |
+<recipe id="head_band_blank" />
 
 ## Usage
 {{Accessory_use}}

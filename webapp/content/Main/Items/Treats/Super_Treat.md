@@ -16,10 +16,7 @@ title: Super Treat
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| [Training Treat](Training_Treat) <br>+ Golden Apple | ![](/images/super_treat_crafting.png) |
+<recipe id="super_treat" />
 
 ## Usage
 - **<code>Right click</code>** on your dog to use the item.

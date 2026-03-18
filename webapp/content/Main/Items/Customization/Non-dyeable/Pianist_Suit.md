@@ -9,10 +9,7 @@ title: Pianist Suit
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Cape <br>+ Gray Wool<br>+ Black Wool<br>+ White Wool | <img src="https://github.com/DashieDev/DoggyTalentsNext/assets/122363761/99319723-8306-45ba-bd8f-d945a475dc09" width=75% height=75%> |
+<recipe id="pianist_suit" />
 
 ## Usage
 {{Accessory_use}}

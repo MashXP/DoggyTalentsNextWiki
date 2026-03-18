@@ -16,10 +16,7 @@ title: Onigiri
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| [Rice Bowl](Rice_Bowl)+ Dried Kelp | ![](/images/onigiri_crafting.png) |
+<recipe id="onigiri" />
 
 ## Usage
 - **<code>Right click</code>** to use the item.

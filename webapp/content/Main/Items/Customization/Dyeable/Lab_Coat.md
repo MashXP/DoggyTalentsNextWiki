@@ -15,10 +15,7 @@ title: Lab Coat
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Wool <br>+ [Cape](Cape) | ![](/images/lab_coat_crafting.png) |
+<recipe id="lab_coat" />
 
 ## Usage
 {{Accessory_use}}

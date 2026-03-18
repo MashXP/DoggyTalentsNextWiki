@@ -16,9 +16,7 @@ title: Dried Soy Beans
 ## Obtaining
 ### Smelting
 
-| Ingredients | (Smelting, Campfire, Smoker) Recipe |
-| --- | --- |
-| [Soy Beans](Soy_Beans) | ![](/images/soy_beans_dried_smelting.png) |
+<recipe id="soy_beans_dried_smelting" />
 
 - **<code>Right click</code>** [Dried Soy Pods](Dried_Soy_Pods) to obtain Dried Soy Beans.
 ## Used in

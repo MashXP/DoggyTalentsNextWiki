@@ -14,10 +14,7 @@ title: Chopin Wig
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Wool <br>+ Wool Collar | ![](/images/wig_crafting.png) |
+<recipe id="wig" />
 
 ## Usage
 {{Accessory_use}}

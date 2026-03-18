@@ -20,10 +20,7 @@ title: Birthday Hat
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Paper | ![](/images/birthday_hat_crafting.png) |
+<recipe id="birthday_hat" />
 
 ## Usage
 {{Accessory_use}}

@@ -15,10 +15,7 @@ title: Feathered Mantle
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Phantom Menbrane<br>+ Feather<br>+ Super Treat | ![](/images/feathered_mantle_crafting.gif) |
+<recipe id="feathered_mantle" />
 
 ## Usage
 

@@ -16,10 +16,7 @@ title: Gender Bone
 It can be used **10 times** and can be enchanted with **Unbreaking and Mending**.
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| [Amnesia Bone](Amnesia_Bone)<br>+ Lapis Lazuli<br>+ Blue Dye<br>+ Amethyst Shard<br>+ Pink Dye | ![](/images/gender_bone_crafting.png) |
+<recipe id="gender_bone" />
 
 ## Usage
 {{Item_use}}

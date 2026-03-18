@@ -18,10 +18,7 @@ title: Multicoloured Collar
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| Wool Collar <br>+ Red Dye<br>+ Orange Dye<br>+ Yellow Dye<br>+ Blue Dye<br>+ Lime Dye<br>+ Purple Dye <br>+ String | ![](/images/multicoloured_collar_crafting.png) |
+<recipe id="multicoloured_collar" />
 
 ## Usage
 {{Accessory_use}}

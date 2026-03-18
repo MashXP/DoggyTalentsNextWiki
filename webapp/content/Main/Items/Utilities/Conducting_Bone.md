@@ -30,10 +30,7 @@ This item is **fire/lava proof**.
 ## Obtaining
 
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Bone <br>+ Netherite Ingot<br>+ Shulker Shell<br>+ End Crystal | ![](/images/conducting_bone_crafting.png) |
+<recipe id="conducting_bone" />
 
 ## Usage
 

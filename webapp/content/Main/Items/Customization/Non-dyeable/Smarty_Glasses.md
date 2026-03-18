@@ -17,10 +17,7 @@ title: Smarty Glasses
 ![frameless](/images/smarty_glasses_display.png "frameless")
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| [Dog Sunglasses](Dog_Sunglasses) <br>+ Redstone Dust | ![](/images/smarty_glasses_crafting.png) |
+<recipe id="smarty_glasses" />
 
 ## Usage
 {{Accessory_use}}

@@ -15,10 +15,7 @@ title: Dog Plushie
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| White Wool <br> + String <br> + Gray Wool <br> + [Wool Collar](Wool_Collar) <br> + [Training Treat](Training_Treat) <br> | ![](/images/dog_plushie_toy_item_crafting.png) |
+<recipe id="dog_plushie_toy" />
 
 ## Usage
 - <code>Right click</code> to place the item down.

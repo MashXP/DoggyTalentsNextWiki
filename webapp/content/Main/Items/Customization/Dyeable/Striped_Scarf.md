@@ -15,10 +15,7 @@ title: Striped Scarf
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Wool Carpet <br>+ [Wool Collar](Wool_Collar) | ![](/images/striped_scarf_crafting.png) |
+<recipe id="striped_scarf" />
 
 ## Usage
 {{Accessory_use}}

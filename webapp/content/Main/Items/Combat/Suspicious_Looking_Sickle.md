@@ -16,10 +16,7 @@ title: Suspicious Looking Sickle
 ## Obtaining
 
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Iron Ingots | ![](/images/sussy_sickle_crafting.png) |
+<recipe id="sussy_sickle" />
 
 ## Usage
 - **<code>Left click</code>** to use the item.

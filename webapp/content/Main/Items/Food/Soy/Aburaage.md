@@ -18,9 +18,7 @@ Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
 ### Smelting
 
-| Ingredients | (Smelting, Campfire, Smoker) Recipe |
-| --- | --- |
-| [Tofu](Tofu) | ![](/images/aburaage_smelting.png) |
+<recipe id="aburaage_smelting" />
 
 ## Usage
 - **<code>Right click</code>** to use the item.

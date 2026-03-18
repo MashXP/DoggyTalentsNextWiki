@@ -18,10 +18,7 @@ title: Food Bowl
 It can also be used as an anchor for [Wandering Mode](Basic Core Stats#wandering-w).
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Iron Ingots <br>+ Bowl | ![](/images/food_bowl_crafting.png) |
+<recipe id="food_bowl" />
 
 ## Usage
 **<code>Right click</code>** the bowl to access the GUI.

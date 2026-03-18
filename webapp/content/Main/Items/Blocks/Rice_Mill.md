@@ -16,10 +16,7 @@ title: Rice Mill
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipes |
-| --- | --- |
-| Any Fences | ![](/images/rice_mill_crafting.png) |
+<recipe id="rice_mill" />
 
 ## Usage
 
@@ -36,9 +33,7 @@ With its wheel facing away from you:
 ### Rice Mill Recipes:
 *(*note that the bowl is optional)*
 
-| + | Ingredients | Bowl | Result |
-| --- | --- | --- | --- |
-| colspan="3" |Rice |
+
 | 3x <span class="item-link-wrapper"><img src="/images/rice_grains.png" class="item-icon" />[Rice Grains](Rice_Grains)</span> | Yes | <span class="item-link-wrapper"><img src="/images/uncooked_rice_bowl.png" class="item-icon" />[Uncooked Rice in a Bowl](Uncooked_Rice_in_a_Bowl)</span> |  |
 | 3x <span class="item-link-wrapper"><img src="/images/uncooked_rice.png" class="item-icon" />[Uncooked Rice](Uncooked_Rice)</span> | Yes | <span class="item-link-wrapper"><img src="/images/uncooked_rice_bowl.png" class="item-icon" />[Uncooked Rice in a Bowl](Uncooked_Rice_in_a_Bowl)</span> |  |
 | <span class="item-link-wrapper"><img src="/images/rice_wheat.png" class="item-icon" />[Paddy Rice](Paddy_Rice)</span> | Yes | <span class="item-link-wrapper"><img src="/images/uncooked_rice_bowl.png" class="item-icon" />[Uncooked Rice in a Bowl](Uncooked_Rice_in_a_Bowl)</span> |  |

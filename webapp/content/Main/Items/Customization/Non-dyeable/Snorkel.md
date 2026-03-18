@@ -18,10 +18,7 @@ title: Snorkel
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Glass Pane <br>+ Bamboo<br>+ Iron Ingot | ![](/images/snorkel_crafting.png) |
+<recipe id="snorkel" />
 
 ## Usage
 {{Accessory_use}}

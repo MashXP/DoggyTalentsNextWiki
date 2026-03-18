@@ -17,10 +17,7 @@ title: Beastars's Female Uniform
 ![frameless](/images/beastars_uniform_female_display.png "frameless")
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| [Cape](Cape) <br>+ [Wool Collar](Wool_Collar)<br>+ Paper<br>+ Yellow Dye<br>+ Light Blue Dye<br>+ Black Dye<br>+ Leather Boots | ![](/images/beastars_uniform_female_crafting.png) |
+<recipe id="beastars_uniform_female" />
 
 ## Usage
 {{Accessory_use}}

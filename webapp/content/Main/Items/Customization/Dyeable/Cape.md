@@ -16,10 +16,7 @@ title: Cape
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Strings <br>+ Leather <br>+ Wool | ![](/images/cape_coloured_crafting.png) |
+<recipe id="cape_coloured" />
 
 ## Usage
 {{Accessory_use}}

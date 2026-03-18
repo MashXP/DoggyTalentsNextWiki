@@ -18,10 +18,7 @@ title: Breeding Bone
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| [Master Treat](Master_Treat) <br>+ Cooked Chicken <br>+ Cooked Cod<br>+ Cooked Porkchops<br>+ Cooked Steak | ![](/images/breeding_bone_crafting.png) |
+<recipe id="breeding_bone" />
 
 ## Usage
 - **<code>Right click</code>** on both of your dogs to use the item.

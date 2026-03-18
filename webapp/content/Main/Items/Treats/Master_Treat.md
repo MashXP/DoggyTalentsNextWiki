@@ -16,10 +16,7 @@ title: Master Treat
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| [Super Treat](Super_Treat) <br>+ Diamond | ![](/images/master_treat_crafting.png) |
+<recipe id="master_treat" />
 
 ## Usage
 - **<code>Right click</code>** on your dog to use the item.

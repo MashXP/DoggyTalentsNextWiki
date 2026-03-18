@@ -15,10 +15,7 @@ title: Natto Rice
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| [Natto](Natto)+ [Rice Bowl](Rice_Bowl) | ![](/images/natto_rice_crafting.png) |
+<recipe id="natto_rice" />
 
 ## Usage
 - **<code>Right click</code>** to use the item.

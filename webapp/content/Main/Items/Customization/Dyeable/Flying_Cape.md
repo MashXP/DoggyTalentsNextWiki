@@ -14,10 +14,7 @@ title: Flying Cape
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Wool <br>+ Phantom Membrane | ![](/images/flying_cape_crafting.png) |
+<recipe id="flying_cape" />
 
 ## Usage
 {{Accessory_use}}

@@ -1,7 +1,9 @@
 TODO:
 - Fixing the Dynamic recipe rendering
     - ✅ Fix minecraft items not rendering, 
-    - bulk migration, 
+    - bulk migration, 🟡
+        - Sake Brewing Recipe / Crafting (Fabric)
+        - Locator Orb
     - ✅ recipe tag cut the pages short.
 - Tab view for compact information, toggle between full view (current regular view)
 - ✅ Move Playing Tag to Behaviors
@@ -15,7 +17,9 @@ TODO:
 - Fix broken links (Dog Menu, )
 - Add icons to sidebar
 - Add a divider to the search bar make search bar sticky (add hot key maybe? / to search)
-
+- BandAid gallery.
+- Frisbee: link in blockquote issue
+- Inline icon not rendering properly (drool stuff in scent treat)
 - Overhaul DTNP Variant Checklist page to be more aesthetically pleasing, image currently is too big, Probably head icons?
 - Fix immortal dogs kanji too big
 - Fix Leveling System icon in table 

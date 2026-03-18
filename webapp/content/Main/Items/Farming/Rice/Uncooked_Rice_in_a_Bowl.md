@@ -15,10 +15,7 @@ title: Uncooked Rice in a Bowl
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Bowl | ![](/images/uncooked_rice_bowl_crafting.png) |
+<recipe id="uncooked_rice_bowl" />
 
 ## Trivia
 - It was added in DTN 1.18.0.

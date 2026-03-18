@@ -19,10 +19,7 @@ title: Canine Tracker
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Gold Ingot<br>+ Empty Map<br>+ [Radio Collar](Radio_Collar) | ![](/images/canine_tracker_crafting.png) |
+<recipe id="canine_tracker" />
 
 ## Usage
 - **<code>Right click</code>** to open up the GUI.

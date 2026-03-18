@@ -17,10 +17,7 @@ title: Tartan Cape
 ![frameless](/images/tantan_cape_display.png "frameless")
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| String <br>+ Red Wool<br>+ Blue Wool<br>+ Yellow Wool | ![](/images/tantan_cape_crafting.png) |
+<recipe id="tantan_cape" />
 
 ## Usage
 {{Accessory_use}}

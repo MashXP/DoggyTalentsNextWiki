@@ -20,7 +20,6 @@ It can be used 10 times and can be enchanted with Unbreaking and Mending.
 
 ## Obtaining
 ### Crafting
-
 <recipe id="magnifying_bone" />
 
 ## Usage

@@ -29,6 +29,13 @@ def id_to_wiki_title(item_id):
         'leather_helmet': 'Leather_Cap',
         'slime_ball': 'Slimeball',
         'redstone_block': 'Block_of_Redstone',
+        'oak_log': 'Oak_Log',
+        'oak_fence': 'Oak_Fence',
+        'oak_slab': 'Oak_Slab',
+        'poppy': 'Poppy',
+        'dandelion': 'Dandelion',
+        'white_wool': 'White_Wool',
+        'white_carpet': 'White_Carpet'
     }
     
     if item_id in mapping:
@@ -61,8 +68,22 @@ def main():
     ids = set()
     
     def collect_id(item_id):
-        if item_id and item_id.startswith('minecraft:'):
+        if not item_id:
+            return
+        if item_id.startswith('minecraft:'):
             ids.add(item_id.split(':')[1])
+        elif item_id.startswith('tag:'):
+            tag_name = item_id.split(':')[1]
+            tag_mappings = {
+                'fences': 'oak_fence',
+                'flowers': 'poppy',
+                'logs': 'oak_log',
+                'slabs': 'oak_slab',
+                'wool': 'white_wool',
+                'wool_carpets': 'white_carpet'
+            }
+            if tag_name in tag_mappings:
+                ids.add(tag_mappings[tag_name])
             
     for recipe in recipes.values():
         if 'key' in recipe:

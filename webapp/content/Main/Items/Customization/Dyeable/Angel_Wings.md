@@ -15,10 +15,7 @@ title: Angel Wings
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Wool <br>+ Wool Collar | ![](/images/angel_wings_crafting.png) |
+<recipe id="angel_wings" />
 
 ## Usage
 {{Accessory_use}}

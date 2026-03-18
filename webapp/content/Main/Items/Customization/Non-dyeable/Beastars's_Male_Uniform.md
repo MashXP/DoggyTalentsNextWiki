@@ -18,10 +18,7 @@ title: Beastars's Male Uniform
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| [Cape](Cape) <br>+ Paper<br>+ Red Dye<br>+ Blue Dye<br>+ Light Gray Dye<br>+ White Dye<br>+ Leather Pants<br>+ Leather Boots | ![](/images/beastars_uniform_male_crafting.png) |
+<recipe id="beastars_uniform_male" />
 
 ## Usage
 {{Accessory_use}}

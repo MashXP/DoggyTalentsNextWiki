@@ -7,6 +7,13 @@ OUTPUT_PATH = os.path.join(os.path.dirname(__file__), '../data/item_textures.jso
 def get_item_name(item_id):
     if not item_id:
         return ""
+    
+    if item_id.startswith('tag:'):
+        name = item_id.split(':')[1]
+        # Format "tag:wool" as "Wool (Any)"
+        base_name = ' '.join(word.capitalize() for word in name.split('_'))
+        return f"{base_name} (Any)"
+    
     name = item_id.split(':')[1] if ':' in item_id else item_id
     return ' '.join(word.capitalize() for word in name.split('_'))
 
@@ -23,7 +30,16 @@ def get_item_texture(item_id):
         return f"/images/mcwikipull/{name}.png"
     
     if namespace == 'tag':
-        return f"/images/mcwikipull/{name}.png"
+        tag_mappings = {
+            'fences': 'oak_fence',
+            'flowers': 'poppy',
+            'logs': 'oak_log',
+            'slabs': 'oak_slab',
+            'wool': 'white_wool',
+            'wool_carpets': 'white_carpet'
+        }
+        representative = tag_mappings.get(name, name)
+        return f"/images/mcwikipull/{representative}.png"
     
     return ""
 

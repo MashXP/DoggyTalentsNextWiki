@@ -16,10 +16,7 @@ title: Tengu Mask
 
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe *(shapeless)* |
-| --- | --- |
-| Red Dye <br>+ Black Dye<br>+ [Head Band](Head_Band) | ![](/images/tengu_mask_crafting.png) |
+<recipe id="tengu_mask" />
 
 ## Usage
 {{Accessory_use}}

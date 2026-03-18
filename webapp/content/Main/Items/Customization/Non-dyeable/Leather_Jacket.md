@@ -17,10 +17,7 @@ title: Leather Jacket
 ![frameless](/images/leather_jacket_display.png "frameless")
 ## Obtaining
 ### Crafting
-
-| Ingredients | Recipe |
-| --- | --- |
-| Leather <br>+ Wool | ![](/images/leather_jacket_crafting.png) |
+<recipe id="leather_jacket" />
 
 ## Usage
 {{Accessory_use}}
