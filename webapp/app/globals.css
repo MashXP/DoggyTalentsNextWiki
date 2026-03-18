@@ -648,13 +648,26 @@ li {
 .article-body .item-grid li {
   display: flex !important;
   align-items: center;
-  padding: 0.5rem 0.75rem !important;
+  padding: 0 !important; /* Padding moved to the link */
   border-radius: 8px;
   margin-bottom: 0.5rem !important;
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.05);
   transition: var(--transition);
   break-inside: avoid;
+  overflow: hidden; /* Ensure link hover doesn't bleed */
+}
+
+.item-grid li a,
+.article-body .item-grid li a {
+  display: flex !important;
+  align-items: center;
+  padding: 0.5rem 0.75rem !important;
+  width: 100%;
+  height: 100%;
+  color: var(--primary) !important;
+  text-decoration: none;
+  transition: var(--transition);
 }
 
 .item-grid li:hover {
@@ -662,6 +675,12 @@ li {
   border-color: var(--primary);
   transform: translateY(-4px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3), 0 0 15px rgba(245, 186, 88, 0.1);
+}
+
+.item-grid li:hover a {
+  text-decoration: underline !important;
+  text-underline-offset: 4px;
+  filter: brightness(1.2);
 }
 
 .item-link-wrapper {
