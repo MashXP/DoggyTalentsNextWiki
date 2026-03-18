@@ -1,6 +1,6 @@
 import { getPageBySlug, getAllPageSlugs } from '@/lib/wiki';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 
 export const dynamicParams = false;
 
@@ -23,6 +23,11 @@ export default async function WikiPage({
 
   if (!pageContent) {
     notFound();
+  }
+
+  // Redirect to canonical hierarchical URL if flat URL was used
+  if (pageContent.slug !== slugJoined) {
+    redirect(`/${pageContent.slug}`);
   }
 
   return (

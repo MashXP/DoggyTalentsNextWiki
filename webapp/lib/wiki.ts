@@ -6,7 +6,7 @@ import matter from 'gray-matter';
 const contentDirectory = path.join(process.cwd(), 'content/Main');
 
 export interface WikiPage {
-  slug: string;
+  slug: string; // The canonical hierarchical slug
   title: string;
   content: string;
 }
@@ -82,6 +82,8 @@ export function getPageBySlug(slug: string): WikiPage | null {
 
   // 1. Direct match check
   let physicalPath = path.join(contentDirectory, `${decodedSlug}.md`);
+  let canonicalSlug = decodedSlug;
+
   if (!fs.existsSync(physicalPath)) {
     // 2. Search for the file
     physicalPath = '';
@@ -109,6 +111,9 @@ export function getPageBySlug(slug: string): WikiPage | null {
               (indexSlug && indexSlug === normalizedRequested) ||
               (!slug.includes('/') && flatSlug === normalizedRequested)) {
             physicalPath = path.join(dir, entry.name);
+            canonicalSlug = (fileName.toLowerCase() === parentDirName.toLowerCase()) 
+              ? currentPath 
+              : path.join(currentPath, fileName);
             return;
           }
         }
@@ -134,7 +139,7 @@ export function getPageBySlug(slug: string): WikiPage | null {
   }
 
   return {
-    slug: decodedSlug,
+    slug: canonicalSlug,
     title: data.title || decodedSlug.split('/').pop()?.replace(/_/g, ' ') || decodedSlug,
     content,
   };
