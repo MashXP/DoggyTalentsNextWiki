@@ -24,6 +24,8 @@ TODO:
 - Fix Leveling System icon in table 
 - Complete the Unfinished Pages
 - Manully verify each page for issues
+- Accessory use hardcode fix
+- FAQ page -> Dropdown 
 
 - Publish on Github Pages. Include add docs: `CHANGELOG.md`, `README.md`. 
 - Update Dog Behavior Improvements
@@ -33,3 +35,4 @@ IDEA:
 - Add a "Quick Info" section to the top of each page with the most important information, like a summary.
 - Add CHANGELOG page. and link trivia to that specific changelog.
 - Dynamic Used Ins
+- Click on folders without links will navigate and highlight that section. ./Items page
