@@ -1,0 +1,30 @@
+{{Item
+| image = Conan suit.png
+| id = conan_suit
+| type = Customization
+| Subtype = Non-dyeable
+| stackable = 64
+}}
+
+'''Conan Suit''' is a non-dyable equipable item that makes your dog cosplay a very famous anime/manga character.
+
+[[File:Conan suit display.png|frameless|606x606px]]
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe ''(shapeless)''
+|-
+| Bowtie <br>+ Paper<br>+ Blue Dye<br>+ Yellow Dye<br>+ White Dye<br>+ Red Dye<br>+ Leather Boots<br>+ Guard Suit
+| [[File:Conan suit crafting.png]]
+|}
+
+== Usage ==
+{{Accessory_use}}
+== Trivia ==
+* It was introduced in DTN 1.12.0.
+* A direct reference to '''Shinichi Kudo/Edogawa Conan''' from the manga series '''Case Closed''', also known as '''Detective Conan'''.<ref>https://www.imdb.com/title/tt0131179/</ref>
+
+<references />

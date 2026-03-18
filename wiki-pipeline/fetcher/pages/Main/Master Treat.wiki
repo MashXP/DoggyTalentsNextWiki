@@ -1,0 +1,31 @@
+{{Item
+| name = 
+| image = Master treat.png
+| id = master_treat
+| type = Treats
+| stackable = 64
+}}<blockquote>This is the final treat as far as [[Leveling Systems|basic leveling]] goes. It will raise your dog's level by 1 (and 1 spendable point) until level 60.
+</blockquote>
+
+== Obtaining ==
+=== Crafting ===
+
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe ''(shapeless)''
+|-
+| [[Super Treat]] <br>+ Diamond
+|[[File:Master treat crafting.png]]
+|}
+
+== Usage ==
+* '''<code>Right click</code>''' on your dog to use the item.
+
+== Used In ==
+* [[Kami Treat]]
+* [[Breeding Bone]]
+
+== Trivia ==
+* It was added in the original Doggy Talents.
+* In the future, there might be a massive overhaul of the treat mechanism.

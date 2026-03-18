@@ -1,0 +1,30 @@
+{{Item
+| name = 
+| image = Salmon sushi.png
+| id = salmon_sushi
+| type = Food
+| Subtype = Rice
+| Properties = Hunger points: 4/10
+| stackable = 64
+}}
+
+'''Sake Nigiri Sushi''' is a rice-related food item that gives you 4 hunger points.  
+
+Your dog can also eat this, so don't be shy to share it with your furry pal!
+
+== Obtaining ==
+
+=== Crafting ===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe
+|-
+|[[Rice Bowl]]+ Salmon
+|[[File:Salmon sushi crafting.png]]
+|}
+==Usage==
+*'''<code>Right click</code>''' to use the item.
+==Trivia==
+*The item was also known as Salmon Sushi.
+*It was added in DTN 1.17.2.

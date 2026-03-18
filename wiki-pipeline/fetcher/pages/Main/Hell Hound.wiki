@@ -1,0 +1,17 @@
+<blockquote>[[File:Hellhound talent 1.gif|thumb|Doggie likes bathing in lava~]]This skill trains your Dog to '''withstand extreme scorching heat.''' 
+
+''The higher the level, the more heat the Dog can handle and the less flammable your Dog will be.'' 
+
+''Dogs who have mastered this skill will be completely non-flammable and will treat lava like water. They may even prefer to bathe in it, as its thick consistency gives them a massage.'' 
+
+Your Dog may also have the ability to '''set things on fire when attacking''' if trained enough (level 4).
+
+...Mastering this skill will also allow Dogs to '''walk on lava.''' 
+
+</blockquote>Note: In order to traverse lava lakes with [[Wolf Mount]]
+
+== Trivia ==
+
+* It was added in the original DT.
+* Couple with [[Wolf Mount]] talent to make traveling in Lava lakes a breeze! Note that you need to increase the dog's size with the [[Magnifying Bone]] for your hitbox not to touch lava. 
+* "''...when combined with [[Mob Retriever]] to transport your other Dogs across the Nether.''" Or retrieve your injured dogs in lava.

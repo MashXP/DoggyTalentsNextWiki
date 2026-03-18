@@ -1,0 +1,141 @@
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+
+// process.cwd() is the root of the next.js app, which is Wiki/src
+const contentDirectory = path.join(process.cwd(), 'content/Main');
+
+export interface WikiPage {
+  slug: string;
+  title: string;
+  content: string;
+}
+
+export function getAllPageSlugs(): string[] {
+  if (!fs.existsSync(contentDirectory)) return [];
+  
+  const slugs: string[] = [];
+  const seenFlatSlugs = new Set<string>();
+  
+  const readDirRecursive = (dir: string, currentPath: string = '') => {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    
+    for (const entry of entries) {
+      if (entry.isDirectory()) {
+        readDirRecursive(path.join(dir, entry.name), path.join(currentPath, entry.name));
+      } else if (entry.isFile() && entry.name.endsWith('.md')) {
+        const fileName = entry.name.replace(/\.md$/, '');
+        const parentDirName = path.basename(currentPath);
+        
+        let slug;
+        if (fileName.toLowerCase() === parentDirName.toLowerCase()) {
+          // It's an index file for the folder (e.g., Items/Items.md)
+          slug = currentPath;
+        } else {
+          slug = path.join(currentPath, fileName);
+        }
+        
+        slugs.push(slug);
+        
+        // Also emit a flat slug alias (just the filename) so that links
+        // like [Amnesia Bone](Amnesia_Bone) resolve without the full path.
+        // Only emit if no conflict with another page that has the same filename.
+        const flatSlug = fileName;
+        if (!seenFlatSlugs.has(flatSlug.toLowerCase()) && slug !== flatSlug) {
+          seenFlatSlugs.add(flatSlug.toLowerCase());
+          slugs.push(flatSlug);
+        }
+      }
+    }
+  };
+  
+  readDirRecursive(contentDirectory);
+  return slugs;
+}
+
+// Nav-only slugs: canonical full paths only, no flat aliases. Used by Sidebar.
+export function getNavSlugs(): string[] {
+  if (!fs.existsSync(contentDirectory)) return [];
+  const slugs: string[] = [];
+  const readDirRecursive = (dir: string, currentPath: string = '') => {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const entry of entries) {
+      if (entry.isDirectory()) {
+        readDirRecursive(path.join(dir, entry.name), path.join(currentPath, entry.name));
+      } else if (entry.isFile() && entry.name.endsWith('.md')) {
+        const fileName = entry.name.replace(/\.md$/, '');
+        const parentDirName = path.basename(currentPath);
+        const slug = fileName.toLowerCase() === parentDirName.toLowerCase()
+          ? currentPath
+          : path.join(currentPath, fileName);
+        slugs.push(slug);
+      }
+    }
+  };
+  readDirRecursive(contentDirectory);
+  return slugs;
+}
+
+export function getPageBySlug(slug: string): WikiPage | null {
+  const decodedSlug = decodeURIComponent(slug);
+  const normalizedRequested = decodedSlug.replace(/ /g, '_').toLowerCase();
+
+  // 1. Direct match check
+  let physicalPath = path.join(contentDirectory, `${decodedSlug}.md`);
+  if (!fs.existsSync(physicalPath)) {
+    // 2. Search for the file
+    physicalPath = '';
+    
+    const searchFile = (dir: string, currentPath: string = '') => {
+      const entries = fs.readdirSync(dir, { withFileTypes: true });
+      for (const entry of entries) {
+        if (entry.isDirectory()) {
+          searchFile(path.join(dir, entry.name), path.join(currentPath, entry.name));
+          if (physicalPath) return;
+        } else if (entry.isFile() && entry.name.endsWith('.md')) {
+          const fileName = entry.name.replace(/\.md$/, '');
+          const parentDirName = path.basename(currentPath);
+          
+          // Check if it matches hierarchical slug (e.g. "Items/Blocks/Dog_Bed")
+          const fullSlug = path.join(currentPath, fileName).replace(/ /g, '_').toLowerCase();
+          // Check if it matches index slug (e.g. "Items" matches "Items/Items.md")
+          const indexSlug = (fileName.toLowerCase() === parentDirName.toLowerCase()) 
+            ? currentPath.replace(/ /g, '_').toLowerCase() 
+            : '';
+          // Check if it matches flat slug (e.g. "Dog_Bed" matches "Items/Blocks/Dog_Bed.md")
+          const flatSlug = fileName.toLowerCase();
+
+          if (fullSlug === normalizedRequested || 
+              (indexSlug && indexSlug === normalizedRequested) ||
+              (!slug.includes('/') && flatSlug === normalizedRequested)) {
+            physicalPath = path.join(dir, entry.name);
+            return;
+          }
+        }
+      }
+    };
+    
+    searchFile(contentDirectory);
+    if (!physicalPath) return null;
+  }
+
+  const fileContents = fs.readFileSync(physicalPath, 'utf8');
+  const { data, content } = matter(fileContents);
+
+  // Handle MediaWiki redirects: REDIRECT [[Target]]
+  const redirectMatch = content.match(/^(1\.\s+)?REDIRECT\s+\[.*?\]\((.*?)\)/i) || 
+                        content.match(/^#REDIRECT\s+\[\[(.*?)\]\]/i);
+                        
+  if (redirectMatch) {
+    const targetSlug = redirectMatch[2] || redirectMatch[1];
+    // Recursive call to get the target page, but avoid infinite loops
+    console.log(`Redirecting from ${decodedSlug} to ${targetSlug}`);
+    return getPageBySlug(targetSlug);
+  }
+
+  return {
+    slug: decodedSlug,
+    title: data.title || decodedSlug.split('/').pop()?.replace(/_/g, ' ') || decodedSlug,
+    content,
+  };
+}

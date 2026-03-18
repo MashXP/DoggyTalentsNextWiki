@@ -1,0 +1,11 @@
+Here are all of the Behaviors documented in DTN.
+
+* [[Basic Core Stats]] ''(Mode/Hunger/Gender)''
+* [[Leveling Systems]]
+* [[Commands]]
+* [[Immortal Dogs]]
+* [[Playing Tag]]
+* [[Dog Menu#Petting|Petting]]
+* [[Dog Behavior Improvements|Dog Base Behavior Improvements]]
+* [[Animation]]
+* Debug Mode (WIP)

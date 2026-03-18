@@ -1,0 +1,29 @@
+'''Soy Milk''' is a food item that gives you 3 hunger points.
+
+{{Item
+| name = 
+| image = Soy milk.png
+| id = soy_milk
+| type = Food
+| Subtype = Soy
+| Properties = Hunger points: 3/10
+| stackable = 64
+}}
+
+Your dog can also drink this, so don't be shy to share it with your furry pal!
+==Obtaining==
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe
+|-
+|[[Dried Soy Beans]]+ Bowl
+|[[File:Soy milk crafting.png|336x336px]]
+|}
+==Used In==
+*[[Tofu]]
+==Usage==
+*'''<code>Right click</code>''' to use the item.
+==Trivia==
+*It was added in DTN 1.18.0

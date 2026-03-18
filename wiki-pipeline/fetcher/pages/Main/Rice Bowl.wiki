@@ -1,0 +1,35 @@
+'''Rice Bowl''' is a food item that gives you 2.5 hunger points.
+
+{{Item
+| name = 
+| image = Rice bowl.png
+| id = rice_bowl
+| type = Food
+| Subtype = Rice
+| Properties = Hunger points: 2.5/10
+| stackable = 64
+| Description = White, Steamy and Fluffy!
+}}Your dog can also eat this, so don't be shy to share it with your furry pal!
+==Obtaining==
+
+=== Smelting ===
+{| class="wikitable"
+|-
+!Ingredients
+!(Smelting, Campfire, Smoker) Recipe
+|-
+|[[Uncooked Rice in a Bowl]]
+|[[File:Rice bowl crafting.png|336x336px]]
+|}
+==Usage==
+*'''<code>Right click</code>''' to use the item.
+
+==Used In==
+*[[Training Treat]]
+*[[Natto Rice]]
+*[[Sake Nigiri Sushi]]
+*[[Onigiri]]
+*[[Gyudon]]
+*[[Oyakodon]]
+==Trivia==
+*It was added in DTN 1.18.0.

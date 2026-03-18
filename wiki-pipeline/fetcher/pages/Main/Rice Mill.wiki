@@ -1,0 +1,99 @@
+{{Item
+| image = Rice mill.png
+| id = rice_mill
+| type = Block
+| stackable = 64
+}}
+
+'''Rice Mill''' is a placeable block that allows player to automate the process of making Rice/Soy items.
+
+==Obtaining==
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipes
+|-
+|Any Fences
++ Any Logs
+
++ Cobblestone Slab
+
++ [[Paddy Rice|Rice Wheat]]
+|[[File:Rice mill crafting.png]]
+|}
+==Usage==
+
+* <code>Right click</code> to place the block down.
+* In order for the Mill to work, you need a 1x3 trench of Water (source or flowing) along with the wheel's direction. 
+* Once the mill is setup correctly, animation will play and the bucket icon in the GUI will be filled with water.
+[[File:Rice mill block.gif|thumb|You can also connect Furnaces and Hoppers to load and unload the Mill!]]With its wheel facing away from you:
+* A Hopper can be placed on the left side of the mill to feed it input resources.
+* A Hopper/Chest/Furnace/Smoker can then be placed on the right side and the mill will feed it its output resources in the appropriate slot if possible.
+
+=== Rice Mill Recipes: ===
+''(*note that the bowl is optional)''
+{| class="wikitable"
+|+
+!Ingredients
+!Bowl
+!Result
+|-
+! colspan="3" |Rice
+|-
+|3x {{Item with Sprite|Rice Grains|icon=rice_grains}}
+|Yes
+|{{Item with Sprite|Uncooked Rice in a Bowl|icon=uncooked_rice_bowl}}
+|-
+|3x {{Item with Sprite|Uncooked Rice|icon=uncooked_rice}}
+|Yes
+|{{Item with Sprite|Uncooked Rice in a Bowl|icon=uncooked_rice_bowl}}
+|-
+|{{Item with Sprite|Paddy Rice|icon=rice_wheat}}
+|Yes
+|{{Item with Sprite|Uncooked Rice in a Bowl|icon=uncooked_rice_bowl}}
+|-
+|{{Item with Sprite|Rice Grains|icon=rice_grains}}
+|No
+|{{Item with Sprite|Uncooked Rice|icon=uncooked_rice}}
+|-
+|{{Item with Sprite|Paddy Rice|icon=rice_wheat}}
+|No
+|3x {{Item with Sprite|Uncooked Rice|icon=uncooked_rice}}
+|-
+! colspan="3" |Soy
+|-
+|{{Item with Sprite|Soy Pods|icon=soy_pods}}
+|No
+|3x {{Item with Sprite|Soy Beans|icon=soy_beans}}
+|-
+|{{Item with Sprite|Dried Soy Pods|icon=soy_pods_dried}}
+|No
+|3x {{Item with Sprite|Dried Soy Beans|icon=soy_beans_dried}}
+|-
+|{{Item with Sprite|Edamame|icon=edamame}}
+|No
+|3x {{Item with Sprite|Unpodded Edamame|icon=edamame_unpodded}}
+|-
+|{{Item with Sprite|Soy Pods|icon=soy_pods}}
+|No
+|{{Item with Sprite|Soy Pods|icon=soy_pods}}
+|-
+|3x {{Item with Sprite|Dried Soy Beans|icon=soy_beans_dried}}
+|Yes
+|{{Item with Sprite|Soy Milk|icon=soy_milk}}
+|-
+|{{Item with Sprite|Dried Soy Pods|icon=soy_pods_dried}}
+|Yes
+|{{Item with Sprite|Soy Milk|icon=soy_milk}}
+|-
+! colspan="3" |Others
+|-
+|Wheat
+|No
+|Bread
+|}
+
+==Trivia==
+*It was added in DTN 1.18.8.
+*It was the first animated block entity of DTN.

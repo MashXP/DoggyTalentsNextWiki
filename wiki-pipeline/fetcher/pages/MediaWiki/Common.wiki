@@ -1,0 +1,103 @@
+/* CSS placed here will be applied to all skins */
+
+/********
+* Fonts *
+*********/
+@font-face {
+	font-family: "Otsutome";
+	src: url("filepath://Otsutome.ttf") format('truetype');
+}
+
+/************
+* Main Page *
+*************/
+@media screen and (min-width: 1080px){
+	.page-Doggy_Talents_Next_Wiki .mw-parser-output {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.mainpage-left {
+		width: calc(100% - 350px);
+		height: 100%;
+	}
+	.mainpage-right {
+		width: 320px;
+	}
+}
+/****************
+* End Main Page *
+*****************/
+
+/************
+* Infoboxes *
+*************/
+:root {
+	--pi-background: var(--wiki-content-background-color);
+	--pi-secondary-background: var(--wiki-accent-color);
+	--pi-secondary-background--rgb: var(--wiki-accent-color--rgb);
+	--pi-secondary-background-label: var(--wiki-accent-label-color);
+	--pi-border-color: rgba(var(--pi-secondary-background--rgb),0.5);
+	--pi-width: 300px;
+}
+.portable-infobox {
+	border:1px solid var(--pi-border-color);
+}
+.portable-infobox .pi-title,
+.portable-infobox .pi-header {
+	text-align:center;
+	font-size:1.5em;
+	background:var(--pi-secondary-background);
+	color:var(--pi-secondary-background-label);
+}
+.portable-infobox,
+.portable-infobox .pi-title {
+	border-radius: 2px;
+}
+.portable-infobox .pi-header {
+	padding: 0.5em;
+	font-size: 1.2em;
+}
+.portable-infobox .pi-data {
+	background:rgba(var(--pi-secondary-background--rgb), 0.18);
+	border-bottom: none;
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+.pi-horizontal-group-item,
+.portable-infobox .pi-secondary-background.pi-navigation,
+.pi-panel-scroll-wrapper, .pi-media-collection-tabs {
+	background:rgba(var(--pi-secondary-background--rgb), 0.18);
+}
+.pi-tab-link.current, .pi-section-tab.pi-section-active .pi-section-label {
+	color: var(--wiki-accent-label-color);
+}
+.portable-infobox .pi-collapse .pi-header {
+	cursor: pointer;
+}
+.portable-infobox .pi-image-thumbnail {
+  width: 40%;
+  padding: 10px;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+/* if an image is the full original width, make it the full actual width */
+.pi-image-thumbnail[width="270"] {
+	width: var(--pi-width);
+}
+/* overqualify these to overwrite normal content heading styles */
+.mw-body .portable-infobox h2,
+.mw-body .portable-infobox h3 {
+	border-bottom: 0;
+	font-family: var(--heading-font-family);
+	font-weight: 700;
+	margin: 0;
+}
+@media screen and (max-width: 800px){
+	.portable-infobox {
+		font-size: 0.85em;
+	}
+}
+/****************
+* End Infoboxes *
+*****************/

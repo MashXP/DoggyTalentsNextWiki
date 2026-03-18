@@ -1,0 +1,26 @@
+'''Kitsune Mask''' is a non-dyeable equipable item that makes your dog look mystical.{{Item
+| image = Kitsune_mask.png
+| id = kitsune_mask
+| type = Customization
+| Subtype = Non-dyeable
+| stackable = 64
+| Description = Right-click with a String to switch the mask's position
+}}[[File:Kitsune_mask_display.png|none|thumb|600x600px|Don't go out at night!]]
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe ''(shapeless)''
+|-
+| Red Dye <br>+ White Dye<br>+ [[Head Band]]
+| [[File:Kitsune_mask_crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+== Trivia ==
+* It was introduced in DTN 1.17.2.
+* The mask was based on a mythical creature depicted in Japanese folklore.<ref>[https://en.wikipedia.org/wiki/Kitsune Kitsune - Wikipedia]</ref>
+
+<references />

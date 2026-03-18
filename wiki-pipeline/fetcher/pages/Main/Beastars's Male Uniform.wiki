@@ -1,0 +1,29 @@
+{{Item
+| image = Beastars uniform male.png
+| id = beastars_uniform_male
+| type = Customization
+| Subtype = Non-dyeable
+| stackable = 64
+}}
+
+'''Beastars's Male Uniform''' is a non-dyable equipable that makes your dog <s>impersonate a famous anime character</s> a good boy.
+
+[[File:Beastars uniform male display.png|frameless|606x606px]]
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe ''(shapeless)''
+|-
+| [[Cape]] <br>+ Paper<br>+ Red Dye<br>+ Blue Dye<br>+ Light Gray Dye<br>+ White Dye<br>+ Leather Pants<br>+ Leather Boots
+| [[File:Beastars uniform male crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+== Trivia ==
+* It was introduced in DTN 1.12.0.
+* This item + skin is a direct reference to '''Legoshi''' and '''Jack''' - characters in '''Beastars''' <s>an anime that DashieDev really likes, especially Legoshi.<ref>SS 1 Ep 5: Two sides to the story - 02:31.</ref></s>
+
+<references />

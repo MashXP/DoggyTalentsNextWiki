@@ -1,0 +1,1 @@
+<includeonly><div style="clear: {{{clear|right}}}; margin: -1em 0 0 10px; float: right; padding: 0; background: transparent; max-width: 270px;">__TOC__</div></includeonly><noinclude>''This template will float the article table of contents to the right. Use it only when needed.'' [[Category:General wiki templates|{{PAGENAME}}]]</noinclude>

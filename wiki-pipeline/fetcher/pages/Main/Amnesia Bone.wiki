@@ -1,0 +1,47 @@
+'''Amnesia Bone''' is a craftable dev-tier item that makes your dog forget certain things.
+
+{{Item
+| image = Amnesia bone.png
+| id = amnesia_bone
+| type = Utilities
+| stackable = 1
+| Description = Right-click your Dog to Change Owner/Untame/Untrain Talents. If OP is enabled, Sneak + Right-click to Force Claim
+}}<span></span>
+
+You can only use the item '''8 times'''.
+
+
+
+''(DTN 1.18.0+)''
+
+When granted '''Operator permission,''' you can '''<code>Sneak + Right click</code>''' to force claim the dog.
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Netherite Ingot<br>+ Blaze Rod<br>+ Nether Wart<br>+ Bone<br>+ Soul Sand
+| [[File:Amnesia bone crafting.png]]
+|}
+
+== Used In ==
+* [[Gender Bone]]
+== Usage ==
+[[File:Amnesia bone use.gif|thumb|530x530px|Migrate owner usage.]]
+* '''<code>Right click</code>''' on your dog to open the GUI.
+=== General ===
+* '''Ownership Change:'''
+# The dog must have Obey Others set to '''<code>true</code>'''.
+# Give the '''Amnesia Bone''' to the future owner, then '''take the item back'''.
+# '''<code>Right click</code>''' -&gt; '''<code>Change Ownership</code>''' -&gt; '''<code>Confirm</code>'''.
+* '''Untrain''': <i>In case you might have accidentally spawn too many dogs...</i>
+=== Talent ===
+* Choose the talent you want to untrain.
+
+* It will cost you 2 XP levels to untrain a maxed-out Talent. Otherwise, it would be 1 XP level.
+== Trivia ==
+* After '''Ownership Change''' is successful, the other player will receive this message: &quot;You are now the owner of '''<code>&lt;dog name&gt;</code>'''. Take good care of '''<code>him/her</code>'''&quot;. Otherwise, it'd be: &quot;Your request to own '''<code>&lt;dog name&gt;</code>''' has been rejected.&quot;
+* It was introduced in DTN 1.12.0.
+* This item was suggested by ''SilverstarShiro''.

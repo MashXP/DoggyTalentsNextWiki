@@ -1,0 +1,11 @@
+Allows your dog to '''place down [https://minecraft.wiki/w/Torch Torches] when the light level is low,''' at the cost of one Torch from its inventory ([[Pack Puppy]]). 
+
+
+To give it Torches, you can '''drop some nearby''' and it will pick them up. 
+
+
+At '''level 5,''' it '''no longer needs any Torches''' in its inventory.
+
+== Trivia ==
+[[File:Doggy torch talent old.gif|thumb|Doggy Torch (Legacy)]]
+* It was added in the original DT.

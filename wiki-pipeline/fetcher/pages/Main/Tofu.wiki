@@ -1,0 +1,31 @@
+'''Tofu''' is a food item that gives you 4 hunger points.
+
+{{Item
+| name = 
+| image = Tofu.png
+| id = tofu
+| type = Food
+| Subtype = Soy
+| Properties = Hunger points: 4/10
+| stackable = 8
+| Description = Suitable for Vegans!
+}}
+
+Your dog can also eat this, so don't be shy to share it with your furry pal!
+==Obtaining==
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe
+|-
+|[[Soy Milk]]
+|[[File:Tofu crafting.png|336x336px]]
+|}
+==Usage==
+*'''<code>Right click</code>''' to use the item.
+==Used in==
+*[[Aburaage]]
+*[[Miso Soup]]
+==Trivia==
+*It was added in DTN 1.18.0.

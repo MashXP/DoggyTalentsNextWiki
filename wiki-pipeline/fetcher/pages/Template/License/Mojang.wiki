@@ -1,0 +1,7 @@
+<includeonly>
+<div>[[File:IN COPYRIGHT.svg|50px|link=https://rightsstatements.org/page/InC/1.0/?language=en|IN COPYRIGHT]]</div>
+<div style="padding-left: 5px; display: flex; flex-direction: column;"><div>This file is owned by Mojang Studios and/or its licensors, and is licensed under the [https://www.minecraft.net/eula Minecraft End(er)-User License Agreement].<br/>
+All trademarks and registered trademarks present in the file are proprietary to Mojang Studios and/or its licensors.
+</div>
+</includeonly>
+<noinclude>{{documentation|Template:License/doc}}</noinclude>

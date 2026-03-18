@@ -1,0 +1,13 @@
+<blockquote>A Dog with this ability can sniff out [https://minecraft.wiki/w/Creeper Creepers] in the area and will growl to warn you. 
+
+
+The range at which your Dog can detect Creepers increases by 6 blocks per level.
+
+
+Mastering this skill allows your Dog to attack Creepers, instantly killing the Creeper.</blockquote>You can set your '''Creeper Sweeper''' Dog to Only Target Creepers in the Talents Menu.[[File:Creeper sweeper talent old.gif|thumb|Creeper Sweeper (Legacy)]]
+
+== Trivia ==
+
+* It was added in the original DT.
+* Back then, max level '''Creeper Sweeper''' only reset the Creeper's detonation time. 
+* The talent harmonizes well with [[Basic Core Stats|Berserker Mode]].

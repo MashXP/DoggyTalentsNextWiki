@@ -1,0 +1,25 @@
+'''Miso Paste''' is a soy-related crafting material for [[Miso Soup]].
+
+{{Item
+| name = 
+| image = Miso paste.png
+| id = miso_paste
+| type = Farming
+| Subtype = Soy
+| stackable = 64
+|Description=Salty! Good for Miso Soup!}}
+==Obtaining==
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe ''(shapeless)''
+|-
+|[[Koji]] + [[Soy Beans]] 
++ Red Mushroom
+|[[File:Miso paste crafting.png|336x336px]]
+|}
+==Used in==
+*[[Miso Soup]]
+==Trivia==
+*It was added in DTN 1.18.0

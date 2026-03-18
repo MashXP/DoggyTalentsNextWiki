@@ -1,0 +1,8 @@
+<blockquote>[[File:Sheperd dog talent.gif|thumb|517x517px|Ignore de sheep.]]'''Hold''' '''the [[Whistle|Shepherd's Whistle]]''' (just hold) and all trained Shepherd Dogs in '''[[Basic Core Stats|Docile mode]]''' will '''rustle up some nearby livestock''' (amount based on level), making it '''easier to transport livestock over long distances'''. 
+
+
+However, this is tiring and costs [[Basic Core Stats|Nourishment Points]], the cost of which is reduced with higher levels of the skill.</blockquote>
+
+== Trivia ==
+
+* It was added in the original DT.

@@ -1,0 +1,32 @@
+* Enhanced Navigation and Movement: Dogs can now navigate diverse landscapes and swim underwater.
+* Improved Hunger Mechanic: Dogs exhibit realistic hunger behaviors and face consequences based on difficulty.
+* Saturation Effect: Introduced a saturation system to influence dog health and healing.
+* Refined Attacking Mechanics: Dogs attack more accurately and safely, target selection and attack range.
+* Mid-Air Damage: Dogs can now deal damage while in the air.
+* Improved Fire & Lava Avoidance: Enhanced the dog's fire avoidance behavior.
+* Mining Logic Improvement: Avoid going in front of the Owner while the Owner is digging.
+* Dog Eating Effect: Added visual and audio effects for dog eating.
+* Avoid teleporting in front of the Owner when the Owner is sprinting.
+* Armor System: Added a new armor system for dogs, allowing customization and protection.
+* Floats if low on Air.
+* Smarter Teleport.
+* Smarter Modes: You can now have more control of your dogs.
+* Improve Find Water if Burning.
+* Beg if Hungry.
+* Show Health in the dog's name when sneaking.
+* Auto-eat from nearby [[Pack Puppy]] dogs who have eligible food when hungry.
+* Stick to [[Dog Menu#Info Tab|Owner/Flee]] when on Low Health. (Low Health Strategy.)
+* Whistle Mode Picking Interface: Redesigned the interface for a more user-friendly experience.
+* Injured Mode: No dogs shall ever die! (Low-Graphics Texture included.)
+* Conducting Bone: Added for summoning and recalling dogs.
+* Redesigned Dog GUI: Improved user experience.
+* Dog Tag Game: Introduced a new game for dogs.
+* Team Player Support: Added for dogs with certain talents.
+* Revamped Skin System: Introduced more customization options.
+* Amnesia Bone: Introduced for detraining, untaming and changing dog ownership.
+* Cross-Origin Teleportation: Added a configurable option for cross-dimension dog teleportation.
+* Doggy Artifact System: Introduced a new system for equipping artifacts to dogs.
+* Animations: Introduced various animations for dogs, including begging, lying down and scratching.
+* Name Randomizer: Added for randomizing dog names.
+* New Gameplay Mechanics: Added new weapon and quality-of-life improvements.
+* Allow ranged attacks, push resistance.

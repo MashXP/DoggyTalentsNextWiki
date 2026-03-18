@@ -1,0 +1,36 @@
+{{Item
+| image = Scent treat.png
+| id = scent_treat
+| type = Utilities
+| stackable = 1
+| Description = Right-Click a Block to collect a sample of its scent. 
+
+Right-Click on a Water Caudron to clear its collected scent.
+
+Collected Block Sample:
+}}
+
+'''Scent Treat''' is an item that is used to record the scent of the target block for the [[Sniffer Dog]] Talent.
+
+==Obtaining==
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe ''(shapeless)''
+|-
+|Wool + [[Training Treat]]
+|[[File:Scent treat crafting.png]]
+|}
+==Usage==
+
+=== Use ===
+*'''<code>Right click</code>''' the item on your [[Sniffer Dog]], and wait until it gives you back a [[File:Drool scent treat.png|21x21px]]Drool Scent Treat. 
+*'''<code>Right click</code>''' a [[File:Drool scent treat.png|21x21px]]Drool Scent Treat to get rid of the drool.
+
+=== Clear ===
+*'''<code>Right click</code>''' on a Water Cauldron to clear its collected scent.
+
+== Trivia ==
+
+* It was added in DTN 1.18.5.

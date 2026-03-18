@@ -1,0 +1,25 @@
+'''Uncooked Rice in a Bowl''' is the item used to make [[Rice Bowl]].
+
+{{Item
+| name = 
+| image = Uncooked rice bowl.png
+| id = uncooked_rice_bowl
+| type = Farming
+| Subtype = Rice
+| stackable = 64
+| Description = In the furnace it goes!
+}}
+
+==Obtaining==
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe
+|-
+|Bowl 
++ [[Uncooked Rice]]
+|[[File:Uncooked rice bowl crafting.png|484x484px]]
+|}
+==Trivia==
+*It was added in DTN 1.18.0.

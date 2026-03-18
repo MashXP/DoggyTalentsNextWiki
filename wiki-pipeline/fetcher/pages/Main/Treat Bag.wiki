@@ -1,0 +1,30 @@
+'''Treat Bag''' is an item used to contain [[Items#Treats|Treats]] and [[Items#Food|Food]].
+
+{{Item
+| image = Treat bag.png
+| id = treat_bag
+| type = Utilities
+| stackable = 1
+}}
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| [[Energizer Stick]] <br>+ Leather
+| [[File:Treat bag crafting.png]]
+|}
+== Usage ==
+
+=== For [[Items#Food|Food]] Items ===
+* '''<code>Right-click</code>''' to throw Dog food from far away! Your dog will attempt to backflip to catch the item if it's too high. Useful for healing/feeding doggos from a distance!
+
+=== For [[Ookamikaze]] Talent ===
+
+* '''<code>Right-click</code>''' to consume and throw a gunpowder (directly in your inventory) from a distance. Your dog will attempt to backflip to catch the item if it's too high.
+
+== Trivia ==
+* It was added to the original Doggy Talents.

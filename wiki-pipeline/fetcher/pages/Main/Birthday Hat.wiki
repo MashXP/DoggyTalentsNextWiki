@@ -1,0 +1,27 @@
+{{Item
+| image = Birthday hat.png
+| id = birthday_hat
+| type = Customization
+| Subtype = Double Dyeable
+| stackable = 64
+| Description = Craft with Paper to add a Secondary color to the hat
+}}
+
+'''Birthday Hat''' is a double-dyeable equipable item that customizes your dog to look ready for a party.[[File:Doggy contacts display2.png|thumb|205x205px|Double-Dyeable!]]
+[[File:Birthday hat display.png|alt=2023-08-01_18 51 47|none|thumb|703x703px|Display provided by @Archon]]
+==Obtaining==
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe
+|-
+|Paper
++ [[Training Treat]]
+|[[File:Birthday hat crafting.png]]
+|}
+==Usage==
+{{Accessory_use}}
+==Trivia==
+*It was introduced to DTN 1.17.2.
+*It was added to celebrate MrBlueYeti - Owner of BetterDogs and DTN's Birthday.

@@ -1,0 +1,29 @@
+{{Item
+| image = Sunglasses.png
+| id = sunglasses
+| type = Customization
+| Subtype = Non-dyeab;e
+| stackable = 64
+}}
+
+'''Dog Sunglasses''' is a non-dyable equipable item that makes your dog look cooler. B)
+
+[[File:Sunglasses display.png|frameless|606x606px]]
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Sticks <br>+ Black Stained Glass Pane
+| [[File:Sunglasses crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+== Used In ==
+* [[Smarty Glasses]]
+
+== Trivia ==
+It was added in the original Doggy Talents.

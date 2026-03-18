@@ -1,0 +1,25 @@
+{{Item
+| image = Breeding bone.png
+| id = breeding_bone
+| type = Utilities
+| stackable = 64
+}}<blockquote>Breeding Bones, when fed to two different dogs, will cause your dogs to produce a puppy!
+</blockquote>
+* '''Note:''' '''''Biological genders''''' are a thing in DTN so '''be careful''' when using the item.
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe ''(shapeless)''
+|-
+| [[Master Treat]] <br>+ Cooked Chicken <br>+ Cooked Cod<br>+ Cooked Porkchops<br>+ Cooked Steak
+|[[File:Breeding bone crafting.png]]
+|}
+
+== Usage ==
+* '''<code>Right click</code>''' on both of your dogs to use the item.
+
+== Trivia ==
+* It was added in the original Doggy Talents.

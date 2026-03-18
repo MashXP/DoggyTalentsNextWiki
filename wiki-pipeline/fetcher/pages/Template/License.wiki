@@ -1,0 +1,6 @@
+<includeonly>
+<div style="border: 1px solid black; padding: 5px; display: flex;">
+{{#switch:{{{1|}}}|Mojang = {{License/Mojang}}|CC0 = {{License/CC0}}|CC-BY-NC-ND = {{License/CC-BY-NC-ND}}|CC-BY-NC-SA = {{License/CC-BY-NC-SA}}|CC-BY-NC = {{License/CC-BY-NC}}|CC-BY-ND = {{License/CC-BY-ND}}|CC-BY-SA = {{License/CC-BY-SA}}|CC-BY = {{License/CC-BY}}|CC-PD = {{License/CC-PD}}|CC-SRR = {{License/CC-SRR}}|{{License/nolicense}}}}{{#if:{{{source|}}}|<div>Source:&nbsp;{{{source|}}}</div>}}</div>
+</div>
+</includeonly>
+<noinclude>{{documentation}}</noinclude>

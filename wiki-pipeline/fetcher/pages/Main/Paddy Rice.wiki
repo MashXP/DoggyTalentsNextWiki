@@ -1,0 +1,19 @@
+'''Paddy Rice''' is a rice-related crafting material harvested from [[Rice Grains|Rice Crops]].
+
+{{Item
+| name = 
+| image = Rice wheat.png
+| id = rice_wheat
+| type = Farming
+| Subtype = Rice
+| stackable = 64
+|Description=Use this to craft rice grains.}}
+==Obtaining==
+===Farming===
+
+* '''<code>Right click</code>''' [[Rice Grains]] on Farmland and let it fully grown into Paddy Rice.
+
+==Used In==
+*[[Rice Grains]]
+==Trivia==
+*It was added in DTN 1.18.0.

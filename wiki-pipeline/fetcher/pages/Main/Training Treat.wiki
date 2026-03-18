@@ -1,0 +1,36 @@
+{{Item
+| name = 
+| image = Training treat.png
+| id = training_treat
+| type = Treats
+| stackable = 64
+}}<blockquote>'''Training Treat''' is the first treat you'll need to make.
+* Each treat raises your dog's level by 1 and also raises your spendable points by 1
+* This treat is no longer usable once your dog is level 20. <ref>https://doggytalents.fandom.com/wiki/List_of_treats</ref>
+</blockquote>
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! (Shapeless) Recipe
+|-
+| Gunpowder <br>+ Bone<br>+ String<br>+ Sugar<br>+ [[Rice Bowl]]
+| [[File:Training treat crafting.png|484x484px]]
+|}
+
+== Usage ==
+* '''<code>Right click</code>''' on your dog to use the item.<blockquote>''(DTN 1.18.0+)''   A Training Treat can directly convert an untamed wolf (even angry ones) into DTN Dogs.</blockquote>
+== Used In ==
+* [[Super Treat]]
+* [[Hot Dog]]
+* [[Golden A5 Wagyu]]
+* [[Birthday Hat]]
+== Trivia ==
+* It was added in the original Doggy Talents.
+* It is deemed the '''''key''''' to all of DTN's content.
+* Its recipe changed in 1.18.0.
+** Legacy recipe: 
+[[File:Training treat crafting legacy.gif|210x210px]]
+* In the future, there might be a massive overhaul of the treat mechanism.

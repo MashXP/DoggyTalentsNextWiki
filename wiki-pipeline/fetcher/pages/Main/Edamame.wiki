@@ -1,0 +1,25 @@
+'''Edamame''' is an item that's used to make [[Unpodded Edamame]].
+
+{{Item
+| image = Edamame unpodded.png
+| id = edamame_unpodded
+| type = Food
+| Subtype = Soy
+| stackable = 64
+| Description = Itadakimasu!
+}}<span></span>
+==Obtaining==
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe (''shapeless''''')'''
+|-
+|[[Soy Pods]] + Sugar
+|[[File:Edamame crafting.png|336x336px]]
+|}
+==Usage==
+*'''<code>Right click</code>''' to use the item.
+
+==Trivia==
+*It was added in DTN 1.18.0.

@@ -1,0 +1,29 @@
+{{Item
+| image = Tantan cape.png
+| id = tantan_cape
+| type = Customization
+| Subtype = Non-dyeable
+| stackable = 64
+}}
+
+'''Tartan Cape''' is a non-dyable equipable that makes your dog look neat.
+
+[[File:Tantan cape display.png|frameless|606x606px]]
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| String <br>+ Red Wool<br>+ Blue Wool<br>+ Yellow Wool
+| [[File:Tantan cape crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+
+== Trivia ==
+* It was added in the original Doggy Talents.
+* '''Tartan''' (Scottish Gaelic: breacan [ˈpɾʲɛxkən]) is a patterned cloth consisting of crisscrossed, horizontal and vertical bands in multiple colors, forming simple or complex rectangular patterns. The pattern is made famous by the Scottish.<ref>https://en.wikipedia.org/wiki/Tartan#/media/File:Three_tartans.jpg</ref>
+
+<references />

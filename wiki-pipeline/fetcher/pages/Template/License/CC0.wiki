@@ -1,0 +1,5 @@
+<includeonly>
+<div>[[File:CC-0.svg|x50px|link=https://creativecommons.org/publicdomain/zero/1.0/|CC0]]</div>
+<div style="padding-left: 5px; display: flex; flex-direction: column;"><div>This file is under the [https://creativecommons.org/publicdomain/zero/1.0/ CC0 1.0 License].</div>
+</includeonly>
+<noinclude>{{documentation|Template:License/doc}}</noinclude>

@@ -1,0 +1,11 @@
+== Activating the Mode ==
+
+# Set your dog's [[Basic Core Stats|mode]] to Docile.
+# Throw a [https://minecraft.wiki/w/Snowball Snowball] at your dog.
+# Your doggo will start chasing you. 
+
+== Possible Outcomes ==
+If it catches you, there will be a prompt that says: "Dog: Gotcha!". After that it's your turn to catch your doggo.
+
+* If you fail to catch your dog, your dog wins.
+* If you manage to outrun your dog, you win.

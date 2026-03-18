@@ -1,0 +1,38 @@
+/* All JavaScript here will be loaded for users of the Vector skin */
+
+/**
+ * Make collapsed sidebar sections collapsible
+ * Modified from terraria.wiki.gg's collapsible sidebar code
+ */
+$(function(){
+	$("#mw-panel .portal").each(function(index, el){
+		var $el = $(el);
+		var $id = $el.attr("id");
+		if(!$id){
+			return;
+		}
+		// for < 1366px
+		$el.removeClass('collapsed');
+		// for >= 1366px
+		if(localStorage.getItem('sidebar_c_'+$id) === "y"){
+			$el.addClass('collapsed').find('.body').slideUp(0);
+		}
+	});
+	$("#mw-panel .portal").on("click", "h3", function(event){
+		var $el = $(this).parent();
+		var $id = $el.attr("id");
+		if(!$id){
+			return;
+		}
+		event.stopPropagation();
+		$el.toggleClass('collapsed');
+		if($el.hasClass('collapsed')){ // more consistent between class and slide status.
+			localStorage.setItem('sidebar_c_'+$id, "y");
+			$el.find('.body').slideUp('fast');
+		}
+		else{
+			localStorage.setItem('sidebar_c_'+$id, "n");
+			$el.find('.body').slideDown('fast');
+		}
+	});
+});

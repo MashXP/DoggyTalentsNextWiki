@@ -1,0 +1,28 @@
+{{Item
+| image = giant_stick.png
+| id = broomstick
+| type = Customization
+| Subtype = Non-dyeable
+| stackable = 64
+}}
+
+'''Broomstick''' is a non-dyeable equipable item that makes your dog look like a mop.
+
+Sadly, the model for the Puli was lost so we can't fix the stick so as to fit with the other dogs...
+[[File:Broomstick_display.png|none|thumb|600x600px|Best used for Hungarian Pulis!]]
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Glass Pane <br>+ Bamboo<br> + Iron Ingot
+| [[File:Broomstick_crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+== Trivia ==
+* It was introduced in DTN 1.17.0.
+* It was used to be called Giant Stick but a lot of people confused this with the regular Stick so the name was changed.

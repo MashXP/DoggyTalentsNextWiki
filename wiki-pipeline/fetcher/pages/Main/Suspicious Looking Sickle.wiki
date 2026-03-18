@@ -1,0 +1,31 @@
+'''Suspicious Looking Sickle''' is a weapon that deals 6 damage without Sweeping cooldown.
+
+{{Item
+| name = 
+| image = Sussy sickle.png
+| id = sussy_sickle
+| type = Combat
+| Properties = Damage dealt: 6
+| stackable = 1
+| Description = I just love the smell of FEAR!
+}}
+
+== Obtaining ==
+
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe
+|-
+|Iron Ingots
++ Stick
+|[[File:Sussy sickle crafting.png|484x484px]]
+|}
+==Usage==
+*'''<code>Left click</code>''' to use the item.
+==Trivia==
+*This item is a direct reference to '''Death's''' sickle - from '''Puss in Boots: The Last Wish'''.
+*The item used [https://minecraft.wiki/w/Sword#Iron Iron Sword]'''<nowiki/>''''s code as the base. 
+*Image:
+''[https://www.imdb.com/title/tt3915174/mediaviewer/rm785921281/ - Death with Sickle -]''

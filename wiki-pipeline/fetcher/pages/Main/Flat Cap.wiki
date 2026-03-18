@@ -1,0 +1,23 @@
+'''Flat Cap''' is a dyable equipable accessory that makes your dog look stylish.{{Item
+| image = Flatcap.png
+| id = flat_cap
+| type = Customization
+| Subtype = Dyeable
+| stackable = 64
+}}
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| [[Training Treat]]<br>+ Wool Carpet
+| [[File:Flat_cap_crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+
+== Trivia ==
+* It was introduced in DTN 1.18.5.

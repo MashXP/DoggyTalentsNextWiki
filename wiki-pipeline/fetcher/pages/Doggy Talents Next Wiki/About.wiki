@@ -1,0 +1,26 @@
+[[File:Cute.png|1000px|center|]]
+=== 🦴 What this mod is about ===
+
+* '''Enhancements''' to the experience of having dogs as companions throughout the game
+* '''Improvements''' to the dogs’ logic, making them more reliable and refined than vanilla Wolves/Dogs
+* '''Animations''' to make your dogs look more delightful!
+* '''Talents''' you can give to your dog to make him a good-er boy!
+* '''Locate''' your dog with the Radio Collar and the Radar, and never lose track of your dog’s location again!
+* '''Revive''' your dog, allow your dog to rise again from the dead, and never lose your dog permanently again.
+* '''Play Fetch''' with your dog
+* '''Accessories''' to provide your dogs some style and make them stand out like a superstar!
+* '''Dog furniture''' like dog beds and dog bowls
+<br>
+And much so more and yet to be discovered by you - the benevolent dog owner! ''May Mother Amaterasu bless your adventure!''
+
+=== 🦴 Our vision ===
+
+<blockquote>
+This mod aims to create '''Harmony''' between the dogs and the player throughout the game. Imagine playing a Piano Concerto, you as the pianist and the dogs as the orchestra. When the two sounds are being played, it creates '''harmony''', which our ears love so much. Thus, the orchestra doesn’t '''overwhelm''' but '''empowers''' the pianist. The mod is and will be designed along that principle. The dogs should accompany the player well while not becoming overpowered in the context. Although when on-demand, sufficient abilities should be granted to them, they should be required to work to achieve those. And you, the responsible owner, should help them throughout the journey.
+</blockquote>
+
+[[File:rubmepls.png|600px]]
+
+Here you can find documentation about the mod, which includes, crafting recipes, how certain behaviors work, how to care for your dogs, and more:<br>
+
+https://doggytalentsnext.wiki.gg/wiki/

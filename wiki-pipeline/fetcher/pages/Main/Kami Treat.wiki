@@ -1,0 +1,25 @@
+{{Item
+| id = kami_treat
+| type = Treats
+| stackable = 64
+| name = 
+| image = Kami treat.png
+}}<blockquote>Once your dog is level 60, you can still raise your dog's "kami level" with Kami Treats! This maxes out at level 30, at which point your dog is fully trained and acquires a nifty aura (can be enabled via [[Configuration]]).
+</blockquote>''(1.18.28+)'' ''Kami Treat will now '''one-shot''' Dogs to [[Leveling Systems#Kami Leveling|Kami level]] in Creative Mode.''
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe ''(shapeless)''
+|-
+| [[Master Treat]] <br>+ End Stone
+|[[File:Kami treat crafting.png]]
+|}
+
+== Usage ==
+* '''<code>Right click</code>''' on your dog to use the item.
+== Trivia ==
+* It was originally called Dire Treat. (name will be change on DTN 1.18.0).
+* In the future, there might be a massive overhaul of the treat mechanism.

@@ -1,0 +1,28 @@
+<infobox> 
+<title source="name"> 
+<default>{{PAGENAME}}</default> 
+</title> 
+
+<image source="image" />
+<data source="id"> 
+    <label>ID</label> 
+    <format><code>doggytalents:{{{id}}}</code></format> 
+</data>
+<data source="type"> 
+    <label>Type</label> 
+</data>
+<data source="Subtype"> 
+    <label>Subtype</label> 
+</data> 
+<data source="Properties"> 
+    <label>Properties</label> 
+</data> 
+<data source="stackable"> 
+    <label>Stackable?</label> 
+</data>
+<data source="Description"> 
+    <label>Description</label> 
+    <format><i>{{{Description}}}</i></format>
+</data> 
+</infobox>
+<noinclude>{{Documentation}}</noinclude>

@@ -1,0 +1,5 @@
+<includeonly>
+<div>[[File:CC-BY-NC-SA.svg|x50px|link=https://creativecommons.org/licenses/by-nc-sa/3.0/|CC-BY-NC-SA]]</div>
+<div style="padding-left: 5px; display: flex; flex-direction: column;"><div>This file is under the [https://creativecommons.org/licenses/by-nc-sa/3.0/ Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License].</div>
+</includeonly>
+<noinclude>{{documentation|Template:License/doc}}</noinclude>

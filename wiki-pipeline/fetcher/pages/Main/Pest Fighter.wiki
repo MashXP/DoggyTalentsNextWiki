@@ -1,0 +1,11 @@
+<blockquote>[[File:Pest fighter talent.gif|thumb|490x490px|PEST BUSTERS!]]Inflicts 1 point of damage to all nearby [https://minecraft.wiki/w/Silverfish Silverfish] at random ticks.
+
+
+Increasing the skill level '''extends the range by 3 blocks.'''
+
+
+Mastering the skill '''doubles the damage.'''</blockquote>
+
+== Trivia ==
+
+* It was added in the original DT

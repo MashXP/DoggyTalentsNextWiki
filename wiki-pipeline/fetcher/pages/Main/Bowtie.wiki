@@ -1,0 +1,30 @@
+{{Item
+| image = Bowtie.png
+| id = bowtie
+| type = Customization
+| Subtype = Dyeable
+| stackable = 64
+| Description = Sneak while applying this on your Dog to give it another variant of the Accessory.
+}}
+
+'''Bowtie''' is a dyable equipable material that you wear on your dog.
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Strings <br>+ Wool
+| [[File:Bowtie crafting.png]]
+|}
+[[File:Bowtie equipped.png|thumb|431x431px|Doggo with fancy bowtie!]]
+
+== Usage ==
+{{Accessory_use}}
+
+== Used In ==
+* [[File:Bowtie demo2.png|thumb|428x428px|Festive Doggos!]][[Conan Suit]]
+== Trivia ==
+* It was added to DTN 1.11.0.
+* The Head Bowtie variant is added in DTN 1.18.39.

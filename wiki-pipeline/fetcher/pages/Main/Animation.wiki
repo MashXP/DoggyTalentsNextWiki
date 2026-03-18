@@ -1,0 +1,58 @@
+Here are the documented animations:
+
+* '''Basic Animations:'''
+** Stretch
+** Faint
+** Sit Down
+** Stand Up
+** Lie Down
+** Stand Quick
+** Drown
+** Hurt 1
+** Hurt 2
+** Faint Stand 1
+** Faint Stand 2
+** Backflip
+** Protest
+** Stand Idle 2
+** Dig
+** Sit Idle
+** Scratchie
+** Chopin Tail
+** Belly Rub
+** Sit Look Around
+** Howl
+** Lie Down Idle
+** Sit to Rest
+** Rest Idle
+** Rest to Sit
+** Fly Jump Start
+** Fly Air Borne
+** Fly Landing
+** Touch Retreat
+** Sniff Hot
+** Sniff Neutral
+** Sniff Sneeze
+** Stop Drop Roll
+** Touchy Touch
+** Down the Hole
+** Rest Belly Start
+** Rest Belly Loop
+** Rest Belly End
+** Nakey 🥴
+** Drunk Start
+** Drunk Loop
+** Sniffer Dog Point Downard
+** Sniffer Dog Point Straight
+** Sniffer Dog Point Upward
+** Play With Meh
+** Greet
+** Sniff Aww Happy
+** Drink Water  
+* '''Complex Animations:'''
+** Face Rub (Multiple stages)
+** Hug (Multiple stages)
+** Belly Pet (Multiple stages)
+** Back Hug (Multiple stages)
+
+'''''Good luck finding all of them ;)'''''

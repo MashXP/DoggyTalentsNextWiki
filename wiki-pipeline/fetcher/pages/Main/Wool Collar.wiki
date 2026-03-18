@@ -1,0 +1,32 @@
+{{Item
+| image = Wool collar.png
+| id = wool_collar
+| type = Customization
+| Subtype = Dyeable
+| stackable = 64
+}}
+
+'''Wool Collar''' is a dyable equipable material that stylizes your dog's collar. This item allows you to craft more variants of collar colors.
+
+[[File:Wool collar display.png|frameless|606x606px]]
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Strings
+| [[File:Wool collar crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+
+== Used In ==
+* [[Spotted Collar]]
+* [[Multicoloured Collar]]
+* [[Beastars's Female Uniform]]
+
+== Trivia ==
+It was added in the original Doggy Talents.

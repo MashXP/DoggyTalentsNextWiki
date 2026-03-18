@@ -1,0 +1,26 @@
+{{Item
+| image = Snorkel.png
+| id = snorkel
+| type = Customization
+| Subtype = Non-dyeable
+| stackable = 64
+}}
+
+'''Snorkel''' is a non-dyeable equipable item that makes your dog look ready to go blub blub.
+[[File:Snorkel_display.png|none|thumb|600x600px|You don't need that! You can swim, remember?]]
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Glass Pane <br>+ Bamboo<br>+ Iron Ingot
++ [[Training Treat]]
+| [[File:Snorkel_crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+== Trivia ==
+* It was introduced in DTN 1.17.0.

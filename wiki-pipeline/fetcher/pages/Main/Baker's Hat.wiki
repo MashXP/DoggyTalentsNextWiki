@@ -1,0 +1,29 @@
+{{Item
+| image = Baker hat.png
+| id = baker_hat
+| type = Customization
+| Subtype = Dyeable
+| stackable = 64
+| Description = Hot Dachshbuns comin' up!
+}}
+
+Baker's Hat is a dyeable equipable item that stylizes your dog.
+[[File:Baker hat display.png|alt=2023-08-01_18 51 47|none|thumb|693x693px|Display provided by @Archon]]
+==Obtaining==
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe
+|-
+|Any Wool
++ Leather Cap
+|[[File:Baker hat crafting.png]]
+|}
+''Requires Bread to unlock the recipe.''
+
+==Usage==
+{{Accessory_use}}
+==Trivia==
+*It was introduced to DTN 1.17.2.
+*The item's description is a sneak peek for an upcoming DTN skin - a Pokemon.

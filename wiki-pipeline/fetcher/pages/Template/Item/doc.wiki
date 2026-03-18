@@ -1,0 +1,65 @@
+<templatedata>
+{
+	"params": {
+		"name": {
+			"label": "Name",
+			"type": "string",
+			"default": "Page name",
+			"description": "This is auto-generated with the page's name."
+		},
+		"image": {
+			"label": "Image",
+			"type": "wiki-file-name",
+			"required": true,
+			"description": "The image is supplied as a File. Do not upload from unofficial sources."
+		},
+		"id": {
+			"label": "ID",
+			"type": "string",
+			"required": true,
+			"example": "doggy_charm",
+			"description": "In-game ID"
+		},
+		"stackable": {
+			"label": "Stackable?",
+			"type": "string",
+			"description": "Max Stack number",
+			"example": "64, 1,...",
+			"suggested": true
+		},
+		"type": {
+			"label": "Type",
+			"type": "string",
+			"required": true,
+			"example": "Block",
+			"description": "Blocks, Throwables, Treats, Utilities, Artifacts, Combat, Food, Customization, Discs, Creative Exclusive, Legacy/Removed.\nPick one out of the above."
+		},
+		"Subtype": {
+			"type": "string"
+		},
+		"Description": {
+			"label": "Description",
+			"description": "In-game description",
+			"type": "string"
+		},
+		"Properties": {
+			"description": "When using item this will gives you:...",
+			"example": "restore hunger? heal you?",
+			"type": "content"
+		}
+	},
+	"description": "This is an infobox template for items",
+	"format": "block",
+	"paramOrder": [
+		"name",
+		"image",
+		"id",
+		"type",
+		"Subtype",
+		"Properties",
+		"stackable",
+		"Description"
+	]
+}
+</templatedata>
+<includeonly>[[Category:Infobox templates]]</includeonly><noinclude>[[Category:Template documentation]]</noinclude>

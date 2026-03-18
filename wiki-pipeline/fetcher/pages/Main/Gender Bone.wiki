@@ -1,0 +1,26 @@
+'''Gender Bone''' is an item that changes your dogs biological mechanics aka Genders.
+
+{{Item
+| image = Gender bone.png
+| id = gender_bone
+| type = Utilities
+| stackable = 1
+}}
+
+It can be used '''10 times''' and can be enchanted with '''Unbreaking and Mending'''.
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| [[Amnesia Bone]]<br>+ Lapis Lazuli<br>+ Blue Dye<br>+ Amethyst Shard<br>+ Pink Dye
+| [[File:Gender bone crafting.png]]
+|}
+
+== Usage ==
+{{Item_use}}
+== Trivia ==
+[[File:Gender bone old.png|thumb|Old texture of Gender Bone]]
+* It was introduced in DTN 1.16.3.

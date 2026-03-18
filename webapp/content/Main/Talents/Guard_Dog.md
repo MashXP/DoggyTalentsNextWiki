@@ -1,0 +1,17 @@
+---
+title: Guard Dog
+---
+
+
+
+> Increases the chance that your Dog will **completely block a physical attack.**
+> 
+> ![**With Guard Dog**](/images/guard_dog_talent.gif "**With Guard Dog**")
+> 
+> 
+> 
+> ![**Without Guard Dog**](/images/guard_dog_no_talent.gif "**Without Guard Dog**")
+
+## Trivia
+
+- It was added in the original DT.

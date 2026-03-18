@@ -1,0 +1,31 @@
+{{Item
+| name = 
+| image = Super treat.png
+| id = super_treat
+| type = Treats
+| stackable = 64
+}}
+<blockquote>This treat will raise your dog's level up by 1 (also by 1 spendable point) until your dog reaches level 40.
+</blockquote>
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe ''(shapeless)''
+|-
+| [[Training Treat]] <br>+ Golden Apple
+|[[File:Super treat crafting.png]]
+|}
+
+== Usage ==
+* '''<code>Right click</code>''' on your dog to use the item.
+
+== Used In ==
+* [[Master Treat]]
+* [[Feathered Mantle]]
+
+== Trivia ==
+* It was added in the original Doggy Talents.
+* In the future, there might be a massive overhaul of the treat mechanism.

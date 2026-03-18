@@ -1,0 +1,127 @@
+{{Item
+| image = All orbs.gif
+| id = 
+| type = Utilities
+| stackable = 64
+| Description = 
+}}
+List of Locator Orbs
+{| class="wikitable"
+|+
+!No.
+!Orb
+!Name
+!ID
+!Description
+!Unique Crafting Material
+|-
+
+|1
+|[[File:Locator orb chi.png]]
+|Chi
+|doggytalents:locator_chi_orb
+|The Orb of Wisdom and Knowledge.
+|Magenta Dye
+|-
+|2
+|[[File:Locator orb chu.png]]
+|Chu
+|doggytalents:locator_chu_orb
+|The Orb of Loyalty and Faithfulness.
+|Light Blue Dye
+|-
+|3
+|[[File:Locator orb ko.png]]
+|Ko
+|doggytalents:locator_ko_orb
+|The Orb of Filial Piety.
+|Purple Dye
+|-
+|4
+|[[File:Locator orb gi.png]]
+|Gi
+|doggytalents:locator_gi_orb
+|The Orb of Justice and Morality.
+|Blue Dye
+|-
+|5
+|[[File:Locator orb tei.png]]
+|Tei
+|doggytalents:locator_tei_orb
+|The Orb of Brotherhood.
+|Yellow Dye
+|-
+|6
+|[[File:Locator orb rei.png]]
+|Rei
+|doggytalents:locator_rei_orb
+|The Orb of Propriety and Respectability.
+|Lime Dye
+|-
+|7
+|[[File:Locator orb shin.png]]
+|Shin
+|doggytalents:locator_shin_orb
+|The Orb of Trustworthiness and Credibility.
+|Green Dye
+|-
+|8
+|[[File:Locator orb jin.png]]
+|Jin
+|doggytalents:locator_jin_orb
+|The Orb of Humanity and Benevolence.
+|Red Dye
+|-
+|9
+|[[File:locator orb_dyable.png|32x32px]]
+|Dyeable
+|doggytalents:locator orb_dyable
+|Craft with Paper to add a Secondary color.
+|Paper
+|-
+|10
+|[[File:Locator orb ka.png|32x32px]]
+|Ka
+|doggytalents:locator_ka_orb
+|The Orb of Flame.
+|
+|-
+|11
+|[[File:Locator orb sui.png|32x32px]]
+|Sui
+|doggytalents:locator_sui_orb
+|The Orb of Water.
+|
+|-
+|12
+|[[File:Locator orb moku.png|32x32px]]
+|Moku
+|doggytalents:locator_moku_orb
+|The Orb of Vegetation.
+|
+|}
+
+
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe ''(shapeless)''
+|-
+| Unique Crafting Material<br>+ [[Empty Locator Orb]]
+|[[File:Locator orb crafting.gif]]
+|}
+
+<span id="usage"></span>
+
+== Usage ==
+{{Accessory_use}}
+[[File:Rgb doggo.gif|thumb|437x437px|Orb Frenzy!]]
+
+== Trivia ==
+* The (1-8) orbs were added in DTN 1.16.0.
+* The Double Dyeable Orb was introduced in DTN 1.18.12.
+* The (10-12) orbs were introduced in DTN 1.18.33.
+* When using [[Canine Tracker]] the color of the text will change according to the Orbs color.
+* The items are direct references to '''The Satomi Power Orbs''' from the game '''OKAMI''' <ref><p>https://okami.fandom.com/wiki/Canine_Warriors</ref>
+
+<references />

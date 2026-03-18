@@ -1,0 +1,4 @@
+'''Creative Radar''' is an item that tracks your trained dogs regardless of the [[Radio Collar]]. <br>
+It has been replaced by the [[Creative Canine Tracker]].
+== Trivia ==
+* It was added to the original Doggy Talents.

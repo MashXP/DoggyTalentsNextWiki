@@ -1,0 +1,27 @@
+{{Item
+| image = Dog gift costume.png
+| id = dog_gift_costume
+| type = Customization
+| Subtype = Dyeable
+| stackable = 64
+| Description = Best gift for any occasion! Craft with Paper to add a Secondary color
+}}'''Bowtie''' is a dyable equipable accessory that's perfect for celebrating special occasions and adding a touch of cheer.
+
+== Obtaining ==
+
+=== Crafting ===
+{| class="wikitable"
+!Ingredients
+!Recipe
+|-
+|[[Bowtie]]
++ Paper
+|[[File:Dog gift costume crafting.png]]
+|}
+
+== Usage ==
+{{Accessory_use}}
+
+== Trivia ==
+
+* It was added to DTN 1.18.39.[[File:Bowtie_demo2.png|thumb|428x428px|Festive Doggos!]]

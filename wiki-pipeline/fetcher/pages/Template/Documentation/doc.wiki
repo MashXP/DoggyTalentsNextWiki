@@ -1,0 +1,112 @@
+; Description
+: This template is used to insert descriptions on template pages.
+; Syntax
+: Type <code><nowiki><noinclude>{{documentation}}</noinclude></nowiki></code> at the end of the template page.
+
+== General usage ==
+<pre style="white-space: pre-wrap;">
+Template code<includeonly>Any categories to be inserted into articles by the template</includeonly><noinclude>
+{{documentation}}</noinclude>
+</pre>
+
+Note that, depending on the template, you may need to add a clear or complete a table/div just before <code><nowiki>{{documentation}}</nowiki></code> is inserted (within the noinclude tags).
+
+The line break is also useful as it helps prevent the documentation template "running into" previous code.
+
+== Dependencies ==
+* [[Module:Documentation]]
+
+== TemplateData ==
+<templatedata>
+{
+	"description": {
+		"en": "This template is used to insert descriptions on template pages.",
+		"tr": "Bu şablon, şablon sayfalarına açıklamalar eklemek için kullanılır."
+	},
+	"format": "inline",
+	"params": {
+		"1": {
+			"label": {
+				"en": "Custom Documentation Page",
+				"tr": "Özel Belgelendirme Sayfası"
+			},
+			"description": {
+				"en": "Page containing the documentation",
+				"tr": "Belgeleri içeren sayfa"
+			},
+			"default": "{{FULLPAGENAME}}/doc",
+			"type": "wiki-page-name"
+		},
+		"i18n": {
+			"label": {
+				"en": "Force localised subpage",
+				"tr": "Yerelleştirilmiş alt sayfayı zorlayın"
+			},
+			"description": {
+				"en": "Forces the use of `/doc/<lang>` pages even for English documentation (unless `/doc` exists and `/doc/en` does not)",
+				"tr": "İngilizce belgeler için bile `/doc/<dil>` sayfalarının kullanılmasını zorunlu kılar (`/doc` mevcut olmadığı ve`/doc/en` olmadığı sürece)"
+			},
+			"default": "0",
+			"autovalue": "1",
+			"type": "boolean"
+		},
+		"ignoreCurrentLang": {
+			"label": {
+				"en": "Ignore the current language",
+				"tr": "Geçerli dili yoksay"
+			},
+			"description": {
+				"en": "Ignores the current language, so that wikis in a single language use `/doc` pages only",
+				"tr": "Tek bir dildeki vikilerin yalnızca `/doc` sayfalarını kullanması için geçerli dili yok sayar"
+			},
+			"default": "0",
+			"type": "boolean"
+		},
+		"heading": {
+			"label": {
+				"en": "Heading",
+				"tr": "Başlık"
+			},
+			"description": {
+				"en": "Custom heading",
+				"tr": "Özel başlık"
+			},
+			"default": {
+				"en": "[[File:Template-info.svg|50px|link=|alt=Documentation icon]] Documentation",
+				"tr": "[[File:Template-info.svg|50px|link=|alt=Belgelendirme ikonu]] Belgelendirme"
+			},
+			"type": "line",
+			"autovalue": ""
+		},
+		"preload": {
+			"label": {
+				"en": "Preload Page",
+				"tr": "Önyükleme Sayfası"
+			},
+			"description": {
+				"en": "The page to preload if the `/doc` subpage doesn't exist.",
+				"tr": "`/doc` alt sayfası yoksa önyüklenecek sayfa."
+			},
+			"default": "Template:Documentation/preload",
+			"type": "wiki-page-name"
+		},
+		"content": {
+			"label": {
+				"en": "Content",
+				"tr": "İçerik"
+			},
+			"description": {
+				"en": "Custom documentation content, prevents transclusion of `/doc` subpage.",
+				"tr": "Özel belge içeriği, `/doc` alt sayfasının dönüştürülmesini önler."
+			},
+			"type": "content"
+		}
+	}
+}
+</templatedata>
+<includeonly>
+[[Category:General wiki templates|{{PAGENAME}}]]
+[[Category:Template documentation| ]]
+</includeonly><noinclude>
+[[Category:Template documentation|{{PAGENAME}}]]
+</noinclude>

@@ -1,0 +1,1 @@
+* uploadMultipleFiles [ResourceLoader|default] | uploadMultipleFiles.js

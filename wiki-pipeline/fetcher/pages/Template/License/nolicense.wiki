@@ -1,0 +1,5 @@
+<includeonly>
+<div>[[File:Warning-red.svg|50px|link=|No License has been selected.]]</div>
+<div style="padding-left:5px; display: flex; flex-direction: column;"><div>Please select the proper License for this file by adding the proper parameter to <nowiki>{{License}}</nowiki>. See [[Template:License]] for details.</div>
+</includeonly>
+<noinclude>{{documentation|Template:License/doc}}</noinclude>

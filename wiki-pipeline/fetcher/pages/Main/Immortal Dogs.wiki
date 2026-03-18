@@ -1,0 +1,86 @@
+<blockquote>
+''"Tired of having to go all the way back home to respawn your dog when he, unfortunately, dies when you are'' adventuring somewhere far away?
+
+''The good news is, '''Immortal Dogs''''' - A huge feature of '''''Classic Doggy Talents''''', is back!"'''
+</blockquote>
+== Enabling the feature ==
+This behavior is enabled '''by default'''. 
+
+To disable it for a specific world:
+
+# Navigate to that world's directory. 
+# Locate <code>config</code> folder.
+# Open <code>doggytalents-server.toml</code> file.
+# Set <code>immortal_dogs = false</code>.
+
+== Disabling the visuals ==
+If you are sensitive to the sight of blood or injuries, you may consider disabling the rendering of the visuals involved:
+
+# Navigate to that world's directory. 
+# Locate <code>config</code> folder.
+# Open <code>doggytalents-server.toml</code> file.
+# Set <code>render_incapacitated_overlay = false</code>.
+
+''There is now an option to substitute a friendlier injured texture to be rendered instead. (See more in [[Configuration]]).''
+
+== Behavior ==
+Let's say, your dog encounters the unimaginable, and his health hits 0. Expectedly, it will, as you know, ''die''. For this behavior, the dog '''doesn't die'''. Instead, it goes into another '''mode''' called '''Injured'''.
+
+<s>If your dog starved to death, it must have a [[Golden A5 Wagyu]] in order to get back on its feet, [[Band-Aid]] don't work. (WIP)</s>
+
+
+With '''Immortal Dogs''' disabled ''(which is not recommended)'', when the dog's health hits 0 ''(or fallen into the void)'' the dog will still die, but you can use a [[Dog Bed]] to revive them. 
+
+* A '''Linked Bed''' will respawn its specific '''Linked Dog.'''
+* '''Unclaimed Beds''' will pick from a '''random Dog''' ''(that '''you''' own that died)'' to be revived when using an '''Totem of Undying''' or [[commands|'''commands''']]'''.'''
+
+== Injured Mode ==
+* It can't manually be accessed nor switched by changing the mode on the [[Dog Menu|Menu GUI]].
+* In this mode, the dog is '''immobilized'''. It won't be able to listen to any commands or respond to any interactions from anyone, including his owner. His health stays at ½ a heart <code>(1 HP)</code> and undamageable in that state.
+* His texture will also be changed (if graphic visuals are enabled). The textures signify the dog has been '''injured''' and is different based on how the dog was defeated. Right now, the default texture signifies the dog is bleeding and only changes when the dog is burned or poisoned, in which he will render with additional "charred" spots with smoke and ashes ''or'' green "poison stain" respectively.
+{| class="wikitable"
+!Cause
+!Kanji Meaning
+!Kanji Image
+|-
+|Default
+|'''敗''' -> fail, lose
+![[File:Default.png|frameless|108x108px]]
+|-
+|Drown
+|'''溺''' -> drown
+|[[File:Drown.png|frameless|108x108px]]
+|-
+|Poison
+|'''毒''' -> poison
+|[[File:Poison.png|frameless|108x108px]]
+|-
+|Starve
+|'''餓'''- > hunger, famine
+|[[File:Starve.png|frameless|108x108px]]
+|-
+|Burn
+|焼 -> grill, burn
+|[[File:Burnt.png|frameless|108x108px]]
+|}
+[[File:An Injured Dog.png|thumb|An Injured Dog]]
+* Dogs '''cannot teleport''' in this mode.
+* Upon entering the mode, his [[Basic Core Stats#Nourishment Points|Nourishment Points]] will be set to <code>-64</code> and will gradually regenerate to <code>0</code>. When it hits 0, the dog leaves the mode with its health and [[Basic Core Stats#Nourishment Points|Nourishment Points]] maxed out and will be considered fully recovered and ready for another adventure.
+* The [[Basic Core Stats#Nourishment Points|Nourishment Points]] will reset to 0 whenever the dog is damaged by any source while healing. 
+* The dog '''cannot consume any meat or food''' that normally regenerates [[Basic Core Stats#Nourishment Points|Nourishment Points]]. 
+== Bringing Your Best Friend Back to Action ==
+<blockquote>For your dog to be fully recovered, its [[Basic Core Stats#Nourishment Points|Nourishment Points]] have to reach <code>0</code>. It will auto-regenerate little by little. This process will be '''extremely lengthy''' in time as it should be, your dog deserves some '''rest'''.</blockquote>
+
+=== Luckily, the process can be sped up: ===
+* When an injured dog stays on a '''bed''' (including the unclaimed [[Dog Bed]], a claimed bed the dog does not own, or a vanilla [https://minecraft.wiki/w/Bed bed]), it will lie down and its healing speed will be increased. Additionally, healing will be increased even further if the '''owner is nearby, less than <code>10 (blocks)</code>''' '''away''', in which heart particles will also start to appear.
+* A [[Golden A5 Wagyu]] can be fed to it also to further increase the healing speed.
+* A [[Band-Aid]] can also be applied to speed up the healing process. If enough bandages (8) are applied, the dog can begin to walk. 
+** '''Note:''' Every damage the dog takes will still cause the [[Basic Core Stats#Nourishment Points|Nourishment Points]] to reset and additionally cause all of the bandages to drop.
+* The dog still won't be able to do anything up to this point besides following you. If there are empty beds (DTN or Vanilla) nearby, your dog will stay there to rest.
+* You can <code>Sneak + Right-click</code> to pick the dog up using a [https://minecraft.fandom.com/wiki/Bone Bone] and carry it to a safe area.
+
+* If you are in a heated fight and you need your dogs immediately, you can always give them a [https://minecraft.fandom.com/wiki/Totem_of_Undying Totem of Undying]  in which '''it and all of the nearby dogs''' will exit the mode '''instantly'''.
+
+== Trivia ==
+
+* Before 1.18.12, Injured Mode used to be called Incapacitated Mode, but the Devs changed it because it was mouthful.

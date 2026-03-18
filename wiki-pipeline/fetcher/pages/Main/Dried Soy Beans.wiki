@@ -1,0 +1,26 @@
+'''Dried Soy Beans''' is a soy-related crafting material.
+
+{{Item
+| name = 
+| image = Soy beans dried.png
+| id = soy_beans_dried
+| type = Farming
+| Subtype = Soy
+| stackable = 64
+}}
+==Obtaining==
+===Smelting===
+{| class="wikitable"
+|-
+!Ingredients
+!(Smelting, Campfire, Smoker) Recipe
+|-
+|[[Soy Beans]]
+|[[File:Soy beans dried smelting.png|336x336px]]
+|}
+*'''<code>Right click</code>''' [[Dried Soy Pods]] to obtain Dried Soy Beans.
+==Used in==
+*[[Soy Milk]]
+==Trivia==
+*It was added in DTN 1.18.0
+*The '''soybean''', '''soy bean''', or '''soya bean''' ('''''Glycine max''''') is a species of legume native to East Asia, widely grown for its edible bean, which has numerous uses.

@@ -1,0 +1,13 @@
+{{Item
+| image = Creative collar.png
+| id = creative_collar
+| type = Creative Exclusive
+| stackable = 64
+}}
+[[File:Creative Collar negative points demo.png|thumb|''notice how the points are negative'']]
+'''Creative Collar''' is an equipable item that bypasses the talent points limit.
+== Obtaining ==
+Press '''<code>E</code>''' in Creative mode to access the Creative menu.
+== Trivia ==
+* It was added in the original Doggy Talents.
+* Glint added in DTN 1.15.0

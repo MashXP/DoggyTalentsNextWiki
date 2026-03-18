@@ -1,0 +1,43 @@
+'''Miso Soup''' is a '''very delicious''' food item that fills up '''5 hunger points''' and gives you:
+
+{{Item
+| image = Miso soup.png
+| id = miso_soup
+| type = Food
+| Subtype = Soy
+| Properties = Hunger points: 5/10
+
+Regeneration III: 1 min.
+
+Haste II: 1 min.
+
+Absorption II: 1 min.
+
+Instant Heal
+| stackable = 64
+| Description = Itadakimasu!
+}}
+*'''Regeneration III''' for '''1 minute.'''
+*'''Haste II''' for '''1 minute.'''
+*'''Absorption II''' for '''1 minute.'''
+*'''Instant Heal'''
+Your dog can also eat this, so don't be shy to share it with your furry pal!
+==Obtaining==
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe ''(shapeless)''
+|-
+|[[Tofu]] 
++ [[Miso Paste]] 
+
++ Dried Kelp 
+
++ Bowl
+|[[File:Miso soup crafting.png|336x336px]]
+|}
+==Usage==
+*'''<code>Right click</code>''' to use the item.
+==Trivia==
+*It was added in DTN 1.18.0.

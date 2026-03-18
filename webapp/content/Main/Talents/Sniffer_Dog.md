@@ -1,0 +1,37 @@
+---
+title: Sniffer Dog
+---
+
+
+
+> This talent allows your dog to **sniff out any block, like valuable ores** for example.
+> 
+> 
+> **Each level** **increases** your dog's **sniffing distance**, thus increasing the chance of finding the desired block, such as ore.
+> 
+> 
+> To make your dog start detecting a certain block, a [Scent Treat](Scent_Treat) is required to mark the scent of the block:
+> 
+> * The treat then be **given to the dog** who will **lick** the treat, **memorize the scent** and **give you back.**
+> * To make your dog **stop** detecting, give it a **empty Scent Treat**.
+> * To **check** which block your Dog are looking for, **<code>Sneak + Right click</code>** it with any [Scent Treat](Scent_Treat) in hand.
+> 
+> 
+> *"...Dogs are **not quite good** at detecting blocks **vertically**, so despite the radius increase that each level provides along the horizontal plane, they are only capable of locating blocks which is not around **3 blocks higher or lower** than where they are standing. Be sure to **pay close attention** to what the Dog is trying to tell you to have a better idea of where the block is..."*
+
+## Trivia
+
+- It was added in DTN 1.18.5.
+- Dialogues corresponds to the distance:
+  - **Close:**
+    - *Hey, come check this out! I think I found something! It is VERY CLOSE!*
+    - *OOOOH! My nose caught something VERY familiar! It is quite STRONG! Come here, QUICKLY!*
+    - WOAH! I can smell the thing that you needed! It is very STRONG!
+  - **Medium:**
+    - *Hey, come check this out! I think I found something! It is a bit further away.*
+    - *Ah! My nose caught something familiar! Come here!*
+    - *Interesting, I think I am smelling something that you needed!*
+  - **Far:** 
+    - *Uhm hey, come check this out! I think I found something! Although it is quite far away!*
+    - *Hmmm, My nose caught a brief smell of a familiar sense. You might want to take a look.*
+    - *Hmmm, I think I am smelling a bit of something that you needed!*

@@ -1,0 +1,26 @@
+{{Item
+| image = Radio collar.png
+| id = radio_collar
+}}
+
+'''Radio Collar''' is an equipable item that is used alongside the [[Canine Tracker]]
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe ''(shapeless)''
+|-
+| Iron Ingots <br>+ Redstone Dust
+|
+|}
+
+== Usage ==
+* '''<code>Right click</code>''' on your dog to quickly equip the item or use the '''Style tab''' within the [[Dog Menu#Style|Dog Menu]].
+
+== Used In ==
+* [[Canine Tracker]]
+
+== Trivia ==
+* It was added in the original Doggy Talents.

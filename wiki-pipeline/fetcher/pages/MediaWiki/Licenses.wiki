@@ -1,0 +1,14 @@
+* Copyright licenses
+** License|Mojang|Mojang images
+* Free licenses, only if applicable
+** License|CC-BY|Creative Commons Attribution 3.0 License
+** License|CC-BY-NC|Creative Commons Attribution-NonCommercial 3.0 License
+** License|CC-BY-NC-ND|Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License
+** License|CC-BY-NC-SA|Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License
+** License|CC-BY-ND|Creative Commons Attribution-NoDerivs 3.0 License
+** License|CC-BY-SA|Creative Commons Attribution-ShareAlike 3.0 License
+** License|CC0|CC0 1.0 License
+** License|CC-SRR|Creative Commons Some Rights Reserved License
+** License|CC-PD|Public domain
+* Unknown license
+** License|Unknown license

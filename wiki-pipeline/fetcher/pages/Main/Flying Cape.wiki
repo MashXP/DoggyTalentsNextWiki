@@ -1,0 +1,23 @@
+'''Flying Cape''' is a dyable equipable accessory that makes your dog look like a superhero!{{Item
+| image = Flying cape.png
+| id = flying_cape_
+| type = Customization
+| Subtype = Dyeable
+| stackable = 64
+}}
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Wool <br>+ Phantom Membrane
+| [[File:Flying_cape_crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+
+== Trivia ==
+* It was introduced in DTN 1.17.2.

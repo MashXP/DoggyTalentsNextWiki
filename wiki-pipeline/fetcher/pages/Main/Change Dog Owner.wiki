@@ -1,0 +1,3 @@
+'''Change Dog Owner''' is an item that has its function replaced by the [[Amnesia Bone]].
+== Trivia ==
+* It was added to the original Doggy Talents.

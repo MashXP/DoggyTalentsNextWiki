@@ -1,0 +1,27 @@
+{{Item
+| image = Spotted collar.png
+| id = spotted_collar
+| type = Customization
+| Subtype = Non-dyeable
+| stackable = 64
+}}
+
+'''Spotted Collar''' is a non-dyable equipable item that stylizes your dog's collar.
+
+[[File:Spotted_collar_display.png|frameless|606x606px]]
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| [[Wool Collar]] <br>+ Black Dye<br>+ White Dye<br>+ String
+| [[File:Spotted collar crafting.gif]]
+|}
+== Usage ==
+{{Accessory_use}}
+
+== Trivia ==
+It was added in the original Doggy Talents.

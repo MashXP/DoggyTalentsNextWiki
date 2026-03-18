@@ -1,0 +1,24 @@
+'''Lab Coat''' is a dyable equipable accessory that makes your dog look professional.
+{{Item
+| image = Lab_coat.png
+| id = lab_coat
+| type = Customization
+| Subtype = Dyeable
+| stackable = 64
+}}
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Wool <br>+ [[Cape]]
+| [[File:Lab_coat_crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+
+== Trivia ==
+* It was introduced in DTN 1.17.2.

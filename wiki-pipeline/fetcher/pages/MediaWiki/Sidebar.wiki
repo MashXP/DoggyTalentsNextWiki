@@ -1,0 +1,15 @@
+
+* navigation
+** mainpage|mainpage-description
+** recentchanges-url|recentchanges
+** randompage-url|randompage
+** helppage|help-mediawiki
+* SEARCH
+* Contents
+** Getting Started|Getting Started
+** Dog Menu|Dog Menu
+** Behaviors|Behaviors
+** Items|Items
+** Talents|Talents
+* TOOLBOX
+* LANGUAGES

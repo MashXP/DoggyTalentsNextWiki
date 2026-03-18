@@ -1,0 +1,29 @@
+'''Shrinking Mallet''' is an item that decreases your dog's size.{{Item
+| image = Shrinking mallet.png
+| id = shrinking_mallet
+| type = Customization
+| Subtype = Others
+| stackable = 1
+}}
+
+[[File:Shrinking mallet display.png|frameless|600x600px]]
+
+It can be used '''10 times''' and can be enchanted with Unbreaking and Mending.<br>
+
+If used 4 times on a normal-sized doggo, it'll turn into a puppy and won't grow up until you use the [[Magnifying Bone]].
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Bone<br>+ Gold Ingot<br>+ Fire Coral
+| [[File:Shrinking mallet crafting.png]]
+|}
+== Usage ==
+{{Item_use}}
+== Trivia ==
+* It was introduced in DTN 1.15.0.
+* The item is a reference to the '''Lucky Mallet''' - a special treasure from the game '''Okami'''.<ref>https://www.okaminow.org/magnifying-glass-over-issun-okami-fanart-gallery-8/</ref>
+<references />

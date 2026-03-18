@@ -1,0 +1,57 @@
+{{Item
+| image = Head_band_blank.png
+| type = Customization
+| Subtype = Non-dyeable
+| stackable = 64
+}}
+
+'''Head Band''' is a non-dyeable equipable item that makes your dog look mysterious.
+{| class="wikitable"
+|+
+!No.
+!Sprite
+!Pattern
+!ID
+!Description
+!Craftable?
+|-
+
+|1
+|[[File:head_band_blank.png]]
+|Blank
+|doggytalents:head_band_blank
+|
+|Yes
+|-
+|2
+|[[File:head_band_mystery.png]]
+|Mysterious
+|doggytalents:head_band_mystery
+|Who's that wolfy boi?
+|No
+|-
+|3
+|[[File:head_band_highhh.png]]
+|Highhh
+|doggytalents:head_band_highhh
+|The Dev's favorite emoji.
+|No
+|-
+|}
+[[File:Head_band_display.png|none|thumb|600x600px]]
+
+== Obtaining ==
+* Currently you can only craft the Head Band Blank, the others can be obtained via the Creative menu.
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Lead <br>+ Paper<br> + [[Training Treat]]
+| [[File:Head band crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+== Trivia ==
+* It was introduced in DTN 1.17.2.

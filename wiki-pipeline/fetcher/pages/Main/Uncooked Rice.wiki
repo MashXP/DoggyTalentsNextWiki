@@ -1,0 +1,23 @@
+'''Uncooked Rice''' is a material used to craft Rice related items.
+
+{{Item
+| name = 
+| image = Uncooked rice.png
+| id = uncooked_rice
+| type = Farming
+| Subtype = Rice
+| stackable = 64
+}}
+
+==Obtaining==
+===Grinding===
+
+* '''<code>Sneak + Right click</code>''' [[Rice Grains]] on a [https://minecraft.wiki/w/Grindstone Grindstone] to dehull the rice.
+
+== Used In ==
+
+* [[Uncooked Rice in a Bowl]]
+* [[Koji]]
+
+==Trivia==
+*It was added in DTN 1.18.0.

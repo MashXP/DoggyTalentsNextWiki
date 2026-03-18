@@ -1,0 +1,33 @@
+'''Rice Grains''' is an item drops from breaking Grass.
+
+{{Item
+| name = 
+| image = Rice grains.png
+| id = rice_grains
+| type = Farming
+| Subtype = Rice
+| stackable = 64
+| Description = Right-click on Farmland to plant Rice Crops. Sneak + Right-Click on a Grindstone to Dehusk the rice.
+}}<span></span>
+
+It can also be dehusk and make [[Uncooked Rice]].
+
+==Obtaining==
+===Breaking Grass===
+
+* Breaking short or tall grass will randomly drop 1 '''Rice Grains.'''
+
+=== Crafting ===
+{| class="wikitable"
+|-
+!Ingredients
+!(Shapeless) Recipe
+|-
+|[[Paddy Rice]]
+|[[File:Rice grains crafting.png]]
+|}
+==Usage==
+*To dehusk the rice, '''<code>Sneak + Right click</code>''' '''Rice Grains''' on a [https://minecraft.wiki/w/Grindstone Grindstone]. After dehusking you should have [[Uncooked Rice]].
+
+==Trivia==
+*It was added in DTN 1.18.0.

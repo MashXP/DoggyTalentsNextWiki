@@ -1,0 +1,198 @@
+* Documentations for all of the items currently in the mod.
+=== Blocks ===
+<div style="columns:17em">
+* {{Item with Sprite|Dog Bed|icon=dog_bed}}
+* {{Item with Sprite|Dog Bath|icon=dog_bath}}
+* {{Item with Sprite|Food Bowl|icon=food_bowl}}
+* {{Item with Sprite|Rice Mill|icon=rice_mill}}
+</div>
+=== Throwables ===
+<div style="columns:17em">
+* {{Item with Sprite|Throw Bone|icon=throw_bone}}
+* {{Item with Sprite|Throw Stick|icon=throw_stick}}
+* {{Item with Sprite|Frisbee|icon=frisbee}}
+</div>
+=== Treats ===
+<div style="columns:17em">
+* {{Item with Sprite|Training Treat|icon=training_treat}}
+* {{Item with Sprite|Super Treat|icon=super_treat}}
+* {{Item with Sprite|Master Treat|icon=master_treat}}
+* {{Item with Sprite|Kami Treat|icon=kami_treat}}
+</div>
+=== Utilities ===
+<div style="columns:15em">
+* {{Item with Sprite|Starter Bundle|icon=starter_bundle}}
+* {{Item with Sprite|Whistle|icon=whistle}}
+* {{Item with Sprite|Conducting Bone|icon=conducting_bone}}
+* {{Item with Sprite|Canine Tracker|icon=canine_tracker}}
+*[[File:All orbs.gif|21x21px]][[Locator Orbs]]
+* {{Item with Sprite|Empty Locator Orb|icon=empty_locator_orb}}
+* {{Item with Sprite|Breeding Bone|icon=breeding_bone}}
+* {{Item with Sprite|Doggy Charm|icon=doggy_charm}}
+* {{Item with Sprite|Treat Bag|icon=treat_bag}}
+* {{Item with Sprite|Energizer Stick|icon=energizer_stick}}
+* {{Item with Sprite|Band-Aid|icon=bandaid}}
+* {{Item with Sprite|Amnesia Bone|icon=amnesia_bone}}
+* {{Item with Sprite|Gender Bone|icon=gender_bone}}
+* {{Item with Sprite|Scent Treat|icon=scent_treat}}
+</div>
+
+=== Artifacts ===
+<div style="columns:17em">
+* {{Item with Sprite|Feathered Mantle|icon=feathered_mantle}}
+</div>
+=== Combat ===
+<div style="columns:17em">
+* {{Item with Sprite|Suspicious Looking Sickle |icon=sussy_sickle}}
+* Samurai Armor (in-dev)
+</div>
+=== Food ===
+==== Rice ====
+<div style="columns:17em">
+* {{Item with Sprite|Rice Bowl|icon=rice_bowl}}
+* {{Item with Sprite|Onigiri|icon=onigiri}}
+* {{Item with Sprite|Sake Nigiri Sushi|icon=salmon_sushi}} 
+* Nigirizushi (in-dev)
+* Temakizushi (in-dev)
+* Inarizushi (indev)
+* {{Item with Sprite|Gyudon|icon=gyudon}}
+* {{Item with Sprite|Oyakodon|icon=oyakodon}}
+* {{Item with Sprite|Natto Rice|icon=natto_rice}}
+* {{Item with Sprite|Bottle of Sake|icon=sake}} 
+</div>
+
+==== Soy ====
+<div style="columns:17em">
+* {{Item with Sprite|Unpodded Edamame|icon=edamame_unpodded}}
+* {{Item with Sprite|Tofu|icon=tofu}}
+* {{Item with Sprite|Aburaage|icon=aburaage}}
+* {{Item with Sprite|Natto|icon=natto}}
+* {{Item with Sprite|Soy Milk|icon=soy_milk}}
+* {{Item with Sprite|Miso Soup|icon=miso_soup}}
+</div>
+==== Others ====
+<div style="columns:17em">
+* {{Item with Sprite|Egg Sandwich|icon=egg_sandwich}}
+* {{Item with Sprite|Onsen Tamago|icon=onsen_tamago}}
+* {{Item with Sprite|Golden A5 Wagyu|icon=golden_a_five_wagyu}}
+* {{Item with Sprite|Sausage|icon=sausage}}
+</div>
+=== Farming ===
+==== Rice ====
+<div style="columns:17em">
+* {{Item with Sprite|Rice Grains|icon=rice_grains}}
+* {{Item with Sprite|Paddy Rice|icon=rice_wheat}}
+* {{Item with Sprite|Koji|icon=koji}}
+* {{Item with Sprite|Uncooked Rice|icon=uncooked_rice}}
+* {{Item with Sprite|Uncooked Rice in a Bowl|icon=uncooked_rice_bowl}}
+</div>
+==== Soy ====
+<div style="columns:17em">
+* {{Item with Sprite|Soy Beans|icon=soy_beans}} 
+* {{Item with Sprite|Soy Pods|icon=soy_pods}} 
+* {{Item with Sprite|Dried Soy Beans|icon=soy_beans_dried}} 
+* {{Item with Sprite|Dried Soy Pods|icon=soy_pods_dried}}
+* {{Item with Sprite|Edamame|icon=edamame}} 
+* {{Item with Sprite|Miso Paste|icon=miso_paste}} 
+</div>
+=== Customization ===
+==== Dyeable ====
+<div style="columns:17em">
+* {{Item with Sprite|Wool Collar |icon=wool_collar}}
+* {{Item with Sprite|Cape|icon=cape_coloured}}
+* {{Item with Sprite|Bowtie|icon=bowtie}}
+* {{Item with Sprite|Chopin Wig|icon=wig}}
+* {{Item with Sprite|Bach Wig|icon=bach_wig}}
+* {{Item with Sprite|Baker's Hat|icon=baker_hat}}
+* {{Item with Sprite|Chef's Hat|icon=chef_hat}}
+* {{Item with Sprite|Birthday Hat|icon=birthday_hat}}
+* {{Item with Sprite|Flying Cape|icon=flying_cape}}
+* {{Item with Sprite|Lab Coat|icon=lab_coat}}
+* {{Item with Sprite|Ceremonial Garb|icon=ceremonial_garb}}
+* {{Item with Sprite|Doggy Contact Lenses|icon=doggy_contacts}}
+* {{Item with Sprite|Flat Cap|icon=flatcap}}
+* {{Item with Sprite|Thick Wool Collar|icon=wool_collar_thicc}}
+* {{Item with Sprite|Angel Wings|icon=angel_wings}}
+* {{Item with Sprite|Dog Plushie|icon=dog_plushie_toy_item}}
+* {{Item with Sprite|Midi Keyboard|icon=midi_keyboard}}
+* {{Item with Sprite|Striped Scarf|icon=striped_scarf}}
+* {{Item with Sprite|Gift Costume|icon=dog_gift_costume}}
+</div>
+==== Non-dyeable ====
+<div style="columns:17em">
+* {{Item with Sprite|Spotted Collar|icon=spotted_collar}}
+* {{Item with Sprite|Multicoloured Collar|icon=multicoloured_collar}}
+* {{Item with Sprite|Tartan Cape |icon=tantan_cape}}
+* {{Item with Sprite|Dog Sunglasses|icon=sunglasses}}
+* {{Item with Sprite|Leather Jacket|icon=leather_jacket}}
+* {{Item with Sprite|Guard Suit|icon=guard_suit}}
+* {{Item with Sprite|Conan Suit|icon=conan_suit}}
+* {{Item with Sprite|Pianist Suit|icon=pianist_suit}}
+* {{Item with Sprite|Death Hood|icon=death_hood}}
+* {{Item with Sprite|Smarty Glasses|icon=smarty_glasses}}
+* {{Item with Sprite|Beastars's Female Uniform|icon=beastars_uniform_female}}
+* {{Item with Sprite|Beastars's Male Uniform|icon=beastars_uniform_male}}
+* {{Item with Sprite|Hot Dog|icon=hot_dog}}
+* {{Item with Sprite|Snorkel|icon=snorkel}}
+* {{Item with Sprite|Broomstick|icon=giant_stick}}
+* {{Item with Sprite|Head Band|icon=head_band_blank}}
+* {{Item with Sprite|Kitsune Mask|icon=kitsune_mask}}
+* {{Item with Sprite|Tengu Mask|icon=tengu_mask}}
+* {{Item with Sprite|Demon Horns|icon=demon_horns}}
+* {{Item with Sprite|Plague Doctor Mask|icon=plague_doctor_mask}}
+* {{Item with Sprite|Witch Hat|icon=witch_hat}}
+* {{Item with Sprite|SuperDog Suit|icon=superdog_suit}}
+* {{Item with Sprite|Bat Wings|icon=bat_wings}}
+* {{Item with Sprite|Crow Wings|icon=crow_wings}}
+* {{Item with Sprite|Divine Retribution|icon=divine_retribution}}
+* {{Item with Sprite|Soul Reflector|icon=soul_reflector}}
+* {{Item with Sprite|Fedora|icon=fedora}}
+* {{Item with Sprite|Propeller Hat|icon=propeller_hat}}
+* {{Item with Sprite|Angel Halo|icon=angel_halo}}
+* {{Item with Sprite|MrBlueYeti's Goose|icon=goose}}
+* {{Item with Sprite|Deer Antlers|icon=deer_antlers}}
+* [[File:Firefighter_suits.gif|21x21px]][[Firefighter Suits]]
+* [[File:Firefighter_hats.gif|21x21px]][[Firefighter Hats]]
+* [[File:Dragon_costume.gif|21x21px]][[Dragon Costume]]
+* {{Item with Sprite|Christmas Hat|icon=christmas_hat}}
+* {{Item with Sprite|Christmas Tree Costume|icon=dog_christmas_tree}}
+* {{Item with Sprite|Christmas Star|icon=dog_christmas_star}}
+</div>
+
+==== Others ====
+<div style="columns:17em">
+* {{Item with Sprite|Magnifying Bone|icon=magnifying_bone}}
+* {{Item with Sprite|Shrinking Mallet|icon=shrinking_mallet}}
+</div>
+=== Discs ===
+==== Chopin ====
+<div style="columns:35em">
+* {{Item with Sprite|Music Discs|F. Chopin - Valse Du Petit Chien|icon=disc_chopin_op64_no1}}
+</div>
+
+=== Creative Exclusive ===
+<div style="columns:17em">
+* {{Item with Sprite|Creative Collar|icon=creative_collar}}
+* {{Item with Sprite|Creative Canine Tracker|icon=creative_canine_tracker}}
+*[[File:Upright_piano.gif|21x21px]][[Upright Piano]]
+*[[File:Grand_piano.gif|21x21px]][[Grand Piano]]
+* {{Item with Sprite|Dog Animation Debug Stick|icon=dog_anim_debug_stick}}
+</div>
+
+=== Legacy/Removed===
+<div style="columns:17em">
+* {{Item with Sprite|Collar Shears|icon=collar_shears}}
+* {{Item with Sprite|Big Bone|icon=big_bone}}
+* {{Item with Sprite|Tiny Bone|icon=tiny_bone}}
+* {{Item with Sprite|Command Emblem|icon=command_emblem}}
+* {{Item with Sprite|Creative Radar|icon=creative_radar}}
+* {{Item with Sprite|Radar|icon=radar}}
+* {{Item with Sprite|Chew Stick|icon=chew_stick}}
+* {{Item with Sprite|Change Dog Owner|icon=owner_change}}
+</div>
+
+<div style="columns:34em">
+* {{Item with Sprite|Music Discs|J.S Bach - Art Of Fugue: Contrapunctus XI (BWV 1080) (Kimiko Ishizaka)|icon=disc_bwv_1080_fugue_11}}
+* {{Item with Sprite|Music Discs|J.S Bach - WTC I: Fugue in C♯ Minor (BWV 849) (Kimiko Ishizaka)|icon=disc_bwv_849_fugue}}
+* {{Item with Sprite|Music Discs|Okami - "Ryoshima Coast" (Arr. DashieDev for Organ)|icon=disc_okami_ryoshima_coast_arr}}
+</div>

@@ -1,0 +1,26 @@
+{{Item
+| image = Guard suit.png
+| id = guard_suit
+| type = Customization
+| Subtype = Non-dyeable
+| stackable = 64
+}}
+
+'''Guard Suit''' is a non-dyable equipable item that makes your dog look more trusty and stylish.
+
+[[File:Guard suit display.png|frameless|606x606px]]
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| String <br>+ Black Wool<br> + White Wool
+| [[File:Guard suit crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+== Trivia ==
+* It was added in the original Doggy Talents.

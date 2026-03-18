@@ -1,0 +1,24 @@
+'''Thick Collar''' is a dyable equipable accessory that makes your dog look stylish.
+{{Item
+| image = wool_collar_thicc.png
+| id = wool_collar_thicc
+| type = Customization
+| Subtype = Dyeable
+| stackable = 64
+}}
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Wool <br>+ Wool Collar
+| [[File:wool_collar_thicc_crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+
+== Trivia ==
+* It was introduced in DTN 1.18.11.

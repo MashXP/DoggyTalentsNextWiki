@@ -1,0 +1,25 @@
+{{Item
+| image = Leather jacket.png
+| id = leather_jacket
+| type = Customization
+| Subtype = Non_dyeable
+| stackable = 64
+}}
+
+'''Leather Jacket''' is a non-dyable equipable item that makes your dog look rad. B)
+
+[[File:Leather jacket display.png|frameless|606x606px]]
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Leather <br>+ Wool
+| [[File:Leather jacket crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+== Trivia ==
+It was added in the original Doggy Talents.

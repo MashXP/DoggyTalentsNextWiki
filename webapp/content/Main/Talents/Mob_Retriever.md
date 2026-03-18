@@ -1,0 +1,22 @@
+---
+title: Mob Retriever
+---
+
+
+
+> Allow your Dog to **retrieve mobs** by **forcing them onto its back.**
+> 
+> * To start, have a Dog with this ability nearby.
+> * You can then use a [Mob Retriever Whistle](Whistle) by pointing at the target you want the Dog to pick up and pressing Use.
+> * The Dog will go and retrieve the target.
+> * The target will continue to ride the Dog until the Dog sits down.
+> 
+> 
+> **Level determines the maximum volume of the mob's hitbox that the Dog can retrieve.**
+> 
+> **Mastering** it **removes the hitbox constraint.**
+
+## Trivia
+
+- It was added in DTN 1.17.0.
+- You can increase the size of your dog using a [Magnifying Bone](Magnifying_Bone) in order to retrieve bigger mobs!

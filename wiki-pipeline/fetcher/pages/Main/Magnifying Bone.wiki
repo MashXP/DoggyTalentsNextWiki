@@ -1,0 +1,30 @@
+{{Item
+| name = Magnifying Bone
+| image = Magnifying_bone.png
+| id = magnifying_bone
+| type = Customization
+| Subtype = Others
+| stackable = 1
+}}
+'''Magnifying Bone''' is an item that increases your dog's size.
+
+It can be used 10 times and can be enchanted with Unbreaking and Mending.
+
+[[File:Magnifying_bone_display.png|frameless|606x606px]]
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Bone<br>+ Glass Pane<br>+ Gold Ingot<br>+ Redstone Block
+| [[File:Magnifying bone crafting.png]]
+|}
+== Usage ==
+* '''<code>Right click</code>''' on your dog to use the item.
+== Trivia ==
+* It was introduced in DTN 1.15.0.
+* The item is a reference to '''The Magnifying Glass''' - a Thing in Paper Mario: Color Splash.<ref>https://www.mariowiki.com/Magnifying_Glass_(Paper_Mario:_Color_Splash)#/media/File:PMCS_Tangerino_Grill_freezer.png</ref>
+<references />

@@ -1,0 +1,32 @@
+'''Energizer Stick''' is an item that gives your dog:
+
+{{Item
+| image = Energizer stick.png
+| id = energizer_stick
+| type = Utilities
+| Properties = Gives your dog Glowing, Speed and Regeneration
+| stackable = 64
+}}
+* '''Glowing''' for 5 seconds.
+* '''Speed VII''' for 10 seconds.
+* '''Regeneration III''' for 5 seconds.
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Wheat <br>+ Sugar
+| [[File:Energizer stick crafting.gif]]
+|}
+
+== Usage ==
+* '''<code>Right click</code>''' on your dog to use the item.
+'''Note:'''
+* While giving it to your good boy, make sure he's sitting, because the &quot;sugar rush&quot; might put him in danger.
+* '''Tip:''' While in sticky situations, if you have yourself a [[Wolf Mount]] nearby, use an '''Energizer Stick''' to quickly escape!
+
+== Trivia ==
+
+* It was originally called [[Chew Stick]].

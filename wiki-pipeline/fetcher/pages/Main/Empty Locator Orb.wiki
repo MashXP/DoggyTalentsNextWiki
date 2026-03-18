@@ -1,0 +1,28 @@
+{{Item
+| image = Empty locator orb.png
+| id = empty_locator_orb
+| type = Utilities
+| stackable = 64
+}}
+
+'''Empty Locator Orb''' is a material used to craft the [[Locator Orbs]].
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| White Carpet <br>+ [[Radio Collar]]<br>+ String<br>+ Glass Block
+|[[File:Empty locator orb crafting.png]]
+|}
+
+== Used in ==
+* [[Locator Orbs]]
+
+== Trivia ==
+* It was introduced in DTN 1.16.0.
+* The item is a direct reference to '''The Satomi Power Orbs''' from the game '''OKAMI''' <ref>https://okami.fandom.com/wiki/Canine_Warriors</ref>
+
+<references />

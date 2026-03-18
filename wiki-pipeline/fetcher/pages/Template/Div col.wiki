@@ -1,0 +1,15 @@
+<includeonly><div class="div-col columns column-width" style="{{column-width|{{{colwidth|30em}}}}} <!--
+ -->{{#if: {{{gap|}}}
+    | {{column-gap|{{{gap}}}}} }}<!--
+ -->{{#switch: {{{rules|}}}
+    | = <!--empty-->
+    | yes = {{column-rule}}
+    | {{Column-rule|{{{rules}}}}} }} <!--
+ -->{{#ifeq: {{{small|}}}|yes
+    | font-size:90%; }} <!--
+ -->{{#if: {{{style|}}}
+    | {{{style}}} }}"><!--
+ -->{{#if: {{{content|}}}
+    |{{{content}}}</div>}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

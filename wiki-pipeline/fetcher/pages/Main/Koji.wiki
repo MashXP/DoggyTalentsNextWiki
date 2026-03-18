@@ -1,0 +1,42 @@
+'''Koji''' is a rice-related crafting material.
+
+{{Item
+| name = 
+| image = Koji.png
+| id = koji
+| type = Farming
+| Subtype = Rice
+| stackable = 64
+}}
+
+== Obtaining ==
+
+=== Breaking Rice Crops ===
+
+* It can be obtained in random chance by breaking [[Paddy Rice|Rice Crops]].
+
+=== Crafting ===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe
+|-
+|Koji
++ [[Uncooked Rice]]
+
++ Sugar
+|[[File:Koji crafting.png]]
+|}
+
+== Used In ==
+
+* [[Band-Aid]]
+* [[Miso Paste]]
+* [[Natto]]
+* [[Doggy Contact Lenses]]
+* [[Sake]]
+
+== Trivia ==
+
+* It was added in DTN 1.18.0.
+* Koji - 麹 is a filamentous fungus (a mold) used in East Asia to saccharify rice... in the making of alcoholic beverages such as sake and shōchū, and also to ferment soybeans for making soy sauce and miso. <ref>[https://en.wikipedia.org/wiki/Aspergillus_oryzae Aspergillus oryzae - Wikipedia]</ref>

@@ -1,0 +1,21 @@
+== Items ==
+Sample Page: {{Item with Sprite|Baker's Hat|icon=baker_hat}}
+*{{Item with Sprite|Hot Dog|icon=hot_dog}}
+*{{Item with Sprite|Snorkel|icon=snorkel}}
+*{{Item with Sprite|Broomstick|icon=giant_stick}}
+*{{Item with Sprite|Head Band|icon=head_band_blank}}
+*{{Item with Sprite|Kitsune Mask|icon=kitsune_mask}}
+*{{Item with Sprite|Tengu Mask|icon=tengu_mask}}
+*{{Item with Sprite|Demon Horns|icon=demon_horns}}
+*{{Item with Sprite|Plague Doctor Mask|icon=plague_doctor_mask}}
+*{{Item with Sprite|Witch Hat|icon=witch_hat}}
+*{{Item with Sprite|SuperDog Suit|icon=superdog_suit}}
+*{{Item with Sprite|Bat Wings|icon=bat_wings}}
+*{{Item with Sprite|Crow Wings|icon=crow_wings}}
+*{{Item with Sprite|Divine Retribution|icon=divine_retribution}}
+*{{Item with Sprite|Soul Reflector|icon=soul_reflector}}
+*{{Item with Sprite|Fedora|icon=fedora}}
+*{{Item with Sprite|Propeller Hat|icon=propeller_hat}}
+*{{Item with Sprite|Angel Halo|icon=angel_halo}}
+*[[File:Upright_piano.gif|21x21px]][[Upright Piano]]
+*[[File:Grand_piano.gif|21x21px]][[Grand Piano]]

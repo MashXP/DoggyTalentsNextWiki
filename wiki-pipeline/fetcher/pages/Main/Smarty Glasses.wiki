@@ -1,0 +1,24 @@
+{{Item
+| image = Smarty glasses.png
+| id = smarty_glasses
+| type = Customizable
+| stackable = 64
+}}
+
+'''Smarty Glasses''' is a non-dyable equipable item that makes your dog look smart.
+
+[[File:Smarty glasses display.png|frameless|606x606px]]
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe ''(shapeless)''
+|-
+| [[Dog Sunglasses]] <br>+ Redstone Dust
+| [[File:Smarty glasses crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+== Trivia ==
+* It was introduced in DTN 1.11.0. It is said to have been modeled after MashXP's glasses.

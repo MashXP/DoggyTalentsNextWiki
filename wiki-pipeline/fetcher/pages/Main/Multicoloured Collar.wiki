@@ -1,0 +1,26 @@
+{{Item
+| image = Multicoloured collar.png
+| id = multicoloured_collar
+| type = Customization
+| Subtype = Non-dyeable
+| stackable = 64
+}}
+
+'''Multicolored Collar''' is a non-dyable equipable item that ''fabulizes'' your dog's collar.
+
+[[File:Multicoloured collar display.png|frameless|606x606px]]
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe ''(shapeless)''
+|-
+| Wool Collar <br>+ Red Dye<br>+ Orange Dye<br>+ Yellow Dye<br>+ Blue Dye<br>+ Lime Dye<br>+ Purple Dye <br>+ String
+| [[File:Multicoloured collar crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+== Trivia ==
+It was added in the original Doggy Talents.

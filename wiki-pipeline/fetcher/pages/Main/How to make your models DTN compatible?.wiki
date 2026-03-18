@@ -1,0 +1,201 @@
+==== Disclaimer: ====
+
+* This tutorial is for models that have major alterations to the vanilla models (eg. Adding/Removing cubes). 
+* For re-texturing only, it is not necessary to do so. So if you are interested, click [[How to add more skins through Resource Packs?|here]]. 
+* The model being featured in this tutorial is the Basset Hound from MrBlueYeti's BetterDogs project for [https://www.curseforge.com/minecraft/mc-mods/better-dogs-x-doggy-talents-next Better Dogs X Doggy Talents Next]. Go check it out! 🥰
+
+----Difficulty: 🦴🦴🦴
+
+* Required Software: [https://www.blockbench.net/ Blockbench].
+* Required Knowledge:
+** Need to have basic Blockbench knowledge
+
+----I have provided you the template for you to work on, which you can download [https://drive.google.com/file/d/10Qzf4FimrNXGG8qFBK7c71XyfOUuRWvp/view?usp=sharing here].
+[[File:Addon1.1.png|center|700x700px]]
+
+== Re-Grouping the Parents ==
+{| class="wikitable"
+|+
+!Steps
+!Description
+!Demonstration
+|-
+|1
+|Open your Dog Model file (mine is the Basset Hound from BetterDogs RP) and the DefaultDogModel.bbmodel (DDM) file that I just sent you.
+|[[File:Addon1.2.png|500x500px]]
+|-
+|2
+|Copy the "root" group from DDM to your model, then paste it as the outermost group.
+|[[File:Addon1.3.gif|500x500px]]
+|-
+| colspan="3" |[[File:Addon1.4.png|center|thumb|400x400px|The root should consist of:]]
+|-
+| rowspan="3" |3
+| colspan="2" |Locate the parent group (or cubes) corresponding for each parts listed above.
+
+* Helpful shortcuts:
+** <code>V</code>: Move
+** <code>R</code>: Rotate
+** <code>P</code>: Pivot
+** <code>S</code>: Scale
+* While adjusting:
+** Holding <code>Shift</code>: +,- 0.25
+** Holding <code>Ctrl</code>: +,- 0.1
+|-
+|Copy and Paste the parts to the corresponding group ''(Use the Move or Rotate tool if necessary)''
+''Keep in mind that you have to match the parts '''exactly the same''' as your old model.''
+|
+{| class="wikitable"
+|-
+|[[File:Addon1.5.gif|500x500px]]
+|}
+|-
+|''Make sure you set the pivot and delete the opposite group before duping the cubes!''
+|[[File:Addon1.7.gif|500x500px]]
+|-
+| colspan="3" |[[File:Addon1.6.png|center|thumb|404x404px|Everything belongs to the head group ''(including right/left_ear)'' should be inside of the real_head group.]]
+|-
+|4
+|Finally the tail, you have to make the tail rotation into 0, which means it points down directly to the ground.
+|[[File:Addon1.8.gif|500x500px]]
+|-
+|5
+|You can now yeet the old groups as the current model is now DTN compatible.
+|[[File:Addon1.9.gif|500x500px]]
+|}
+
+== Fine-tuning the Parent Pivots ==
+{| class="wikitable"
+!
+!
+!
+|-
+|1
+|Open your Dog Model file (mine is the Basset Hound from BetterDogs RP) and the DefaultDogModel.bbmodel (DDM) file that I just sent you.
+|[[File:Addon1.2.png|500x500px]]
+|-
+| colspan="3" |[[File:Addon1.4.png|center|thumb|400x400px|The root should consist of:]]
+|}
+{| class="wikitable"
+!Steps
+!Description
+!Demonstration
+|-
+|1
+|Things to note for each pivot:
+
+* head: usually the center.
+* real_head must have the same pivot values as the head.
+|[[File:Addon1.10.png|500x500px]]
+|-
+| rowspan="2" |2
+|
+* ears: between the eyes and the corner of the head OR at the connecting point between the head and the ears.
+|[[File:Addon1.11.png|500x500px]]
+|-
+|
+* Symmetrical items' (like legs and ears) pivots have the same y and z values and only the x value has positive or negative of the same number.
+|[[File:Addon1.12.png|499x499px]][[File:Addon1.13.png|468x468px]]
+|-
+|3
+|
+* upper_body: at the center ''(there might be changes to the y and z values)''
+** upper_body group must be -90
+|[[File:Addon1.14.png|500x500px]]
+|-
+|4
+|
+* body: move towards the mane a little bit from the center ''(there might be changes to the y and z values)''
+** body group must be -90
+|[[File:Addon1.15.png|503x503px]]
+|-
+|5
+|
+* legs: usually at the connecting point of the leg and the mane/body 
+|[[File:Addon1.16.png|500x500px]][[File:Addon1.17.png|500x500px]]
+|-
+|6
+|
+* tail: usually at the top tip center of the butt ''(you can try rotating the x-value to see if it's correct or not)''
+** real_tail must have the same pivot values as the tail
+|[[File:Addon1.18.gif|504x504px]]
+|}
+
+== Testing the Animations ==
+{| class="wikitable"
+!Steps
+!Description
+!Demonstration
+|-
+|1
+|Locate the '''Animate''' tab
+
+''(if you don't see the Animate tab, try converting the model to Modded Entity).''
+|[[File:Addon1.19.png|504x504px]]
+|-
+|2
+|One by one, Copy and Paste each animations from DGDM to your current model.
+|[[File:Addon1.20.gif|504x504px]]
+|-
+|3
+|Test for abnormalities. If it happens go back to Edit and fix the pivots, try to tinker with the pivot values, and see if it's getting better ''(I have no clear way to explain this, sorry x.x)''.
+''(Common issues: head getting detached 💀, leg poking through the body, tail going weird...).Note: some animations (sit, tail_chase,...) need the tail to be rotated to some degree (preferably x = -110) to make it look good. After that remember to revert it to x=0.The '''last resort''''' is to '''move''' the cubes,
+
+...and the '''''last last LAST''''' is to use '''scale'''.
+
+
+''Tip: You can add connecting cubes but make sure you know what you're doing.''
+|[[File:Addon1.21.png|center|thumb|370x370px|''For example, in this case the hind legs are poking too deep underground'']][[File:Addon1.22.png|center|thumb|370x370px|''Solution: Move the y-pivot up by 2.'']]
+|}
+
+== Finalizing ==
+After all of the animations look decent or "acceptable":
+{| class="wikitable"
+!Steps
+!Description
+!Demonstration
+|-
+|1
+|Right-click the "root" group then '''Resolve the "root"''' 
+
+''(some animations no longer work after this, so the best thing you can do is to save it as your "de-rooted" files from here).''
+|[[File:Addon1.23.gif|504x504px]]
+|-
+|2
+|Convert the file into '''Modded Entity''' ''(if it's in another format)''.
+|
+|-
+|3
+|Double-check the file <s>as well as your decisions in life...</s>
+* The tail's x-rotation should be 0.
+* the root has been resolved.
+* all of the items in the head group must belong to the real_head, same with the tail and real_tail...
+* Pivots of real_head and head (tail and real_tail) are the same.
+* ...
+|
+|-
+|4
+|'''Get up and drink some water or do light exercises!!!''' - ''says MashXP''
+|no <s>(not yet)</s>
+|-
+|5
+|'''Rinse and Repeat''' for your other models!
+|
+|}
+
+=== '''Final Product''' ===
+[[File:{{#setmainimage:Addon1.24.gif}} |center]]
+----
+
+==== '''''A note for future you:''''' ====
+<blockquote>''Next time if you're planning to work on a new dog model.'' 
+
+''Use the DefaultDogModel.bbmodel as a template to make it easier for implementation!''</blockquote>
+----
+
+
+I hope you find this guide helpful, feel free to ask any questions during the process (or maybe later on, I don't mind xD).
+
+'''Good luck!!! がんばってね〜！(⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠✧'''
+
+[[File:Code dogs.png|center|681x681px]]

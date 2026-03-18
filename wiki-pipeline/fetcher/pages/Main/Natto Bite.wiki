@@ -1,0 +1,4 @@
+'''Natto Bite''' is an effect your dog can acquired from eating [[Natto]], and [[Natto Rice]]. 
+
+
+Your dog's attack will inflict '''Slowness IV''' on targeted mobs for '''30 seconds.'''

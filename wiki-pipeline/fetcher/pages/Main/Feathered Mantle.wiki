@@ -1,0 +1,31 @@
+'''Feathered Mantle''' is a craftable artifact that makes your dog float.
+
+{{Item
+| name = 
+| image = Feathered mantle.png
+| id = feathered_mantle
+| type = Artifacts
+| stackable = 1
+}}
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Phantom Menbrane<br>+ Feather<br>+ Super Treat
+| [[File:Feathered mantle crafting.gif]]
+|}
+== Usage ==
+[[File:Doggy Artifacts menu.gif|thumb]]
+* '''<code>Right click</code>''' your dog with a [https://minecraft.wiki/w/Stick Stick] to access the [[Dog Menu]]. Then navigate to the [[Dog Menu|Info Tab]].
+* Click on '''<code>Doggy Artifacts</code>''' to equip the item. <br>
+
+== Trivia ==
+* The item is a reference to a Japanese Mythology - Hagoromo (羽衣 - The Feather Mantle) <ref>https://en.wikipedia.org/wiki/Hagoromo_(play)</ref>
+* The Mantle's color was originally Pink.
+* It was introduced in DTN 1.15.0.
+
+<references />

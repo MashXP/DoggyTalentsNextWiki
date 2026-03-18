@@ -1,0 +1,31 @@
+'''Aburaage''' is a delicious food item that gives you 5 hunger points.
+
+{{Item
+| name = 
+| image = Aburaage.png
+| id = aburaage
+| type = Food
+| Subtype = Soy
+| Properties = Hunger points: 5/10
+| stackable = 64
+| Description = Also known as Fried Tofu. Can be used to make Inarizushi.
+}}
+
+Your dog can also eat this, so don't be shy to share it with your furry pal!
+
+==Obtaining==
+===Smelting===
+{| class="wikitable"
+|-
+!Ingredients
+!(Smelting, Campfire, Smoker) Recipe
+|-
+|[[Tofu]]
+|[[File:Aburaage smelting.png|336x336px]]
+|}
+==Usage==
+*'''<code>Right click</code>''' to use the item.
+==Used In==
+*Inarizushi (WIP)
+==Trivia==
+*It was added in DTN 1.18.0.

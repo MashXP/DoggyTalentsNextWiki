@@ -1,0 +1,53 @@
+This template is to be used in a Licensing heading on file pages to denote the file's license.
+
+'''All acceptable first parameter examples:'''
+
+<nowiki>{{License|Mojang}}</nowiki>
+{{License|Mojang}}
+
+<nowiki>{{License|CC0}}</nowiki>
+{{License|CC0}}
+
+<nowiki>{{License|CC-BY-NC-ND}}</nowiki>
+{{License|CC-BY-NC-ND}}
+
+<nowiki>{{License|CC-BY-NC-SA}}</nowiki>
+{{License|CC-BY-NC-SA}}
+
+<nowiki>{{License|CC-BY-NC}}</nowiki>
+{{License|CC-BY-NC}}
+
+<nowiki>{{License|CC-BY-ND}}</nowiki>
+{{License|CC-BY-ND}}
+
+<nowiki>{{License|CC-BY-SA}}</nowiki>
+{{License|CC-BY-SA}}
+
+<nowiki>{{License|CC-BY}}</nowiki>
+{{License|CC-BY}}
+
+<nowiki>{{License|CC-PD}}</nowiki>
+{{License|CC-PD}}
+
+<nowiki>{{License|CC-SRR}}</nowiki>
+{{License|CC-SRR}}
+
+'''Providing no parameter (or invalid one) defaults to the nolicense notice:'''
+
+<nowiki>{{License}}</nowiki>{{License}}
+
+'''Source parameter (optional):'''
+
+The source parameter accepts a url to the source where the file came from if necessary for attribution.
+
+Example:
+
+<nowiki>{{License|Mojang|source=https://www.minecraft.net/}}</nowiki>
+{{License|Mojang|source=https://www.minecraft.net/}}
+
+<includeonly>
+[[Category:License Templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation]]
+</noinclude>

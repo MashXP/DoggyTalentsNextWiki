@@ -1,0 +1,30 @@
+{{Item
+| image = Cape coloured.png
+| id = cape_coloured
+| type = Customization
+| Subtype = Dyeable
+| stackable = 64
+}}
+
+'''Cape''' is a dyable equipable material that makes your dog look nice.
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Strings <br>+ Leather <br>+ Wool
+| [[File:Cape coloured crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+
+== Used In ==
+* [[Death Hood]]
+* [[Beastars's Female Uniform]]
+* [[Pianist Suit]]
+== Trivia ==
+* It was added in the original DT, named '''Colored Cape''' but later changed to '''Cape'''.
+* The original crafting recipe initially used 6 leather but then later replaced by 3 leather and 3 wool.

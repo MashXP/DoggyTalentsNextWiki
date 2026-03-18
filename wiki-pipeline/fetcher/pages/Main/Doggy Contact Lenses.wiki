@@ -1,0 +1,28 @@
+{{Item
+| image = Doggy contacts.png
+| id = doggy_contacts
+| type = Customization
+| Subtype = Double Dyeable
+| stackable = 64
+| Description = Craft with Paper to Dye the other len.
+}}
+
+'''Doggy Contact Lenses''' is a double-dyeable equipable item that customizes your dog's eye colors.
+[[File:Doggy contacts display2.png|thumb|205x205px|Double-Dyeable!]]
+[[File:Doggy contacts display.png|592x592px|2023-08-01_18 51 47]]
+==Obtaining==
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe
+|-
+|Glass Pane
++ [[Bottle of Sake]]
+|[[File:Doggy contacts crafting.png]]
+|}
+==Usage==
+{{Accessory_use}}
+==Trivia==
+*It was introduced to DTN 1.18.5.
+*It was suggested by a Discord user - @pipthewolfy.

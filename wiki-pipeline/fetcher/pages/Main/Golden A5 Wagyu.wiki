@@ -1,0 +1,43 @@
+'''Golden A5 Wagyu''' is a '''very delicious''' food item that fills up a full hunger bar and gives you:
+
+{{Item
+| name = 
+| image = Golden a five wagyu.png
+| id = golden_a_five_wagyu
+| type = Food
+| stackable = 64
+| Description = It tastes expensive...and funny?
+| Subtype = Other
+| Properties = Hunger points: 10/10
+
+Regeneration II: 1min.
+
+Resistance II: 1min.
+
+Saturation II: 1min.
+}}
+*'''Regeneration II''' for '''1 minute'''.
+*'''Resistance II''' for '''1 minute.'''
+*'''Saturation II''' for '''1 minute.'''
+Your dog can also eat this, so don't be shy to share it with your furry pal!
+
+
+If your dog gets [[Immortal Dogs|incapacited]] by starving, this is the '''only way''' you can bring it back.
+==Obtaining==
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe
+|-
+|Golden Nugget 
++ [[Training Treat]]
+
++ Steak
+|[[File:Golden a five wagyu crafting.png|484x484px]]
+|}
+==Usage==
+*'''<code>Right click</code>''' to use the item.
+==Trivia==
+*It was added in DTN 1.17.2.
+<s>Not sponsored by SaltBae</s>

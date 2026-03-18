@@ -1,0 +1,9 @@
+<blockquote>[[File:Pillow paw talent.gif|thumb|452x452px|Fluffy~]]Each level allows your Dog to fall '''3 more blocks before taking damage'''.
+
+
+'''Mastering''' this skill will allow your Dog to '''completely''' '''negate fall damage.'''</blockquote>
+
+== Trivia ==
+
+* You can achieve the same effect with the [[Feathered Mantle]].
+* This talent will be disabled when [[Flying Furball]] is active, any points spent will be refunded.

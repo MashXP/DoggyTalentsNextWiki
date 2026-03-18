@@ -1,0 +1,32 @@
+'''Natto''' is a food item that fills up 3 hunger points and gives you your dog [[Natto Bite]] effect for '''3 minutes'''.
+
+{{Item
+| image = Natto.png
+| id = natto
+| type = Food
+| Subtype = Soy
+| Properties = Hunger points: 3/10
+| stackable = 64
+| Description = Sticky Sticky Fermented BEANS!
+}}
+
+Your dog can also eat this, so don't be shy to share it with your furry pal!
+==Obtaining==
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe ''(shapeless)''
+|-
+|[[Soy Beans]]+ [[Koji]]
++ Brown Mushroom
+|[[File:Natto crafting.png|408x408px]]
+|}
+==Usage==
+*'''<code>Right click</code>''' to use the item.
+
+== Used In ==
+*[[Natto Rice]]
+==Trivia==
+*It was added in DTN 1.18.0.
+*'''''Nattō''''' (納豆) is a traditional Japanese food made from whole soybeans that have been fermented with ''Bacillus subtilis'' var. ''natto''.<ref>[https://en.wikipedia.org/wiki/Natt%C5%8D Nattō - Wikipedia]</ref>

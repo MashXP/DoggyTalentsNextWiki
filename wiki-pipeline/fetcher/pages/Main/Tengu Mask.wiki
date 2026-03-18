@@ -1,0 +1,26 @@
+'''Tengu Mask''' is a non-dyeable equipable item that makes your dog look mystical.{{Item
+| image = Tengu_mask.png
+| id = tengu_mask
+| type = Customization
+| Subtype = Non-dyeable
+| stackable = 64
+| Description = Right-click with a String to switch the mask's position
+}}[[File:Tengu_mask_display.png|none|thumb|600x600px|No MATTER WHAT! Don't go out at night!]]
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe ''(shapeless)''
+|-
+| Red Dye <br>+ Black Dye<br>+ [[Head Band]]
+| [[File:Tengu_mask_crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+== Trivia ==
+* It was introduced in DTN 1.17.2.
+* The mask was based on a mythical creature depicted in Japanese folklore.<ref>[https://en.wikipedia.org/wiki/Tengu Tengu - Wikipedia]</ref>
+
+<references />

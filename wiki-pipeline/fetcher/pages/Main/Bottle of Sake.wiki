@@ -1,0 +1,66 @@
+{{Item
+| name = 
+| image = Sake.png
+| id = sake
+| type = Food
+| Subtype = Rice
+| Properties = Resistance II: 1 min.
+
+Strength II: 1 min.
+
+Speed for: 1 min.
+
+Haste for: 1 min.
+
+---Drunk---
+
+Nausea II
+
+Slowness IV
+
+Mining Fatigue II
+
+Blindness IV
+
+Players: 1 - 2mins.
+
+Dogs: 30 - 45 secs
+| stackable = 64
+| Description = Drink responsibly! Not suitable for underage doggos!
+}}
+
+'''Bottle of Sake''' is a potion that gives you:
+
+* '''Resistance II''' for '''1 minute.'''
+* '''Strength II''' for '''1 minute.'''
+* '''Speed''' for '''1 minute.'''
+* '''Haste''' for '''1 minute.'''
+
+However, there's a random chance of you and your dog getting drunk so be careful! The drunk effect includes:
+
+* '''Nausea II'''
+* '''Slowness IV'''
+* '''Mining Fatigue II'''
+* '''Blindness IV'''
+
+for '''1 to 2 minutes'''.
+
+''(for Dogs: 30 - 45 seconds.)''
+
+Your dog can also drink this, so don't be shy to share it with your furry pal! (Drink moderately.)
+==Obtaining==
+===Brewing===
+{| class="wikitable"
+|-
+!Ingredients
+!Brewing Recipe
+|-
+|Water Bottle + [[Koji]]
+|[[File:Sake brewing.gif|336x336px]]
+|}
+==Usage==
+*'''<code>Right click</code>''' to use the item.
+==Used In==
+*[[Doggy Contact Lenses]]
+==Trivia==
+*It was added in DTN 1.18.0.

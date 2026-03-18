@@ -1,0 +1,25 @@
+'''Ceremonial Garb''' is a dyable equipable accessory that makes your dog look powerful.
+{{Item
+| image = Ceremonial_garb.png
+| id = ceremonial_garb
+| type = Customization
+| Subtype = Dyeable
+| stackable = 64
+}}
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Wool Carpet
++ Lead<br>+ [[Wool Collar]]
+| [[File:Ceremonial_garb_crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+
+== Trivia ==
+* It was introduced in DTN 1.18.0

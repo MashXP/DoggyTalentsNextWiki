@@ -1,0 +1,23 @@
+'''Chopin Wig''' is a dyable equipable accessory that makes your dog look fancy.{{Item
+| image = Wig.png
+| id = wig
+| type = Customization
+| Subtype = Dyeable
+| stackable = 64
+}}
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Wool <br>+ Wool Collar
+| [[File:Wig_crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+
+== Trivia ==
+* It was introduced in DTN 1.11.0.

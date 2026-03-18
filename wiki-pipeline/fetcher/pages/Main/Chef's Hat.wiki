@@ -1,0 +1,28 @@
+{{Item
+| image = Chef hat.png
+| id = chef_hat
+| type = Customization
+| Subtype = Dyeable
+| stackable = 64
+| Description = Finally, some good sushi...
+}}
+
+Chef's Hat is a dyeable equipable item that stylizes your dog.
+[[File:Chef hat display.png|alt=2023-08-01_18 51 47|none|thumb|693x693px|Display provided by @Archon]]
+
+==Obtaining==
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe
+|-
+|Any Wool
++ Leather Cap
+|[[File:Chef hat crafting.png]]
+|}''Requires Bread to unlock the recipe.''
+==Usage==
+{{Accessory_use}}
+==Trivia==
+*It was introduced to DTN 1.17.2.
+*The item's description is a reference to a popular Gordon Ramsay meme.

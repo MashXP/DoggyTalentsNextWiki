@@ -1,0 +1,41 @@
+The '''maximum''' amount of Talent points you can get is '''105''' (15+20+20+20+30). ''(Or it can be bypassed with the [[Creative Collar]])''. Use it wisely...
+
+Here are the documented talents:
+<div style="columns:15em">
+* [[Bed Dog]]
+
+*[[Bed Finder]]
+*[[Black Pelt]]
+*[[Guard Dog]]
+*[[Hunter Dog]]
+*[[Wolf Mount]]
+*[[Hell Hound]]
+*[[Pack Puppy]]
+*[[Pillow Paw]]
+*[[Quick Healer]]
+*[[Creeper Sweeper]]
+*[[Doggy Dash]]
+*[[Fisher Dog]]
+*[[Happy Eater]]
+*[[Pest Fighter]]
+*[[Poison Fang]]
+*[[Rescue Dog]]
+*[[Shepherd Dog]]
+*[[Roaring Gale]]
+*[[Swimmer Dog]]
+*[[Doggy Torch]]
+*[[Doggy Armor]]
+*[[Puppy Eyes]]
+*[[Water Holder]]
+*[[Doggy Tools]]
+*[[Shock Absorber]]
+*[[Mob Retriever]]
+*[[Flying Furball]]
+*[[Chemi Canine]]
+*[[Fire Drill]]
+*[[Sniffer Dog]]
+*[[Gate Woof]]
+*[[Ookamikaze]]
+</div>
+
+''(For gaining '''Talents''', see [[Leveling Systems]] or '''[[Items#Treats|Treats]]''' under [[Items]].)''

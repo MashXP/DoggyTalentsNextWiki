@@ -1,0 +1,11 @@
+<blockquote>[[File:Poison fang talent.gif|thumb|353x353px|Very effective against Witches!]]Your Dog's '''attacks will poison its target''', and the '''duration of the poison increases with level.'''  
+
+
+At '''level 3''' your Dog becomes '''immune to poison.'''
+
+
+'''Mastering''' this skill allows '''you to cleanse yourself of all potion effects''', including poison, by '''<code>Right click</code>''' on your Dog with a [https://minecraft.wiki/w/Spider_Eye Spider Eye], at the cost of '''30 [[Basic Core Stats|Nourishment Points]]'''.</blockquote>
+
+== Trivia ==
+
+* It was added in the original DT.

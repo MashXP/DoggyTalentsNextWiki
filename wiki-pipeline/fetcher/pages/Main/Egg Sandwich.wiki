@@ -1,0 +1,35 @@
+{{Item
+| name = 
+| image = Egg sandwich.png
+| id = egg_sandwich
+| type = Food
+| stackable = 64
+| Description = Delicious Tamago Sando! Legoshi and Legom approved.
+}}
+
+'''Egg Sandwich''' is a delicious food item that fills up 3 hunger points and gives you Regeneration II for 3 seconds.
+
+Your dog can also eat this, so don't be shy to share it with your furry pal!
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Bread <br>+ Egg
+|[[File:Egg sandwich crafting.png|484x484px]]
+|}
+== Usage ==
+* '''<code>Right click</code>''' to use the item.
+== Trivia ==
+[[File:Mashxp's Egg Sandwich.png|thumb|263x263px|''Real-life replica of Egg Sandwich made at Dashie's home'']]
+
+* It was added in DTN 1.12.0.
+
+* This item is a direct reference to '''Legoshi''''s favorite food - from '''Beastars'''.
+* According to DashieDev, the item used '''[https://minecraft.wiki/w/Cooked_Chicken Cooked Chicken]''''s code as the base. <s>sorry Legom</s>
+
+[https://media.tenor.com/0vF7P1lNTFwAAAAd/beastars-egg-sandwich.gif ''- Legoshi eating Egg Sandwich -''] <ref>SS 1 Ep 7: Below the Fur Coat - 01:04.</ref>
+
+<references />

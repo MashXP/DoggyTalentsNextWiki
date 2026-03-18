@@ -1,0 +1,4 @@
+== Licensing ==
+{{License|CC-BY}}
+
+[[Category:Items]]

@@ -1,0 +1,31 @@
+
+{{Item
+| image = Bach wig.png
+| id = bach_wig
+| type = Customization
+| Subtype = Dyeable
+| stackable = 64
+}}
+
+'''Bach Wig''' is a dyeable equipable item that helps your dog impersonate a very famous composer.<br>
+[[File:Bach wig display.png|592x592px|2023-08-01_18 51 47]]
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Strings <br>+ Bone
+| [[File:Bach wig crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+
+== Trivia ==
+* It was introduced to DTN 1.15.0.
+* It was modeled after Johann Sebastian Bach - a German composer and musician of the late Baroque period <s>whose work DashieDev is obsessed with</s>.<ref>https://en.wikipedia.org/wiki/Johann_Sebastian_Bach</ref>
+
+* Before DTN 1.18.28, if this item is worn by a Dog, while killing mobs, there's a 0.15% chance of dropping a [[Items#Discs|Bach Disc]].
+
+<references />

@@ -1,0 +1,24 @@
+'''Midi Keyboard''' is a dyable equipable accessory that makes your dog look musical.
+{{Item
+| image = Midi_keyboard.png
+| id = midi_keyboard
+| type = Customization
+| Subtype = Dyeable
+| stackable = 64
+}}
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Wool <br>+ Wool Collar
+| [[File:Midi_keyboard_crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+
+== Trivia ==
+* It was introduced in DTN 1.18.30.

@@ -1,0 +1,2 @@
+This category contains the documentation pages for the wiki's templates.
+[[Category:Templates]]

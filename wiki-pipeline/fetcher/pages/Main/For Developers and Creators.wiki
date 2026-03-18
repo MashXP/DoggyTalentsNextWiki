@@ -1,0 +1,19 @@
+<blockquote>This is where you can find all of the '''necessary documentation''' to be assisted in '''building upon or extending Doggy Talents Next,''' either through 
+
+contributions directly to the base source code, assets, or external means like resource packs.</blockquote>
+[[File:Code dogs.png|center|955x955px]]
+
+
+Depending on which group your intentions classify on, proceed through the following:
+
+=== '''Contributing''' to the Base: ===
+* [[Setting up your Dev Environment]].
+* Start Implementing Things. (WIP).
+
+=== '''Extending''' the Project: ===
+
+==== [[How to add more skins through Resource Packs?|'''Resource Packs''' - Adding more '''Skins''']]. ====
+
+==== '''Addons''' - Implementing more '''Models'''. ====
+* [[How to make your models DTN compatible?]]
+* [[How to implement your models into DTN?]]

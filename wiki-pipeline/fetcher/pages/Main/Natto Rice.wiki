@@ -1,0 +1,26 @@
+'''Natto Rice''' is a delicious food item that fills up 4 hunger points and gives your dog [[Natto Bite]] effect for 5 minutes.{{Item
+| image = Natto rice.png
+| id = natto_rice
+| type = Food
+| Subtype = Rice, Soy
+| Properties = Hunger points: 4/10
+Dog - Natto Bite: 5 minutes
+| stackable = 64
+| Description = Best way to enjoy Natto!
+}}
+
+Your dog can also eat this, so don't be shy to share it with your furry pal!
+==Obtaining==
+===Crafting===
+{| class="wikitable"
+|-
+!Ingredients
+!Recipe
+|-
+|[[Natto]]+ [[Rice Bowl]]
+|[[File:Natto rice crafting.png]]
+|}
+==Usage==
+*'''<code>Right click</code>''' to use the item.
+==Trivia==
+*It was added in DTN 1.18.0.

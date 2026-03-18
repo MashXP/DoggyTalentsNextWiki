@@ -1,0 +1,29 @@
+{{Item
+| image = Starter bundle.png
+| id = starter_bundle
+| type = Utilities
+| stackable = 64
+| Description = Contains Items which assists you in starting with Doggy Talents Next. These includes:
+}}
+
+'''Starter Bundle''' is an item that gives you certain items to make the game a bit easier (suitable for beginners). These includes:
+
+* [[Doggy Charm]] x1
+* [[Whistle]] x1
+* [[Radio Collar]] x1
+* [[Canine Tracker]] x1
+* [https://minecraft.fandom.com/wiki/Stick Stick] x1
+* [https://minecraft.fandom.com/wiki/Bone Bone] x1
+
+==Obtaining==
+===Upon Create New World===
+If you have '''<code>enable_starting_items</code>''' set to '''<code>true</code>''' on your server configuration file. 
+
+=== '''Creative Menu''' ===
+Press '''<code>E</code>''' in Creative mode to access the Creative menu.
+
+==Usage==
+*'''<code>Right click</code>''' to use the item.
+==Trivia==
+* It was introduced in DTN 1.17.0.
+* The item's sprite was designed based on the [https://okami.fandom.com/wiki/Treasure_chest Treasure Chests] from the game <s>that started it all</s> - Okami

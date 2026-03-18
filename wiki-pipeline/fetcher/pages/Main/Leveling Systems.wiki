@@ -1,0 +1,34 @@
+Dogs level up when being given [[Items#Treats|Treats]]. Each treat can level a dog up to a certain level until it reaches the maximum &quot;normal&quot; level of 60, then the maximum &quot;kami&quot; level of 30 (in a total of 90).
+
+The '''maximum''' amount of Talent points you can get is '''105''' (15+20+20+20+30). ''(Or it can be bypassed with the [[Creative Collar]])''.
+
+== Normal leveling ==
+The normal leveling system is the default leveling path, in which the dog just gains more Talent Points as well as an additional '''<code>1 HP</code>''' with every level. Once it reaches the maximum level for this path, it has total health of '''<code>27HP</code>'''.
+{| class="wikitable"
+|[[File:Normal.png|center|182x182px|Normal Leveling]]
+|[[Training Treat]] can level the dog up to level '''20'''.
+|-
+|[[File:Super.png|center|182x182px|Super]]
+|[[Super Treat]] can level the dog up to level '''40'''.
+|-
+|[[File:Master.png|center|frameless|182x182px|Master]]
+|[[Master Treat]] can level the dog up to level '''60''', which is the '''maximum''' level for the normal leveling system.
+|}
+
+== Kami Leveling ==
+{| class="wikitable"
+|[[File:Kami.png|center|frameless|182x182px|Kami Leveling]]
+|The kami leveling system goes beyond the normal leveling path, in which the dog just gains more Talent Points as well as additional health with each level. Once it reaches the maximum level for this path, it will not only have a total health of 30 HP, it will begin to give out Purple Particles ''(this can be configured, default is false)''.
+* [[Kami Treat]] can level the dog up to level 30, which is the maximum level for the dire leveling system.
+|}
+
+== Talent Leveling ==
+{| class="wikitable"
+|[[File:Dog Menu Talents.jpg|alt=Normal Leveling|center|463x463px|Talent Leveling|frameless]]
+|
+You can use the Talent Points that your dog gained from leveling up to get and upgrade their talents. Each talent has a maximum level. By default, dogs will start off with <code>15 points</code> (which is usually enough to maximize one talent). 
+
+Each talent provides the dog with special benefits once it is at the maximum level.
+|}<br>
+
+''More information can be obtained about each individual talent on the [[Talents]] page.''

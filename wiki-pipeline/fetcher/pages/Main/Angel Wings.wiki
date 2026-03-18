@@ -1,0 +1,24 @@
+'''Angel Wings''' is a dyable equipable accessory that makes your dog look heavenly.
+{{Item
+| image = Angel_wings.png
+| id = angel_wings
+| type = Customization
+| Subtype = Dyeable
+| stackable = 64
+}}
+
+== Obtaining ==
+=== Crafting ===
+{| class="wikitable"
+|-
+! Ingredients
+! Recipe
+|-
+| Wool <br>+ Wool Collar
+| [[File:Angel_wings_crafting.png]]
+|}
+== Usage ==
+{{Accessory_use}}
+
+== Trivia ==
+* It was introduced in DTN 1.18.19.

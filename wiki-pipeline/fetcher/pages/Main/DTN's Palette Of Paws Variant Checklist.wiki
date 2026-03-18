@@ -1,0 +1,306 @@
+=== Last updated: 1.2.7 ===
+Here's the list of the DTNP variants that you could find and their location.
+
+=== Overworld ===
+{| class="wikitable"
+|+
+!No.
+!Variant
+!Location
+!Image
+!Special
+|-
+|1
+|Cherry
+|Cherry Grove
+|[[File:Cherry.png|300x300px]]
+|
+* Cherry Petal Trails
+|-
+|2
+|Lemony Lime
+|Beach
+|[[File:Lemony_lime.png|300x300px]]
+|
+|-
+|3
+|Himalayan Salt
+|Jagged Peaks
+|[[File:Himalayan_salt.png|300x300px]]
+|
+|-
+|4
+|Bamboo
+|Bamboo Jungle
+|[[File:Bamboo.png|300x300px]]
+|
+|-
+|5
+|Birch
+|Birch Forest
+|[[File:Birch.png|300x300px]]
+|
+|-
+|6
+|Pistachio
+|Mangrove Swamp
+|[[File:Pistachio.png|300x300px]]
+|
+|-
+|7
+|Guacamole
+|Meadow
+|[[File:Guacamole.png|300x300px]]
+|
+|-
+|8
+|Yuzu
+|Snowy Beach
+|[[File:Yuzu.png|300x300px]]
+|
+|-
+|9
+|Cappuccino
+| rowspan="4" |Dark Forest
+|[[File:Cappuccino.png|300x300px]]
+|
+|-
+|10
+|Espresso
+|[[File:Espresso.png|300x300px]]
+|
+|-
+|11
+|Latte
+|[[File:Latte.png|300x300px]]
+|
+|-
+|12
+|Mocha
+|[[File:Mocha.png|300x300px]]
+|
+|-
+|13
+|Bonito Flakes
+|Wooded Badlands
+|[[File:Bonito_flakes.png|300x300px]]
+|
+|-
+|14
+|Brown Mushroom
+| rowspan="2" |Mushroom Field
+|[[File:Brown_mushroom.png|300x300px]]
+|
+|-
+|15
+|Red Mushroom
+|[[File:Red_mushroom.png|300x300px]]
+|
+|-
+|16
+|Kombu
+|Desert
+|[[File:Kombu.png|300x300px]]
+|
+|-
+|17
+|Shitake
+|Dark Forest
+|[[File:Shitake.png|300x300px]]
+|
+|-
+|18
+|Enoki
+|Desert
+|[[File:Enoki.png|300x300px]]
+|
+|-
+|19
+|Strawberry
+| rowspan="3" |Snowy Plains
+|[[File:Strawberry.png|300x300px]]
+|
+|-
+|20
+|Vanilla
+|[[File:Vanilla.png|300x300px]]
+|
+|-
+|21
+|Chocolate
+|[[File:Chocolate.png|300x300px]]
+|
+|-
+|22
+|Walnut
+|Old Growth Spruce Taiga
+|[[File:Walnut.png|300x300px]]
+|
+|-
+|23
+|Coral Brain
+| rowspan="5" |Warm Ocean 
+(Only in Coral Reefs)
+|[[File:Coral_brain.png|300x300px]]
+| rowspan="5" |
+* Swimmer Dog Max
+
+|-
+|24
+|Coral Bubble
+|[[File:Coral_bubble.png|300x300px]]
+|-
+|25
+|Coral Fire
+|[[File:Coral_fire.png|300x300px]]
+|-
+|26
+|Coral Horn
+|[[File:Coral_horn.png|300x300px]]
+|-
+|27
+|Coral Tube
+|[[File:Coral_tube.png|300x300px]]
+|-
+|28
+|Icy
+| rowspan="2" |Ice Spikes
+|[[File:icy.png|300x300px]]
+|
+|-
+|29
+|Frosty
+|[[File:frosty.png|300x300px]]
+|
+|-
+|30
+|Muddy
+| rowspan="4" |Savanna
+|[[File:muddy.png|300x300px]]
+|
+|-
+|31
+|Root Beer
+|[[File:root_beer.png|300x300px]]
+|
+|-
+|32
+|Sooty
+|[[File:sooty.png|300x300px]]
+|
+|-
+|33
+|Brindle
+|[[File:brindle.png|300x300px]]
+|
+|-
+| colspan="5" |'''Total: 33'''
+|}
+
+=== Nether ===
+{| class="wikitable"
+!No.
+!Variant
+!Location
+!Image
+!Special
+|-
+|1
+|Crimson
+|Crimson Forest
+|[[File:Crimson.png|300x300px]]
+|
+* Glow Overlay
+|-
+|2
+|Warped
+|Warped Forest
+|[[File:Warped.png|300x300px]]
+|
+* Glow Overlay
+|-
+|3
+|Molten
+|Basalt Deltas
+|[[File:Molten.png|300x300px]]
+|
+* Glow Overlay
+
+* Lava Particle and Trails
+* Fire, Fall Damage Immune
+|-
+|4
+|Withered Soul
+| rowspan="2" |Soul Sand Valley
+|[[File:Withered_soul.png|300x300px]]
+|
+* Glow Overlay
+* Soul Fire Particle
+* Fire, Fall Damage Immune
+|-
+|5
+|Wandering Soul
+|[[File:Wandering soul.png|300x300px]]
+|
+* Glow Overlay
+* Sparkly Particle
+* Fire, Fall Damage Immune
+|-
+|6
+|Sanguine
+| rowspan="2" |Nether Waste
+|[[File:Sanguine.png|300x300px]]
+|
+* Fire, Fall Damage Immune
+|-
+|7
+|Desiccated
+|[[File:Desiccated.png|300x300px]]
+|
+* Fire, Fall Damage Immune
+|-
+| colspan="5" |'''Total: 7'''
+|}
+
+=== End ===
+{| class="wikitable"
+!No.
+!Variant
+!Location
+!Image
+!Special
+|-
+|1
+|Ender
+| rowspan="2" |End Highlands
+|[[File:Ender.png|300x300px]]
+|
+* Glow Overlay
+|-
+|2
+|Chorus
+|[[File:Chorus.png|300x300px]]
+|
+|-
+| colspan="5" |'''Total: 2'''
+|}
+
+=== Special ===
+{| class="wikitable"
+!No.
+!Variant
+!Location
+!Image
+!Special
+|-
+|1
+|VSCode
+|''unobtainable through survival (for now)''
+|[[File:Vscode.png|300x300px]]
+|
+|-
+| colspan="5" |'''Total: 1'''
+|}
+
+=== <big>TOTAL: 43</big> ===
+'''*Obtainable in survival: 42'''
