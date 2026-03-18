@@ -39,7 +39,6 @@ Here are the documented talents:
 <li><a href="/Fire_Drill">Fire Drill</a></li>
 <li><a href="/Sniffer_Dog">Sniffer Dog</a></li>
 <li><a href="/Gate_Woof">Gate Woof</a></li>
-<li><a href="/Playing_Tag">Playing Tag</a></li>
 <li><a href="/Ookamikaze">Ookamikaze</a></li>
 </ul></div>
 
