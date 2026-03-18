@@ -14,7 +14,6 @@ TODO:
 - Optimize webload, low quality mode (removing animations)
 - fix code block issues in FAQ, Setting up Dev env
 - Fix tutorial pages
-- Fix broken links (Dog Menu, )
 - Add icons to sidebar
 - Add a divider to the search bar make search bar sticky (add hot key maybe? / to search)
 - BandAid gallery.
@@ -33,3 +32,4 @@ IDEA:
 - Add mod page linkings
 - Add a "Quick Info" section to the top of each page with the most important information, like a summary.
 - Add CHANGELOG page. and link trivia to that specific changelog.
+- Dynamic Used Ins
