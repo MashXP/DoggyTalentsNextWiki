@@ -9,6 +9,14 @@ export interface WikiPage {
   slug: string; // The canonical hierarchical slug
   title: string;
   content: string;
+  description?: string;
+}
+
+export interface SearchItem {
+  title: string;
+  slug: string;
+  category?: string;
+  content?: string;
 }
 
 export function getAllPageSlugs(): string[] {
@@ -142,5 +150,51 @@ export function getPageBySlug(slug: string): WikiPage | null {
     slug: canonicalSlug,
     title: data.title || decodedSlug.split('/').pop()?.replace(/_/g, ' ') || decodedSlug,
     content,
+    description: data.description,
   };
+}
+
+export function getSearchData(): SearchItem[] {
+  if (!fs.existsSync(contentDirectory)) return [];
+  
+  const items: SearchItem[] = [];
+  
+  const readDirRecursive = (dir: string, currentPath: string = '') => {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    
+    for (const entry of entries) {
+      if (entry.isDirectory()) {
+        readDirRecursive(path.join(dir, entry.name), path.join(currentPath, entry.name));
+      } else if (entry.isFile() && entry.name.endsWith('.md')) {
+        const fileContents = fs.readFileSync(path.join(dir, entry.name), 'utf8');
+        const { data, content } = matter(fileContents);
+        const fileName = entry.name.replace(/\.md$/, '');
+        const parentDirName = path.basename(currentPath);
+        
+        const slug = (fileName.toLowerCase() === parentDirName.toLowerCase())
+          ? currentPath
+          : path.join(currentPath, fileName);
+          
+        // Simple regex to strip basic markdown for search indexing
+        const cleanContent = content
+          .replace(/\[(.*?)\]\(.*?\)/g, '$1') // [text](url) -> text
+          .replace(/#{1,6}\s+/g, '')         // # headers
+          .replace(/(\*\*|__)(.*?)\1/g, '$2') // bold
+          .replace(/(\*|_)(.*?)\1/g, '$2')    // italic
+          .replace(/`{1,3}[\s\S]*?`{1,3}/g, '') // code blocks
+          .replace(/<.*?>/g, '')              // html tags
+          .slice(0, 500);                     // Limit content length for scaling
+          
+        items.push({
+          title: data.title || fileName.replace(/_/g, ' '),
+          slug: slug,
+          category: currentPath.split('/')[0] || 'Main',
+          content: cleanContent,
+        });
+      }
+    }
+  };
+  
+  readDirRecursive(contentDirectory);
+  return items;
 }

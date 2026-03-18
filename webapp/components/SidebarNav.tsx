@@ -4,6 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
+import Search from "./Search";
+import { SearchItem } from "@/lib/wiki";
 
 interface NavTreeNode {
   slug?: string;
@@ -171,7 +173,7 @@ function NavTree({ node, level = 0 }: { node: { [key: string]: NavTreeNode }; le
   );
 }
 
-export default function SidebarNav({ slugs }: { slugs: string[] }) {
+export default function SidebarNav({ slugs, searchData }: { slugs: string[]; searchData: SearchItem[] }) {
   const tree = buildTree(slugs.filter(s => s !== 'Doggy_Talents_Next_Wiki'));
   const pathname = usePathname();
 
@@ -188,6 +190,7 @@ export default function SidebarNav({ slugs }: { slugs: string[] }) {
             priority
           />
         </Link>
+        <Search data={searchData} />
       </div>
       <nav className="nav-links">
         <NavTree node={tree} />
