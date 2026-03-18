@@ -1,8 +1,10 @@
 TODO:
 - Fixing the Dynamic recipe rendering
-    - Fix minecraft items not rendering, bulk migration, weird crafting icon, recipe tag cut the pages short.
+    - ✅ Fix minecraft items not rendering, 
+    - bulk migration, 
+    - ✅ recipe tag cut the pages short.
 - Tab view for compact information, toggle between full view (current regular view)
-- Move Playing Tag to Behaviors
+- ✅ Move Playing Tag to Behaviors
 - Add more proper dividers for Sidebar
 - Implement click on image to view full size
 - Scaling the icons in infoboxes, use nearest neighbor for pixel correct scaling

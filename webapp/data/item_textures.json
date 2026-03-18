@@ -1,0 +1,838 @@
+{
+  "doggytalents:aburaage": {
+    "texture": "/images/aburaage.png",
+    "name": "Aburaage"
+  },
+  "doggytalents:amnesia_bone": {
+    "texture": "/images/amnesia_bone.png",
+    "name": "Amnesia Bone"
+  },
+  "doggytalents:bach_wig": {
+    "texture": "/images/bach_wig.png",
+    "name": "Bach Wig"
+  },
+  "doggytalents:baker_hat": {
+    "texture": "/images/baker_hat.png",
+    "name": "Baker Hat"
+  },
+  "doggytalents:bandaid": {
+    "texture": "/images/bandaid.png",
+    "name": "Bandaid"
+  },
+  "doggytalents:bat_wings": {
+    "texture": "/images/bat_wings.png",
+    "name": "Bat Wings"
+  },
+  "doggytalents:beastars_uniform_female": {
+    "texture": "/images/beastars_uniform_female.png",
+    "name": "Beastars Uniform Female"
+  },
+  "doggytalents:beastars_uniform_male": {
+    "texture": "/images/beastars_uniform_male.png",
+    "name": "Beastars Uniform Male"
+  },
+  "doggytalents:birthday_hat": {
+    "texture": "/images/birthday_hat.png",
+    "name": "Birthday Hat"
+  },
+  "doggytalents:bowtie": {
+    "texture": "/images/bowtie.png",
+    "name": "Bowtie"
+  },
+  "doggytalents:breeding_bone": {
+    "texture": "/images/breeding_bone.png",
+    "name": "Breeding Bone"
+  },
+  "doggytalents:bunny_ears": {
+    "texture": "/images/bunny_ears.png",
+    "name": "Bunny Ears"
+  },
+  "doggytalents:canine_tracker": {
+    "texture": "/images/canine_tracker.png",
+    "name": "Canine Tracker"
+  },
+  "doggytalents:cape_coloured": {
+    "texture": "/images/cape_coloured.png",
+    "name": "Cape Coloured"
+  },
+  "doggytalents:cere_garb": {
+    "texture": "/images/cere_garb.png",
+    "name": "Cere Garb"
+  },
+  "doggytalents:chef_hat": {
+    "texture": "/images/chef_hat.png",
+    "name": "Chef Hat"
+  },
+  "doggytalents:chi_orb": {
+    "texture": "/images/chi_orb.png",
+    "name": "Chi Orb"
+  },
+  "doggytalents:christmas_hat": {
+    "texture": "/images/christmas_hat.png",
+    "name": "Christmas Hat"
+  },
+  "doggytalents:chu_orb": {
+    "texture": "/images/chu_orb.png",
+    "name": "Chu Orb"
+  },
+  "doggytalents:conan_suit": {
+    "texture": "/images/conan_suit.png",
+    "name": "Conan Suit"
+  },
+  "doggytalents:conducting_bone": {
+    "texture": "/images/conducting_bone.png",
+    "name": "Conducting Bone"
+  },
+  "doggytalents:crow_wings": {
+    "texture": "/images/crow_wings.png",
+    "name": "Crow Wings"
+  },
+  "doggytalents:death_hood": {
+    "texture": "/images/death_hood.png",
+    "name": "Death Hood"
+  },
+  "doggytalents:deer_antlers": {
+    "texture": "/images/deer_antlers.png",
+    "name": "Deer Antlers"
+  },
+  "doggytalents:demon_horns": {
+    "texture": "/images/demon_horns.png",
+    "name": "Demon Horns"
+  },
+  "doggytalents:divine_retributon": {
+    "texture": "/images/divine_retributon.png",
+    "name": "Divine Retributon"
+  },
+  "doggytalents:dog_bath": {
+    "texture": "/images/dog_bath.png",
+    "name": "Dog Bath"
+  },
+  "doggytalents:dog_bed": {
+    "texture": "/images/dog_bed.png",
+    "name": "Dog Bed"
+  },
+  "doggytalents:dog_christmas_star": {
+    "texture": "/images/dog_christmas_star.png",
+    "name": "Dog Christmas Star"
+  },
+  "doggytalents:dog_christmas_tree": {
+    "texture": "/images/dog_christmas_tree.png",
+    "name": "Dog Christmas Tree"
+  },
+  "doggytalents:dog_gift_costume": {
+    "texture": "/images/dog_gift_costume.png",
+    "name": "Dog Gift Costume"
+  },
+  "doggytalents:dog_plushie_toy": {
+    "texture": "/images/dog_plushie_toy.png",
+    "name": "Dog Plushie Toy"
+  },
+  "doggytalents:doggy_contacts": {
+    "texture": "/images/doggy_contacts.png",
+    "name": "Doggy Contacts"
+  },
+  "doggytalents:dragon_costume_head": {
+    "texture": "/images/dragon_costume_head.png",
+    "name": "Dragon Costume Head"
+  },
+  "doggytalents:dragon_costume_suit": {
+    "texture": "/images/dragon_costume_suit.png",
+    "name": "Dragon Costume Suit"
+  },
+  "doggytalents:dragon_costume_wings": {
+    "texture": "/images/dragon_costume_wings.png",
+    "name": "Dragon Costume Wings"
+  },
+  "doggytalents:dyed_orb": {
+    "texture": "/images/dyed_orb.png",
+    "name": "Dyed Orb"
+  },
+  "doggytalents:edamame": {
+    "texture": "/images/edamame.png",
+    "name": "Edamame"
+  },
+  "doggytalents:egg_sandwich": {
+    "texture": "/images/egg_sandwich.png",
+    "name": "Egg Sandwich"
+  },
+  "doggytalents:empty_locator_orb": {
+    "texture": "/images/empty_locator_orb.png",
+    "name": "Empty Locator Orb"
+  },
+  "doggytalents:energizer_stick": {
+    "texture": "/images/energizer_stick.png",
+    "name": "Energizer Stick"
+  },
+  "doggytalents:feathered_mantle": {
+    "texture": "/images/feathered_mantle.png",
+    "name": "Feathered Mantle"
+  },
+  "doggytalents:fedora": {
+    "texture": "/images/fedora.png",
+    "name": "Fedora"
+  },
+  "doggytalents:flatcap": {
+    "texture": "/images/flatcap.png",
+    "name": "Flatcap"
+  },
+  "doggytalents:flying_cape": {
+    "texture": "/images/flying_cape.png",
+    "name": "Flying Cape"
+  },
+  "doggytalents:food_bowl": {
+    "texture": "/images/food_bowl.png",
+    "name": "Food Bowl"
+  },
+  "doggytalents:frisbee": {
+    "texture": "/images/frisbee.png",
+    "name": "Frisbee"
+  },
+  "doggytalents:gender_bone": {
+    "texture": "/images/gender_bone.png",
+    "name": "Gender Bone"
+  },
+  "doggytalents:gi_orb": {
+    "texture": "/images/gi_orb.png",
+    "name": "Gi Orb"
+  },
+  "doggytalents:giant_stick": {
+    "texture": "/images/giant_stick.png",
+    "name": "Giant Stick"
+  },
+  "doggytalents:golden_a_five_wagyu": {
+    "texture": "/images/golden_a_five_wagyu.png",
+    "name": "Golden A Five Wagyu"
+  },
+  "doggytalents:guard_suit": {
+    "texture": "/images/guard_suit.png",
+    "name": "Guard Suit"
+  },
+  "doggytalents:gyudon": {
+    "texture": "/images/gyudon.png",
+    "name": "Gyudon"
+  },
+  "doggytalents:head_band_blank": {
+    "texture": "/images/head_band_blank.png",
+    "name": "Head Band Blank"
+  },
+  "doggytalents:hot_dog": {
+    "texture": "/images/hot_dog.png",
+    "name": "Hot Dog"
+  },
+  "doggytalents:jin_orb": {
+    "texture": "/images/jin_orb.png",
+    "name": "Jin Orb"
+  },
+  "doggytalents:kami_treat": {
+    "texture": "/images/kami_treat.png",
+    "name": "Kami Treat"
+  },
+  "doggytalents:kitsune_mask": {
+    "texture": "/images/kitsune_mask.png",
+    "name": "Kitsune Mask"
+  },
+  "doggytalents:ko_orb": {
+    "texture": "/images/ko_orb.png",
+    "name": "Ko Orb"
+  },
+  "doggytalents:koji": {
+    "texture": "/images/koji.png",
+    "name": "Koji"
+  },
+  "doggytalents:lab_coat": {
+    "texture": "/images/lab_coat.png",
+    "name": "Lab Coat"
+  },
+  "doggytalents:leather_jacket": {
+    "texture": "/images/leather_jacket.png",
+    "name": "Leather Jacket"
+  },
+  "doggytalents:magnifying_bone": {
+    "texture": "/images/magnifying_bone.png",
+    "name": "Magnifying Bone"
+  },
+  "doggytalents:master_treat": {
+    "texture": "/images/master_treat.png",
+    "name": "Master Treat"
+  },
+  "doggytalents:miso_paste": {
+    "texture": "/images/miso_paste.png",
+    "name": "Miso Paste"
+  },
+  "doggytalents:miso_soup": {
+    "texture": "/images/miso_soup.png",
+    "name": "Miso Soup"
+  },
+  "doggytalents:multicoloured_collar": {
+    "texture": "/images/multicoloured_collar.png",
+    "name": "Multicoloured Collar"
+  },
+  "doggytalents:natto": {
+    "texture": "/images/natto.png",
+    "name": "Natto"
+  },
+  "doggytalents:natto_rice": {
+    "texture": "/images/natto_rice.png",
+    "name": "Natto Rice"
+  },
+  "doggytalents:onigiri": {
+    "texture": "/images/onigiri.png",
+    "name": "Onigiri"
+  },
+  "doggytalents:onsen_tamago": {
+    "texture": "/images/onsen_tamago.png",
+    "name": "Onsen Tamago"
+  },
+  "doggytalents:oyakodon": {
+    "texture": "/images/oyakodon.png",
+    "name": "Oyakodon"
+  },
+  "doggytalents:pianist_suit": {
+    "texture": "/images/pianist_suit.png",
+    "name": "Pianist Suit"
+  },
+  "doggytalents:plague_doc_mask": {
+    "texture": "/images/plague_doc_mask.png",
+    "name": "Plague Doc Mask"
+  },
+  "doggytalents:propeller_hat": {
+    "texture": "/images/propeller_hat.png",
+    "name": "Propeller Hat"
+  },
+  "doggytalents:radio_collar": {
+    "texture": "/images/radio_collar.png",
+    "name": "Radio Collar"
+  },
+  "doggytalents:rei_orb": {
+    "texture": "/images/rei_orb.png",
+    "name": "Rei Orb"
+  },
+  "doggytalents:rice_bowl": {
+    "texture": "/images/rice_bowl.png",
+    "name": "Rice Bowl"
+  },
+  "doggytalents:rice_grains": {
+    "texture": "/images/rice_grains.png",
+    "name": "Rice Grains"
+  },
+  "doggytalents:rice_mill": {
+    "texture": "/images/rice_mill.png",
+    "name": "Rice Mill"
+  },
+  "doggytalents:rice_wheat": {
+    "texture": "/images/rice_wheat.png",
+    "name": "Rice Wheat"
+  },
+  "doggytalents:sake": {
+    "texture": "/images/sake.png",
+    "name": "Sake"
+  },
+  "doggytalents:salmon_sushi": {
+    "texture": "/images/salmon_sushi.png",
+    "name": "Salmon Sushi"
+  },
+  "doggytalents:sausage": {
+    "texture": "/images/sausage.png",
+    "name": "Sausage"
+  },
+  "doggytalents:scent_treat": {
+    "texture": "/images/scent_treat.png",
+    "name": "Scent Treat"
+  },
+  "doggytalents:shin_orb": {
+    "texture": "/images/shin_orb.png",
+    "name": "Shin Orb"
+  },
+  "doggytalents:shrinking_mallet": {
+    "texture": "/images/shrinking_mallet.png",
+    "name": "Shrinking Mallet"
+  },
+  "doggytalents:smarty_glasses": {
+    "texture": "/images/smarty_glasses.png",
+    "name": "Smarty Glasses"
+  },
+  "doggytalents:snorkel": {
+    "texture": "/images/snorkel.png",
+    "name": "Snorkel"
+  },
+  "doggytalents:soul_reflector": {
+    "texture": "/images/soul_reflector.png",
+    "name": "Soul Reflector"
+  },
+  "doggytalents:soy_beans": {
+    "texture": "/images/soy_beans.png",
+    "name": "Soy Beans"
+  },
+  "doggytalents:soy_beans_dried": {
+    "texture": "/images/soy_beans_dried.png",
+    "name": "Soy Beans Dried"
+  },
+  "doggytalents:soy_milk": {
+    "texture": "/images/soy_milk.png",
+    "name": "Soy Milk"
+  },
+  "doggytalents:soy_pods": {
+    "texture": "/images/soy_pods.png",
+    "name": "Soy Pods"
+  },
+  "doggytalents:soy_pods_dried": {
+    "texture": "/images/soy_pods_dried.png",
+    "name": "Soy Pods Dried"
+  },
+  "doggytalents:spotted_collar": {
+    "texture": "/images/spotted_collar.png",
+    "name": "Spotted Collar"
+  },
+  "doggytalents:striped_scarf": {
+    "texture": "/images/striped_scarf.png",
+    "name": "Striped Scarf"
+  },
+  "doggytalents:sunglasses": {
+    "texture": "/images/sunglasses.png",
+    "name": "Sunglasses"
+  },
+  "doggytalents:super_treat": {
+    "texture": "/images/super_treat.png",
+    "name": "Super Treat"
+  },
+  "doggytalents:superdog_suit": {
+    "texture": "/images/superdog_suit.png",
+    "name": "Superdog Suit"
+  },
+  "doggytalents:sussy_sickle": {
+    "texture": "/images/sussy_sickle.png",
+    "name": "Sussy Sickle"
+  },
+  "doggytalents:tantan_cape": {
+    "texture": "/images/tantan_cape.png",
+    "name": "Tantan Cape"
+  },
+  "doggytalents:tei_orb": {
+    "texture": "/images/tei_orb.png",
+    "name": "Tei Orb"
+  },
+  "doggytalents:tengu_mask": {
+    "texture": "/images/tengu_mask.png",
+    "name": "Tengu Mask"
+  },
+  "doggytalents:throw_bone": {
+    "texture": "/images/throw_bone.png",
+    "name": "Throw Bone"
+  },
+  "doggytalents:throw_bone_wet": {
+    "texture": "/images/throw_bone_wet.png",
+    "name": "Throw Bone Wet"
+  },
+  "doggytalents:throw_stick": {
+    "texture": "/images/throw_stick.png",
+    "name": "Throw Stick"
+  },
+  "doggytalents:throw_stick_wet": {
+    "texture": "/images/throw_stick_wet.png",
+    "name": "Throw Stick Wet"
+  },
+  "doggytalents:tofu": {
+    "texture": "/images/tofu.png",
+    "name": "Tofu"
+  },
+  "doggytalents:training_treat": {
+    "texture": "/images/training_treat.png",
+    "name": "Training Treat"
+  },
+  "doggytalents:treat_bag": {
+    "texture": "/images/treat_bag.png",
+    "name": "Treat Bag"
+  },
+  "doggytalents:uncooked_rice": {
+    "texture": "/images/uncooked_rice.png",
+    "name": "Uncooked Rice"
+  },
+  "doggytalents:uncooked_rice_bowl": {
+    "texture": "/images/uncooked_rice_bowl.png",
+    "name": "Uncooked Rice Bowl"
+  },
+  "doggytalents:whistle": {
+    "texture": "/images/whistle.png",
+    "name": "Whistle"
+  },
+  "doggytalents:wig": {
+    "texture": "/images/wig.png",
+    "name": "Wig"
+  },
+  "doggytalents:witch_hat": {
+    "texture": "/images/witch_hat.png",
+    "name": "Witch Hat"
+  },
+  "doggytalents:wool_collar": {
+    "texture": "/images/wool_collar.png",
+    "name": "Wool Collar"
+  },
+  "doggytalents:wool_collar_thicc": {
+    "texture": "/images/wool_collar_thicc.png",
+    "name": "Wool Collar Thicc"
+  },
+  "minecraft:amethyst_shard": {
+    "texture": "/images/mcwikipull/amethyst_shard.png",
+    "name": "Amethyst Shard"
+  },
+  "minecraft:bamboo": {
+    "texture": "/images/mcwikipull/bamboo.png",
+    "name": "Bamboo"
+  },
+  "minecraft:black_carpet": {
+    "texture": "/images/mcwikipull/black_carpet.png",
+    "name": "Black Carpet"
+  },
+  "minecraft:black_dye": {
+    "texture": "/images/mcwikipull/black_dye.png",
+    "name": "Black Dye"
+  },
+  "minecraft:black_stained_glass_pane": {
+    "texture": "/images/mcwikipull/black_stained_glass_pane.png",
+    "name": "Black Stained Glass Pane"
+  },
+  "minecraft:black_wool": {
+    "texture": "/images/mcwikipull/black_wool.png",
+    "name": "Black Wool"
+  },
+  "minecraft:blaze_powder": {
+    "texture": "/images/mcwikipull/blaze_powder.png",
+    "name": "Blaze Powder"
+  },
+  "minecraft:blaze_rod": {
+    "texture": "/images/mcwikipull/blaze_rod.png",
+    "name": "Blaze Rod"
+  },
+  "minecraft:blue_dye": {
+    "texture": "/images/mcwikipull/blue_dye.png",
+    "name": "Blue Dye"
+  },
+  "minecraft:blue_wool": {
+    "texture": "/images/mcwikipull/blue_wool.png",
+    "name": "Blue Wool"
+  },
+  "minecraft:bone": {
+    "texture": "/images/mcwikipull/bone.png",
+    "name": "Bone"
+  },
+  "minecraft:bone_meal": {
+    "texture": "/images/mcwikipull/bone_meal.png",
+    "name": "Bone Meal"
+  },
+  "minecraft:bowl": {
+    "texture": "/images/mcwikipull/bowl.png",
+    "name": "Bowl"
+  },
+  "minecraft:bread": {
+    "texture": "/images/mcwikipull/bread.png",
+    "name": "Bread"
+  },
+  "minecraft:brown_dye": {
+    "texture": "/images/mcwikipull/brown_dye.png",
+    "name": "Brown Dye"
+  },
+  "minecraft:brown_mushroom": {
+    "texture": "/images/mcwikipull/brown_mushroom.png",
+    "name": "Brown Mushroom"
+  },
+  "minecraft:brown_wool": {
+    "texture": "/images/mcwikipull/brown_wool.png",
+    "name": "Brown Wool"
+  },
+  "minecraft:cobblestone_slab": {
+    "texture": "/images/mcwikipull/cobblestone_slab.png",
+    "name": "Cobblestone Slab"
+  },
+  "minecraft:cooked_beef": {
+    "texture": "/images/mcwikipull/cooked_beef.png",
+    "name": "Cooked Beef"
+  },
+  "minecraft:cooked_chicken": {
+    "texture": "/images/mcwikipull/cooked_chicken.png",
+    "name": "Cooked Chicken"
+  },
+  "minecraft:cooked_cod": {
+    "texture": "/images/mcwikipull/cooked_cod.png",
+    "name": "Cooked Cod"
+  },
+  "minecraft:cooked_porkchop": {
+    "texture": "/images/mcwikipull/cooked_porkchop.png",
+    "name": "Cooked Porkchop"
+  },
+  "minecraft:copper_ingot": {
+    "texture": "/images/mcwikipull/copper_ingot.png",
+    "name": "Copper Ingot"
+  },
+  "minecraft:diamond": {
+    "texture": "/images/mcwikipull/diamond.png",
+    "name": "Diamond"
+  },
+  "minecraft:dragon_egg": {
+    "texture": "/images/mcwikipull/dragon_egg.png",
+    "name": "Dragon Egg"
+  },
+  "minecraft:dragon_head": {
+    "texture": "/images/mcwikipull/dragon_head.png",
+    "name": "Dragon Head"
+  },
+  "minecraft:dried_kelp": {
+    "texture": "/images/mcwikipull/dried_kelp.png",
+    "name": "Dried Kelp"
+  },
+  "minecraft:egg": {
+    "texture": "/images/mcwikipull/egg.png",
+    "name": "Egg"
+  },
+  "minecraft:elytra": {
+    "texture": "/images/mcwikipull/elytra.png",
+    "name": "Elytra"
+  },
+  "minecraft:end_crystal": {
+    "texture": "/images/mcwikipull/end_crystal.png",
+    "name": "End Crystal"
+  },
+  "minecraft:end_stone": {
+    "texture": "/images/mcwikipull/end_stone.png",
+    "name": "End Stone"
+  },
+  "minecraft:feather": {
+    "texture": "/images/mcwikipull/feather.png",
+    "name": "Feather"
+  },
+  "minecraft:glass": {
+    "texture": "/images/mcwikipull/glass.png",
+    "name": "Glass"
+  },
+  "minecraft:glass_pane": {
+    "texture": "/images/mcwikipull/glass_pane.png",
+    "name": "Glass Pane"
+  },
+  "minecraft:gold_ingot": {
+    "texture": "/images/mcwikipull/gold_ingot.png",
+    "name": "Gold Ingot"
+  },
+  "minecraft:gold_nugget": {
+    "texture": "/images/mcwikipull/gold_nugget.png",
+    "name": "Gold Nugget"
+  },
+  "minecraft:golden_apple": {
+    "texture": "/images/mcwikipull/golden_apple.png",
+    "name": "Golden Apple"
+  },
+  "minecraft:gray_wool": {
+    "texture": "/images/mcwikipull/gray_wool.png",
+    "name": "Gray Wool"
+  },
+  "minecraft:green_dye": {
+    "texture": "/images/mcwikipull/green_dye.png",
+    "name": "Green Dye"
+  },
+  "minecraft:green_wool": {
+    "texture": "/images/mcwikipull/green_wool.png",
+    "name": "Green Wool"
+  },
+  "minecraft:gunpowder": {
+    "texture": "/images/mcwikipull/gunpowder.png",
+    "name": "Gunpowder"
+  },
+  "minecraft:iron_ingot": {
+    "texture": "/images/mcwikipull/iron_ingot.png",
+    "name": "Iron Ingot"
+  },
+  "minecraft:lapis_lazuli": {
+    "texture": "/images/mcwikipull/lapis_lazuli.png",
+    "name": "Lapis Lazuli"
+  },
+  "minecraft:lead": {
+    "texture": "/images/mcwikipull/lead.png",
+    "name": "Lead"
+  },
+  "minecraft:leather": {
+    "texture": "/images/mcwikipull/leather.png",
+    "name": "Leather"
+  },
+  "minecraft:leather_helmet": {
+    "texture": "/images/mcwikipull/leather_helmet.png",
+    "name": "Leather Helmet"
+  },
+  "minecraft:light_blue_dye": {
+    "texture": "/images/mcwikipull/light_blue_dye.png",
+    "name": "Light Blue Dye"
+  },
+  "minecraft:light_blue_wool": {
+    "texture": "/images/mcwikipull/light_blue_wool.png",
+    "name": "Light Blue Wool"
+  },
+  "minecraft:light_gray_wool": {
+    "texture": "/images/mcwikipull/light_gray_wool.png",
+    "name": "Light Gray Wool"
+  },
+  "minecraft:lime_dye": {
+    "texture": "/images/mcwikipull/lime_dye.png",
+    "name": "Lime Dye"
+  },
+  "minecraft:magenta_dye": {
+    "texture": "/images/mcwikipull/magenta_dye.png",
+    "name": "Magenta Dye"
+  },
+  "minecraft:magma_cream": {
+    "texture": "/images/mcwikipull/magma_cream.png",
+    "name": "Magma Cream"
+  },
+  "minecraft:map": {
+    "texture": "/images/mcwikipull/map.png",
+    "name": "Map"
+  },
+  "minecraft:nether_wart": {
+    "texture": "/images/mcwikipull/nether_wart.png",
+    "name": "Nether Wart"
+  },
+  "minecraft:netherite_ingot": {
+    "texture": "/images/mcwikipull/netherite_ingot.png",
+    "name": "Netherite Ingot"
+  },
+  "minecraft:orange_dye": {
+    "texture": "/images/mcwikipull/orange_dye.png",
+    "name": "Orange Dye"
+  },
+  "minecraft:paper": {
+    "texture": "/images/mcwikipull/paper.png",
+    "name": "Paper"
+  },
+  "minecraft:phantom_membrane": {
+    "texture": "/images/mcwikipull/phantom_membrane.png",
+    "name": "Phantom Membrane"
+  },
+  "minecraft:pink_dye": {
+    "texture": "/images/mcwikipull/pink_dye.png",
+    "name": "Pink Dye"
+  },
+  "minecraft:potion": {
+    "texture": "/images/mcwikipull/potion.png",
+    "name": "Potion"
+  },
+  "minecraft:purple_dye": {
+    "texture": "/images/mcwikipull/purple_dye.png",
+    "name": "Purple Dye"
+  },
+  "minecraft:red_carpet": {
+    "texture": "/images/mcwikipull/red_carpet.png",
+    "name": "Red Carpet"
+  },
+  "minecraft:red_dye": {
+    "texture": "/images/mcwikipull/red_dye.png",
+    "name": "Red Dye"
+  },
+  "minecraft:red_mushroom": {
+    "texture": "/images/mcwikipull/red_mushroom.png",
+    "name": "Red Mushroom"
+  },
+  "minecraft:red_wool": {
+    "texture": "/images/mcwikipull/red_wool.png",
+    "name": "Red Wool"
+  },
+  "minecraft:redstone": {
+    "texture": "/images/mcwikipull/redstone.png",
+    "name": "Redstone"
+  },
+  "minecraft:redstone_block": {
+    "texture": "/images/mcwikipull/redstone_block.png",
+    "name": "Redstone Block"
+  },
+  "minecraft:salmon": {
+    "texture": "/images/mcwikipull/salmon.png",
+    "name": "Salmon"
+  },
+  "minecraft:shulker_shell": {
+    "texture": "/images/mcwikipull/shulker_shell.png",
+    "name": "Shulker Shell"
+  },
+  "minecraft:slime_ball": {
+    "texture": "/images/mcwikipull/slime_ball.png",
+    "name": "Slime Ball"
+  },
+  "minecraft:soul_sand": {
+    "texture": "/images/mcwikipull/soul_sand.png",
+    "name": "Soul Sand"
+  },
+  "minecraft:soul_soil": {
+    "texture": "/images/mcwikipull/soul_soil.png",
+    "name": "Soul Soil"
+  },
+  "minecraft:soul_torch": {
+    "texture": "/images/mcwikipull/soul_torch.png",
+    "name": "Soul Torch"
+  },
+  "minecraft:spruce_planks": {
+    "texture": "/images/mcwikipull/spruce_planks.png",
+    "name": "Spruce Planks"
+  },
+  "minecraft:spruce_sapling": {
+    "texture": "/images/mcwikipull/spruce_sapling.png",
+    "name": "Spruce Sapling"
+  },
+  "minecraft:stick": {
+    "texture": "/images/mcwikipull/stick.png",
+    "name": "Stick"
+  },
+  "minecraft:string": {
+    "texture": "/images/mcwikipull/string.png",
+    "name": "String"
+  },
+  "minecraft:sugar": {
+    "texture": "/images/mcwikipull/sugar.png",
+    "name": "Sugar"
+  },
+  "minecraft:water_bucket": {
+    "texture": "/images/mcwikipull/water_bucket.png",
+    "name": "Water Bucket"
+  },
+  "minecraft:wheat": {
+    "texture": "/images/mcwikipull/wheat.png",
+    "name": "Wheat"
+  },
+  "minecraft:white_carpet": {
+    "texture": "/images/mcwikipull/white_carpet.png",
+    "name": "White Carpet"
+  },
+  "minecraft:white_dye": {
+    "texture": "/images/mcwikipull/white_dye.png",
+    "name": "White Dye"
+  },
+  "minecraft:white_wool": {
+    "texture": "/images/mcwikipull/white_wool.png",
+    "name": "White Wool"
+  },
+  "minecraft:yellow_dye": {
+    "texture": "/images/mcwikipull/yellow_dye.png",
+    "name": "Yellow Dye"
+  },
+  "minecraft:yellow_wool": {
+    "texture": "/images/mcwikipull/yellow_wool.png",
+    "name": "Yellow Wool"
+  },
+  "tag:fences": {
+    "texture": "/images/mcwikipull/fences.png",
+    "name": "Fences"
+  },
+  "tag:flowers": {
+    "texture": "/images/mcwikipull/flowers.png",
+    "name": "Flowers"
+  },
+  "tag:logs": {
+    "texture": "/images/mcwikipull/logs.png",
+    "name": "Logs"
+  },
+  "tag:slabs": {
+    "texture": "/images/mcwikipull/slabs.png",
+    "name": "Slabs"
+  },
+  "tag:wool": {
+    "texture": "/images/mcwikipull/wool.png",
+    "name": "Wool"
+  },
+  "tag:wool_carpets": {
+    "texture": "/images/mcwikipull/wool_carpets.png",
+    "name": "Wool Carpets"
+  }
+}

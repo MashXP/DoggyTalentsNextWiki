@@ -40,7 +40,15 @@ export default function MarkdownRenderer({ content }: { content: string }) {
               {props.children}
             </sup>
           ),
-          recipe: ({ id }: { id: string }) => <RecipeDisplay id={id} />
+          recipe: (props: any) => {
+            const id = props.id || props.node?.properties?.id;
+            return (
+              <>
+                <RecipeDisplay id={id} />
+                {props.children}
+              </>
+            );
+          }
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         } as any}
       >

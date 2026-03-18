@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { getItemTexture, getItemName } from '../lib/item-textures';
+import itemTextures from '../data/item_textures.json';
 
 interface ItemSlotProps {
   itemId?: string;
@@ -14,8 +14,9 @@ const ItemSlot: React.FC<ItemSlotProps> = ({ itemId, count, size = 'normal' }) =
     return <div className={`recipe-slot recipe-slot-empty ${size}`} />;
   }
 
-  const texture = getItemTexture(itemId);
-  const name = getItemName(itemId);
+  const itemData = (itemTextures as any)[itemId];
+  const texture = itemData?.texture || '';
+  const name = itemData?.name || itemId;
 
   return (
     <div className={`recipe-slot ${size}`} title={name}>
@@ -36,8 +37,8 @@ export interface RecipeData {
 
 export const CraftingGrid: React.FC<{ recipe: RecipeData }> = ({ recipe }) => {
   const renderShaped = () => {
-    const grid = recipe.pattern?.map(row => 
-      row.split('').map(char => recipe.key?.[char] || null)
+    const grid = recipe?.pattern?.map(row => 
+      row.split('').map(char => recipe?.key?.[char] || null)
     ) || [];
 
     return (
@@ -46,14 +47,13 @@ export const CraftingGrid: React.FC<{ recipe: RecipeData }> = ({ recipe }) => {
           {grid.flat().map((itemId, i) => (
             <ItemSlot key={i} itemId={itemId || undefined} />
           ))}
-          {/* Fill remaining slots if pattern is smaller than 3x3 */}
-          {Array.from({ length: 9 - (grid.flat().length) }).map((_, i) => (
+          {Array.from({ length: Math.max(0, 9 - (grid.flat().length)) }).map((_, i) => (
             <ItemSlot key={`empty-${i}`} />
           ))}
         </div>
         <div className="crafting-arrow"></div>
         <div className="crafting-output">
-          <ItemSlot itemId={recipe.output.item} count={recipe.output.count} size="large" />
+          <ItemSlot itemId={recipe?.output?.item} count={recipe?.output?.count} size="large" />
         </div>
       </div>
     );
@@ -63,35 +63,33 @@ export const CraftingGrid: React.FC<{ recipe: RecipeData }> = ({ recipe }) => {
     return (
       <div className="crafting-container shapeless">
         <div className="crafting-grid">
-          {recipe.ingredients?.map((itemId, i) => (
+          {recipe?.ingredients?.map((itemId, i) => (
             <ItemSlot key={i} itemId={itemId} />
           ))}
-          {Array.from({ length: 9 - (recipe.ingredients?.length || 0) }).map((_, i) => (
+          {Array.from({ length: Math.max(0, 9 - (recipe?.ingredients?.length || 0)) }).map((_, i) => (
             <ItemSlot key={`empty-${i}`} />
           ))}
         </div>
-        <div className="crafting-arrow">
-          <span className="shapeless-icon" title="Shapeless Recipe"></span>
-        </div>
+        <div className="crafting-arrow"></div>
         <div className="crafting-output">
-          <ItemSlot itemId={recipe.output.item} count={recipe.output.count} size="large" />
+          <ItemSlot itemId={recipe?.output?.item} count={recipe?.output?.count} size="large" />
         </div>
       </div>
     );
   };
 
   const renderCooking = () => {
-    const iconClass = recipe.type === 'smelting' ? 'furnace-fire' : 
-                      recipe.type === 'campfire' ? 'campfire-fire' : 'smoker-fire';
+    const iconClass = recipe?.type === 'smelting' ? 'furnace-fire' : 
+                      recipe?.type === 'campfire' ? 'campfire-fire' : 'smoker-fire';
     
     return (
       <div className="cooking-container">
         <div className="cooking-input">
-          <ItemSlot itemId={recipe.input} />
+          <ItemSlot itemId={recipe?.input} />
         </div>
         <div className={`cooking-progress ${iconClass}`}></div>
         <div className="cooking-output">
-          <ItemSlot itemId={recipe.output.item} count={recipe.output.count} size="large" />
+          <ItemSlot itemId={recipe?.output?.item} count={recipe?.output?.count} size="large" />
         </div>
       </div>
     );
