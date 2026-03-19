@@ -474,13 +474,33 @@ li {
   max-width: 100%;
   border-radius: 12px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-  margin: 2rem auto;
-  display: block;
   transition: var(--transition);
+  display: inline-block; /* Default to inline-block for better text flow */
+  vertical-align: middle; /* Align inline images with text baseline */
+}
+
+/* Specific styling for inline icons */
+.article-body p img:not(:only-child),
+.article-body li img {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: contain;
+  margin: 0 0.2rem;
+  border-radius: 4px; /* Smaller radius for smaller icons */
+  box-shadow: none; /* No shadow for small icons */
 }
 
 .article-body img:hover {
   transform: scale(1.02);
+}
+
+/* Styles for block-level images (standalone images not in paragraphs) */
+.article-body > img,
+.article-body > p > img:only-child { /* Targets images directly in article-body or sole image in a paragraph */
+  display: block;
+  margin: 2rem auto;
+  width: auto; /* Reset width for block images */
+  height: auto; /* Reset height for block images */
 }
 
 .article-body blockquote {
@@ -596,6 +616,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1rem; /* Increased padding for the icon wrapper */
 }
 
 .infobox-image {
