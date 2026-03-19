@@ -8,9 +8,7 @@
   border-right: 1px solid var(--surface-border);
   padding: 1.5rem 0;
   z-index: 10;
-  transition: transform 0.3s ease;
   background: rgba(8, 9, 14, 0.4);
-  /* Glassmorphism base */
   backdrop-filter: var(--blur);
   -webkit-backdrop-filter: var(--blur);
 }
@@ -21,74 +19,53 @@
   margin-bottom: 1rem;
 }
 
-.sidebar-logo h3 {
-  font-size: 1.25rem;
-  margin: 0;
-  background: var(--primary-gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 800;
-  text-transform: none;
-  filter: drop-shadow(0 0 10px rgba(245, 186, 88, 0.15));
+.sidebar-logo {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.sidebar-logo:hover {
+  transform: scale(1.02);
 }
 
 .nav-links {
   display: flex;
   flex-direction: column;
-  gap: 0.15rem;
+  gap: 2px;
   position: relative;
+  padding: 0;
 }
 
-.separator {
-  height: 1px;
-  background: var(--surface-border);
-  margin: 0.75rem 0;
-}
-
+/* The Gliding Indicator */
 .nav-indicator {
   position: absolute;
   left: 0;
-  width: 3px;
-  height: 0;
+  width: 4px;
   background: var(--primary);
-  box-shadow: 0 0 15px var(--primary), 0 0 5px rgba(245, 186, 88, 0.5);
-  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1), height 0.4s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.3s ease;
+  box-shadow: 0 0 15px var(--primary);
+  transition: 
+    transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), 
+    height 0.4s cubic-bezier(0.25, 1, 0.5, 1),
+    opacity 0.3s ease;
   pointer-events: none;
   z-index: 10;
   opacity: 0;
+  border-radius: 0; /* Sharp edges */
 }
 
 .nav-item {
   padding: 0.6rem 1.25rem;
-  color: var(--text-main);
+  color: var(--text-muted);
   font-size: 0.95rem;
   font-weight: 500;
   display: flex;
   align-items: center;
   transition: color 0.3s ease;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   position: relative;
   z-index: 1;
   text-decoration: none !important;
-  --indent-offset: 0rem;
-}
-
-.indent-1 {
-  padding-left: 1.5rem !important;
-  --indent-offset: 1.2rem;
-}
-
-.indent-2 {
-  padding-left: 2rem !important;
-  --indent-offset: 2.3rem;
-}
-
-.indent-3 {
-  padding-left: 2.5rem !important;
-  --indent-offset: 3.4rem;
+  cursor: pointer;
+  overflow: visible; /* Allow background pill to bleed left */
 }
 
 .nav-item:hover,
@@ -96,14 +73,15 @@
   color: var(--primary);
 }
 
+/* The Hover/Active Background Pill */
 .nav-item-bg {
   position: absolute;
-  top: 0.2rem;
-  bottom: 0.2rem;
-  left: 0.5rem;
-  right: 0.5rem;
-  background: rgba(245, 186, 88, 0.08);
-  border-radius: 8px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  /* Sufficient to cover max indent-3 (4.5rem) */
+  left: -5rem; 
+  background: linear-gradient(to right, rgba(245, 186, 88, 0.2), transparent);
   opacity: 0;
   transition: opacity 0.3s ease;
   z-index: -1;
@@ -115,6 +93,18 @@
   opacity: 1;
 }
 
+/* Indentation Levels */
+.indent-0 { padding-left: 1.5rem; }
+.indent-1 { padding-left: 2.5rem; }
+.indent-2 { padding-left: 3.5rem; }
+.indent-3 { padding-left: 4.5rem; }
+
+.separator {
+  height: 1px;
+  background: var(--surface-border);
+  margin: 0.75rem 1rem;
+  opacity: 0.5;
+}
 
 .nav-folder-wrapper {
   display: flex;
@@ -125,12 +115,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-radius: 0;
-  transition: var(--transition);
   position: relative;
-  overflow: hidden;
 }
-
 
 .nav-folder-link {
   flex: 1;
@@ -142,54 +128,16 @@
   border: none;
   color: var(--text-muted);
   cursor: pointer;
-  padding: 0.5rem;
-  border-radius: 0;
-  font-size: 1.25rem;
-  line-height: 1;
-  transition: var(--transition);
-  flex-shrink: 0;
+  padding: 0.5rem 0.75rem;
+  transition: transform 0.2s ease, color 0.2s ease;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 2;
-  margin-right: 0.25rem;
 }
 
 .nav-toggle-btn:hover {
   color: var(--primary);
-  transform: scale(1.1);
-}
-
-.nav-details {
-  margin-bottom: 0.15rem;
-}
-
-.nav-group-title {
-  padding: 0.5rem 0.75rem;
-  border-radius: 0;
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  font-weight: 600;
-  cursor: pointer;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  transition: var(--transition);
-}
-
-.nav-group-title::-webkit-details-marker {
-  display: none;
-}
-
-.nav-group-title:hover {
-  background: var(--surface-color);
-  color: var(--text-main);
-}
-
-.folder-icon {
-  font-size: 1rem;
-  opacity: 0.7;
 }
 
 .nav-folder-content {
@@ -209,11 +157,8 @@
 }
 
 .nav-children-inner {
-  border-left: 1px solid var(--surface-border);
-  margin-left: 0.75rem;
-  padding-left: 0.35rem;
-  margin-top: 0.15rem;
-  margin-bottom: 0.25rem;
+  /* Removed border-left to keep it clean with the new indicator */
+  margin-left: 0;
 }
 
 @media (max-width: 768px) {

@@ -39,6 +39,43 @@ function hasActiveInside(node: { [key: string]: NavTreeNode }, pathname: string)
   });
 }
 
+function NavItem({ 
+  label, 
+  slug, 
+  level, 
+  isActive 
+}: { 
+  label: string; 
+  slug?: string; 
+  level: number;
+  isActive: boolean;
+}) {
+  const content = (
+    <>
+      <div className="nav-item-bg" />
+      <span className="nav-item-indent-marker" style={{ width: 0, height: 0, visibility: 'hidden' }} />
+      {label}
+    </>
+  );
+
+  if (slug) {
+    return (
+      <Link 
+        href={`/${slug}`} 
+        className={`nav-item indent-${level}${isActive ? ' active' : ''}`}
+      >
+        {content}
+      </Link>
+    );
+  }
+
+  return (
+    <span className={`nav-item indent-${level}${isActive ? ' active' : ''}`} style={{ cursor: 'default', userSelect: 'none' }}>
+      {content}
+    </span>
+  );
+}
+
 function FolderItem({
   label,
   slug,
@@ -67,20 +104,13 @@ function FolderItem({
   return (
     <div className="nav-folder-wrapper">
       <div className={`nav-folder-header${isChildActive ? ' active' : ''}`}>
-        {slug ? (
-          <Link href={`/${slug}`} className={`nav-item nav-folder-link indent-${level}${isActive ? ' active' : ''}`}>
-            <div className="nav-item-bg" />
-            {label}
-          </Link>
-        ) : (
-          <span className={`nav-item nav-folder-link indent-${level}${isChildActive ? ' active' : ''}`} style={{ cursor: 'default', userSelect: 'none' }}>
-            <div className="nav-item-bg" />
-            {label}
-          </span>
-        )}
+        <NavItem label={label} slug={slug} level={level} isActive={isActive || false} />
         <button
           className="nav-toggle-btn"
-          onClick={() => setOpen(o => !o)}
+          onClick={(e) => {
+            e.stopPropagation();
+            setOpen(o => !o);
+          }}
           aria-label={open ? 'Collapse' : 'Expand'}
         >
           <span style={{ display: 'inline-block', transform: open ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }}>
@@ -151,7 +181,7 @@ function NavTree({ node, level = 0 }: { node: { [key: string]: NavTreeNode }; le
 
         return (
           <div key={key}>
-            {showSeparator && <div className="separator" style={{ opacity: 0.5, margin: '0.5rem 1rem' }} />}
+            {showSeparator && <div className="separator" />}
             {hasChildren ? (
               <FolderItem
                 label={displayName}
@@ -163,13 +193,7 @@ function NavTree({ node, level = 0 }: { node: { [key: string]: NavTreeNode }; le
                 <NavTree node={item.children} level={level + 1} />
               </FolderItem>
             ) : item.slug ? (
-              <Link
-                href={`/${item.slug}`}
-                className={`nav-item indent-${level}${pathname === `/${item.slug}` || pathname === `/${item.slug}/` ? ' active' : ''}`}
-              >
-                <div className="nav-item-bg" />
-                {displayName}
-              </Link>
+              <NavItem label={displayName} slug={item.slug} level={level} isActive={pathname === `/${item.slug}` || pathname === `/${item.slug}/`} />
             ) : null}
           </div>
         );
@@ -184,68 +208,65 @@ export default function SidebarNav({ slugs, searchData }: { slugs: string[]; sea
   const navRef = useRef<HTMLElement>(null);
   const [indicatorStyle, setIndicatorStyle] = useState<React.CSSProperties>({
     opacity: 0,
-    transform: 'translateY(0)',
+    transform: 'translate(0, 0)',
     height: 0
   });
 
   useEffect(() => {
-    const updateIndicator = () => {
-      if (!navRef.current) return;
+    const moveIndicator = (element: HTMLElement) => {
+      const navContainer = navRef.current;
+      if (!navContainer || !element) return;
+
+      const containerRect = navContainer.getBoundingClientRect();
+      const itemRect = element.getBoundingClientRect();
       
-      const activeItem = navRef.current.querySelector('.nav-item.active');
+      // Calculate vertical position relative to container
+      const top = itemRect.top - containerRect.top;
+      const height = itemRect.height;
+      
+      setIndicatorStyle({
+        opacity: 1,
+        transform: `translateY(${top}px)`,
+        height: `${height}px`
+      });
+    };
+
+    const activeItem = navRef.current?.querySelector('.nav-item.active') as HTMLElement;
+    if (activeItem) {
+      // Use a small delay to ensure layout is ready after folder toggles
+      const timer = setTimeout(() => moveIndicator(activeItem), 50);
+      return () => clearTimeout(timer);
+    } else {
+      setIndicatorStyle(prev => ({ ...prev, opacity: 0 }));
+    }
+
+    // Global listener for hover effects
+    const handleMouseMove = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      const navItem = target.closest('.nav-item') as HTMLElement;
+      if (navItem) {
+        moveIndicator(navItem);
+      }
+    };
+
+    const handleMouseLeave = () => {
       if (activeItem) {
-        const navRect = navRef.current.getBoundingClientRect();
-        const itemRect = activeItem.getBoundingClientRect();
-        
-        // Get the computed padding-left to find the true start of the content/indent
-        const computedStyle = window.getComputedStyle(activeItem);
-        const paddingLeft = parseFloat(computedStyle.paddingLeft);
-        
-        setIndicatorStyle({
-          opacity: 1,
-          transform: `translate(${itemRect.left - navRect.left + paddingLeft - 16}px, ${itemRect.top - navRect.top}px)`,
-          height: `${itemRect.height}px`
-        });
+        moveIndicator(activeItem);
       } else {
         setIndicatorStyle(prev => ({ ...prev, opacity: 0 }));
       }
     };
 
-    updateIndicator();
-    
-    const handleMouseMove = (e: MouseEvent) => {
-      if (!navRef.current) return;
-      const target = e.target as HTMLElement;
-      const navItem = target.closest('.nav-item');
-      
-      if (navItem) {
-        const navRect = navRef.current.getBoundingClientRect();
-        const itemRect = navItem.getBoundingClientRect();
-        const computedStyle = window.getComputedStyle(navItem);
-        const paddingLeft = parseFloat(computedStyle.paddingLeft);
-        
-        setIndicatorStyle({
-          opacity: 1,
-          transform: `translate(${itemRect.left - navRect.left + paddingLeft - 16}px, ${itemRect.top - navRect.top}px)`,
-          height: `${itemRect.height}px`
-        });
-      }
-    };
-
-    const handleMouseLeave = () => {
-      updateIndicator();
-    };
-
-    const navElement = navRef.current;
-    if (navElement) {
-      navElement.addEventListener('mousemove', handleMouseMove);
-      navElement.addEventListener('mouseleave', handleMouseLeave);
+    const navContainer = navRef.current;
+    if (navContainer) {
+      navContainer.addEventListener('mousemove', handleMouseMove);
+      navContainer.addEventListener('mouseleave', handleMouseLeave);
     }
 
     return () => {
-      if (navElement) {
-        navElement.removeEventListener('mousemove', handleMouseMove);
-        navElement.removeEventListener('mouseleave', handleMouseLeave);
+      if (navContainer) {
+        navContainer.removeEventListener('mousemove', handleMouseMove);
+        navContainer.removeEventListener('mouseleave', handleMouseLeave);
       }
     };
   }, [pathname]);
@@ -273,4 +294,3 @@ export default function SidebarNav({ slugs, searchData }: { slugs: string[]; sea
     </aside>
   );
 }
-
