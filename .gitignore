@@ -29,3 +29,6 @@ logs/
 
 # Vsix Package for wikiparser Workaround
 wikiparser.vsix
+
+# DTN ref
+ref

@@ -2,7 +2,7 @@ import json
 import os
 import re
 
-JAVA_PATH = os.path.join(os.path.dirname(__file__), '../DTRecipeProvider.java')
+JAVA_PATH = os.path.join(os.path.dirname(__file__), '../ref/DTRecipeProvider.java')
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), '../data')
 OUTPUT_PATH = os.path.join(OUTPUT_DIR, 'recipes.json')
 
