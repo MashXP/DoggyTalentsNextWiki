@@ -113,7 +113,7 @@ function FolderItem({
           }}
           aria-label={open ? 'Collapse' : 'Expand'}
         >
-          <span style={{ display: 'inline-block', transform: open ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }}>
+          <span style={{ transform: open ? 'rotate(90deg)' : 'rotate(0deg)' }}>
             ▸
           </span>
         </button>
