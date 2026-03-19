@@ -9,7 +9,7 @@ TODO:
 - ✅ Move Playing Tag to Behaviors
 - Add more proper dividers for Sidebar
 - Implement click on image to view full size
-- Scaling the icons in infoboxes, use nearest neighbor for pixel correct scaling
+- ✅ Scaling the icons in infoboxes, use nearest neighbor for pixel correct scaling
 - Making info box more dynamic
 - Optimize webload, low quality mode (removing animations)
 - fix code block issues in FAQ, Setting up Dev env

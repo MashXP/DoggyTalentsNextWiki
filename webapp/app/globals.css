@@ -593,14 +593,13 @@ li {
 
 .infobox-image-wrapper {
   background: rgba(0, 0, 0, 0.3);
-  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .infobox-image {
-  max-width: 128px;
+  width: 5rem;
   height: auto;
   image-rendering: pixelated;
   filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.3));
@@ -694,10 +693,10 @@ li {
   object-fit: contain;
 }
 
-/* Allow larger images in tables if they are GIFs or have an alt/title, but not for recipe icons */
-.article-body td img[src*=".gif"]:not(.recipe-item-icon),
-.article-body td img[title]:not(.recipe-item-icon),
-.article-body td img:not([alt=""]):not(.recipe-item-icon) {
+/* Allow larger images in tables if they are GIFs or have an alt/title */
+.article-body td img[src*=".gif"],
+.article-body td img[title],
+.article-body td img:not([alt=""]) {
   width: auto;
   height: auto;
   max-width: 100%;
