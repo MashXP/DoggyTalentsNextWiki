@@ -8,6 +8,7 @@ import Link from 'next/link';
 
 import RecipeDisplay from './RecipeDisplay';
 import { ItemSlot } from './CraftingGrid';
+import Gallery from './Gallery';
 
 interface Section {
   title: string;
@@ -224,7 +225,18 @@ export default function MarkdownRenderer({ content }: { content: string }) {
       const id = props.id || props.node?.properties?.id;
       const count = props.count || props.node?.properties?.count;
       return <ItemSlot itemId={id} count={count ? parseInt(count) : undefined} />;
-    }
+    },
+    gallery: (props: any) => (
+      <Gallery 
+        onImageClick={(src: string, alt: string) => {
+          setSelectedImage({ src, alt });
+          setIsInfoActive(true);
+          resetZoom();
+        }}
+      >
+        {props.children}
+      </Gallery>
+    )
   };
 
   return (

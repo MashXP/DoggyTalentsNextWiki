@@ -2,6 +2,8 @@
 title: Basic Core Stats
 ---
 
+**Basic Core Stats** are the fundamental attributes that define your dog's behavior, physical condition, and identity. Understanding these stats is essential for managing your canine companions effectively, as they govern everything from combat behavior to breeding and survival.
+
 ## Modes
 These control how the dog reacts to other entities and interacts with you. 
 The tips of each mode appear when you hover above the modes.

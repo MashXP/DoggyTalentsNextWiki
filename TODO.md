@@ -11,7 +11,6 @@ TODO:
 - Implement click on image to view full size
 - ✅ Scaling the icons in infoboxes, use nearest neighbor for pixel correct scaling
 - Making info box more dynamic
-- Optimize webload, low quality mode (removing animations)
 - fix code block issues in FAQ, Setting up Dev env
 - Fix tutorial pages
 - Add icons to sidebar
@@ -37,3 +36,4 @@ IDEA:
 - Add CHANGELOG page. and link trivia to that specific changelog.
 - Dynamic Used Ins
 - Click on folders without links will navigate and highlight that section. ./Items page
+- Optimize webload, low quality mode (removing animations)

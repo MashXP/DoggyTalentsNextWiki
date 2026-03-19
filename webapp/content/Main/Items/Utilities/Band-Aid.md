@@ -23,7 +23,9 @@ The number of band-aids needed for an injured dog to stand up is 8.
 - **<code>Right click</code>** on your injured dog to use the item.
 
 ## Trivia
-- It was added to DTN 1.13.0.<gallery>
+- It was added to DTN 1.13.0.
+
+<gallery>
 File:Band aid render light.png|0-3 Band-Aids
 File:Band aid render medium.png|4-7 Band-Aids
 File:Band aid render full.png|8 Band-Aids (max)
