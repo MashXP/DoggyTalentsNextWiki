@@ -133,41 +133,43 @@ function NavTree({ node, level = 0 }: { node: { [key: string]: NavTreeNode }; le
     return a.localeCompare(b);
   });
 
+  const SEPARATOR_BEFORE = [
+    "Dog_Menu",
+    "Configuration",
+    "Unfinished_Wiki_Pages",
+  ];
+
   return (
     <>
       {sortedKeys.map(key => {
         const item = node[key];
         const hasChildren = Object.keys(item.children).length > 0;
         const displayName = key.replace(/_/g, ' ');
+        const showSeparator = level === 0 && SEPARATOR_BEFORE.includes(key);
 
-        if (hasChildren) {
-          const isChildActive = hasActiveInside(item.children, pathname);
-          return (
-            <FolderItem
-              key={key}
-              label={displayName}
-              slug={item.slug}
-              level={level}
-              defaultOpen={false}
-              isChildActive={isChildActive}
-            >
-              <NavTree node={item.children} level={level + 1} />
-            </FolderItem>
-          );
-        } else if (item.slug) {
-          const href = `/${item.slug}`;
-          const isActive = pathname === href || pathname === `${href}/`;
-          return (
-            <Link
-              key={item.slug}
-              href={href}
-              className={`nav-item indent-${level}${isActive ? ' active' : ''}`}
-            >
-              {displayName}
-            </Link>
-          );
-        }
-        return null;
+        return (
+          <div key={key}>
+            {showSeparator && <div className="separator" style={{ opacity: 0.5, margin: '0.5rem 1rem' }} />}
+            {hasChildren ? (
+              <FolderItem
+                label={displayName}
+                slug={item.slug}
+                level={level}
+                defaultOpen={false}
+                isChildActive={hasActiveInside(item.children, pathname)}
+              >
+                <NavTree node={item.children} level={level + 1} />
+              </FolderItem>
+            ) : item.slug ? (
+              <Link
+                href={`/${item.slug}`}
+                className={`nav-item indent-${level}${pathname === `/${item.slug}` || pathname === `/${item.slug}/` ? ' active' : ''}`}
+              >
+                {displayName}
+              </Link>
+            ) : null}
+          </div>
+        );
       })}
     </>
   );

@@ -15,6 +15,7 @@ export default function Search({ data }: SearchProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
   const containerRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   const fuse = new Fuse(data, {
     keys: [
@@ -24,6 +25,17 @@ export default function Search({ data }: SearchProps) {
     threshold: 0.3,
     includeMatches: true,
   });
+
+  useEffect(() => {
+    function handleGlobalKeyDown(e: KeyboardEvent) {
+      if (e.key === '/' && document.activeElement?.tagName !== 'INPUT' && document.activeElement?.tagName !== 'TEXTAREA') {
+        e.preventDefault();
+        inputRef.current?.focus();
+      }
+    }
+    window.addEventListener('keydown', handleGlobalKeyDown);
+    return () => window.removeEventListener('keydown', handleGlobalKeyDown);
+  }, []);
 
   useEffect(() => {
     if (query.length > 1) {
@@ -60,6 +72,7 @@ export default function Search({ data }: SearchProps) {
       window.location.href = `/${target.slug}`;
     } else if (e.key === 'Escape') {
       setIsOpen(false);
+      inputRef.current?.blur();
     }
   };
 
@@ -68,8 +81,9 @@ export default function Search({ data }: SearchProps) {
       <div className="search-input-wrapper">
         <span className="search-icon">🔍</span>
         <input
+          ref={inputRef}
           type="text"
-          placeholder="Search wiki..."
+          placeholder='Search wiki... ("/" to focus)'
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onKeyDown={handleKeyDown}

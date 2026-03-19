@@ -7,7 +7,7 @@ TODO:
     - ✅ recipe tag cut the pages short.
 - Tab view for compact information, toggle between full view (current regular view)
 - ✅ Move Playing Tag to Behaviors
-- Add more proper dividers for Sidebar
+- ✅ Add more proper dividers for Sidebar
 - Implement click on image to view full size
 - ✅ Scaling the icons in infoboxes, use nearest neighbor for pixel correct scaling
 - Making info box more dynamic
@@ -15,7 +15,7 @@ TODO:
 - fix code block issues in FAQ, Setting up Dev env
 - Fix tutorial pages
 - Add icons to sidebar
-- Add a divider to the search bar make search bar sticky (add hot key maybe? / to search)
+-✅ (add hot key maybe? / to search)
 - BandAid gallery.
 - Frisbee: link in blockquote issue
 - Inline icon not rendering properly (drool stuff in scent treat)
