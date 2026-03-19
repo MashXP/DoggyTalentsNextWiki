@@ -16,7 +16,7 @@ TODO:
 - ✅ BandAid gallery.
 - ✅ Frisbee: link in blockquote issue
 - ✅ Inline icon not rendering properly (drool stuff in scent treat)
-- Overhaul DTNP Variant Checklist page to be more aesthetically pleasing, image currently is too big, Probably head icons?
+- ✅ Overhaul DTNP Variant Checklist page to be more aesthetically pleasing, image currently is too big, Probably head icons?
 - ✅ Fix immortal dogs kanji too big
 - ✅ Fix Leveling System icon in table 
 - Complete the Unfinished Pages
