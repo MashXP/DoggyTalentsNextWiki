@@ -296,8 +296,8 @@
     "name": "Pianist Suit"
   },
   "doggytalents:plague_doc_mask": {
-    "texture": "/images/plague_doc_mask.png",
-    "name": "Plague Doc Mask"
+    "texture": "/images/plague_doctor_mask.png",
+    "name": "Plague Doctor Mask"
   },
   "doggytalents:propeller_hat": {
     "texture": "/images/propeller_hat.png",

@@ -12,6 +12,8 @@ title: Flying Cape
   
 </aside>
 
+![A dog flying in style!](/images/flying_cape_display.png)
+
 ## Obtaining
 ### Crafting
 <recipe id="flying_cape" />

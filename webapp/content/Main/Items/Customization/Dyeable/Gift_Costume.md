@@ -11,7 +11,8 @@ title: Gift Costume
   </div>
   <div class="infobox-description">Best gift for any occasion! Craft with Paper to add a Secondary color</div>
 </aside>
-**Bowtie** is a dyable equipable accessory that's perfect for celebrating special occasions and adding a touch of cheer.
+
+**Gift Costume** is a double-dyeable equipable accessory that's perfect for celebrating special occasions and adding a touch of cheer.
 
 ## Obtaining
 

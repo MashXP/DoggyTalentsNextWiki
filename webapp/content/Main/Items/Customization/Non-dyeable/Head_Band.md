@@ -9,12 +9,12 @@ title: Head Band
   <div class="infobox-content">
     <div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
   </div>
-  
+  <div class="infobox-description">Who's that wolfy boi?</div>
 </aside>
 
 **Head Band** is a non-dyeable equipable item that makes your dog look mysterious.
 
-| + | No. | Sprite | Pattern | ID | Description | Craftable? |
+| | No. | Sprite | Pattern | ID | Description | Craftable? |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | ![](/images/head_band_blank.png) | Blank | doggytalents:head_band_blank | Yes |  |  |
 | 2 | ![](/images/head_band_mystery.png) | Mysterious | doggytalents:head_band_mystery | Who's that wolfy boi? | No |  |
@@ -25,6 +25,8 @@ title: Head Band
 ## Obtaining
 - Currently you can only craft the Head Band Blank, the others can be obtained via the Creative menu.
 <recipe id="head_band_blank" />
+
+*Requires Paper to unlock the recipe.*
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).

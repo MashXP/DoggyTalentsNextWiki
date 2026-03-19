@@ -9,7 +9,7 @@ title: Snorkel
   <div class="infobox-content">
     <div class="infobox-row"><b>ID</b><span>snorkel</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
   </div>
-  
+  <div class="infobox-description">Helu, I'm under the water~</div>
 </aside>
 
 **Snorkel** is a non-dyeable equipable item that makes your dog look ready to go blub blub.
@@ -19,6 +19,8 @@ title: Snorkel
 ## Obtaining
 ### Crafting
 <recipe id="snorkel" />
+
+*Requires Bamboo to unlock the recipe.*
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).

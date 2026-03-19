@@ -9,7 +9,7 @@ title: Broomstick
   <div class="infobox-content">
     <div class="infobox-row"><b>ID</b><span>broomstick</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
   </div>
-  
+  <div class="infobox-description">Not to be confused with a Stick!</div>
 </aside>
 
 **Broomstick** is a non-dyeable equipable item that makes your dog look like a mop.
@@ -20,6 +20,8 @@ Sadly, the model for the Puli was lost so we can't fix the stick so as to fit wi
 
 ## Obtaining
 <recipe id="giant_stick" />
+
+*Requires Stick to unlock the recipe.*
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).

@@ -166,26 +166,26 @@ title: Items
 <li><a href="/Head_Band"><img class="item-icon" src="/images/head_band_blank.png" />Head Band</a></li>
 <li><a href="/Kitsune_Mask"><img class="item-icon" src="/images/kitsune_mask.png" />Kitsune Mask</a></li>
 <li><a href="/Tengu_Mask"><img class="item-icon" src="/images/tengu_mask.png" />Tengu Mask</a></li>
-<li><img class="item-icon" src="/images/demon_horns.png" />Demon Horns</li>
-<li><img class="item-icon" src="/images/plague_doctor_mask.png" />Plague Doctor Mask</li>
-<li><img class="item-icon" src="/images/witch_hat.png" />Witch Hat</li>
-<li><img class="item-icon" src="/images/superdog_suit.png" />SuperDog Suit</li>
-<li><img class="item-icon" src="/images/bat_wings.png" />Bat Wings</li>
-<li><img class="item-icon" src="/images/crow_wings.png" />Crow Wings</li>
-<li><img class="item-icon" src="/images/divine_retribution.png" />Divine Retribution</li>
-<li><img class="item-icon" src="/images/soul_reflector.png" />Soul Reflector</li>
-<li><img class="item-icon" src="/images/fedora.png" />Fedora</li>
-<li><img class="item-icon" src="/images/propeller_hat.png" />Propeller Hat</li>
-<li><img class="item-icon" src="/images/angel_halo.png" />Angel Halo</li>
-<li><img class="item-icon" src="/images/goose.png" />MrBlueYeti's Goose</li>
-<li><img class="item-icon" src="/images/deer_antlers.png" />Deer Antlers</li>
-<li><img class="item-icon" src="/images/firefighter_suits.gif" />Firefighter Suits</li>
-<li><img class="item-icon" src="/images/firefighter_hats.gif" />Firefighter Hats</li>
-<li><img class="item-icon" src="/images/dragon_costume.gif" />Dragon Costume</li>
-<li><img class="item-icon" src="/images/christmas_hat.png" />Christmas Hat</li>
-<li><img class="item-icon" src="/images/dog_christmas_tree.png" />Christmas Tree Costume</li>
-<li><img class="item-icon" src="/images/dog_christmas_star.png" />Christmas Star</li>
-<li><img class="item-icon" src="/images/hot_dog.png" />Hot Dog</li>
+<li><a href="/Demon_Horns"><img class="item-icon" src="/images/demon_horns.png" />Demon Horns</a></li>
+<li><a href="/Plague_Doctor_Mask"><img class="item-icon" src="/images/plague_doctor_mask.png" />Plague Doctor Mask</a></li>
+<li><a href="/Witch_Hat"><img class="item-icon" src="/images/witch_hat.png" />Witch Hat</a></li>
+<li><a href="/SuperDog_Suit"><img class="item-icon" src="/images/superdog_suit.png" />SuperDog Suit</a></li>
+<li><a href="/Bat_Wings"><img class="item-icon" src="/images/bat_wings.png" />Bat Wings</a></li>
+<li><a href="/Crow_Wings"><img class="item-icon" src="/images/crow_wings.png" />Crow Wings</a></li>
+<li><a href="/Divine_Retribution"><img class="item-icon" src="/images/divine_retribution.png" />Divine Retribution</a></li>
+<li><a href="/Soul_Reflector"><img class="item-icon" src="/images/soul_reflector.png" />Soul Reflector</a></li>
+<li><a href="/Fedora"><img class="item-icon" src="/images/fedora.png" />Fedora</a></li>
+<li><a href="/Propeller_Hat"><img class="item-icon" src="/images/propeller_hat.png" />Propeller Hat</a></li>
+<li><a href="/Angel_Halo"><img class="item-icon" src="/images/angel_halo.png" />Angel Halo</a></li>
+<li><a href="/MrBlueYeti's_Goose"><img class="item-icon" src="/images/goose.png" />MrBlueYeti's Goose</a></li>
+<li><a href="/Deer_Antlers"><img class="item-icon" src="/images/deer_antlers.png" />Deer Antlers</a></li>
+<li><a href="/Firefighter_Suits"><img class="item-icon" src="/images/firefighter_suits.gif" />Firefighter Suits</a></li>
+<li><a href="/Firefighter_Hats"><img class="item-icon" src="/images/firefighter_hats.gif" />Firefighter Hats</a></li>
+<li><a href="/Dragon_Costume"><img class="item-icon" src="/images/dragon_costume.gif" />Dragon Costume</a></li>
+<li><a href="/Christmas_Hat"><img class="item-icon" src="/images/christmas_hat.png" />Christmas Hat</a></li>
+<li><a href="/Christmas_Tree_Costume"><img class="item-icon" src="/images/dog_christmas_tree.png" />Christmas Tree Costume</a></li>
+<li><a href="/Christmas_Star"><img class="item-icon" src="/images/dog_christmas_star.png" />Christmas Star</a></li>
+<li><a href="/Hot_Dog"><img class="item-icon" src="/images/hot_dog.png" />Hot Dog</a></li>
 </ul></div>
 
 ### Others
@@ -221,8 +221,8 @@ title: Items
 <div class="item-grid"><ul>
 <li><a href="/Creative_Collar"><img class="item-icon" src="/images/creative_collar.png" />Creative Collar</a></li>
 <li><a href="/Creative_Canine_Tracker"><img class="item-icon" src="/images/creative_canine_tracker.png" />Creative Canine Tracker</a></li>
-<li><img class="item-icon" src="/images/upright_piano.gif" />Upright Piano</li>
-<li><img class="item-icon" src="/images/grand_piano.gif" />Grand Piano</li>
+<li><a href="/Upright_Piano"><img class="item-icon" src="/images/upright_piano.gif" />Upright Piano</a></li>
+<li><a href="/Grand_Piano"><img class="item-icon" src="/images/grand_piano.gif" />Grand Piano</a></li>
 <li><a href="/Dog_Animation_Debug_Stick"><img class="item-icon" src="/images/dog_anim_debug_stick.png" />Dog Animation Debug Stick</a></li>
 </ul></div>
 
@@ -235,6 +235,6 @@ title: Items
 <li><a href="/Command_Emblem"><img class="item-icon" src="/images/command_emblem.png" />Command Emblem</a></li>
 <li><a href="/Creative_Radar"><img class="item-icon" src="/images/creative_radar.png" />Creative Radar</a></li>
 <li><a href="/Radar"><img class="item-icon" src="/images/radar.png" />Radar</a></li>
-<li><img class="item-icon" src="/images/chew_stick.png" />Chew Stick</li>
+<li><a href="/Chew_Stick"><img class="item-icon" src="/images/chew_stick.png" />Chew Stick</a></li>
 <li><a href="/Change_Dog_Owner"><img class="item-icon" src="/images/owner_change.png" />Change Dog Owner</a></li>
 </ul></div>

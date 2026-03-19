@@ -23,6 +23,8 @@ The player can also eat the item lol. It fills up **6 hunger points** and gives 
 ### Crafting
 <recipe id="hot_dog" />
 
+*Requires Bread to unlock the recipe.*
+
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 ## Trivia
