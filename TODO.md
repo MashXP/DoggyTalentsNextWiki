@@ -10,8 +10,8 @@ TODO:
 - ✅ Add more proper dividers for Sidebar
 - Implement click on image to view full size
 - ✅ Scaling the icons in infoboxes, use nearest neighbor for pixel correct scaling
-- fix code block issues in FAQ, Setting up Dev env
-- Fix tutorial pages
+- ✅ Setting up Dev env
+- ✅ Fix tutorial pages
 - ✅ (add hot key maybe? / to search)
 - ✅ BandAid gallery.
 - ✅ Frisbee: link in blockquote issue

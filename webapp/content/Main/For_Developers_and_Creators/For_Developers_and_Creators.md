@@ -2,13 +2,9 @@
 title: For Developers and Creators
 ---
 
+> This is where you can find all of the **necessary documentation** to be assisted in **building upon or extending Doggy Talents Next**, either through contributions directly to the base source code, assets, or external means like resource packs.
 
-
-> This is where you can find all of the **necessary documentation** to be assisted in **building upon or extending Doggy Talents Next,** either through
-> 
-> contributions directly to the base source code, assets, or external means like resource packs.
-
-![](/images/code_dogs.png)
+<img src="/images/code_dogs.png" width="100%" />
 
 Depending on which group your intentions classify on, proceed through the following:
 
@@ -18,7 +14,7 @@ Depending on which group your intentions classify on, proceed through the follow
 
 ### **Extending** the Project:
 
-#### [**Resource Packs** - Adding more **Skins**](How_to_add_more_skins_through_Resource_Packs).
+-  [**Resource Packs** - Adding more **Skins**](How_to_add_more_skins_through_Resource_Packs).
 
 #### **Addons** - Implementing more **Models**.
 - [How to make your models DTN compatible?](How_to_make_your_models_DTN_compatible)

@@ -40,12 +40,12 @@ Below the basic information, you will be greeted with a [Bar](Basic Core Stats#M
 There should be a Menu that guides you through the process:
 
 1. Make sure: 
-  1. Your dog is sitting down.
-  1. Your main hand is empty.
-  1. Your dog's size is not smaller than **MODERATO** (the standard size)
-1. Pick your petting style (Face Rub, Hug, Belly Rub,...).
-1. Sneak and approach your dog **VERY** **CLOSELY.**
-1. Hold ***<code>Right-click</code>***.
+  a. Your dog is sitting down.
+  b. Your main hand is empty.
+  c. Your dog's size is not smaller than **MODERATO** (the standard size)
+2. Pick your petting style (Face Rub, Hug, Belly Rub,...).
+3. Sneak and approach your dog **VERY** **CLOSELY.**
+4. Hold ***<code>Right-click</code>***.
 
 Congratulations! You're now petting your doggo!
 

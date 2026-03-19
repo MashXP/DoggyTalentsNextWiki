@@ -103,7 +103,8 @@ At the same directory as ***pack.mcmeta***
 ![](/images/your_banner.png)
 
 ### update.json
-Remember to update here after each update.```json
+Remember to update here after each update.
+```json
 
 {
     "homepage": "",
@@ -115,6 +116,7 @@ Remember to update here after each update.```json
 ```
 
 ### ModelLayerLocations.java
+
 ```java
 
 package addonname_dtn;
@@ -126,7 +128,6 @@ public class ModelLayerLocations {
     public static final ModelLayerLocation YOUR_DOG_MODEL = new ModelLayerLocation(new ResourceLocation(Constants.MOD_ID, "yourdogmodel"), "main"); //replace all 'YOUR_DOG_MODEL' and 'yourdogmodel' instance.
     //append here if you want more models.
 }
-
 ```
 
 ### YourAddonNameInCamelCase.java
@@ -203,7 +204,8 @@ Each model should represented by a Java file.
   - Open the exported file in VSC.
 
 #### In VSC
-Copy this portion of the code.```java
+Copy this portion of the code.
+```java
 
 // Made with Blockbench 4.10.3
 // Exported for Minecraft version 1.17 or later with Mojang mappings
@@ -233,10 +235,11 @@ public class DefaultGeneralDogModel<T extends Entity> extends EntityModel<T> {
 		return LayerDefinition.create(meshdefinition, 64, 32);
 	}
 //stop here. And ignore the rest.
+```
+***Tip**: Usually to figure out if you have derooted or not, PartDefinition tail usually shows up first. Otherwise you'd see PartDefinition root*
 
-```***Tip**: Usually to figure out if you have derooted or not, PartDefinition tail usually shows up first. Otherwise you'd see PartDefinition root*
-
-And paste it into **YourDogDerootedModel.java**```java
+And paste it into **YourDogDerootedModel.java**
+```java
 
 package addonname_dtn.models;
 
@@ -295,7 +298,7 @@ Example:
 - Go to your Terminal (**<code>Ctrl+`</code>**), then type: **<code>./gradlew build</code>**
 - Locate: build -> libs**, your brand-new Addon** should be there once the build is finished.
 
-----It is necessary to test-run your Addon for errors. 
+It is necessary to test-run your Addon for errors. 
 
 Here are some **common errors** that I've encountered:
 

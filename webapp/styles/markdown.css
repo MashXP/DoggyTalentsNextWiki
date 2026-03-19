@@ -126,6 +126,30 @@
   object-fit: contain;
 }
 
+/* Tutorial Tables: Allow large images/screenshots in specific tables */
+.article-body .tutorial-table td img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  image-rendering: auto;
+}
+
+/* Tutorial Figures (Standalone large images with captions) */
+.tutorial-figure {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.tutorial-figure img {
+  width: fit-content;
+  max-width: 100px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+  border-radius: 12px;
+}
+
 /* Allow larger images in tables if they are GIFs */
 .article-body td img[src*=".gif"] {
   width: auto;
@@ -140,13 +164,6 @@
   height: auto;
   max-width: 48px;
   max-height: 48px;
-}
-
-/* Allow screenshots or large display images to be larger if they are the only thing in the row cell */
-.article-body td:only-child img[title],
-.article-body td:only-child img:not([alt=""]) {
-  max-width: 100%;
-  max-height: none;
 }
 
 .article-body tr:last-child td {
