@@ -2,11 +2,11 @@
 title: DTN's Palette Of Paws Variant Checklist
 ---
 
-### Last updated: 1.2.7
+### Last updated: 1.3.0
 Here's the list of the DTNP variants that you could find and their location.
 
-### <big>TOTAL: 43</big>
-**Obtainable in survival: 42**
+### <big>TOTAL: 46</big>
+**Obtainable in survival: 45**
 
 ## Overworld
 
@@ -45,7 +45,10 @@ Here's the list of the DTNP variants that you could find and their location.
 | 31 | ![](/images/root_beer_icon.png) | Root Beer | Savanna | ![](/images/root_beer.png) | |
 | 32 | ![](/images/sooty_icon.png) | Sooty | Savanna | ![](/images/sooty.png) | |
 | 33 | ![](/images/brindle_icon.png) | Brindle | Savanna | ![](/images/brindle.png) | |
-| **Total: 33** | | | | | |
+| 34 | ![](/images/cake_icon.png) | Cake | Snowy Plains | ![](/images/cake.png) | |
+| 35 | ![](/images/charcoal_icon.png) | Charcoal | Underground in Savanna Biomes | ![](/images/charcoal.png) | |
+| 36 | ![](/images/sculk_icon.png) | Sculk | Deep Dark Biomes under Jagged/Frozen/Strony Peaks and Meadow | ![](/images/sculk.png) | |
+| **Total: 36** | | | | | |
 
 ## Nether
 
