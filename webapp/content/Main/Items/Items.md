@@ -18,7 +18,7 @@ Documentations for all of the items currently in the mod.
 <div class="item-grid"><ul>
 <li><a href="/Throw_Bone"><img class="item-icon" src="/images/throw_bone.png" />Throw Bone</a></li>
 <li><a href="/Throw_Stick"><img class="item-icon" src="/images/throw_stick.png" />Throw Stick</a></li>
-<li><img class="item-icon" src="/images/frisbee.png" />Frisbee</li>
+<li><a href="/Frisbee"><img class="item-icon" src="/images/frisbee.png" />Frisbee</a></li>
 </ul></div>
 
 ### Treats
