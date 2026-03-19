@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Search from "./Search";
 import { SearchItem } from "@/lib/wiki";
 
@@ -69,10 +69,12 @@ function FolderItem({
       <div className={`nav-folder-header${isChildActive ? ' active' : ''}`}>
         {slug ? (
           <Link href={`/${slug}`} className={`nav-item nav-folder-link indent-${level}${isActive ? ' active' : ''}`}>
+            <div className="nav-item-bg" />
             {label}
           </Link>
         ) : (
           <span className={`nav-item nav-folder-link indent-${level}${isChildActive ? ' active' : ''}`} style={{ cursor: 'default', userSelect: 'none' }}>
+            <div className="nav-item-bg" />
             {label}
           </span>
         )}
@@ -165,6 +167,7 @@ function NavTree({ node, level = 0 }: { node: { [key: string]: NavTreeNode }; le
                 href={`/${item.slug}`}
                 className={`nav-item indent-${level}${pathname === `/${item.slug}` || pathname === `/${item.slug}/` ? ' active' : ''}`}
               >
+                <div className="nav-item-bg" />
                 {displayName}
               </Link>
             ) : null}
@@ -178,6 +181,74 @@ function NavTree({ node, level = 0 }: { node: { [key: string]: NavTreeNode }; le
 export default function SidebarNav({ slugs, searchData }: { slugs: string[]; searchData: SearchItem[] }) {
   const tree = buildTree(slugs.filter(s => s !== 'Doggy_Talents_Next_Wiki'));
   const pathname = usePathname();
+  const navRef = useRef<HTMLElement>(null);
+  const [indicatorStyle, setIndicatorStyle] = useState<React.CSSProperties>({
+    opacity: 0,
+    transform: 'translateY(0)',
+    height: 0
+  });
+
+  useEffect(() => {
+    const updateIndicator = () => {
+      if (!navRef.current) return;
+      
+      const activeItem = navRef.current.querySelector('.nav-item.active');
+      if (activeItem) {
+        const navRect = navRef.current.getBoundingClientRect();
+        const itemRect = activeItem.getBoundingClientRect();
+        
+        // Get the computed padding-left to find the true start of the content/indent
+        const computedStyle = window.getComputedStyle(activeItem);
+        const paddingLeft = parseFloat(computedStyle.paddingLeft);
+        
+        setIndicatorStyle({
+          opacity: 1,
+          transform: `translate(${itemRect.left - navRect.left + paddingLeft - 16}px, ${itemRect.top - navRect.top}px)`,
+          height: `${itemRect.height}px`
+        });
+      } else {
+        setIndicatorStyle(prev => ({ ...prev, opacity: 0 }));
+      }
+    };
+
+    updateIndicator();
+    
+    const handleMouseMove = (e: MouseEvent) => {
+      if (!navRef.current) return;
+      const target = e.target as HTMLElement;
+      const navItem = target.closest('.nav-item');
+      
+      if (navItem) {
+        const navRect = navRef.current.getBoundingClientRect();
+        const itemRect = navItem.getBoundingClientRect();
+        const computedStyle = window.getComputedStyle(navItem);
+        const paddingLeft = parseFloat(computedStyle.paddingLeft);
+        
+        setIndicatorStyle({
+          opacity: 1,
+          transform: `translate(${itemRect.left - navRect.left + paddingLeft - 16}px, ${itemRect.top - navRect.top}px)`,
+          height: `${itemRect.height}px`
+        });
+      }
+    };
+
+    const handleMouseLeave = () => {
+      updateIndicator();
+    };
+
+    const navElement = navRef.current;
+    if (navElement) {
+      navElement.addEventListener('mousemove', handleMouseMove);
+      navElement.addEventListener('mouseleave', handleMouseLeave);
+    }
+
+    return () => {
+      if (navElement) {
+        navElement.removeEventListener('mousemove', handleMouseMove);
+        navElement.removeEventListener('mouseleave', handleMouseLeave);
+      }
+    };
+  }, [pathname]);
 
   return (
     <aside className="sidebar glass">
@@ -195,9 +266,11 @@ export default function SidebarNav({ slugs, searchData }: { slugs: string[]; sea
         <div className="separator" style={{ marginLeft: '-1rem', marginRight: '-1rem' }} />
         <Search data={searchData} />
       </div>
-      <nav className="nav-links">
+      <nav className="nav-links" ref={navRef}>
+        <div className="nav-indicator" style={indicatorStyle} />
         <NavTree node={tree} />
       </nav>
     </aside>
   );
 }
+

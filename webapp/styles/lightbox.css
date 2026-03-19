@@ -57,7 +57,7 @@
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   z-index: 1001;
-  animation: slideInLeft 0.3s ease;
+  animation: fadeIn 0.3s ease;
   transition: opacity 0.5s ease; /* Added transition for opacity */
 }
 

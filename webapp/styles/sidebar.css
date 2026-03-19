@@ -4,6 +4,7 @@
   position: sticky;
   top: 0;
   overflow-y: auto;
+  overflow-x: hidden;
   border-right: 1px solid var(--surface-border);
   padding: 1.5rem 0;
   z-index: 10;
@@ -35,7 +36,8 @@
 .nav-links {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.15rem;
+  position: relative;
 }
 
 .separator {
@@ -44,26 +46,75 @@
   margin: 0.75rem 0;
 }
 
+.nav-indicator {
+  position: absolute;
+  left: 0;
+  width: 3px;
+  height: 0;
+  background: var(--primary);
+  box-shadow: 0 0 15px var(--primary), 0 0 5px rgba(245, 186, 88, 0.5);
+  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1), height 0.4s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 10;
+  opacity: 0;
+}
+
 .nav-item {
-  padding: 0.6rem 1rem;
-  border-radius: 0;
-  margin: 0;
+  padding: 0.6rem 1.25rem;
   color: var(--text-main);
   font-size: 0.95rem;
   font-weight: 500;
-  display: block;
-  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  position: relative;
+  z-index: 1;
+  text-decoration: none !important;
+  --indent-offset: 0rem;
+}
+
+.indent-1 {
+  padding-left: 1.5rem !important;
+  --indent-offset: 1.2rem;
+}
+
+.indent-2 {
+  padding-left: 2rem !important;
+  --indent-offset: 2.3rem;
+}
+
+.indent-3 {
+  padding-left: 2.5rem !important;
+  --indent-offset: 3.4rem;
 }
 
 .nav-item:hover,
 .nav-item.active {
-  background: linear-gradient(to right, rgba(245, 186, 88, 0.12), transparent);
   color: var(--primary);
-  border-left: 4px solid var(--primary);
 }
+
+.nav-item-bg {
+  position: absolute;
+  top: 0.2rem;
+  bottom: 0.2rem;
+  left: 0.5rem;
+  right: 0.5rem;
+  background: rgba(245, 186, 88, 0.08);
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.nav-item:hover .nav-item-bg,
+.nav-item.active .nav-item-bg {
+  opacity: 1;
+}
+
 
 .nav-folder-wrapper {
   display: flex;
@@ -163,18 +214,6 @@
   padding-left: 0.35rem;
   margin-top: 0.15rem;
   margin-bottom: 0.25rem;
-}
-
-.indent-1 {
-  padding-left: 1.5rem !important;
-}
-
-.indent-2 {
-  padding-left: 2rem !important;
-}
-
-.indent-3 {
-  padding-left: 2.5rem !important;
 }
 
 @media (max-width: 768px) {

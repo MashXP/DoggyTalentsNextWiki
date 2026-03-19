@@ -1,11 +1,11 @@
 /* Modern Article Styling */
 .article-header {
   margin-bottom: 3rem;
-  animation: fadeInDown 0.8s ease backwards;
+  animation: fadeIn 0.8s ease backwards;
 }
 
 .article-body {
-  animation: fadeInUp 0.8s ease backwards;
+  animation: fadeIn 0.8s ease backwards;
 }
 
 .article-body img {
@@ -260,8 +260,7 @@
   animation: fadeIn 0.4s ease;
 }
 
-/* Items Page — Grid Layout */
-.article-body:has(.mainpage-left) {
+.view-mode-container:has(.mainpage-left) {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 2.5rem;
@@ -269,7 +268,7 @@
 }
 
 @media (max-width: 1024px) {
-  .article-body:has(.mainpage-left) {
+  .view-mode-container:has(.mainpage-left) {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
