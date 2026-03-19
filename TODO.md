@@ -8,7 +8,7 @@ TODO:
 - ✅ Tab view for compact information, toggle between full view (current regular view)
 - ✅ Move Playing Tag to Behaviors
 - ✅ Add more proper dividers for Sidebar
-- Implement click on image to view full size
+- ✅ Implement click on image to view full size
 - ✅ Scaling the icons in infoboxes, use nearest neighbor for pixel correct scaling
 - ✅ Setting up Dev env
 - ✅ Fix tutorial pages
