@@ -5,6 +5,9 @@ import Sidebar from '@/components/Sidebar';
 export const metadata: Metadata = {
   title: 'Doggy Talents Next Wiki',
   description: 'The official wiki for Doggy Talents Next Minecraft Mod',
+  icons: {
+    icon: '/images/site-favicon.ico',
+  },
 };
 
 export default function RootLayout({
