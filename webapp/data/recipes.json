@@ -1033,7 +1033,7 @@
       "count": 1
     }
   },
-  "cere_garb": {
+  "ceremonial_garb": {
     "type": "shaped",
     "pattern": [
       " L ",
@@ -1046,7 +1046,7 @@
       "C": "tag:wool_carpets"
     },
     "output": {
-      "item": "doggytalents:cere_garb",
+      "item": "doggytalents:ceremonial_garb",
       "count": 1
     }
   },

@@ -15,7 +15,7 @@ title: Ceremonial Garb
 
 ## Obtaining
 ### Crafting
-<recipe id="cere_garb" />
+<recipe id="ceremonial_garb" />
 
 ## Usage
 {{Accessory_use}}

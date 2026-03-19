@@ -11,7 +11,6 @@
 .article-body img {
   max-width: 100%;
   border-radius: 12px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   transition: var(--transition);
   display: inline-block; /* Default to inline-block for better text flow */
   vertical-align: middle; /* Align inline images with text baseline */

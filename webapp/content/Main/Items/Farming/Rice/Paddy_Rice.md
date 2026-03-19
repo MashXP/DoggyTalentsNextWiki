@@ -2,7 +2,7 @@
 title: Paddy Rice
 ---
 
-**Paddy Rice** is a rice-related crafting material harvested from [Rice Crops](Rice Grains).
+**Paddy Rice** is a rice-related crafting material harvested from [Rice Crops](Rice_Grains).
 
 <aside class="infobox glass">
   <div class="infobox-title">Paddy Rice</div>

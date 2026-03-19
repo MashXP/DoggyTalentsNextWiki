@@ -55,9 +55,9 @@
     "texture": "/images/cape_coloured.png",
     "name": "Cape Coloured"
   },
-  "doggytalents:cere_garb": {
-    "texture": "/images/cere_garb.png",
-    "name": "Cere Garb"
+  "doggytalents:ceremonial_garb": {
+    "texture": "/images/ceremonial_garb.png",
+    "name": "Ceremonial Garb"
   },
   "doggytalents:chef_hat": {
     "texture": "/images/chef_hat.png",
@@ -325,7 +325,7 @@
   },
   "doggytalents:rice_wheat": {
     "texture": "/images/rice_wheat.png",
-    "name": "Rice Wheat"
+    "name": "Paddy Rice"
   },
   "doggytalents:sake": {
     "texture": "/images/sake.png",

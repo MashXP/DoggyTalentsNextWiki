@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useMemo } from 'react';
+import Link from 'next/link';
 import itemTextures from '../data/item_textures.json';
 
 interface ItemSlotProps {
@@ -26,14 +27,47 @@ export const ItemSlot: React.FC<ItemSlotProps> = ({ itemId, count, size = 'norma
   const texture = itemData?.texture || (currentId.startsWith('/') ? currentId : '');
   const name = itemData?.name || currentId;
 
-  return (
-    <div className={`recipe-slot ${size}`} title={name}>
+  const getLink = () => {
+    if (currentId.startsWith('minecraft:')) {
+      return `https://minecraft.wiki/w/${encodeURIComponent(name)}`;
+    }
+    if (currentId.startsWith('doggytalents:')) {
+      return `/${name.replace(/ /g, '_')}`;
+    }
+    if (currentId.startsWith('tag:')) {
+      const tagName = name.replace(' (Any)', '');
+      return `https://minecraft.wiki/w/Tag#${encodeURIComponent(tagName)}`;
+    }
+    return null;
+  };
+
+  const link = getLink();
+  const isExternal = link?.startsWith('http');
+
+  const content = (
+    <>
       {texture ? (
         <img src={texture} alt={name} className="recipe-item-icon" />
       ) : (
         <div className="item-id-placeholder">{currentId}</div>
       )}
       {count && count > 1 && <span className="recipe-count">{count}</span>}
+    </>
+  );
+
+  return (
+    <div className={`recipe-slot ${size}`} title={name}>
+      {link ? (
+        isExternal ? (
+          <a href={link} target="_blank" rel="noopener noreferrer" className="recipe-item-link">
+            {content}
+          </a>
+        ) : (
+          <Link href={link} className="recipe-item-link">
+            {content}
+          </Link>
+        )
+      ) : content}
     </div>
   );
 };
