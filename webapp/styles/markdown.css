@@ -126,13 +126,27 @@
   object-fit: contain;
 }
 
-/* Allow larger images in tables if they are GIFs or have an alt/title */
-.article-body td img[src*=".gif"],
+/* Allow larger images in tables if they are GIFs */
+.article-body td img[src*=".gif"] {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Limit icons/Kanji with labels to a reasonable size in tables */
 .article-body td img[title],
 .article-body td img:not([alt=""]) {
   width: auto;
   height: auto;
+  max-width: 48px;
+  max-height: 48px;
+}
+
+/* Allow screenshots or large display images to be larger if they are the only thing in the row cell */
+.article-body td:only-child img[title],
+.article-body td:only-child img:not([alt=""]) {
   max-width: 100%;
+  max-height: none;
 }
 
 .article-body tr:last-child td {

@@ -54,18 +54,18 @@ With **Immortal Dogs** disabled *(which is not recommended)*, when the dog's hea
 ![An Injured Dog](/images/an_injured_dog.png "An Injured Dog")
 
 - Dogs **cannot teleport** in this mode.
-- Upon entering the mode, his [Nourishment Points](Basic Core Stats#Nourishment Points) will be set to <code>-64</code> and will gradually regenerate to <code>0</code>. When it hits 0, the dog leaves the mode with its health and [Nourishment Points](Basic Core Stats#Nourishment Points) maxed out and will be considered fully recovered and ready for another adventure.
-- The [Nourishment Points](Basic Core Stats#Nourishment Points) will reset to 0 whenever the dog is damaged by any source while healing. 
-- The dog **cannot consume any meat or food** that normally regenerates [Nourishment Points](Basic Core Stats#Nourishment Points). 
+- Upon entering the mode, his [Nourishment Points](Basic_Core_Stats#Nourishment_Points) will be set to <code>-64</code> and will gradually regenerate to <code>0</code>. When it hits 0, the dog leaves the mode with its health and [Nourishment Points](Basic_Core_Stats#Nourishment_Points) maxed out and will be considered fully recovered and ready for another adventure.
+- The [Nourishment Points](Basic_Core_Stats#Nourishment_Points) will reset to 0 whenever the dog is damaged by any source while healing. 
+- The dog **cannot consume any meat or food** that normally regenerates [Nourishment Points](Basic_Core_Stats#Nourishment_Points). 
 ## Bringing Your Best Friend Back to Action
 
-> For your dog to be fully recovered, its [Nourishment Points](Basic Core Stats#Nourishment Points) have to reach <code>0</code>. It will auto-regenerate little by little. This process will be **extremely lengthy** in time as it should be, your dog deserves some **rest**.
+> For your dog to be fully recovered, its [Nourishment Points](Basic_Core_Stats#Nourishment_Points) have to reach <code>0</code>. It will auto-regenerate little by little. This process will be **extremely lengthy** in time as it should be, your dog deserves some **rest**.
 
 ### Luckily, the process can be sped up:
 - When an injured dog stays on a **bed** (including the unclaimed [Dog Bed](Dog_Bed), a claimed bed the dog does not own, or a vanilla [bed](https://minecraft.wiki/w/Bed)), it will lie down and its healing speed will be increased. Additionally, healing will be increased even further if the **owner is nearby, less than <code>10 (blocks)</code>** **away**, in which heart particles will also start to appear.
 - A [Golden A5 Wagyu](Golden_A5_Wagyu) can be fed to it also to further increase the healing speed.
 - A [Band-Aid](Band-Aid) can also be applied to speed up the healing process. If enough bandages (8) are applied, the dog can begin to walk. 
-  - **Note:** Every damage the dog takes will still cause the [Nourishment Points](Basic Core Stats#Nourishment Points) to reset and additionally cause all of the bandages to drop.
+  - **Note:** Every damage the dog takes will still cause the [Nourishment Points](Basic_Core_Stats#Nourishment Points) to reset and additionally cause all of the bandages to drop.
 - The dog still won't be able to do anything up to this point besides following you. If there are empty beds (DTN or Vanilla) nearby, your dog will stay there to rest.
 - You can <code>Sneak + Right-click</code> to pick the dog up using a [Bone](https://minecraft.fandom.com/wiki/Bone) and carry it to a safe area.
 

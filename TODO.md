@@ -10,7 +10,6 @@ TODO:
 - ✅ Add more proper dividers for Sidebar
 - Implement click on image to view full size
 - ✅ Scaling the icons in infoboxes, use nearest neighbor for pixel correct scaling
-- Making info box more dynamic
 - fix code block issues in FAQ, Setting up Dev env
 - Fix tutorial pages
 - ✅ (add hot key maybe? / to search)
@@ -18,8 +17,8 @@ TODO:
 - ✅ Frisbee: link in blockquote issue
 - ✅ Inline icon not rendering properly (drool stuff in scent treat)
 - Overhaul DTNP Variant Checklist page to be more aesthetically pleasing, image currently is too big, Probably head icons?
-- Fix immortal dogs kanji too big
-- Fix Leveling System icon in table 
+- ✅ Fix immortal dogs kanji too big
+- ✅ Fix Leveling System icon in table 
 - Complete the Unfinished Pages
 - ✅ Accessory use hardcode fix
 - ✅ FAQ page -> Dropdown 
@@ -31,6 +30,7 @@ TODO:
 
 IDEA:
 - Update Dog Behavior Improvements
+- Making info box more dynamic
 - Add mod page linkings
 - Add a "Quick Info" section to the top of each page with the most important information, like a summary.
 - Add CHANGELOG page. and link trivia to that specific changelog.
