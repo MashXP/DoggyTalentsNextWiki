@@ -5,7 +5,7 @@ TODO:
         ✅ - Sake Brewing Recipe / Crafting (Fabric)
         ✅- Locator Orb
     - ✅ recipe tag cut the pages short.
-- Tab view for compact information, toggle between full view (current regular view)
+- ✅ Tab view for compact information, toggle between full view (current regular view)
 - ✅ Move Playing Tag to Behaviors
 - ✅ Add more proper dividers for Sidebar
 - Implement click on image to view full size
