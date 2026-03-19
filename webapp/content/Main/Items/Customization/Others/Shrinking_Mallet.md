@@ -22,7 +22,7 @@ If used 4 times on a normal-sized doggo, it'll turn into a puppy and won't grow 
 <recipe id="shrinking_mallet" />
 
 ## Usage
-{{Item_use}}
+- **<code>Right click</code>** on your dog to use the item.
 ## Trivia
 - It was introduced in DTN 1.15.0.
 - The item is a reference to the **Lucky Mallet** - a special treasure from the game **Okami**.<ref>https://www.okaminow.org/magnifying-glass-over-issun-okami-fanart-gallery-8/</ref>

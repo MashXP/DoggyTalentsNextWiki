@@ -34,7 +34,7 @@ List of Locator Orbs
 <span id="usage"></span>
 
 ## Usage
-{{Accessory_use}}
+- **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ![Orb Frenzy!](/images/rgb_doggo.gif "Orb Frenzy!")
 

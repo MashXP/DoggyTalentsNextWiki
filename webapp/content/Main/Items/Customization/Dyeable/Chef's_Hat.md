@@ -22,7 +22,7 @@ Chef's Hat is a dyeable equipable item that stylizes your dog.
 
 *Requires Bread to unlock the recipe.*
 ## Usage
-{{Accessory_use}}
+- **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 ## Trivia
 - It was introduced to DTN 1.17.2.
 - The item's description is a reference to a popular Gordon Ramsay meme.

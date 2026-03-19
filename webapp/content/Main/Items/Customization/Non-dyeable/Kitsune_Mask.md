@@ -19,7 +19,7 @@ title: Kitsune Mask
 <recipe id="kitsune_mask" />
 
 ## Usage
-{{Accessory_use}}
+- **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 ## Trivia
 - It was introduced in DTN 1.17.2.
 - The mask was based on a mythical creature depicted in Japanese folklore.<ref>[Kitsune - Wikipedia](https://en.wikipedia.org/wiki/Kitsune)</ref>

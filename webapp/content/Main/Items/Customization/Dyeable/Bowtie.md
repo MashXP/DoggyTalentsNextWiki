@@ -20,7 +20,7 @@ title: Bowtie
 ![Doggo with fancy bowtie!](/images/bowtie_equipped.png "Doggo with fancy bowtie!")
 
 ## Usage
-{{Accessory_use}}
+- **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Used In
 - ![Festive Doggos!](/images/bowtie_demo2.png "Festive Doggos!")

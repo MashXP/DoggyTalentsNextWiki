@@ -21,7 +21,7 @@ title: Beastars's Male Uniform
 <recipe id="beastars_uniform_male" />
 
 ## Usage
-{{Accessory_use}}
+- **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 ## Trivia
 - It was introduced in DTN 1.12.0.
 - This item + skin is a direct reference to **Legoshi** and **Jack** - characters in **Beastars** <s>an anime that DashieDev really likes, especially Legoshi.<ref>SS 1 Ep 5: Two sides to the story - 02:31.</ref></s>

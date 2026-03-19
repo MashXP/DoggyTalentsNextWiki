@@ -20,7 +20,7 @@ title: Beastars's Female Uniform
 <recipe id="beastars_uniform_female" />
 
 ## Usage
-{{Accessory_use}}
+- **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 ## Trivia
 - It was introduced in DTN 1.12.0.
 - This item + skin is a direct reference to **Juno** - a character in **Beastars** <s>an anime that DashieDev really likes.<ref>Tenor Gif - SS 2 Ep 5: Call it Like it is - 11:09.</ref></s>

@@ -21,7 +21,7 @@ title: Conan Suit
 <recipe id="conan_suit" />
 
 ## Usage
-{{Accessory_use}}
+- **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 ## Trivia
 - It was introduced in DTN 1.12.0.
 - A direct reference to **Shinichi Kudo/Edogawa Conan** from the manga series **Case Closed**, also known as **Detective Conan**.<ref>https://www.imdb.com/title/tt0131179/</ref>

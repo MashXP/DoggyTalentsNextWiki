@@ -19,7 +19,7 @@ It can be used **10 times** and can be enchanted with **Unbreaking and Mending**
 <recipe id="gender_bone" />
 
 ## Usage
-{{Item_use}}
+- **<code>Right click</code>** on your dog to use the item.
 ## Trivia
 
 ![Old texture of Gender Bone](/images/gender_bone_old.png "Old texture of Gender Bone")

@@ -23,7 +23,7 @@ title: Birthday Hat
 <recipe id="birthday_hat" />
 
 ## Usage
-{{Accessory_use}}
+- **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 ## Trivia
 - It was introduced to DTN 1.17.2.
 - It was added to celebrate MrBlueYeti - Owner of BetterDogs and DTN's Birthday.

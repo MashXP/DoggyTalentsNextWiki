@@ -22,7 +22,7 @@ Sadly, the model for the Puli was lost so we can't fix the stick so as to fit wi
 <recipe id="giant_stick" />
 
 ## Usage
-{{Accessory_use}}
+- **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 ## Trivia
 - It was introduced in DTN 1.17.0.
 - It was used to be called Giant Stick but a lot of people confused this with the regular Stick so the name was changed.
