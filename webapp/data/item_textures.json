@@ -455,6 +455,42 @@
     "texture": "/images/whistle.png",
     "name": "Whistle"
   },
+  "doggytalents:locator_orb_chi": {
+    "texture": "/images/locator_orb_chi.png",
+    "name": "Chi Orb"
+  },
+  "doggytalents:locator_orb_chu": {
+    "texture": "/images/locator_orb_chu.png",
+    "name": "Chu Orb"
+  },
+  "doggytalents:locator_orb_ko": {
+    "texture": "/images/locator_orb_ko.png",
+    "name": "Ko Orb"
+  },
+  "doggytalents:locator_orb_gi": {
+    "texture": "/images/locator_orb_gi.png",
+    "name": "Gi Orb"
+  },
+  "doggytalents:locator_orb_tei": {
+    "texture": "/images/locator_orb_tei.png",
+    "name": "Tei Orb"
+  },
+  "doggytalents:locator_orb_rei": {
+    "texture": "/images/locator_orb_rei.png",
+    "name": "Rei Orb"
+  },
+  "doggytalents:locator_orb_shin": {
+    "texture": "/images/locator_orb_shin.png",
+    "name": "Shin Orb"
+  },
+  "doggytalents:locator_orb_jin": {
+    "texture": "/images/locator_orb_jin.png",
+    "name": "Jin Orb"
+  },
+  "doggytalents:locator_orb_dyeable": {
+    "texture": "/images/locator_orb_dyable.png",
+    "name": "Dyeable Orb"
+  },
   "doggytalents:wig": {
     "texture": "/images/wig.png",
     "name": "Wig"

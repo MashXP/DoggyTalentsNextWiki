@@ -1,26 +1,38 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import itemTextures from '../data/item_textures.json';
 
 interface ItemSlotProps {
-  itemId?: string;
+  itemId?: string | string[];
   count?: number;
   size?: 'normal' | 'large';
+  currentIndex?: number;
 }
 
-const ItemSlot: React.FC<ItemSlotProps> = ({ itemId, count, size = 'normal' }) => {
-  if (!itemId) {
+export const ItemSlot: React.FC<ItemSlotProps> = ({ itemId, count, size = 'normal', currentIndex = 0 }) => {
+  const itemIds = useMemo(() => {
+    if (!itemId) return [];
+    return Array.isArray(itemId) ? itemId : [itemId];
+  }, [itemId]);
+
+  const currentId = itemIds.length > 0 ? itemIds[currentIndex % itemIds.length] : null;
+
+  if (!currentId) {
     return <div className={`recipe-slot recipe-slot-empty ${size}`} />;
   }
 
-  const itemData = (itemTextures as any)[itemId];
-  const texture = itemData?.texture || '';
-  const name = itemData?.name || itemId;
+  const itemData = (itemTextures as any)[currentId];
+  const texture = itemData?.texture || (currentId.startsWith('/') ? currentId : '');
+  const name = itemData?.name || currentId;
 
   return (
     <div className={`recipe-slot ${size}`} title={name}>
-      <img src={texture} alt={name} className="recipe-item-icon" />
+      {texture ? (
+        <img src={texture} alt={name} className="recipe-item-icon" />
+      ) : (
+        <div className="item-id-placeholder">{currentId}</div>
+      )}
       {count && count > 1 && <span className="recipe-count">{count}</span>}
     </div>
   );
@@ -29,33 +41,70 @@ const ItemSlot: React.FC<ItemSlotProps> = ({ itemId, count, size = 'normal' }) =
 export interface RecipeData {
   type: 'shaped' | 'shapeless' | 'smelting' | 'campfire' | 'smoking' | 'brewing';
   pattern?: string[];
-  key?: { [char: string]: string };
-  ingredients?: string[];
-  input?: string;
-  base?: string;
-  ingredient?: string;
-  output: { item: string; count: number };
+  key?: { [char: string]: string | string[] };
+  ingredients?: (string | string[] | null)[];
+  input?: string | string[];
+  base?: string | string[];
+  ingredient?: string | string[];
+  output: { item: string | string[]; count: number };
 }
 
 export const CraftingGrid: React.FC<{ recipe: RecipeData }> = ({ recipe }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const maxItems = useMemo(() => {
+    let max = 1;
+    if (recipe.ingredients) {
+      recipe.ingredients.forEach(ing => {
+        if (Array.isArray(ing)) max = Math.max(max, ing.length);
+      });
+    }
+    if (recipe.key) {
+      Object.values(recipe.key).forEach(val => {
+        if (Array.isArray(val)) max = Math.max(max, val.length);
+      });
+    }
+    if (Array.isArray(recipe.output.item)) {
+      max = Math.max(max, recipe.output.item.length);
+    }
+    if (Array.isArray(recipe.input)) max = Math.max(max, recipe.input.length);
+    if (Array.isArray(recipe.base)) max = Math.max(max, recipe.base.length);
+    if (Array.isArray(recipe.ingredient)) max = Math.max(max, recipe.ingredient.length);
+    return max;
+  }, [recipe]);
+
+  useEffect(() => {
+    if (maxItems > 1) {
+      const interval = setInterval(() => {
+        setCurrentIndex((prev) => (prev + 1) % maxItems);
+      }, 3500);
+      return () => clearInterval(interval);
+    }
+  }, [maxItems]);
+
   const renderShaped = () => {
-    const grid = recipe?.pattern?.map(row => 
-      row.split('').map(char => recipe?.key?.[char] || null)
-    ) || [];
+    // Pad pattern to 3x3
+    const pattern = recipe.pattern || [];
+    const fullGrid: (string | string[] | null)[] = Array(9).fill(null);
+    
+    pattern.forEach((row, rowIndex) => {
+      row.split('').forEach((char, colIndex) => {
+        if (char !== ' ' && recipe.key && recipe.key[char]) {
+          fullGrid[rowIndex * 3 + colIndex] = recipe.key[char];
+        }
+      });
+    });
 
     return (
       <div className="crafting-container shaped">
         <div className="crafting-grid">
-          {grid.flat().map((itemId, i) => (
-            <ItemSlot key={i} itemId={itemId || undefined} />
-          ))}
-          {Array.from({ length: Math.max(0, 9 - (grid.flat().length)) }).map((_, i) => (
-            <ItemSlot key={`empty-${i}`} />
+          {fullGrid.map((itemId, i) => (
+            <ItemSlot key={i} itemId={itemId || undefined} currentIndex={currentIndex} />
           ))}
         </div>
         <div className="crafting-arrow"></div>
         <div className="crafting-output">
-          <ItemSlot itemId={recipe?.output?.item} count={recipe?.output?.count} size="large" />
+          <ItemSlot itemId={recipe?.output?.item} count={recipe?.output?.count} size="large" currentIndex={currentIndex} />
         </div>
       </div>
     );
@@ -66,15 +115,15 @@ export const CraftingGrid: React.FC<{ recipe: RecipeData }> = ({ recipe }) => {
       <div className="crafting-container shapeless">
         <div className="crafting-grid">
           {recipe?.ingredients?.map((itemId, i) => (
-            <ItemSlot key={i} itemId={itemId} />
+            <ItemSlot key={i} itemId={itemId || undefined} currentIndex={currentIndex} />
           ))}
           {Array.from({ length: Math.max(0, 9 - (recipe?.ingredients?.length || 0)) }).map((_, i) => (
-            <ItemSlot key={`empty-${i}`} />
+            <ItemSlot key={`empty-${i}`} currentIndex={currentIndex} />
           ))}
         </div>
         <div className="crafting-arrow"></div>
         <div className="crafting-output">
-          <ItemSlot itemId={recipe?.output?.item} count={recipe?.output?.count} size="large" />
+          <ItemSlot itemId={recipe?.output?.item} count={recipe?.output?.count} size="large" currentIndex={currentIndex} />
         </div>
       </div>
     );
@@ -87,11 +136,11 @@ export const CraftingGrid: React.FC<{ recipe: RecipeData }> = ({ recipe }) => {
     return (
       <div className="cooking-container">
         <div className="cooking-input">
-          <ItemSlot itemId={recipe?.input} />
+          <ItemSlot itemId={recipe?.input} currentIndex={currentIndex} />
         </div>
         <div className={`cooking-progress ${iconClass}`}></div>
         <div className="cooking-output">
-          <ItemSlot itemId={recipe?.output?.item} count={recipe?.output?.count} size="large" />
+          <ItemSlot itemId={recipe?.output?.item} count={recipe?.output?.count} size="large" currentIndex={currentIndex} />
         </div>
       </div>
     );
@@ -101,15 +150,15 @@ export const CraftingGrid: React.FC<{ recipe: RecipeData }> = ({ recipe }) => {
     return (
       <div className="brewing-container">
         <div className="brewing-inputs">
-          <ItemSlot itemId={recipe?.ingredient} />
-          <ItemSlot itemId={recipe?.base} />
+          <ItemSlot itemId={recipe?.ingredient} currentIndex={currentIndex} />
+          <ItemSlot itemId={recipe?.base} currentIndex={currentIndex} />
         </div>
         <div className="brewing-action">
           <div className="brewing-progress bubbles"></div>
           <div className="crafting-arrow"></div>
         </div>
         <div className="brewing-output">
-          <ItemSlot itemId={recipe?.output?.item} count={recipe?.output?.count} size="large" />
+          <ItemSlot itemId={recipe?.output?.item} count={recipe?.output?.count} size="large" currentIndex={currentIndex} />
         </div>
       </div>
     );

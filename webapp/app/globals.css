@@ -680,6 +680,29 @@ li {
   vertical-align: middle;
 }
 
+/* Fix images inside table cells */
+.article-body td img {
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: none;
+  border-radius: 0;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  object-fit: contain;
+}
+
+/* Allow larger images in tables if they are GIFs or have an alt/title, but not for recipe icons */
+.article-body td img[src*=".gif"]:not(.recipe-item-icon),
+.article-body td img[title]:not(.recipe-item-icon),
+.article-body td img:not([alt=""]):not(.recipe-item-icon) {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
 .article-body tr:last-child td {
   border-bottom: none;
 }

@@ -4,6 +4,7 @@ import rehypeRaw from 'rehype-raw';
 import Link from 'next/link';
 
 import RecipeDisplay from './RecipeDisplay';
+import { ItemSlot } from './CraftingGrid';
 
 export default function MarkdownRenderer({ content }: { content: string }) {
   return (
@@ -48,6 +49,10 @@ export default function MarkdownRenderer({ content }: { content: string }) {
                 {props.children}
               </>
             );
+          },
+          item: (props: any) => {
+            const id = props.id || props.node?.properties?.id;
+            return <ItemSlot itemId={id} />;
           }
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         } as any}

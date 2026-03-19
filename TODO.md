@@ -3,7 +3,7 @@ TODO:
     - ✅ Fix minecraft items not rendering, 
     - bulk migration, 🟡
         ✅ - Sake Brewing Recipe / Crafting (Fabric)
-        - Locator Orb
+        ✅- Locator Orb
     - ✅ recipe tag cut the pages short.
 - Tab view for compact information, toggle between full view (current regular view)
 - ✅ Move Playing Tag to Behaviors
@@ -26,6 +26,7 @@ TODO:
 - Manully verify each page for issues
 - Accessory use hardcode fix
 - FAQ page -> Dropdown 
+- Click on crafting materials will lead to wiki entry 
 
 - Publish on Github Pages. Include add docs: `CHANGELOG.md`, `README.md`. 
 - Update Dog Behavior Improvements
