@@ -2,9 +2,7 @@
 title: Items
 ---
 
-Documentations for all of the items currently in the mod.
-
-### Blocks
+## Blocks
 
 <div class="item-grid"><ul>
 <li><a href="/Dog_Bed"><img class="item-icon" src="/images/dog_bed.png" />Dog Bed</a></li>
@@ -13,7 +11,7 @@ Documentations for all of the items currently in the mod.
 <li><a href="/Rice_Mill"><img class="item-icon" src="/images/rice_mill.png" />Rice Mill</a></li>
 </ul></div>
 
-### Throwables
+## Throwables
 
 <div class="item-grid"><ul>
 <li><a href="/Throw_Bone"><img class="item-icon" src="/images/throw_bone.png" />Throw Bone</a></li>
@@ -21,7 +19,7 @@ Documentations for all of the items currently in the mod.
 <li><a href="/Frisbee"><img class="item-icon" src="/images/frisbee.png" />Frisbee</a></li>
 </ul></div>
 
-### Treats
+## Treats
 
 <div class="item-grid"><ul>
 <li><a href="/Training_Treat"><img class="item-icon" src="/images/training_treat.png" />Training Treat</a></li>
@@ -30,7 +28,7 @@ Documentations for all of the items currently in the mod.
 <li><a href="/Kami_Treat"><img class="item-icon" src="/images/kami_treat.png" />Kami Treat</a></li>
 </ul></div>
 
-### Utilities
+## Utilities
 
 <div class="item-grid"><ul>
 <li><a href="/Starter_Bundle"><img class="item-icon" src="/images/starter_bundle.png" />Starter Bundle</a></li>
@@ -49,22 +47,22 @@ Documentations for all of the items currently in the mod.
 <li><a href="/Scent_Treat"><img class="item-icon" src="/images/scent_treat.png" />Scent Treat</a></li>
 </ul></div>
 
-### Artifacts
+## Artifacts
 
 <div class="item-grid"><ul>
 <li><a href="/Feathered_Mantle"><img class="item-icon" src="/images/feathered_mantle.png" />Feathered Mantle</a></li>
 </ul></div>
 
-### Combat
+## Combat
 
 <div class="item-grid"><ul>
 <li><a href="/Suspicious_Looking_Sickle"><img class="item-icon" src="/images/sussy_sickle.png" />Suspicious Looking Sickle</a></li>
 <li><span class="item-indev">Samurai Armor</span></li>
 </ul></div>
 
-### Food
+## Food
 
-#### Rice
+### Rice
 
 <div class="item-grid"><ul>
 <li><a href="/Rice_Bowl"><img class="item-icon" src="/images/rice_bowl.png" />Rice Bowl</a></li>
@@ -79,7 +77,7 @@ Documentations for all of the items currently in the mod.
 <li><a href="/Bottle_of_Sake"><img class="item-icon" src="/images/sake.png" />Bottle of Sake</a></li>
 </ul></div>
 
-#### Soy
+### Soy
 
 <div class="item-grid"><ul>
 <li><a href="/Unpodded_Edamame"><img class="item-icon" src="/images/edamame_unpodded.png" />Unpodded Edamame</a></li>
@@ -90,7 +88,7 @@ Documentations for all of the items currently in the mod.
 <li><a href="/Miso_Soup"><img class="item-icon" src="/images/miso_soup.png" />Miso Soup</a></li>
 </ul></div>
 
-#### Others
+### Others
 
 <div class="item-grid"><ul>
 <li><a href="/Egg_Sandwich"><img class="item-icon" src="/images/egg_sandwich.png" />Egg Sandwich</a></li>
@@ -99,9 +97,9 @@ Documentations for all of the items currently in the mod.
 <li><a href="/Sausage"><img class="item-icon" src="/images/sausage.png" />Sausage</a></li>
 </ul></div>
 
-### Farming
+## Farming
 
-#### Rice
+### Rice
 
 <div class="item-grid"><ul>
 <li><a href="/Rice_Grains"><img class="item-icon" src="/images/rice_grains.png" />Rice Grains</a></li>
@@ -111,7 +109,7 @@ Documentations for all of the items currently in the mod.
 <li><a href="/Uncooked_Rice_in_a_Bowl"><img class="item-icon" src="/images/uncooked_rice_bowl.png" />Uncooked Rice in a Bowl</a></li>
 </ul></div>
 
-#### Soy
+### Soy
 
 <div class="item-grid"><ul>
 <li><a href="/Soy_Beans"><img class="item-icon" src="/images/soy_beans.png" />Soy Beans</a></li>
@@ -122,9 +120,9 @@ Documentations for all of the items currently in the mod.
 <li><a href="/Miso_Paste"><img class="item-icon" src="/images/miso_paste.png" />Miso Paste</a></li>
 </ul></div>
 
-### Customization
+## Customization
 
-#### Dyeable
+### Dyeable
 
 <div class="item-grid"><ul>
 <li><a href="/Wool_Collar"><img class="item-icon" src="/images/wool_collar.png" />Wool Collar</a></li>
@@ -148,7 +146,7 @@ Documentations for all of the items currently in the mod.
 <li><a href="/Gift_Costume"><img class="item-icon" src="/images/dog_gift_costume.png" />Gift Costume</a></li>
 </ul></div>
 
-#### Non-dyeable
+### Non-dyeable
 
 <div class="item-grid"><ul>
 <li><a href="/Spotted_Collar"><img class="item-icon" src="/images/spotted_collar.png" />Spotted Collar</a></li>
@@ -190,35 +188,35 @@ Documentations for all of the items currently in the mod.
 <li><img class="item-icon" src="/images/hot_dog.png" />Hot Dog</li>
 </ul></div>
 
-#### Others
+### Others
 
 <div class="item-grid"><ul>
 <li><a href="/Magnifying_Bone"><img class="item-icon" src="/images/magnifying_bone.png" />Magnifying Bone</a></li>
 <li><a href="/Shrinking_Mallet"><img class="item-icon" src="/images/shrinking_mallet.png" />Shrinking Mallet</a></li>
 </ul></div>
 
-### Discs
+## Discs
 
-#### Chopin
+### Chopin
 
 <div class="item-grid"><ul>
 <li><a href="/Music_Discs"><img class="item-icon" src="/images/disc_chopin_op64_no1.png" />F. Chopin - Valse Du Petit Chien</a></li>
 </ul></div>
 
-#### Bach
+### Bach
 
 <div class="item-grid"><ul>
 <li><a href="/Music_Discs"><img class="item-icon" src="/images/disc_bwv_1080_fugue_11.png" />J.S Bach - Art Of Fugue: Contrapunctus XI (BWV 1080) (Kimiko Ishizaka)</a></li>
 <li><a href="/Music_Discs"><img class="item-icon" src="/images/disc_bwv_849_fugue.png" />J.S Bach - WTC I: Fugue in C♯ Minor (BWV 849) (Kimiko Ishizaka)</a></li>
 </ul></div>
 
-#### Others
+### Others
 
 <div class="item-grid"><ul>
 <li><a href="/Music_Discs"><img class="item-icon" src="/images/disc_okami_ryoshima_coast_arr.png" />Okami - "Ryoshima Coast" (Arr. DashieDev for Organ)</a></li>
 </ul></div>
 
-### Creative Exclusive
+## Creative Exclusive
 
 <div class="item-grid"><ul>
 <li><a href="/Creative_Collar"><img class="item-icon" src="/images/creative_collar.png" />Creative Collar</a></li>
@@ -228,7 +226,7 @@ Documentations for all of the items currently in the mod.
 <li><a href="/Dog_Animation_Debug_Stick"><img class="item-icon" src="/images/dog_anim_debug_stick.png" />Dog Animation Debug Stick</a></li>
 </ul></div>
 
-### Legacy/Removed
+## Legacy/Removed
 
 <div class="item-grid"><ul>
 <li><a href="/Collar_Shears"><img class="item-icon" src="/images/collar_shears.png" />Collar Shears</a></li>
