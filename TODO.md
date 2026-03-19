@@ -22,7 +22,7 @@ TODO:
 - Fix Leveling System icon in table 
 - Complete the Unfinished Pages
 - ✅ Accessory use hardcode fix
-- FAQ page -> Dropdown 
+- ✅ FAQ page -> Dropdown 
 - ✅ Click on crafting materials will lead to wiki entry 
 
 - Manully verify each page for issues

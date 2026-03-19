@@ -449,3 +449,165 @@
   color: var(--text-muted);
   border-top: 1px solid var(--surface-border);
 }
+
+/* FAQ Dropdowns (details/summary) Styling */
+.article-body details.animated-details {
+  margin: 1.25rem 0;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--surface-border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.article-body details.animated-details:hover {
+  background: rgba(245, 186, 88, 0.03);
+  border-color: rgba(245, 186, 88, 0.3);
+}
+
+.article-body details.animated-details[open] {
+  background: rgba(245, 186, 88, 0.05);
+  border-color: var(--primary);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3), 0 0 15px rgba(245, 186, 88, 0.1);
+}
+
+.article-body details.animated-details summary {
+  padding: 1.25rem 1.5rem;
+  font-weight: 600;
+  font-family: var(--font-display);
+  color: var(--primary);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: var(--transition);
+  user-select: none;
+  font-size: 1.1rem;
+  z-index: 2;
+  position: relative;
+}
+
+.article-body details.animated-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.article-body details.animated-details summary .summary-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.article-body details.animated-details summary .summary-icon::before,
+.article-body details.animated-details summary .summary-icon::after {
+  content: '';
+  position: absolute;
+  background-color: var(--text-muted);
+  transition: all 0.3s ease;
+}
+
+/* Horizontal line (Minus) */
+.article-body details.animated-details summary .summary-icon::before {
+  width: 14px;
+  height: 2px;
+}
+
+/* Vertical line (to make it a Plus) */
+.article-body details.animated-details summary .summary-icon::after {
+  width: 2px;
+  height: 14px;
+}
+
+/* Transform Plus to Minus */
+.article-body details.animated-details.is-open summary .summary-icon::after {
+  transform: rotate(90deg);
+  opacity: 0;
+}
+
+.article-body details.animated-details.is-open summary .summary-icon::before {
+  background-color: var(--primary);
+}
+
+.article-body details.animated-details summary:hover {
+  color: var(--primary-hover);
+}
+
+/* Smooth expansion animation using grid-template-rows trick */
+.article-body details.animated-details .details-content-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.article-body details.animated-details.is-open .details-content-wrapper {
+  grid-template-rows: 1fr;
+}
+
+.article-body details.animated-details .details-content-inner {
+  overflow: hidden;
+}
+
+/* Padding and spacing inside the animated content */
+.article-body details.animated-details .details-content-inner > * {
+  color: var(--text-main);
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.article-body details.animated-details .details-content-inner > *:not(ul):not(ol) {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.article-body details.animated-details .details-content-inner > ul,
+.article-body details.animated-details .details-content-inner > ol {
+  padding-right: 1.5rem;
+}
+
+.article-body details.animated-details.is-open .details-content-inner > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.article-body details.animated-details .details-content-inner > *:first-child {
+  padding-top: 1rem;
+}
+
+.article-body details.animated-details .details-content-inner > *:last-child {
+  padding-bottom: 1.5rem;
+}
+
+/* Ensure lists inside details have proper indentation and visibility */
+.article-body details.animated-details .details-content-inner > ul, 
+.article-body details.animated-details .details-content-inner > ol {
+  padding-left: 2.75rem !important; /* This aligns markers with paragraph padding */
+  margin-bottom: 1.25rem;
+}
+
+/* For nested lists */
+.article-body details ul, 
+.article-body details ol {
+  padding-left: 1.5rem;
+}
+
+.article-body details li {
+  margin-bottom: 0.5rem;
+}
+
+.article-body details li > p {
+  margin-bottom: 0.5rem;
+  padding-left: 0 !important; /* Reset padding for p inside li */
+}
+
+/* Ensure images and other elements inside details look good */
+.article-body details img {
+  margin: 1rem 0;
+}

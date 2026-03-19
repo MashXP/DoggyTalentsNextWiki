@@ -16,15 +16,63 @@ interface Section {
   content: string;
 }
 
+function CollapsibleDetails({ children, ...props }: any) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [isAnimating, setIsAnimating] = useState(false);
+  
+  // Find summary and content
+  const childrenArray = Array.isArray(children) ? children : [children];
+  const summary = childrenArray.find((c: any) => c?.type === 'summary' || c?.props?.node?.tagName === 'summary');
+  const otherChildren = childrenArray.filter((c: any) => c !== summary);
+
+  const handleToggle = (e: React.MouseEvent) => {
+    e.preventDefault();
+    if (isAnimating) return;
+    
+    setIsAnimating(true);
+    setIsOpen(!isOpen);
+  };
+
+  const onTransitionEnd = () => {
+    setIsAnimating(false);
+  };
+
+  // The details tag should be open if state is open OR if we are animating closed
+  const isActuallyOpen = isOpen || isAnimating;
+
+  return (
+    <details 
+      {...props} 
+      open={isActuallyOpen} 
+      className={`animated-details ${isOpen ? 'is-open' : ''}`}
+    >
+      <summary onClick={handleToggle}>
+        <span className="summary-title">{summary ? (summary as any).props?.children : 'Details'}</span>
+        <span className="summary-icon"></span>
+      </summary>
+      <div 
+        className="details-content-wrapper" 
+        onTransitionEnd={onTransitionEnd}
+      >
+        <div className="details-content-inner">
+          {otherChildren}
+        </div>
+      </div>
+    </details>
+  );
+}
+
 function splitByH2(content: string): Section[] {
   const sections: Section[] = [];
   const lines = content.split('\n');
   let currentTitle = 'Overview';
   let currentContent: string[] = [];
 
-  lines.forEach(line => {
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
     if (line.startsWith('## ') && !line.startsWith('### ')) {
-      if (currentContent.length > 0 || sections.length === 0) {
+      const contentStr = currentContent.join('\n').trim();
+      if (contentStr !== '') {
         sections.push({ title: currentTitle, content: currentContent.join('\n') });
       }
       currentTitle = line.replace('## ', '').trim();
@@ -32,9 +80,10 @@ function splitByH2(content: string): Section[] {
     } else {
       currentContent.push(line);
     }
-  });
+  }
 
-  if (currentContent.length > 0 || sections.length === 0) {
+  const lastContentStr = currentContent.join('\n').trim();
+  if (lastContentStr !== '') {
     sections.push({ title: currentTitle, content: currentContent.join('\n') });
   }
 
@@ -340,7 +389,8 @@ export default function MarkdownRenderer({ content }: { content: string }) {
       >
         {props.children}
       </Gallery>
-    )
+    ),
+    details: (props: any) => <CollapsibleDetails {...props} />
   };
 
   return (
