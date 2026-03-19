@@ -5,7 +5,10 @@ title: DTN's Palette Of Paws Variant Checklist
 ### Last updated: 1.2.7
 Here's the list of the DTNP variants that you could find and their location.
 
-### Overworld
+### <big>TOTAL: 43</big>
+**Obtainable in survival: 42**
+
+## Overworld
 
 | No. | Variant | Location | Image | Special |
 | --- | --- | --- | --- | --- |
@@ -44,7 +47,7 @@ Here's the list of the DTNP variants that you could find and their location.
 | 33 | Brindle | Savanna | ![](/images/brindle.png) | |
 | **Total: 33** | | | | |
 
-### Nether
+## Nether
 
 | No. | Variant | Location | Image | Special |
 | --- | --- | --- | --- | --- |
@@ -57,7 +60,7 @@ Here's the list of the DTNP variants that you could find and their location.
 | 7 | Desiccated | Nether Waste | ![](/images/desiccated.png) | Fire/Fall Damage Immune |
 | **Total: 7** | | | | |
 
-### End
+## End
 
 | No. | Variant | Location | Image | Special |
 | --- | --- | --- | --- | --- |
@@ -65,12 +68,9 @@ Here's the list of the DTNP variants that you could find and their location.
 | 2 | Chorus | End Highlands | ![](/images/chorus.png) | |
 | **Total: 2** | | | | |
 
-### Special
+## Special
 
 | No. | Variant | Location | Image | Special |
 | --- | --- | --- | --- | --- |
 | 1 | VSCode | *unobtainable through survival (for now)* | ![](/images/vscode.png) | |
 | **Total: 1** | | | | |
-
-### <big>TOTAL: 43</big>
-***Obtainable in survival: 42**

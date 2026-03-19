@@ -1,5 +1,5 @@
 TODO:
-- Fixing the Dynamic recipe rendering
+- ✅ Fixing the Dynamic recipe rendering
     - ✅ Fix minecraft items not rendering, 
     - bulk migration, 🟡
         ✅ - Sake Brewing Recipe / Crafting (Fabric)
@@ -15,10 +15,10 @@ TODO:
 - fix code block issues in FAQ, Setting up Dev env
 - Fix tutorial pages
 - Add icons to sidebar
--✅ (add hot key maybe? / to search)
+- ✅ (add hot key maybe? / to search)
 - BandAid gallery.
 - Frisbee: link in blockquote issue
-- Inline icon not rendering properly (drool stuff in scent treat)
+- ✅ Inline icon not rendering properly (drool stuff in scent treat)
 - Overhaul DTNP Variant Checklist page to be more aesthetically pleasing, image currently is too big, Probably head icons?
 - Fix immortal dogs kanji too big
 - Fix Leveling System icon in table 
