@@ -1,0 +1,59 @@
+.crafting-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  background: #8b8b8b;
+  padding: 4px;
+  border-top: 2px solid #373737;
+  border-left: 2px solid #373737;
+  border-bottom: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+}
+
+.recipe-slot {
+  width: 50px;
+  height: 50px;
+  background: #8b8b8b;
+  border-top: 2px solid #373737;
+  border-left: 2px solid #373737;
+  border-bottom: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.4);
+  overflow: visible !important;
+}
+
+.recipe-slot-empty {
+  background: #8b8b8b;
+}
+
+.recipe-slot.large {
+  width: 64px;
+  height: 64px;
+}
+
+.recipe-item-icon {
+  width: 32px;
+  height: 32px;
+  image-rendering: pixelated;
+  transition: transform 0.2s ease;
+}
+
+.recipe-slot:hover .recipe-item-icon {
+  transform: scale(1.1);
+}
+
+.recipe-count {
+  position: absolute;
+  bottom: 2px;
+  right: 4px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-shadow: 2px 2px 0px #373737;
+  pointer-events: none;
+}

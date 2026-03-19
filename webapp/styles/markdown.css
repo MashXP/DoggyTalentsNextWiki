@@ -1,0 +1,437 @@
+/* Modern Article Styling */
+.article-header {
+  margin-bottom: 3rem;
+  animation: fadeInDown 0.8s ease backwards;
+}
+
+.article-body {
+  animation: fadeInUp 0.8s ease backwards;
+}
+
+.article-body img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  transition: var(--transition);
+  display: inline-block; /* Default to inline-block for better text flow */
+  vertical-align: middle; /* Align inline images with text baseline */
+}
+
+/* Specific styling for inline icons */
+.article-body p img:not(:only-child),
+.article-body li img {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: contain;
+  margin: 0 0.2rem;
+  border-radius: 4px; /* Smaller radius for smaller icons */
+  box-shadow: none; /* No shadow for small icons */
+}
+
+.article-body img:hover {
+  transform: scale(1.02);
+}
+
+/* Styles for block-level images (standalone images not in paragraphs) */
+.article-body > img,
+.article-body > p > img:only-child { /* Targets images directly in article-body or sole image in a paragraph */
+  display: block;
+  margin: 2rem auto;
+  width: auto; /* Reset width for block images */
+  height: auto; /* Reset height for block images */
+}
+
+.article-body blockquote {
+  border-left: 4px solid var(--accent-orange);
+  background: rgba(255, 140, 66, 0.03);
+  padding: 1rem 1.5rem;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: var(--text-muted);
+  margin: 1.5rem 0;
+}
+
+/* Fix for links in blockquotes (Frisbee issue) */
+.article-body blockquote a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.article-body code {
+  background: var(--surface-color);
+  border: 1px solid var(--surface-border);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9em;
+  color: #ff7b72;
+}
+
+.article-body pre {
+  background: #0d1117;
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  border: 1px solid var(--surface-border);
+  margin: 1.5rem 0;
+}
+
+.article-body pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: inherit;
+}
+
+/* Enhanced Markdown Tables */
+.article-body table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 2rem 0;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.article-body th {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  text-align: left;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--surface-border);
+}
+
+.article-body td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  vertical-align: middle;
+}
+
+/* Fix images inside table cells */
+.article-body td img {
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: none;
+  border-radius: 0;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  object-fit: contain;
+}
+
+/* Allow larger images in tables if they are GIFs or have an alt/title */
+.article-body td img[src*=".gif"],
+.article-body td img[title],
+.article-body td img:not([alt=""]) {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.article-body tr:last-child td {
+  border-bottom: none;
+}
+
+.article-body tr:hover td {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* References */
+.references {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--surface-border);
+}
+
+.ref-tag {
+  color: var(--primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: help;
+  margin-left: 2px;
+}
+
+/* Tab View Styles */
+.view-toggle {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.3rem;
+  border-radius: 10px;
+  width: fit-content;
+  border: 1px solid var(--surface-border);
+}
+
+.view-toggle-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.view-toggle-btn:hover {
+  color: var(--text-main);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.view-toggle-btn.active {
+  background: rgba(245, 186, 88, 0.15);
+  color: var(--primary);
+  box-shadow: inset 0 0 10px rgba(245, 186, 88, 0.1);
+  border: 1px solid rgba(245, 186, 88, 0.3);
+}
+
+.tabs-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--surface-border);
+  padding-bottom: 1.2rem;
+}
+
+.tab-btn {
+  padding: 0.6rem 1.2rem;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--surface-border);
+  border-radius: 8px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.tab-btn:hover {
+  background: rgba(245, 186, 88, 0.08);
+  border-color: rgba(245, 186, 88, 0.4);
+  color: var(--text-main);
+}
+
+.tab-btn.active {
+  background: rgba(245, 186, 88, 0.2);
+  color: var(--primary);
+  border-color: var(--primary);
+  box-shadow: 0 0 15px rgba(245, 186, 88, 0.1);
+}
+
+.tab-content {
+  animation: fadeIn 0.4s ease;
+}
+
+/* Items Page — Grid Layout */
+.article-body:has(.mainpage-left) {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .article-body:has(.mainpage-left) {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.mainpage-left {
+  min-width: 0;
+}
+
+.mainpage-right {
+  position: sticky;
+  top: 5rem;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--surface-border);
+}
+
+.toc-list {
+  list-style: none !important;
+  padding: 0 !important;
+}
+
+.toc-list ul {
+  padding-left: 1.25rem !important;
+  margin-top: 0.25rem;
+  list-style: none !important;
+}
+
+.toc-list li {
+  margin-bottom: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.item-grid {
+  columns: 17em;
+  column-gap: 1rem;
+  margin: 1rem 0 2.5rem 0;
+}
+
+.item-grid ul,
+.article-body .item-grid ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.item-grid li,
+.article-body .item-grid li {
+  display: flex !important;
+  align-items: center;
+  padding: 0 !important;
+  /* Padding moved to the link */
+  border-radius: 8px;
+  margin-bottom: 0.5rem !important;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: var(--transition);
+  break-inside: avoid;
+  overflow: hidden;
+  /* Ensure link hover doesn't bleed */
+}
+
+.item-grid li a,
+.article-body .item-grid li a {
+  display: flex !important;
+  align-items: center;
+  padding: 0.5rem 0.75rem !important;
+  width: 100%;
+  height: 100%;
+  color: var(--primary) !important;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.item-grid li:hover {
+  background: rgba(245, 186, 88, 0.06);
+  border-color: var(--primary);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3), 0 0 15px rgba(245, 186, 88, 0.1);
+}
+
+.item-grid li:hover a {
+  text-decoration: underline !important;
+  text-underline-offset: 4px;
+  filter: brightness(1.2);
+}
+
+.item-link-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* Inline item icon — overrides the global article-body img block styles */
+.item-icon,
+.item-grid li img {
+  display: inline-block !important;
+  width: 24px !important;
+  height: 24px !important;
+  max-width: 24px !important;
+  min-width: 24px !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  margin: 0 10px 0 0 !important;
+  vertical-align: middle !important;
+  image-rendering: pixelated;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 2px;
+}
+
+/* In-development item badge */
+.item-indev {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  opacity: 0.45;
+  font-style: italic;
+}
+
+.item-indev::after {
+  content: 'in-dev';
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(255, 165, 0, 0.15);
+  color: #f59a00;
+  border: 1px solid rgba(255, 165, 0, 0.3);
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-style: normal;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .item-grid {
+    columns: 1;
+  }
+}
+
+/* Gallery Styles (BandAid gallery issue) */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.gallery-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--surface-border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+  background: rgba(245, 186, 88, 0.05);
+  border-color: var(--primary);
+}
+
+.gallery-image-wrapper {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+.gallery-image-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  image-rendering: pixelated;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.gallery-caption {
+  padding: 0.75rem;
+  font-size: 0.85rem;
+  text-align: center;
+  color: var(--text-muted);
+  border-top: 1px solid var(--surface-border);
+}
