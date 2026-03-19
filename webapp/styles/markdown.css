@@ -161,40 +161,65 @@
 /* Tab View Styles */
 .view-toggle {
   display: flex;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
-  background: rgba(0, 0, 0, 0.2);
-  padding: 0.3rem;
-  border-radius: 10px;
+  gap: 0;
+  margin-bottom: 2rem;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 0.35rem;
+  border-radius: 12px;
   width: fit-content;
   border: 1px solid var(--surface-border);
+  position: relative;
+  overflow: hidden;
+}
+
+.view-toggle-pill {
+  position: absolute;
+  top: 0.35rem;
+  bottom: 0.35rem;
+  left: 0.35rem;
+  width: calc(50% - 0.35rem);
+  background: rgba(245, 186, 88, 0.15);
+  border: 1px solid rgba(245, 186, 88, 0.3);
+  box-shadow: inset 0 0 10px rgba(245, 186, 88, 0.1);
+  border-radius: 9px;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 0;
+}
+
+.view-toggle-pill.tabs {
+  transform: translateX(100%);
 }
 
 .view-toggle-btn {
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
+  padding: 0.6rem 1.25rem;
+  border-radius: 9px;
   border: none;
-  background: transparent;
+  background: transparent !important;
   color: var(--text-muted);
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
   transition: var(--transition);
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.6rem;
+  position: relative;
+  z-index: 1;
+  border: 1px solid transparent; /* To prevent jumping when active border used to be there */
 }
 
 .view-toggle-btn:hover {
   color: var(--text-main);
-  background: rgba(255, 255, 255, 0.03);
 }
 
 .view-toggle-btn.active {
-  background: rgba(245, 186, 88, 0.15);
   color: var(--primary);
-  box-shadow: inset 0 0 10px rgba(245, 186, 88, 0.1);
-  border: 1px solid rgba(245, 186, 88, 0.3);
+  border: 1px solid transparent; /* Clear the old active border */
+  box-shadow: none; /* Clear the old active shadow */
+}
+
+.view-mode-container.ready {
+  animation: fadeIn 0.5s ease-out;
 }
 
 .tabs-container {
@@ -231,7 +256,7 @@
   box-shadow: 0 0 15px rgba(245, 186, 88, 0.1);
 }
 
-.tab-content {
+.view-mode-container.ready .tab-content {
   animation: fadeIn 0.4s ease;
 }
 

@@ -92,6 +92,7 @@ function splitByH2(content: string): Section[] {
 
 export default function MarkdownRenderer({ content }: { content: string }) {
   const [viewMode, setViewMode] = useState<'full' | 'tabs'>('full');
+  const [isReady, setIsReady] = useState(false);
   const [activeTabIndex, setActiveTabIndex] = useState(0);
   const [selectedImage, setSelectedImage] = useState<{ src: string; alt: string; title?: string } | null>(null);
   const [imgDimensions, setImgDimensions] = useState<{ width: number; height: number } | null>(null);
@@ -123,8 +124,9 @@ export default function MarkdownRenderer({ content }: { content: string }) {
   const fadeTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
-    const savedMode = localStorage.getItem('wiki_view_mode');
-    if (savedMode === 'full' || savedMode === 'tabs') setViewMode(savedMode);
+    const saved = localStorage.getItem('wiki_view_mode');
+    if (saved === 'full' || saved === 'tabs') setViewMode(saved as 'full' | 'tabs');
+    setIsReady(true);
   }, []);
 
   const handleToggleView = (mode: 'full' | 'tabs') => {
@@ -396,7 +398,8 @@ export default function MarkdownRenderer({ content }: { content: string }) {
   return (
     <div className="article-body">
       {hasMultipleSections && (
-        <div className="view-toggle">
+        <div className={`view-toggle ${isReady ? 'ready' : ''}`}>
+          <div className={`view-toggle-pill ${viewMode}`}></div>
           <button className={`view-toggle-btn ${viewMode === 'full' ? 'active' : ''}`} onClick={() => handleToggleView('full')}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="3" y1="15" x2="21" y2="15"></line><line x1="9" y1="3" x2="9" y2="21"></line><line x1="15" y1="3" x2="15" y2="21"></line></svg>
             Full View
@@ -408,20 +411,22 @@ export default function MarkdownRenderer({ content }: { content: string }) {
         </div>
       )}
 
-      {viewMode === 'tabs' && hasMultipleSections ? (
-        <div className="tabs-content-wrapper">
-          <div className="tabs-container">
-            {sections.map((s, idx) => (
-              <button key={idx} className={`tab-btn ${activeTabIndex === idx ? 'active' : ''}`} onClick={() => setActiveTabIndex(idx)}>{s.title}</button>
-            ))}
+      <div className={`view-mode-container ${isReady ? 'ready' : ''}`}>
+        {viewMode === 'tabs' && hasMultipleSections ? (
+          <div className="tabs-content-wrapper">
+            <div className="tabs-container">
+              {sections.map((s, idx) => (
+                <button key={idx} className={`tab-btn ${activeTabIndex === idx ? 'active' : ''}`} onClick={() => setActiveTabIndex(idx)}>{s.title}</button>
+              ))}
+            </div>
+            <div className="tab-content" key={activeTabIndex}>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, rehypeSlug]} components={MarkdownComponents as any}>{sections[activeTabIndex].content}</ReactMarkdown>
+            </div>
           </div>
-          <div className="tab-content" key={activeTabIndex}>
-            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, rehypeSlug]} components={MarkdownComponents as any}>{sections[activeTabIndex].content}</ReactMarkdown>
-          </div>
-        </div>
-      ) : (
-        <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, rehypeSlug]} components={MarkdownComponents as any}>{content}</ReactMarkdown>
-      )}
+        ) : (
+          <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, rehypeSlug]} components={MarkdownComponents as any}>{content}</ReactMarkdown>
+        )}
+      </div>
 
       {selectedImage && (
         <div 
