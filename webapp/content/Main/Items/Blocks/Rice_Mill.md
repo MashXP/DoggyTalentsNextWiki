@@ -33,21 +33,93 @@ With its wheel facing away from you:
 ### Rice Mill Recipes:
 *(*note that the bowl is optional)*
 
-
-| 3x <span class="item-link-wrapper"><img src="/images/rice_grains.png" class="item-icon" />[Rice Grains](Rice_Grains)</span> | Yes | <span class="item-link-wrapper"><img src="/images/uncooked_rice_bowl.png" class="item-icon" />[Uncooked Rice in a Bowl](Uncooked_Rice_in_a_Bowl)</span> |  |
-| 3x <span class="item-link-wrapper"><img src="/images/uncooked_rice.png" class="item-icon" />[Uncooked Rice](Uncooked_Rice)</span> | Yes | <span class="item-link-wrapper"><img src="/images/uncooked_rice_bowl.png" class="item-icon" />[Uncooked Rice in a Bowl](Uncooked_Rice_in_a_Bowl)</span> |  |
-| <span class="item-link-wrapper"><img src="/images/rice_wheat.png" class="item-icon" />[Paddy Rice](Paddy_Rice)</span> | Yes | <span class="item-link-wrapper"><img src="/images/uncooked_rice_bowl.png" class="item-icon" />[Uncooked Rice in a Bowl](Uncooked_Rice_in_a_Bowl)</span> |  |
-| <span class="item-link-wrapper"><img src="/images/rice_grains.png" class="item-icon" />[Rice Grains](Rice_Grains)</span> | No | <span class="item-link-wrapper"><img src="/images/uncooked_rice.png" class="item-icon" />[Uncooked Rice](Uncooked_Rice)</span> |  |
-| <span class="item-link-wrapper"><img src="/images/rice_wheat.png" class="item-icon" />[Paddy Rice](Paddy_Rice)</span> | No | 3x <span class="item-link-wrapper"><img src="/images/uncooked_rice.png" class="item-icon" />[Uncooked Rice](Uncooked_Rice)</span> |  |
-| colspan="3" |Soy |
-| <span class="item-link-wrapper"><img src="/images/soy_pods.png" class="item-icon" />[Soy Pods](Soy_Pods)</span> | No | 3x <span class="item-link-wrapper"><img src="/images/soy_beans.png" class="item-icon" />[Soy Beans](Soy_Beans)</span> |  |
-| <span class="item-link-wrapper"><img src="/images/soy_pods_dried.png" class="item-icon" />[Dried Soy Pods](Dried_Soy_Pods)</span> | No | 3x <span class="item-link-wrapper"><img src="/images/soy_beans_dried.png" class="item-icon" />[Dried Soy Beans](Dried_Soy_Beans)</span> |  |
-| <span class="item-link-wrapper"><img src="/images/edamame.png" class="item-icon" />[Edamame](Edamame)</span> | No | 3x <span class="item-link-wrapper"><img src="/images/edamame_unpodded.png" class="item-icon" />[Unpodded Edamame](Unpodded_Edamame)</span> |  |
-| <span class="item-link-wrapper"><img src="/images/soy_pods.png" class="item-icon" />[Soy Pods](Soy_Pods)</span> | No | <span class="item-link-wrapper"><img src="/images/soy_pods.png" class="item-icon" />[Soy Pods](Soy_Pods)</span> |  |
-| 3x <span class="item-link-wrapper"><img src="/images/soy_beans_dried.png" class="item-icon" />[Dried Soy Beans](Dried_Soy_Beans)</span> | Yes | <span class="item-link-wrapper"><img src="/images/soy_milk.png" class="item-icon" />[Soy Milk](Soy_Milk)</span> |  |
-| <span class="item-link-wrapper"><img src="/images/soy_pods_dried.png" class="item-icon" />[Dried Soy Pods](Dried_Soy_Pods)</span> | Yes | <span class="item-link-wrapper"><img src="/images/soy_milk.png" class="item-icon" />[Soy Milk](Soy_Milk)</span> |  |
-| colspan="3" |Others |
-| Wheat | No | Bread |  |
+<table>
+  <thead>
+    <tr>
+      <th>Input</th>
+      <th>Bowl?</th>
+      <th>Output</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4" style="text-align: center; font-weight: bold; font-weight: bold;">Rice</td>
+    </tr>
+    <tr>
+      <td><item id="doggytalents:rice_grains" count="3" /></td>
+      <td>✔</td>
+      <td><item id="doggytalents:uncooked_rice_bowl" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><item id="doggytalents:uncooked_rice" count="3" /></td>
+      <td>✔</td>
+      <td><item id="doggytalents:uncooked_rice_bowl" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><item id="doggytalents:rice_wheat" /></td>
+      <td>✔</td>
+      <td><item id="doggytalents:uncooked_rice_bowl" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><item id="doggytalents:rice_grains" /></td>
+      <td></td>
+      <td><item id="doggytalents:uncooked_rice" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><item id="doggytalents:rice_wheat" /></td>
+      <td></td>
+      <td><item id="doggytalents:uncooked_rice" count="3" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: center; font-weight: bold;">Soy</td>
+    </tr>
+    <tr>
+      <td><item id="doggytalents:soy_pods" /></td>
+      <td></td>
+      <td><item id="doggytalents:soy_beans" count="3" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><item id="doggytalents:soy_pods_dried" /></td>
+      <td></td>
+      <td><item id="doggytalents:soy_beans_dried" count="3" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><item id="doggytalents:edamame" /></td>
+      <td></td>
+      <td><item id="doggytalents:edamame_unpodded" count="3" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><item id="doggytalents:soy_beans_dried" count="3" /></td>
+      <td>✔</td>
+      <td><item id="doggytalents:soy_milk" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><item id="doggytalents:soy_pods_dried" /></td>
+      <td>✔</td>
+      <td><item id="doggytalents:soy_milk" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: center; font-weight: bold;">Others</td>
+    </tr>
+    <tr>
+      <td><item id="minecraft:wheat" /></td>
+      <td></td>
+      <td><item id="minecraft:bread" /></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Trivia
 - It was added in DTN 1.18.8.

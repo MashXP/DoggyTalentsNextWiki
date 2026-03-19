@@ -79,7 +79,8 @@ const MarkdownComponents = {
   },
   item: (props: any) => {
     const id = props.id || props.node?.properties?.id;
-    return <ItemSlot itemId={id} />;
+    const count = props.count || props.node?.properties?.count;
+    return <ItemSlot itemId={id} count={count ? parseInt(count) : undefined} />;
   }
 };
 

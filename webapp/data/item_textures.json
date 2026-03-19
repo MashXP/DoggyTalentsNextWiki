@@ -151,6 +151,10 @@
     "texture": "/images/edamame.png",
     "name": "Edamame"
   },
+  "doggytalents:edamame_unpodded": {
+    "texture": "/images/edamame_unpodded.png",
+    "name": "Unpodded Edamame"
+  },
   "doggytalents:egg_sandwich": {
     "texture": "/images/egg_sandwich.png",
     "name": "Egg Sandwich"
