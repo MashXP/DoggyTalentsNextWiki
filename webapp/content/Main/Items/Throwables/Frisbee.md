@@ -17,7 +17,7 @@ title: Frisbee
   </div>
 </aside>
 
-**Frisbee** is a dyeable throwable item that lets you play and interact with your [dogging talents](Main_Talents)!
+**Frisbee** is a dyeable throwable item that lets you play and interact with your doggo!
 
 ## Obtaining
 ### Crafting

@@ -25,10 +25,6 @@ export default async function WikiPage({
     notFound();
   }
 
-  // Redirect to canonical hierarchical URL if flat URL was used
-  if (pageContent.slug !== slugJoined) {
-    redirect(`/${pageContent.slug}`);
-  }
 
   return (
     <article>

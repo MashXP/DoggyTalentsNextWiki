@@ -388,6 +388,21 @@
   }
 }
 
+.article-body h2, .article-body h3 {
+  scroll-margin-top: 2rem;
+  transition: background-color 0.5s ease;
+}
+
+.hash-highlight {
+  animation: flash-highlight 1s ease-out forwards;
+}
+
+@keyframes flash-highlight {
+  0% { background-color: rgba(245, 186, 88, 0.4); }
+  70% { background-color: rgba(245, 186, 88, 0.1); }
+  100% { background-color: transparent; }
+}
+
 /* Gallery Styles (BandAid gallery issue) */
 .gallery {
   display: grid;

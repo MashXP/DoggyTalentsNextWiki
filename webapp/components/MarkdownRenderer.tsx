@@ -4,6 +4,7 @@ import { useState, useMemo, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
+import rehypeSlug from 'rehype-slug';
 import Link from 'next/link';
 
 import RecipeDisplay from './RecipeDisplay';
@@ -85,7 +86,87 @@ export default function MarkdownRenderer({ content }: { content: string }) {
   const sections = useMemo(() => splitByH2(content), [content]);
   const hasMultipleSections = sections.length > 1;
 
-  useEffect(() => setActiveTabIndex(0), [content]);
+  // Combined effect to handle initial mount, content changes, and hash changes
+  useEffect(() => {
+    const handleNavigation = () => {
+      if (typeof window === 'undefined') return;
+      
+      const rawHash = window.location.hash.replace('#', '');
+      if (!rawHash) {
+        // No hash, reset if content changed
+        return; 
+      }
+
+      const hash = decodeURIComponent(rawHash).toLowerCase();
+      // Also normalize hash to match slugified versions (replace spaces/underscores with hyphens)
+      const normalizedHash = hash.replace(/[\s_]+/g, '-');
+
+      if (viewMode === 'tabs') {
+        // Try to find section matching the hash
+        const targetIndex = sections.findIndex(s => {
+          // 1. Match against title (normalized)
+          const normalizedTitle = s.title.toLowerCase().replace(/[\s_]+/g, '-');
+          if (normalizedTitle === normalizedHash || 
+              normalizedTitle === hash || 
+              s.title.toLowerCase() === hash) return true;
+          
+          // 2. Also check if the hash might be an ID *within* the section's content
+          // Normalizing both sides for better match
+          const contentLower = s.content.toLowerCase();
+          if (contentLower.includes(`id="${hash}"`) || 
+              contentLower.includes(`id='${hash}'`) ||
+              contentLower.includes(`id="${normalizedHash}"`) ||
+              contentLower.includes(`id="${rawHash}"`) ||
+              contentLower.includes(`## ${hash}`) ||
+              contentLower.includes(`## ${normalizedHash}`) ||
+              contentLower.includes(`### ${hash}`) ||
+              contentLower.includes(`### ${normalizedHash}`)) {
+            return true;
+          }
+          return false;
+        });
+
+        if (targetIndex !== -1) {
+          setActiveTabIndex(targetIndex);
+          // Small delay to ensure rendering finished if we need to scroll *inside* the tab
+          setTimeout(() => {
+            const element = document.getElementById(rawHash) || document.getElementById(hash) || document.getElementById(normalizedHash);
+            if (element) {
+              element.scrollIntoView({ behavior: 'smooth' });
+              highlightElement(element);
+            } else {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+          }, 150); // Slightly longer delay for rendering stability
+        }
+      } else {
+        // Full view scroll and highlight
+        setTimeout(() => {
+          const element = document.getElementById(rawHash) || document.getElementById(hash) || document.getElementById(normalizedHash);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+            highlightElement(element);
+          }
+        }, 150);
+      }
+    };
+
+    const highlightElement = (el: HTMLElement) => {
+      el.classList.add('hash-highlight');
+      setTimeout(() => {
+        el.classList.remove('hash-highlight');
+      }, 1000); // Changed to 1 second as requested
+    };
+
+    // If no hash, and content just changed, default to first tab
+    if (!window.location.hash && viewMode === 'tabs') {
+      setActiveTabIndex(0);
+    }
+
+    handleNavigation();
+    window.addEventListener('hashchange', handleNavigation);
+    return () => window.removeEventListener('hashchange', handleNavigation);
+  }, [content, sections, viewMode]);
 
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
@@ -186,12 +267,35 @@ export default function MarkdownRenderer({ content }: { content: string }) {
   const MarkdownComponents = {
     a: ({ node: _node, ...props }: any) => {
       let href = props.href || '';
-      if (href && !href.startsWith('http') && !href.startsWith('mailto:') && !href.startsWith('#')) {
+      const isInternal = href && !href.startsWith('http') && !href.startsWith('mailto:');
+      const isHashOnly = href.startsWith('#');
+
+      if (isInternal && !isHashOnly) {
         href = decodeURIComponent(href);
         if (!href.startsWith('/')) href = '/' + href;
+        
+        // Ensure trailing slash for paths to match next.config.mjs trailingSlash: true
+        // This prevents redirects that drop URL hashes.
+        let [pathPart, hashPart] = href.split('#');
+        // Normalize spaces to underscores in the path part to match canonical slugs
+        pathPart = pathPart.replace(/ /g, '_');
+        
+        if (!pathPart.endsWith('/') && !pathPart.includes('.')) {
+          href = pathPart + '/' + (hashPart ? '#' + hashPart : '');
+        } else {
+          href = pathPart + (hashPart ? '#' + hashPart : '');
+        }
+        
         return <Link href={href}>{props.children}</Link>;
       }
-      return <a target="_blank" rel="noopener noreferrer" {...props} />;
+      
+      return (
+        <a 
+          {...props} 
+          target={!isInternal ? "_blank" : undefined} 
+          rel={!isInternal ? "noopener noreferrer" : undefined} 
+        />
+      );
     },
     img: ({ node: _node, ...props }: any) => {
       let src = props.src || '';
@@ -262,11 +366,11 @@ export default function MarkdownRenderer({ content }: { content: string }) {
             ))}
           </div>
           <div className="tab-content" key={activeTabIndex}>
-            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={MarkdownComponents as any}>{sections[activeTabIndex].content}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, rehypeSlug]} components={MarkdownComponents as any}>{sections[activeTabIndex].content}</ReactMarkdown>
           </div>
         </div>
       ) : (
-        <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={MarkdownComponents as any}>{content}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, rehypeSlug]} components={MarkdownComponents as any}>{content}</ReactMarkdown>
       )}
 
       {selectedImage && (
