@@ -1816,6 +1816,14 @@
       ],
       "count": 1
     }
+  },
+  "onsen_tamago_smelting": {
+    "type": "smelting",
+    "input": "minecraft:egg",
+    "output": {
+      "item": "doggytalents:onsen_tamago",
+      "count": 1
+    }
   }
 }
   
