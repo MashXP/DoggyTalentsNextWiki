@@ -27,11 +27,13 @@ const ItemSlot: React.FC<ItemSlotProps> = ({ itemId, count, size = 'normal' }) =
 };
 
 export interface RecipeData {
-  type: 'shaped' | 'shapeless' | 'smelting' | 'campfire' | 'smoking';
+  type: 'shaped' | 'shapeless' | 'smelting' | 'campfire' | 'smoking' | 'brewing';
   pattern?: string[];
   key?: { [char: string]: string };
   ingredients?: string[];
   input?: string;
+  base?: string;
+  ingredient?: string;
   output: { item: string; count: number };
 }
 
@@ -95,12 +97,31 @@ export const CraftingGrid: React.FC<{ recipe: RecipeData }> = ({ recipe }) => {
     );
   };
 
+  const renderBrewing = () => {
+    return (
+      <div className="brewing-container">
+        <div className="brewing-inputs">
+          <ItemSlot itemId={recipe?.ingredient} />
+          <ItemSlot itemId={recipe?.base} />
+        </div>
+        <div className="brewing-action">
+          <div className="brewing-progress bubbles"></div>
+          <div className="crafting-arrow"></div>
+        </div>
+        <div className="brewing-output">
+          <ItemSlot itemId={recipe?.output?.item} count={recipe?.output?.count} size="large" />
+        </div>
+      </div>
+    );
+  };
+
   switch (recipe.type) {
     case 'shaped': return renderShaped();
     case 'shapeless': return renderShapeless();
     case 'smelting':
     case 'campfire':
     case 'smoking': return renderCooking();
+    case 'brewing': return renderBrewing();
     default: return null;
   }
 };

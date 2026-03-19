@@ -709,7 +709,7 @@
   },
   "minecraft:potion": {
     "texture": "/images/mcwikipull/potion.png",
-    "name": "Potion"
+    "name": "Water Bottle"
   },
   "minecraft:purple_dye": {
     "texture": "/images/mcwikipull/purple_dye.png",

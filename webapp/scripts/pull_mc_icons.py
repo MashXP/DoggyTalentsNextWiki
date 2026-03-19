@@ -24,7 +24,7 @@ def download_file(url, dest):
 def id_to_wiki_title(item_id):
     mapping = {
         'elytra': 'Elytra',
-        'potion': 'Glass_Bottle',
+        'potion': 'Water_Bottle_JE2_BE2',
         'cooked_beef': 'Steak',
         'leather_helmet': 'Leather_Cap',
         'slime_ball': 'Slimeball',

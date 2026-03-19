@@ -1765,5 +1765,25 @@
       "item": "doggytalents:aburaage",
       "count": 1
     }
+  },
+  "sake_brewing": {
+    "type": "brewing",
+    "base": "minecraft:potion",
+    "ingredient": "doggytalents:koji",
+    "output": {
+      "item": "doggytalents:sake",
+      "count": 1
+    }
+  },
+  "sake_crafting_fabric": {
+    "type": "shapeless",
+    "ingredients": [
+      "minecraft:potion",
+      "doggytalents:koji"
+    ],
+    "output": {
+      "item": "doggytalents:sake",
+      "count": 1
+    }
   }
 }

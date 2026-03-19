@@ -2,7 +2,7 @@ TODO:
 - Fixing the Dynamic recipe rendering
     - ✅ Fix minecraft items not rendering, 
     - bulk migration, 🟡
-        - Sake Brewing Recipe / Crafting (Fabric)
+        ✅ - Sake Brewing Recipe / Crafting (Fabric)
         - Locator Orb
     - ✅ recipe tag cut the pages short.
 - Tab view for compact information, toggle between full view (current regular view)
