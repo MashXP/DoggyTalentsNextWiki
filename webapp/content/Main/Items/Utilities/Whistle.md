@@ -33,7 +33,7 @@ Commands also can be issued without opening this menu via keybinds which can be 
 > * Note that these keybinds are only active when you have the **whistle** in **one of your hands.**
 
 The Whistle will then remain in the mode and you can **<code>Right click</code>** the whistle again anytime to give the command again.
-### Whistle Modes
+## Whistle Modes
 
 Here are the currently available modes:
 
@@ -42,7 +42,7 @@ Here are the currently available modes:
 All dogs for this whistle to work on should be owned by the user and be in the radius.
 
 Currently, the default radius of the whistle resides in an **<code>100*50*100</code>** area.
-#### Basic Modes
+### Basic Modes
 - **Stand**: Make all dogs stand. They might all teleport to you if you're far away.
 - **Heel**: Make all *standing* dogs come to you.
 - **Stay**: Make all *standing* dogs sit.
@@ -65,14 +65,14 @@ Currently, the default radius of the whistle resides in an **<code>100*50*100</c
 - **Ssshhh!** : Make nearby Dogs go silent for a while. 
 - **Stop Attacking:** Force nearby Dogs to clear their targets.
 - **All Stand Cross Origin TP!:** Make it easier for players to manage which dog should teleport with you to another dimension.
-#### Talent-Specific Modes
+### Talent-Specific Modes
 These are modes that only can be used with corresponding talents.
 - **Sheperd** : Make dogs with [Shepherd Dog](Shepherd_Dog) Talent start herding livestock.
 - **Roaring** : Make dogs with [Roaring Gale](Roaring_Gale) Talent start roaring.
 - **Mob Retriever:** Make dogs with [Mob Retriever](Mob_Retriever) to go and retrieve mobs.
 - **Bed Dog:** Allows [Bed Dog](Bed_Dog) Talent dogs to enter sleep mode. "...To begin sleeping on your Dog, interact with it using the Bed Dog Whistle to make it lay down, then interact with it with the whistle again after it has laid down to begin sleeping on it..."
 
-= Trivia =
+## Trivia
 - It was added in the original Doggy Talents.
 - The Whistle Mode Changing User Interface was added in DTN 1.3.0beta since the old Mode Cycling method *"has proven itself to be relatively annoying and unintuitive, by allowing a great chance of accidental mode switch and trigger."*
 - There used to be a whistle mode called: Ok? which stands the healthy dogs, but it seemed too impractical so in 1.18.21 it was removed.
