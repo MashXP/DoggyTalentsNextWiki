@@ -2,7 +2,7 @@
 title: Edamame
 infobox:
   title: Edamame
-  image: edamame_unpodded.png
+  image: edamame.png
   rows:
   - ID: doggytalents:edamame
   - Type: Food (Soy)
@@ -24,7 +24,6 @@ recipes:
 
 **Edamame** is an item that's used to make [Unpodded Edamame](Unpodded_Edamame).
 
-<span></span>
 ## Obtaining
 ### Crafting
 <recipe />
