@@ -16,7 +16,7 @@ recipes:
     - " S "
     key:
       S: minecraft:soul_sand
-      X: doggytalents:divine_retributon
+      X: doggytalents:divine_retribution
     output:
       item: doggytalents:soul_reflector
       count: 1
