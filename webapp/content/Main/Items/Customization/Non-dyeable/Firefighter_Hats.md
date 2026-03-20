@@ -17,7 +17,7 @@ infobox:
 | 2 | ![](/images/firefighter_hat_blue.png) | Blue Fire Fighter Hat | doggytalents:firefighter_hat_blue |
 
 ## Obtaining
-Firefighter Hats are not currently craftable in survival mode.
+This item is not currently craftable in survival mode. (yet...)
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).

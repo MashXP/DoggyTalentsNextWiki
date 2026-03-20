@@ -25,11 +25,14 @@ recipes:
 ---
 <infobox />
 
-**Bunny Ears** is an item in Doggy Talents Next.
+**Bunny Ears** is a playful accessory that adds a hop to your dog's step. Beyond the cute look, there's a sweet surprise: dogs wearing these ears might occasionally drop [Easter Egg Candy](Easter_Egg_Candy) after defeating a mob.
 
 ## Obtaining
 ### Crafting
 <recipe />
 
 ## Usage
-- **<code>Right click</code>** on your dog to quickly equip the item.
+- **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
+## Trivia
+- Introduced in **DTN 1.18.47**.

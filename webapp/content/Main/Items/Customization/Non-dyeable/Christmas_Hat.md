@@ -24,11 +24,14 @@ recipes:
 ---
 <infobox />
 
-**Christmas Hat** is an item in Doggy Talents Next.
+**Christmas Hat** is a festive accessory that brings the holiday spirit to your dog. Perfect for seasonal celebrations and keeping those ears warm during cold winter adventures.
 
 ## Obtaining
 ### Crafting
 <recipe />
 
 ## Usage
-- **<code>Right click</code>** on your dog to quickly equip the item.
+- **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
+## Trivia
+- Introduced in **DTN 1.18.39**.

@@ -19,7 +19,7 @@ infobox:
 | 4 | ![](/images/firefighter_suit_black.png) | Black Fire Fighter Suit | doggytalents:firefighter_suit_black |
 
 ## Obtaining
-Firefighter Suits are not currently craftable in survival mode.
+This item is not currently craftable in survival mode. (yet...)
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).

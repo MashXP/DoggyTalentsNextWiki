@@ -24,11 +24,15 @@ recipes:
 ---
 <infobox />
 
-**Christmas Tree Costume** is an item in Doggy Talents Next.
+**Christmas Tree Costume** is a whimsical outfit that transforms your dog into a walking, barking festive centerpiece. Complete with piney details, it's the ultimate way to celebrate the season.
 
 ## Obtaining
 ### Crafting
 <recipe />
 
 ## Usage
-- **<code>Right click</code>** on your dog to quickly equip the item.
+- **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
+## Trivia
+- Introduced in **DTN 1.18.39**.
+- Pair it with the **[Christmas Star](Christmas_Star)** for the full festive look!

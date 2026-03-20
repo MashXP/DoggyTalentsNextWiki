@@ -14,7 +14,7 @@ infobox:
 
 ## Obtaining
 ### Crafting
-*(Recipe information currently unavailable)*
+This item is not currently craftable in survival mode. (yet...)
 
 ## Usage
 - **<code>Right click</code>** to place the item down.
