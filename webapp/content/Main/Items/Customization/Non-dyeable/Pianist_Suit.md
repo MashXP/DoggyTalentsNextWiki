@@ -5,7 +5,7 @@ title: Pianist Suit
 *ID: **<code>doggytalents:pianist_suit</code>***<br>
 **Pianist Suit** is a non-dyable equipable item that makes your dog look like a professional musician.<br>
 
-![RachRufff](/images/https://github.com/dashiedev/doggytalentsnext/assets/122363761/f2d48331-d359-4251-99dd-29fb7a657bf2 "RachRufff")
+![RachRufff](/images/rachruff.png)
 
 ## Obtaining
 ### Crafting

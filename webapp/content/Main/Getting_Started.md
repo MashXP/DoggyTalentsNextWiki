@@ -11,7 +11,9 @@ Before anything, you must obtain a ***Trained Dog*** first. There are currently 
 
 ![Use a Training Treat to train your first Doggo!](/images/train_your_first_doggo.gif "Use a Training Treat to train your first Doggo!")
 
-This is the standard way to get your **Trained Dog**. A [**vanilla wolf**](https://minecraft.wiki/w/Wolf) is required (or one of the variants of [DTN Palette of Paws](DTN's Palette Of Paws Variant Checklist)).
+This is the standard way to get your **Trained Dog**. A [**vanilla wolf**](https://minecraft.wiki/w/Wolf) is required (or one of the variants).
+
+***Check out the [Variant Checklist](DTN_s_Palette_Of_Paws_Variant_Checklist)***
 1. You can obtain them as usual in the game by feeding a wild wolf some bones until its texture changes and heart particles appear. ***(DTN 1.18.0+):** You can now directly convert an **untamed** wolf into a **Trained Dog** with a [Training Treat](Training_Treat).*
 1. <code>Right click</code> the vanilla wolf/dog you want to train and feed it a [Training Treat](Training_Treat).
 1. It now turns into a DTN **Trained Dog!**
@@ -32,8 +34,7 @@ From there you can start **customizing your dog by naming, adjusting your dog mo
 
 *Note:*
 - Trained Dogs are now becoming [Immortal](Immortal Dogs).
-- They can only be bred by [Breeding Bones](Breeding Bone).
+- ***(DTN 1.18.21+)*** Now you can breed your dogs with the [Breeding Bone](Breeding_Bone).
 - They have [nourishment points](Basic Core Stats#Nourishment_Points), which means having food in your inventory is a must. You don’t want your furry friend to starve.
 
 *…See more in [Behaviors](Behaviors).*
-[Category:Doggy Talents Next](Category:Doggy_Talents_Next)

@@ -9,5 +9,5 @@ It has been replaced by the [Magnifying Bone](Magnifying_Bone).
 - The items were added to the original Doggy Talents.
 - Legacy:
 - *Crafting recipe*
-- ![big_bone](/images/https://github.com/dashiedev/doggytalentsnext/assets/122363761/e41691aa-1e4c-47ee-b11c-8abd25e2eb91 "big_bone")
+- ![big_bone](/images/big_bone_crafting.png)
 - *Big Bone*
