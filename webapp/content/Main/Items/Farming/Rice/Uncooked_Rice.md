@@ -1,17 +1,17 @@
 ---
 title: Uncooked Rice
+infobox:
+  title: "Uncooked Rice"
+  image: "uncooked_rice.png"
+  rows:
+    - ID: "doggytalents:uncooked_rice"
+    - Type: "Farming (Rice)"
+    - Stackable: "64"
 ---
 
 **Uncooked Rice** is a material used to craft Rice related items.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Uncooked Rice</div>
-  <div class="infobox-image-wrapper"><img src="/images/uncooked_rice.png" alt="Uncooked Rice" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>uncooked_rice</span></div><div class="infobox-row"><b>Type</b><span>Farming (Rice)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 ## Obtaining
 ### Grinding

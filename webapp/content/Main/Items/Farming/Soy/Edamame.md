@@ -1,17 +1,18 @@
 ---
 title: Edamame
+infobox:
+  title: "Edamame"
+  image: "edamame_unpodded.png"
+  rows:
+    - ID: "doggytalents:edamame"
+    - Type: "Food (Soy)"
+    - Stackable: "64"
+  description: "Itadakimasu!"
 ---
 
 **Edamame** is an item that's used to make [Unpodded Edamame](Unpodded_Edamame).
 
-<aside class="infobox glass">
-  <div class="infobox-title">Edamame</div>
-  <div class="infobox-image-wrapper"><img src="/images/edamame_unpodded.png" alt="Edamame" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>edamame_unpodded</span></div><div class="infobox-row"><b>Type</b><span>Food (Soy)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Itadakimasu!</div>
-</aside>
+<infobox />
 <span></span>
 ## Obtaining
 ### Crafting

@@ -1,17 +1,19 @@
 ---
 title: Golden A5 Wagyu
+infobox:
+  title: "Golden A5 Wagyu"
+  image: "golden_a_five_wagyu.png"
+  rows:
+    - ID: "doggytalents:golden_a_five_wagyu"
+    - Type: "Food (Other)"
+    - Properties: "Hunger points: 10/10"
+    - Stackable: "64"
+  description: "It tastes expensive...and funny?"
 ---
 
 **Golden A5 Wagyu** is a **very delicious** food item that fills up a full hunger bar and gives you:
 
-<aside class="infobox glass">
-  <div class="infobox-title">Golden A5 Wagyu</div>
-  <div class="infobox-image-wrapper"><img src="/images/golden_a_five_wagyu.png" alt="Golden A5 Wagyu" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>golden_a_five_wagyu</span></div><div class="infobox-row"><b>Type</b><span>Food (Other)</span></div><div class="infobox-row"><b>Properties</b><span>Hunger points: 10/10</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">It tastes expensive...and funny?</div>
-</aside>
+<infobox />
 
 - **Regeneration II** for **1 minute**.
 - **Resistance II** for **1 minute.**

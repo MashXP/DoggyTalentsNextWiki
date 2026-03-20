@@ -1,16 +1,16 @@
 ---
 title: Multicoloured Collar
+infobox:
+  title: "Multicoloured Collar"
+  image: "multicoloured_collar.png"
+  rows:
+    - ID: "doggytalents:multicoloured_collar"
+    - Type: "Customization (Non-dyeable)"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Multicoloured Collar</div>
-  <div class="infobox-image-wrapper"><img src="/images/multicoloured_collar.png" alt="Multicoloured Collar" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>multicoloured_collar</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Multicolored Collar** is a non-dyable equipable item that *fabulizes* your dog's collar.
 

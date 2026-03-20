@@ -1,16 +1,16 @@
 ---
 title: Food Bowl
+infobox:
+  title: "Food Bowl"
+  image: "food_bowl.png"
+  rows:
+    - ID: "doggytalents:food_bowl"
+    - Type: "Blocks"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Food Bowl</div>
-  <div class="infobox-image-wrapper"><img src="/images/food_bowl.png" alt="Food Bowl" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>food_bowl</span></div><div class="infobox-row"><b>Type</b><span>Blocks</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 <br>
 **Dog Food Bowl** is a utility block that automatically feeds the dog whenever its nourishment point drops to a certain range.

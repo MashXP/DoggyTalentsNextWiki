@@ -1,15 +1,16 @@
 ---
 title: Demon Horns
+infobox:
+  title: "Demon Horns"
+  image: "demon_horns.png"
+  rows:
+    - ID: "doggytalents:demon_horns"
+    - Type: "Customization (Non-dyeable)"
+    - Stackable: "64"
+  description: "Who's a Bad Boy? You are!"
 ---
 
-<aside class="infobox glass">
-  <div class="infobox-title">Demon Horns</div>
-  <div class="infobox-image-wrapper"><img src="/images/demon_horns.png" alt="Demon Horns" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>demon_horns</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Who's a Bad Boy? You are!</div>
-</aside>
+<infobox />
 
 **Demon Horns** is a non-dyeable equipable item that gives your dog a devilish look.
 

@@ -1,16 +1,16 @@
 ---
 title: Kami Treat
+infobox:
+  title: "Kami Treat"
+  image: "kami_treat.png"
+  rows:
+    - ID: "doggytalents:kami_treat"
+    - Type: "Treats"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Kami Treat</div>
-  <div class="infobox-image-wrapper"><img src="/images/kami_treat.png" alt="Kami Treat" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>kami_treat</span></div><div class="infobox-row"><b>Type</b><span>Treats</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 > Once your dog is level 60, you can still raise your dog's "kami level" with Kami Treats! This maxes out at level 30, at which point your dog is fully trained and acquires a nifty aura (can be enabled via [Configuration](Configuration)).
 

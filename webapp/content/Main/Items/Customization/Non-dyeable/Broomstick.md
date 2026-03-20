@@ -1,16 +1,17 @@
 ---
 title: Broomstick
+infobox:
+  title: "Broomstick"
+  image: "giant_stick.png"
+  rows:
+    - ID: "doggytalents:giant_stick"
+    - Type: "Customization (Non-dyeable)"
+    - Stackable: "64"
+  description: "Not to be confused with a Stick!"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Broomstick</div>
-  <div class="infobox-image-wrapper"><img src="/images/giant_stick.png" alt="Broomstick" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>broomstick</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Not to be confused with a Stick!</div>
-</aside>
+<infobox />
 
 **Broomstick** is a non-dyeable equipable item that makes your dog look like a mop.
 

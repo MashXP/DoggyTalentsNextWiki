@@ -1,17 +1,17 @@
 ---
 title: Dried Soy Beans
+infobox:
+  title: "Dried Soy Beans"
+  image: "soy_beans_dried.png"
+  rows:
+    - ID: "doggytalents:soy_beans_dried"
+    - Type: "Farming (Soy)"
+    - Stackable: "64"
 ---
 
 **Dried Soy Beans** is a soy-related crafting material.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Dried Soy Beans</div>
-  <div class="infobox-image-wrapper"><img src="/images/soy_beans_dried.png" alt="Dried Soy Beans" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>soy_beans_dried</span></div><div class="infobox-row"><b>Type</b><span>Farming (Soy)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 ## Obtaining
 ### Smelting

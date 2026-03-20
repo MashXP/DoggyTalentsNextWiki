@@ -1,17 +1,17 @@
 ---
 title: Bach Wig
+infobox:
+  title: "Bach Wig"
+  image: "bach_wig.png"
+  rows:
+    - ID: "doggytalents:bach_wig"
+    - Type: "Customization (Dyeable)"
+    - Stackable: "64"
 ---
 
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Bach Wig</div>
-  <div class="infobox-image-wrapper"><img src="/images/bach_wig.png" alt="Bach Wig" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>bach_wig</span></div><div class="infobox-row"><b>Type</b><span>Customization (Dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Bach Wig** is a dyeable equipable item that helps your dog impersonate a very famous composer.<br>
 ![2023-08-01_18 51 47](/images/bach_wig_display.png "2023-08-01_18 51 47")

@@ -1,16 +1,17 @@
 ---
 title: Starter Bundle
+infobox:
+  title: "Starter Bundle"
+  image: "starter_bundle.png"
+  rows:
+    - ID: "doggytalents:starter_bundle"
+    - Type: "Utilities"
+    - Stackable: "64"
+  description: "Contains Items which assists you in starting with Doggy Talents Next. These includes:"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Starter Bundle</div>
-  <div class="infobox-image-wrapper"><img src="/images/starter_bundle.png" alt="Starter Bundle" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>starter_bundle</span></div><div class="infobox-row"><b>Type</b><span>Utilities</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Contains Items which assists you in starting with Doggy Talents Next. These includes:</div>
-</aside>
+<infobox />
 
 **Starter Bundle** is an item that gives you certain items to make the game a bit easier (suitable for beginners). These includes:
 

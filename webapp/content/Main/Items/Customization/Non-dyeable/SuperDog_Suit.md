@@ -1,16 +1,17 @@
 ---
 title: SuperDog Suit
+infobox:
+  title: "SuperDog Suit"
+  image: "superdog_suit.png"
+  rows:
+    - ID: "doggytalents:superdog_suit"
+    - Type: "Customization (Non-dyeable)"
+    - Stackable: "64"
+  description: "It's a bird! No, it's a plane! It's SuperDog!"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">SuperDog Suit</div>
-  <div class="infobox-image-wrapper"><img src="/images/superdog_suit.png" alt="SuperDog Suit" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>superdog_suit</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">It's a bird! No, it's a plane! It's SuperDog!</div>
-</aside>
+<infobox />
 
 **SuperDog Suit** is a non-dyeable equipable item that makes your dog look like a hero.
 

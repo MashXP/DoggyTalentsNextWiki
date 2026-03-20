@@ -1,16 +1,17 @@
 ---
 title: Bowtie
+infobox:
+  title: "Bowtie"
+  image: "bowtie.png"
+  rows:
+    - ID: "doggytalents:bowtie"
+    - Type: "Customization (Dyeable)"
+    - Stackable: "64"
+  description: "Sneak while applying this on your Dog to give it another variant of the Accessory."
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Bowtie</div>
-  <div class="infobox-image-wrapper"><img src="/images/bowtie.png" alt="Bowtie" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>bowtie</span></div><div class="infobox-row"><b>Type</b><span>Customization (Dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Sneak while applying this on your Dog to give it another variant of the Accessory.</div>
-</aside>
+<infobox />
 
 **Bowtie** is a dyable equipable material that you wear on your dog.
 ## Obtaining

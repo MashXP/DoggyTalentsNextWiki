@@ -1,16 +1,17 @@
 ---
 title: Snorkel
+infobox:
+  title: "Snorkel"
+  image: "snorkel.png"
+  rows:
+    - ID: "doggytalents:snorkel"
+    - Type: "Customization (Non-dyeable)"
+    - Stackable: "64"
+  description: "Helu, I'm under the water~"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Snorkel</div>
-  <div class="infobox-image-wrapper"><img src="/images/snorkel.png" alt="Snorkel" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>snorkel</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Helu, I'm under the water~</div>
-</aside>
+<infobox />
 
 **Snorkel** is a non-dyeable equipable item that makes your dog look ready to go blub blub.
 

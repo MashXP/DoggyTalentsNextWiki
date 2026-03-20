@@ -1,16 +1,18 @@
 ---
 title: Bottle of Sake
+infobox:
+  title: "Bottle of Sake"
+  image: "sake.png"
+  rows:
+    - ID: "doggytalents:sake"
+    - Type: "Food (Rice)"
+    - Properties: "Resistance II: 1 min."
+    - Stackable: "64"
+  description: "Drink responsibly! Not suitable for underage doggos!"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Bottle of Sake</div>
-  <div class="infobox-image-wrapper"><img src="/images/sake.png" alt="Bottle of Sake" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>sake</span></div><div class="infobox-row"><b>Type</b><span>Food (Rice)</span></div><div class="infobox-row"><b>Properties</b><span>Resistance II: 1 min.</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Drink responsibly! Not suitable for underage doggos!</div>
-</aside>
+<infobox />
 
 **Bottle of Sake** is a potion that gives you:
 

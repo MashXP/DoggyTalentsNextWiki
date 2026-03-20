@@ -1,16 +1,18 @@
 ---
 title: Onsen Tamago
+infobox:
+  title: "Onsen Tamago"
+  image: "onsen_tamago.png"
+  rows:
+    - ID: "doggytalents:onsen_tamago"
+    - Type: "Food"
+    - Properties: "Hunger points: 2/10"
+    - Stackable: "64"
+  description: "Known as Hot Spring Eggs. Can be instantly cooked by throwing an Egg into a Cauldron with a Burning block (Fire, Campfire, Magma Block, Lava...) underneath."
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Onsen Tamago</div>
-  <div class="infobox-image-wrapper"><img src="/images/onsen_tamago.png" alt="Onsen Tamago" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>onsen_tamago</span></div><div class="infobox-row"><b>Type</b><span>Food</span></div><div class="infobox-row"><b>Properties</b><span>Hunger points: 2/10</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Known as Hot Spring Eggs. Can be instantly cooked by throwing an Egg into a Cauldron with a Burning block (Fire, Campfire, Magma Block, Lava...) underneath.</div>
-</aside>
+<infobox />
 
 **Onsen Tamago** is a delicious food item that fills up 2 hunger points and gives you **Absorption I** for **10 seconds**.
 

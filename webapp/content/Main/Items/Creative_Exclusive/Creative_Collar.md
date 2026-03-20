@@ -1,16 +1,16 @@
 ---
 title: Creative Collar
+infobox:
+  title: "Creative Collar"
+  image: "creative_collar.png"
+  rows:
+    - ID: "doggytalents:creative_collar"
+    - Type: "Creative Exclusive"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Creative Collar</div>
-  <div class="infobox-image-wrapper"><img src="/images/creative_collar.png" alt="Creative Collar" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>creative_collar</span></div><div class="infobox-row"><b>Type</b><span>Creative Exclusive</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 ![*notice how the points are negative*](/images/creative_collar_negative_points_demo.png "*notice how the points are negative*")
 

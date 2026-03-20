@@ -1,17 +1,19 @@
 ---
 title: Onigiri
+infobox:
+  title: "Onigiri"
+  image: "onigiri.png"
+  rows:
+    - ID: "doggytalents:onigiri"
+    - Type: "Food (Rice)"
+    - Properties: "Hunger points: 3.5/10"
+    - Stackable: "64"
+  description: "Also known as Rice Balls"
 ---
 
 **Onigiri** is a tasty food item that fills up 3.5 hunger points.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Onigiri</div>
-  <div class="infobox-image-wrapper"><img src="/images/onigiri.png" alt="Onigiri" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>onigiri</span></div><div class="infobox-row"><b>Type</b><span>Food (Rice)</span></div><div class="infobox-row"><b>Properties</b><span>Hunger points: 3.5/10</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Also known as Rice Balls</div>
-</aside>
+<infobox />
 
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining

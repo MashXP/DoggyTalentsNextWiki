@@ -1,16 +1,16 @@
 ---
 title: Cape
+infobox:
+  title: "Cape"
+  image: "cape_coloured.png"
+  rows:
+    - ID: "doggytalents:cape_coloured"
+    - Type: "Customization (Dyeable)"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Cape</div>
-  <div class="infobox-image-wrapper"><img src="/images/cape_coloured.png" alt="Cape" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>cape_coloured</span></div><div class="infobox-row"><b>Type</b><span>Customization (Dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Cape** is a dyable equipable material that makes your dog look nice.
 

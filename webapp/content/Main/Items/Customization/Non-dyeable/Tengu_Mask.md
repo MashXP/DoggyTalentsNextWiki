@@ -1,16 +1,17 @@
 ---
 title: Tengu Mask
+infobox:
+  title: "Tengu Mask"
+  image: "tengu_mask.png"
+  rows:
+    - ID: "doggytalents:tengu_mask"
+    - Type: "Customization (Non-dyeable)"
+    - Stackable: "64"
+  description: "Right-click with a String to switch the mask's position"
 ---
 
 **Tengu Mask** is a non-dyeable equipable item that makes your dog look mystical.
-<aside class="infobox glass">
-  <div class="infobox-title">Tengu Mask</div>
-  <div class="infobox-image-wrapper"><img src="/images/tengu_mask.png" alt="Tengu Mask" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>tengu_mask</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Right-click with a String to switch the mask's position</div>
-</aside>
+<infobox />
 
 ![No MATTER WHAT! Don't go out at night!](/images/tengu_mask_display.png "No MATTER WHAT! Don't go out at night!")
 

@@ -1,16 +1,16 @@
 ---
 title: Empty Locator Orb
+infobox:
+  title: "Empty Locator Orb"
+  image: "empty_locator_orb.png"
+  rows:
+    - ID: "doggytalents:empty_locator_orb"
+    - Type: "Utilities"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Empty Locator Orb</div>
-  <div class="infobox-image-wrapper"><img src="/images/empty_locator_orb.png" alt="Empty Locator Orb" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>empty_locator_orb</span></div><div class="infobox-row"><b>Type</b><span>Utilities</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Empty Locator Orb** is a material used to craft the [Locator Orbs](Locator_Orbs).
 

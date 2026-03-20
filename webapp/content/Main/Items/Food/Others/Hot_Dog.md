@@ -1,16 +1,18 @@
 ---
 title: Hot Dog
+infobox:
+  title: "Hot Dog"
+  image: "hot_dog.png"
+  rows:
+    - ID: "doggytalents:hot_dog"
+    - Type: "Customization (Non-dyeable)"
+    - Properties: "Hunger points: 6/10"
+    - Stackable: "64"
+  description: "It tastes...funny?"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Hot Dog</div>
-  <div class="infobox-image-wrapper"><img src="/images/hot_dog.png" alt="Hot Dog" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>hot_dog</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Properties</b><span>Hunger points: 6/10</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">It tastes...funny?</div>
-</aside>
+<infobox />
 Hot Dog is a non-dyeable equipable item that stylizes your dog.
 
 The player can also eat the item lol. It fills up **6 hunger points** and gives you:

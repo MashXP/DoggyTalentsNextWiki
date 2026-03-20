@@ -8,6 +8,7 @@ import rehypeSlug from 'rehype-slug';
 import Link from 'next/link';
 
 import RecipeDisplay from './RecipeDisplay';
+import InfoboxDisplay from './InfoboxDisplay';
 import { ItemSlot } from './CraftingGrid';
 import Gallery from './Gallery';
 
@@ -90,7 +91,7 @@ function splitByH2(content: string): Section[] {
   return sections;
 }
 
-export default function MarkdownRenderer({ content }: { content: string }) {
+export default function MarkdownRenderer({ content, infobox }: { content: string, infobox?: any }) {
   const [viewMode, setViewMode] = useState<'full' | 'tabs'>('full');
   const [isReady, setIsReady] = useState(false);
   const [activeTabIndex, setActiveTabIndex] = useState(0);
@@ -375,6 +376,9 @@ export default function MarkdownRenderer({ content }: { content: string }) {
     recipe: (props: any) => {
       const id = props.id || props.node?.properties?.id;
       return <><RecipeDisplay id={id} />{props.children}</>;
+    },
+    infobox: (props: any) => {
+      return <><InfoboxDisplay defaultData={infobox} />{props.children}</>;
     },
     item: (props: any) => {
       const id = props.id || props.node?.properties?.id;

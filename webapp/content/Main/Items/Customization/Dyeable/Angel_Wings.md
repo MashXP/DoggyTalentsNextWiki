@@ -1,17 +1,17 @@
 ---
 title: Angel Wings
+infobox:
+  title: "Angel Wings"
+  image: "angel_wings.png"
+  rows:
+    - ID: "doggytalents:angel_wings"
+    - Type: "Customization (Dyeable)"
+    - Stackable: "64"
 ---
 
 **Angel Wings** is a dyable equipable accessory that makes your dog look heavenly.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Angel Wings</div>
-  <div class="infobox-image-wrapper"><img src="/images/angel_wings.png" alt="Angel Wings" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>angel_wings</span></div><div class="infobox-row"><b>Type</b><span>Customization (Dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 ## Obtaining
 ### Crafting

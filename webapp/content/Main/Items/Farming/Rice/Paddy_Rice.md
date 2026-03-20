@@ -1,17 +1,18 @@
 ---
 title: Paddy Rice
+infobox:
+  title: "Paddy Rice"
+  image: "rice_wheat.png"
+  rows:
+    - ID: "doggytalents:rice_wheat"
+    - Type: "Farming (Rice)"
+    - Stackable: "64"
+  description: "Use this to craft rice grains."
 ---
 
 **Paddy Rice** is a rice-related crafting material harvested from [Rice Crops](Rice_Grains).
 
-<aside class="infobox glass">
-  <div class="infobox-title">Paddy Rice</div>
-  <div class="infobox-image-wrapper"><img src="/images/rice_wheat.png" alt="Paddy Rice" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>rice_wheat</span></div><div class="infobox-row"><b>Type</b><span>Farming (Rice)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Use this to craft rice grains.</div>
-</aside>
+<infobox />
 
 ## Obtaining
 ### Farming

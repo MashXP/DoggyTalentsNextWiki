@@ -1,17 +1,17 @@
 ---
 title: Soy Beans
+infobox:
+  title: "Soy Beans"
+  image: "soy_beans.png"
+  rows:
+    - ID: "doggytalents:soy_beans"
+    - Type: "Farming (Soy)"
+    - Stackable: "64"
 ---
 
 **Soy Beans** is a soy-related crafting material.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Soy Beans</div>
-  <div class="infobox-image-wrapper"><img src="/images/soy_beans.png" alt="Soy Beans" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>soy_beans</span></div><div class="infobox-row"><b>Type</b><span>Farming (Soy)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 ## Obtaining
 

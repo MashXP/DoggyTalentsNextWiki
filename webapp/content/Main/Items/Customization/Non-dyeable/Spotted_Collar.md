@@ -1,16 +1,16 @@
 ---
 title: Spotted Collar
+infobox:
+  title: "Spotted Collar"
+  image: "spotted_collar.png"
+  rows:
+    - ID: "doggytalents:spotted_collar"
+    - Type: "Customization (Non-dyeable)"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Spotted Collar</div>
-  <div class="infobox-image-wrapper"><img src="/images/spotted_collar.png" alt="Spotted Collar" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>spotted_collar</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Spotted Collar** is a non-dyable equipable item that stylizes your dog's collar.
 

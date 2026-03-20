@@ -1,16 +1,16 @@
 ---
 title: Throw Bone
+infobox:
+  title: "Throw Bone"
+  image: "throw_bone.png"
+  rows:
+    - ID: "doggytalents:throw_bone"
+    - Type: "Throwables"
+    - Stackable: "1"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Throw Bone</div>
-  <div class="infobox-image-wrapper"><img src="/images/throw_bone.png" alt="Throw Bone" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>throw_bone</span></div><div class="infobox-row"><b>Type</b><span>Throwables</span></div><div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Throw Bone** is a throwable item that lets you play and interact with your doggo!
 

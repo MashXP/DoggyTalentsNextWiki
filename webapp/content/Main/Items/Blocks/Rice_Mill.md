@@ -1,16 +1,16 @@
 ---
 title: Rice Mill
+infobox:
+  title: "Rice Mill"
+  image: "rice_mill.png"
+  rows:
+    - ID: "doggytalents:rice_mill"
+    - Type: "Block"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Rice Mill</div>
-  <div class="infobox-image-wrapper"><img src="/images/rice_mill.png" alt="Rice Mill" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>rice_mill</span></div><div class="infobox-row"><b>Type</b><span>Block</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Rice Mill** is a placeable block that allows player to automate the process of making Rice/Soy items.
 

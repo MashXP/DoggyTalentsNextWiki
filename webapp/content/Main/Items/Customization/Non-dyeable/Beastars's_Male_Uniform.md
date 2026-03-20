@@ -1,16 +1,16 @@
 ---
 title: Beastars's Male Uniform
+infobox:
+  title: "Beastars's Male Uniform"
+  image: "beastars_uniform_male.png"
+  rows:
+    - ID: "doggytalents:beastars_uniform_male"
+    - Type: "Customization (Non-dyeable)"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Beastars's Male Uniform</div>
-  <div class="infobox-image-wrapper"><img src="/images/beastars_uniform_male.png" alt="Beastars's Male Uniform" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>beastars_uniform_male</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Beastars's Male Uniform** is a non-dyable equipable that makes your dog <s>impersonate a famous anime character</s> a good boy.
 

@@ -1,16 +1,17 @@
 ---
 title: Baker's Hat
+infobox:
+  title: "Baker's Hat"
+  image: "baker_hat.png"
+  rows:
+    - ID: "doggytalents:baker_hat"
+    - Type: "Customization (Dyeable)"
+    - Stackable: "64"
+  description: "Hot Dachshbuns comin' up!"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Baker's Hat</div>
-  <div class="infobox-image-wrapper"><img src="/images/baker_hat.png" alt="Baker's Hat" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>baker_hat</span></div><div class="infobox-row"><b>Type</b><span>Customization (Dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Hot Dachshbuns comin' up!</div>
-</aside>
+<infobox />
 
 Baker's Hat is a dyeable equipable item that stylizes your dog.
 

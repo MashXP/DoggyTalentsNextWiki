@@ -1,16 +1,16 @@
 ---
 title: Dog Animation Debug Stick
+infobox:
+  title: "Dog Animation Debug Stick"
+  image: "dog_anim_debug_stick.png"
+  rows:
+    - ID: "doggytalents:dog_anim_debug_stick"
+    - Type: "Creative Exclusive"
+    - Stackable: "1"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Dog Animation Debug Stick</div>
-  <div class="infobox-image-wrapper"><img src="/images/dog_anim_debug_stick.png" alt="Dog Animation Debug Stick" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>dog_anim_debug_stick</span></div><div class="infobox-row"><b>Type</b><span>Creative Exclusive</span></div><div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  
-</aside>
+<infobox />
 **Dog Animation Debug Stick** is an item that grants direct manipulation and fine-tuning of dog animation behaviors.
 
 ## Obtaining

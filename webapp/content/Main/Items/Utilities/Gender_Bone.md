@@ -1,17 +1,17 @@
 ---
 title: Gender Bone
+infobox:
+  title: "Gender Bone"
+  image: "gender_bone.png"
+  rows:
+    - ID: "doggytalents:gender_bone"
+    - Type: "Utilities"
+    - Stackable: "1"
 ---
 
 **Gender Bone** is an item that changes your dogs biological mechanics aka Genders.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Gender Bone</div>
-  <div class="infobox-image-wrapper"><img src="/images/gender_bone.png" alt="Gender Bone" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>gender_bone</span></div><div class="infobox-row"><b>Type</b><span>Utilities</span></div><div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 It can be used **10 times** and can be enchanted with **Unbreaking and Mending**.
 ## Obtaining

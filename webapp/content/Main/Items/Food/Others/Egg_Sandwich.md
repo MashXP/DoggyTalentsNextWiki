@@ -1,16 +1,17 @@
 ---
 title: Egg Sandwich
+infobox:
+  title: "Egg Sandwich"
+  image: "egg_sandwich.png"
+  rows:
+    - ID: "doggytalents:egg_sandwich"
+    - Type: "Food"
+    - Stackable: "64"
+  description: "Delicious Tamago Sando! Legoshi and Legom approved."
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Egg Sandwich</div>
-  <div class="infobox-image-wrapper"><img src="/images/egg_sandwich.png" alt="Egg Sandwich" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>egg_sandwich</span></div><div class="infobox-row"><b>Type</b><span>Food</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Delicious Tamago Sando! Legoshi and Legom approved.</div>
-</aside>
+<infobox />
 
 **Egg Sandwich** is a delicious food item that fills up 3 hunger points and gives you Regeneration II for 3 seconds.
 

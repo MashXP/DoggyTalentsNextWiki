@@ -1,16 +1,16 @@
 ---
 title: Wool Collar
+infobox:
+  title: "Wool Collar"
+  image: "wool_collar.png"
+  rows:
+    - ID: "doggytalents:wool_collar"
+    - Type: "Customization (Dyeable)"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Wool Collar</div>
-  <div class="infobox-image-wrapper"><img src="/images/wool_collar.png" alt="Wool Collar" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>wool_collar</span></div><div class="infobox-row"><b>Type</b><span>Customization (Dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Wool Collar** is a dyable equipable material that stylizes your dog's collar. This item allows you to craft more variants of collar colors.
 

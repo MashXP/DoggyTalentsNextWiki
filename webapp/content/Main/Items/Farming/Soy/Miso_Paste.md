@@ -1,17 +1,18 @@
 ---
 title: Miso Paste
+infobox:
+  title: "Miso Paste"
+  image: "miso_paste.png"
+  rows:
+    - ID: "doggytalents:miso_paste"
+    - Type: "Farming (Soy)"
+    - Stackable: "64"
+  description: "Salty! Good for Miso Soup!"
 ---
 
 **Miso Paste** is a soy-related crafting material for [Miso Soup](Miso_Soup).
 
-<aside class="infobox glass">
-  <div class="infobox-title">Miso Paste</div>
-  <div class="infobox-image-wrapper"><img src="/images/miso_paste.png" alt="Miso Paste" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>miso_paste</span></div><div class="infobox-row"><b>Type</b><span>Farming (Soy)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Salty! Good for Miso Soup!</div>
-</aside>
+<infobox />
 
 ## Obtaining
 ### Crafting

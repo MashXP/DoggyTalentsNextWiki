@@ -1,17 +1,19 @@
 ---
 title: Aburaage
+infobox:
+  title: "Aburaage"
+  image: "aburaage.png"
+  rows:
+    - ID: "doggytalents:aburaage"
+    - Type: "Food (Soy)"
+    - Properties: "Hunger points: 5/10"
+    - Stackable: "64"
+  description: "Also known as Fried Tofu. Can be used to make Inarizushi."
 ---
 
 **Aburaage** is a delicious food item that gives you 5 hunger points.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Aburaage</div>
-  <div class="infobox-image-wrapper"><img src="/images/aburaage.png" alt="Aburaage" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>aburaage</span></div><div class="infobox-row"><b>Type</b><span>Food (Soy)</span></div><div class="infobox-row"><b>Properties</b><span>Hunger points: 5/10</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Also known as Fried Tofu. Can be used to make Inarizushi.</div>
-</aside>
+<infobox />
 
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 

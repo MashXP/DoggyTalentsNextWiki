@@ -1,17 +1,18 @@
 ---
 title: Soy Milk
+infobox:
+  title: "Soy Milk"
+  image: "soy_milk.png"
+  rows:
+    - ID: "doggytalents:soy_milk"
+    - Type: "Food (Soy)"
+    - Properties: "Hunger points: 3/10"
+    - Stackable: "64"
 ---
 
 **Soy Milk** is a food item that gives you 3 hunger points.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Soy Milk</div>
-  <div class="infobox-image-wrapper"><img src="/images/soy_milk.png" alt="Soy Milk" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>soy_milk</span></div><div class="infobox-row"><b>Type</b><span>Food (Soy)</span></div><div class="infobox-row"><b>Properties</b><span>Hunger points: 3/10</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 Your dog can also drink this, so don't be shy to share it with your furry pal!
 ## Obtaining

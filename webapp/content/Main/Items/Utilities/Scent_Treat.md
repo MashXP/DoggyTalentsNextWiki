@@ -1,16 +1,17 @@
 ---
 title: Scent Treat
+infobox:
+  title: "Scent Treat"
+  image: "scent_treat.png"
+  rows:
+    - ID: "doggytalents:scent_treat"
+    - Type: "Utilities"
+    - Stackable: "1"
+  description: "Right-Click a Block to collect a sample of its scent."
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Scent Treat</div>
-  <div class="infobox-image-wrapper"><img src="/images/scent_treat.png" alt="Scent Treat" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>scent_treat</span></div><div class="infobox-row"><b>Type</b><span>Utilities</span></div><div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  <div class="infobox-description">Right-Click a Block to collect a sample of its scent.</div>
-</aside>
+<infobox />
 
 **Scent Treat** is an item that is used to record the scent of the target block for the [Sniffer Dog](Sniffer_Dog) Talent.
 

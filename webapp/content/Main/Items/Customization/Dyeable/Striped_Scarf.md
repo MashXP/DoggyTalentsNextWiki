@@ -1,17 +1,17 @@
 ---
 title: Striped Scarf
+infobox:
+  title: "Striped Scarf"
+  image: "striped_scarf.png"
+  rows:
+    - ID: "doggytalents:striped_scarf"
+    - Type: "Customization (Dyeable)"
+    - Stackable: "64"
 ---
 
 **Striped Scarf** is a dyable equipable accessory that makes your dog look lovely.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Striped Scarf</div>
-  <div class="infobox-image-wrapper"><img src="/images/striped_scarf.png" alt="Striped Scarf" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>striped_scarf</span></div><div class="infobox-row"><b>Type</b><span>Customization (Dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 ## Obtaining
 ### Crafting

@@ -1,16 +1,17 @@
 ---
 title: Canine Tracker
+infobox:
+  title: "Canine Tracker"
+  image: "canine_tracker.png"
+  rows:
+    - ID: "doggytalents:canine_tracker"
+    - Type: "Utilities"
+    - Stackable: "1"
+  description: "Right-click to start Tracking"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Canine Tracker</div>
-  <div class="infobox-image-wrapper"><img src="/images/canine_tracker.png" alt="Canine Tracker" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>canine_tracker</span></div><div class="infobox-row"><b>Type</b><span>Utilities</span></div><div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  <div class="infobox-description">Right-click to start Tracking</div>
-</aside>
+<infobox />
 <span></span>
 
 **Canine Tracker** is an item that locates the position of a dog 

@@ -1,17 +1,19 @@
 ---
 title: Suspicious Looking Sickle
+infobox:
+  title: "Suspicious Looking Sickle"
+  image: "sussy_sickle.png"
+  rows:
+    - ID: "doggytalents:sussy_sickle"
+    - Type: "Combat"
+    - Properties: "Damage dealt: 6"
+    - Stackable: "1"
+  description: "I just love the smell of FEAR!"
 ---
 
 **Suspicious Looking Sickle** is a weapon that deals 6 damage without Sweeping cooldown.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Suspicious Looking Sickle</div>
-  <div class="infobox-image-wrapper"><img src="/images/sussy_sickle.png" alt="Suspicious Looking Sickle" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>sussy_sickle</span></div><div class="infobox-row"><b>Type</b><span>Combat</span></div><div class="infobox-row"><b>Properties</b><span>Damage dealt: 6</span></div><div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  <div class="infobox-description">I just love the smell of FEAR!</div>
-</aside>
+<infobox />
 
 ## Obtaining
 

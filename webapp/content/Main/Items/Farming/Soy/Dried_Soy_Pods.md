@@ -1,17 +1,18 @@
 ---
 title: Dried Soy Pods
+infobox:
+  title: "Dried Soy Pods"
+  image: "soy_pods_dried.png"
+  rows:
+    - ID: "doggytalents:soy_pods_dried"
+    - Type: "Farming (Soy)"
+    - Stackable: "64"
+  description: "Right-click to unpod the beans."
 ---
 
 **Dried Soy Pods** is an item that's also used to make [Dried Soy Beans](Dried_Soy_Beans).
 
-<aside class="infobox glass">
-  <div class="infobox-title">Dried Soy Pods</div>
-  <div class="infobox-image-wrapper"><img src="/images/soy_pods_dried.png" alt="Dried Soy Pods" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>soy_pods_dried</span></div><div class="infobox-row"><b>Type</b><span>Farming (Soy)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Right-click to unpod the beans.</div>
-</aside>
+<infobox />
 
 ## Obtaining
 ### Smelting

@@ -1,16 +1,16 @@
 ---
 title: Tartan Cape
+infobox:
+  title: "Tartan Cape"
+  image: "tantan_cape.png"
+  rows:
+    - ID: "doggytalents:tantan_cape"
+    - Type: "Customization (Non-dyeable)"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Tartan Cape</div>
-  <div class="infobox-image-wrapper"><img src="/images/tantan_cape.png" alt="Tartan Cape" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>tantan_cape</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Tartan Cape** is a non-dyable equipable that makes your dog look neat.
 

@@ -1,16 +1,16 @@
 ---
 title: Breeding Bone
+infobox:
+  title: "Breeding Bone"
+  image: "breeding_bone.png"
+  rows:
+    - ID: "doggytalents:breeding_bone"
+    - Type: "Utilities"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Breeding Bone</div>
-  <div class="infobox-image-wrapper"><img src="/images/breeding_bone.png" alt="Breeding Bone" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>breeding_bone</span></div><div class="infobox-row"><b>Type</b><span>Utilities</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 > Breeding Bones, when fed to two different dogs, will cause your dogs to produce a puppy!
 

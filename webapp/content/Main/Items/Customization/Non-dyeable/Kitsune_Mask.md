@@ -1,16 +1,17 @@
 ---
 title: Kitsune Mask
+infobox:
+  title: "Kitsune Mask"
+  image: "kitsune_mask.png"
+  rows:
+    - ID: "doggytalents:kitsune_mask"
+    - Type: "Customization (Non-dyeable)"
+    - Stackable: "64"
+  description: "Right-click with a String to switch the mask's position"
 ---
 
 **Kitsune Mask** is a non-dyeable equipable item that makes your dog look mystical.
-<aside class="infobox glass">
-  <div class="infobox-title">Kitsune Mask</div>
-  <div class="infobox-image-wrapper"><img src="/images/kitsune_mask.png" alt="Kitsune Mask" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>kitsune_mask</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Right-click with a String to switch the mask's position</div>
-</aside>
+<infobox />
 
 ![Don't go out at night!](/images/kitsune_mask_display.png "Don't go out at night!")
 

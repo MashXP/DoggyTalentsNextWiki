@@ -1,5 +1,10 @@
 ---
 title: Conducting Bone
+infobox:
+  title: "Conducting Bone"
+  image: "conducting_bone.png"
+  rows:
+    - ID: "doggytalents:conducting_bone"
 ---
 
 
@@ -14,14 +19,7 @@ title: Conducting Bone
 > *With its universal power, you can conduct any dog to teleport to you from **ANYWHERE** in the world, and when you no longer need them, you can conduct them to go back to their beds from **ANYWHERE** in the world so that they can have a nice rest!* &quot;
 
 ----
-<aside class="infobox glass">
-  <div class="infobox-title">Conducting Bone</div>
-  <div class="infobox-image-wrapper"><img src="/images/conducting_bone.png" alt="Conducting Bone" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>conducting_bone</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Conducting Bone** is a craftable dev-tier item that allows you to &quot;orchestrate&quot; your pups!
 

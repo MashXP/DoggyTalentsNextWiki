@@ -1,16 +1,16 @@
 ---
 title: Flying Cape
+infobox:
+  title: "Flying Cape"
+  image: "flying_cape.png"
+  rows:
+    - ID: "doggytalents:flying_cape"
+    - Type: "Customization (Dyeable)"
+    - Stackable: "64"
 ---
 
 **Flying Cape** is a dyable equipable accessory that makes your dog look like a superhero!
-<aside class="infobox glass">
-  <div class="infobox-title">Flying Cape</div>
-  <div class="infobox-image-wrapper"><img src="/images/flying_cape.png" alt="Flying Cape" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>flying_cape_</span></div><div class="infobox-row"><b>Type</b><span>Customization (Dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 ![A dog flying in style!](/images/flying_cape_display.png)
 

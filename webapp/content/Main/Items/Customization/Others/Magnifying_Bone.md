@@ -1,16 +1,16 @@
 ---
 title: Magnifying Bone
+infobox:
+  title: "Magnifying Bone"
+  image: "magnifying_bone.png"
+  rows:
+    - ID: "doggytalents:magnifying_bone"
+    - Type: "Customization (Others)"
+    - Stackable: "1"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Magnifying Bone</div>
-  <div class="infobox-image-wrapper"><img src="/images/magnifying_bone.png" alt="Magnifying Bone" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>magnifying_bone</span></div><div class="infobox-row"><b>Type</b><span>Customization (Others)</span></div><div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Magnifying Bone** is an item that increases your dog's size.
 

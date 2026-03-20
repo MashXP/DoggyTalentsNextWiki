@@ -1,16 +1,16 @@
 ---
 title: Death Hood
+infobox:
+  title: "Death Hood"
+  image: "death_hood.png"
+  rows:
+    - ID: "doggytalents:death_hood"
+    - Type: "Customization (Non-dyeable)"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Death Hood</div>
-  <div class="infobox-image-wrapper"><img src="/images/death_hood.png" alt="Death Hood" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>death_hood</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Death Hood** is a non-dyable equipable that makes your dog look scary.
 

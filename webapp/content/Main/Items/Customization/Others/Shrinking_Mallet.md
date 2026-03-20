@@ -1,16 +1,16 @@
 ---
 title: Shrinking Mallet
+infobox:
+  title: "Shrinking Mallet"
+  image: "shrinking_mallet.png"
+  rows:
+    - ID: "doggytalents:shrinking_mallet"
+    - Type: "Customization (Others)"
+    - Stackable: "1"
 ---
 
 **Shrinking Mallet** is an item that decreases your dog's size.
-<aside class="infobox glass">
-  <div class="infobox-title">Shrinking Mallet</div>
-  <div class="infobox-image-wrapper"><img src="/images/shrinking_mallet.png" alt="Shrinking Mallet" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>shrinking_mallet</span></div><div class="infobox-row"><b>Type</b><span>Customization (Others)</span></div><div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 ![frameless](/images/shrinking_mallet_display.png "frameless")
 

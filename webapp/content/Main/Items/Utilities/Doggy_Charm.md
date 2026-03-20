@@ -1,17 +1,18 @@
 ---
 title: Doggy Charm
+infobox:
+  title: "Doggy Charm"
+  image: "doggy_charm.png"
+  rows:
+    - ID: "doggytalents:doggy_charm"
+    - Type: "Utilities"
+    - Stackable: "64"
+  description: "Shift + Right-Click your dog to cycle between all available Classical Variants."
 ---
 
 **Doggy Charm** is a consumable item that spawns a trained dog.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Doggy Charm</div>
-  <div class="infobox-image-wrapper"><img src="/images/doggy_charm.png" alt="Doggy Charm" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>doggy_charm</span></div><div class="infobox-row"><b>Type</b><span>Utilities</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Shift + Right-Click your dog to cycle between all available Classical Variants.</div>
-</aside>
+<infobox />
 
 ## Obtaining
 ### Upon Creating A New World

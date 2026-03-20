@@ -1,16 +1,16 @@
 ---
 title: Leather Jacket
+infobox:
+  title: "Leather Jacket"
+  image: "leather_jacket.png"
+  rows:
+    - ID: "doggytalents:leather_jacket"
+    - Type: "Customization (Non_dyeable)"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Leather Jacket</div>
-  <div class="infobox-image-wrapper"><img src="/images/leather_jacket.png" alt="Leather Jacket" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>leather_jacket</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non_dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Leather Jacket** is a non-dyable equipable item that makes your dog look rad. B)
 

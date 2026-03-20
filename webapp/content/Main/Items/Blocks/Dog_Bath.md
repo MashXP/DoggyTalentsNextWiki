@@ -1,16 +1,16 @@
 ---
 title: Dog Bath
+infobox:
+  title: "Dog Bath"
+  image: "dog_bath.png"
+  rows:
+    - ID: "doggytalents:dog_bath"
+    - Type: "Blocks"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Dog Bath</div>
-  <div class="infobox-image-wrapper"><img src="/images/dog_bath.png" alt="Dog Bath" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>dog_bath</span></div><div class="infobox-row"><b>Type</b><span>Blocks</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Dog Bath** is a decoration block that used to have a function.
 

@@ -1,17 +1,17 @@
 ---
 title: Feathered Mantle
+infobox:
+  title: "Feathered Mantle"
+  image: "feathered_mantle.png"
+  rows:
+    - ID: "doggytalents:feathered_mantle"
+    - Type: "Artifacts"
+    - Stackable: "1"
 ---
 
 **Feathered Mantle** is a craftable artifact that makes your dog float.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Feathered Mantle</div>
-  <div class="infobox-image-wrapper"><img src="/images/feathered_mantle.png" alt="Feathered Mantle" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>feathered_mantle</span></div><div class="infobox-row"><b>Type</b><span>Artifacts</span></div><div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 ## Obtaining
 ### Crafting

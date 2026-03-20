@@ -1,17 +1,19 @@
 ---
 title: Miso Soup
+infobox:
+  title: "Miso Soup"
+  image: "miso_soup.png"
+  rows:
+    - ID: "doggytalents:miso_soup"
+    - Type: "Food (Soy)"
+    - Properties: "Hunger points: 5/10"
+    - Stackable: "64"
+  description: "Itadakimasu!"
 ---
 
 **Miso Soup** is a **very delicious** food item that fills up **5 hunger points** and gives you:
 
-<aside class="infobox glass">
-  <div class="infobox-title">Miso Soup</div>
-  <div class="infobox-image-wrapper"><img src="/images/miso_soup.png" alt="Miso Soup" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>miso_soup</span></div><div class="infobox-row"><b>Type</b><span>Food (Soy)</span></div><div class="infobox-row"><b>Properties</b><span>Hunger points: 5/10</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Itadakimasu!</div>
-</aside>
+<infobox />
 
 - **Regeneration III** for **1 minute.**
 - **Haste II** for **1 minute.**

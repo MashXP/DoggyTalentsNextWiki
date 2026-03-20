@@ -32,7 +32,7 @@ export default async function WikiPage({
         <h1>{pageContent.title}</h1>
       </header>
       <div style={{ marginTop: '2rem' }}>
-        <MarkdownRenderer content={pageContent.content} />
+        <MarkdownRenderer content={pageContent.content} infobox={pageContent.infobox} />
       </div>
     </article>
   );

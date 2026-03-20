@@ -1,16 +1,14 @@
 ---
 title: Radio Collar
+infobox:
+  title: "Radio Collar"
+  image: "radio_collar.png"
+  rows:
+    - ID: "doggytalents:radio_collar"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Radio Collar</div>
-  <div class="infobox-image-wrapper"><img src="/images/radio_collar.png" alt="Radio Collar" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>radio_collar</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Radio Collar** is an equipable item that is used alongside the [Canine Tracker](Canine_Tracker)
 

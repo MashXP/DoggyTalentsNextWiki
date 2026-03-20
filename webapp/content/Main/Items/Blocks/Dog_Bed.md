@@ -1,16 +1,16 @@
 ---
 title: Dog Bed
+infobox:
+  title: "Dog Bed"
+  image: "dog_bed.png"
+  rows:
+    - ID: "doggytalents:dog_bed"
+    - Type: "Blocks"
+    - Stackable: "1"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Dog Bed</div>
-  <div class="infobox-image-wrapper"><img src="/images/dog_bed.png" alt="Dog Bed" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>dog_bed</span></div><div class="infobox-row"><b>Type</b><span>Blocks</span></div><div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 A **Dog Bed** is a placeable block that allows your dog (who's already linked to the bed) to respawn if it happens fall in the void.
 

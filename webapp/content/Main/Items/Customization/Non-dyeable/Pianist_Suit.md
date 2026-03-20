@@ -1,8 +1,16 @@
 ---
 title: Pianist Suit
+infobox:
+  title: "Pianist Suit"
+  image: "pianist_suit.png"
+  rows:
+    - ID: "doggytalents:pianist_suit"
+    - Type: "Customization (Non-dyeable)"
+    - Stackable: "64"
 ---
 
-*ID: **<code>doggytalents:pianist_suit</code>***<br>
+<infobox />
+
 **Pianist Suit** is a non-dyable equipable item that makes your dog look like a professional musician.<br>
 
 ![RachRufff](/images/rachruff.png)
@@ -18,7 +26,9 @@ title: Pianist Suit
 - It was introduced in DTN 1.11.0.
 - The name **RachRuff** is the combination of S. **Rach**maninoff - a Russian composer and Rock**ruff** - a Pokemon
 
-<s>both of which DashieDev really loves</s> <img src="https://mf.b37mrtl.ru/rbthmedia/images/2021.10/article/6172c92585600a07e7563441.jpg" width=75% height=75%>
+<s>both of which DashieDev really loves</s> 
+
+<img src="https://mf.b37mrtl.ru/rbthmedia/images/2021.10/article/6172c92585600a07e7563441.jpg" width=75% height=75%>
 
 *- Sergei Rachmaninoff -* <ref>https://www.rbth.com/arts/334338-sergei-rachmaninoff-piano-masterpieces</ref>
 

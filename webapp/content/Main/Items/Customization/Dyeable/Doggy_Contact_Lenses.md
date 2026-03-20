@@ -1,16 +1,17 @@
 ---
 title: Doggy Contact Lenses
+infobox:
+  title: "Doggy Contact Lenses"
+  image: "doggy_contacts.png"
+  rows:
+    - ID: "doggytalents:doggy_contacts"
+    - Type: "Customization (Double Dyeable)"
+    - Stackable: "64"
+  description: "Craft with Paper to Dye the other len."
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Doggy Contact Lenses</div>
-  <div class="infobox-image-wrapper"><img src="/images/doggy_contacts.png" alt="Doggy Contact Lenses" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>doggy_contacts</span></div><div class="infobox-row"><b>Type</b><span>Customization (Double Dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Craft with Paper to Dye the other len.</div>
-</aside>
+<infobox />
 
 **Doggy Contact Lenses** is a double-dyeable equipable item that customizes your dog's eye colors.
 

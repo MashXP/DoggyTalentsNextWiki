@@ -10,6 +10,7 @@ export interface WikiPage {
   title: string;
   content: string;
   description?: string;
+  infobox?: any;
 }
 
 export interface SearchItem {
@@ -146,11 +147,17 @@ export function getPageBySlug(slug: string): WikiPage | null {
     return getPageBySlug(targetSlug);
   }
 
+  console.log(`DEBUG: Page ${decodedSlug} content length: ${content.length}`);
+  if (content.length < 500) {
+    console.log(`DEBUG: Page ${decodedSlug} content starts with: ${content.slice(0, 200)}`);
+  }
+
   return {
     slug: canonicalSlug,
     title: data.title || decodedSlug.split('/').pop()?.replace(/_/g, ' ') || decodedSlug,
     content,
     description: data.description,
+    infobox: data.infobox,
   };
 }
 

@@ -1,16 +1,16 @@
 ---
 title: Guard Suit
+infobox:
+  title: "Guard Suit"
+  image: "guard_suit.png"
+  rows:
+    - ID: "doggytalents:guard_suit"
+    - Type: "Customization (Non-dyeable)"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Guard Suit</div>
-  <div class="infobox-image-wrapper"><img src="/images/guard_suit.png" alt="Guard Suit" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>guard_suit</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Guard Suit** is a non-dyable equipable item that makes your dog look more trusty and stylish.
 

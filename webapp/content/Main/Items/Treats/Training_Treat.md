@@ -1,16 +1,16 @@
 ---
 title: Training Treat
+infobox:
+  title: "Training Treat"
+  image: "training_treat.png"
+  rows:
+    - ID: "doggytalents:training_treat"
+    - Type: "Treats"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Training Treat</div>
-  <div class="infobox-image-wrapper"><img src="/images/training_treat.png" alt="Training Treat" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>training_treat</span></div><div class="infobox-row"><b>Type</b><span>Treats</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 > **Training Treat** is the first treat you'll need to make.
 > * Each treat raises your dog's level by 1 and also raises your spendable points by 1

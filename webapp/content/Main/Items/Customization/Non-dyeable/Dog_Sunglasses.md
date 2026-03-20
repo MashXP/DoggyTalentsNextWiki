@@ -1,16 +1,16 @@
 ---
 title: Dog Sunglasses
+infobox:
+  title: "Dog Sunglasses"
+  image: "sunglasses.png"
+  rows:
+    - ID: "doggytalents:sunglasses"
+    - Type: "Customization (Non-dyeab;e)"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Dog Sunglasses</div>
-  <div class="infobox-image-wrapper"><img src="/images/sunglasses.png" alt="Dog Sunglasses" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>sunglasses</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeab;e)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Dog Sunglasses** is a non-dyable equipable item that makes your dog look cooler. B)
 

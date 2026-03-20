@@ -1,17 +1,18 @@
 ---
 title: Amnesia Bone
+infobox:
+  title: "Amnesia Bone"
+  image: "amnesia_bone.png"
+  rows:
+    - ID: "doggytalents:amnesia_bone"
+    - Type: "Utilities"
+    - Stackable: "1"
+  description: "Right-click your Dog to Change Owner/Untame/Untrain Talents. If OP is enabled, Sneak + Right-click to Force Claim"
 ---
 
 **Amnesia Bone** is a craftable dev-tier item that makes your dog forget certain things.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Amnesia Bone</div>
-  <div class="infobox-image-wrapper"><img src="/images/amnesia_bone.png" alt="Amnesia Bone" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>amnesia_bone</span></div><div class="infobox-row"><b>Type</b><span>Utilities</span></div><div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  <div class="infobox-description">Right-click your Dog to Change Owner/Untame/Untrain Talents. If OP is enabled, Sneak + Right-click to Force Claim</div>
-</aside>
+<infobox />
 <span></span>
 
 You can only use the item **8 times**.

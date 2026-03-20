@@ -1,16 +1,17 @@
 ---
 title: Creative Canine Tracker
+infobox:
+  title: "Creative Canine Tracker"
+  image: "creative_canine_tracker.png"
+  rows:
+    - ID: "doggytalents:creative_canine_tracker"
+    - Type: "Creative Exclusive"
+    - Stackable: "1"
+  description: "Right-click to start Tracking"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Creative Canine Tracker</div>
-  <div class="infobox-image-wrapper"><img src="/images/creative_canine_tracker.png" alt="Creative Canine Tracker" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>creative_canine_tracker</span></div><div class="infobox-row"><b>Type</b><span>Creative Exclusive</span></div><div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  <div class="infobox-description">Right-click to start Tracking</div>
-</aside>
+<infobox />
 
 **Creative Canine Tracker** is an item that locates the position of a dog regardless of the [Radio Collar](Radio_Collar).<br>Its functions are the same as the [Canine Tracker](Canine_Tracker).
 

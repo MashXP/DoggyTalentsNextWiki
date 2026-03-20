@@ -1,16 +1,18 @@
 ---
 title: Oyakodon
+infobox:
+  title: "Oyakodon"
+  image: "oyakodon.png"
+  rows:
+    - ID: "doggytalents:oyakodon"
+    - Type: "Food (Rice)"
+    - Properties: "Hunger points: 7/10"
+    - Stackable: "64"
+  description: "Chicken and Egg Bowl - Don't search up the name meaning!"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Oyakodon</div>
-  <div class="infobox-image-wrapper"><img src="/images/oyakodon.png" alt="Oyakodon" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>oyakodon</span></div><div class="infobox-row"><b>Type</b><span>Food (Rice)</span></div><div class="infobox-row"><b>Properties</b><span>Hunger points: 7/10</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Chicken and Egg Bowl - Don't search up the name meaning!</div>
-</aside>
+<infobox />
 
 **Oyakodon** is a **very delicious** food item that fills up **7 hunger points** and gives you:
 - **Resistance I** for **40 seconds.**

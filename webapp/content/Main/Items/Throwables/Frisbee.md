@@ -1,21 +1,16 @@
 ---
 title: Frisbee
+infobox:
+  title: "Frisbee"
+  image: "frisbee.png"
+  rows:
+    - ID: "doggytalents:frisbee"
+    - Type: "Throwables"
+    - Subtype: "Dyeable"
+    - Stackable: "1"
 ---
 
-<aside class="infobox glass">
-  <div class="infobox-title">Frisbee</div>
-  <div class="infobox-image-wrapper"><img src="/images/frisbee.png" alt="Frisbee" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>frisbee</span></div>
-    <div class="infobox-row"><b>Type</b><span>Throwables</span></div>
-    <div class="infobox-row"><b>Subtype</b><span>Dyeable</span></div>
-    <div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  <div class="infobox-description">
-    When dried: Brought to you by Canid.
-    When wet: Brought to you by Canid. (Eww)
-  </div>
-</aside>
+<infobox />
 
 **Frisbee** is a dyeable throwable item that lets you play and interact with your doggo!
 

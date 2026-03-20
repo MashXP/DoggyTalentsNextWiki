@@ -1,16 +1,16 @@
 ---
 title: Throw Stick
+infobox:
+  title: "Throw Stick"
+  image: "throw_stick.png"
+  rows:
+    - ID: "doggytalents:throw_stick"
+    - Type: "Throwables"
+    - Stackable: "1"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Throw Stick</div>
-  <div class="infobox-image-wrapper"><img src="/images/throw_stick.png" alt="Throw Stick" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>throw_stick</span></div><div class="infobox-row"><b>Type</b><span>Throwables</span></div><div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Throw Stick** is a throwable item that lets you play and interact with your doggo!
 

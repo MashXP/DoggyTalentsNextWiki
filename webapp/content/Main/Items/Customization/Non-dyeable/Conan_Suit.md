@@ -1,16 +1,16 @@
 ---
 title: Conan Suit
+infobox:
+  title: "Conan Suit"
+  image: "conan_suit.png"
+  rows:
+    - ID: "doggytalents:conan_suit"
+    - Type: "Customization (Non-dyeable)"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Conan Suit</div>
-  <div class="infobox-image-wrapper"><img src="/images/conan_suit.png" alt="Conan Suit" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>conan_suit</span></div><div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Conan Suit** is a non-dyable equipable item that makes your dog cosplay a very famous anime/manga character.
 

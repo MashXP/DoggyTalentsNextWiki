@@ -1,17 +1,17 @@
 ---
 title: Treat Bag
+infobox:
+  title: "Treat Bag"
+  image: "treat_bag.png"
+  rows:
+    - ID: "doggytalents:treat_bag"
+    - Type: "Utilities"
+    - Stackable: "1"
 ---
 
 **Treat Bag** is an item used to contain [Treats](Items#Treats) and [Food](Items#Food).
 
-<aside class="infobox glass">
-  <div class="infobox-title">Treat Bag</div>
-  <div class="infobox-image-wrapper"><img src="/images/treat_bag.png" alt="Treat Bag" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>treat_bag</span></div><div class="infobox-row"><b>Type</b><span>Utilities</span></div><div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 ## Obtaining
 ### Crafting

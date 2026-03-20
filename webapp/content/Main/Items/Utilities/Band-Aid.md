@@ -1,19 +1,20 @@
 ---
 title: Band-Aid
+infobox:
+  title: "Band-Aid"
+  image: "bandaid.png"
+  rows:
+    - ID: "doggytalents:bandaid"
+    - Type: "Utilities"
+    - Stackable: "64"
+  description: "- Use 8 Band-Aids to help your incapacitated dog stand up!"
 ---
 
 **Band-Aid** is an item that speeds up your dog’s [Injured Mode](Basic Core Stats#Modes).
 
 The number of band-aids needed for an injured dog to stand up is 8.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Band-Aid</div>
-  <div class="infobox-image-wrapper"><img src="/images/bandaid.png" alt="Band-Aid" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>bandaid</span></div><div class="infobox-row"><b>Type</b><span>Utilities</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">- Use 8 Band-Aids to help your incapacitated dog stand up!</div>
-</aside>
+<infobox />
 
 ## Obtaining
 ### Crafting

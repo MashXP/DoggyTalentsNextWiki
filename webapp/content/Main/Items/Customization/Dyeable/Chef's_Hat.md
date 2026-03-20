@@ -1,16 +1,17 @@
 ---
 title: Chef's Hat
+infobox:
+  title: "Chef's Hat"
+  image: "chef_hat.png"
+  rows:
+    - ID: "doggytalents:chef_hat"
+    - Type: "Customization (Dyeable)"
+    - Stackable: "64"
+  description: "Finally, some good sushi..."
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Chef's Hat</div>
-  <div class="infobox-image-wrapper"><img src="/images/chef_hat.png" alt="Chef's Hat" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>chef_hat</span></div><div class="infobox-row"><b>Type</b><span>Customization (Dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Finally, some good sushi...</div>
-</aside>
+<infobox />
 
 Chef's Hat is a dyeable equipable item that stylizes your dog.
 

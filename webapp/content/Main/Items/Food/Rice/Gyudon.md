@@ -1,16 +1,18 @@
 ---
 title: Gyudon
+infobox:
+  title: "Gyudon"
+  image: "gyudon.png"
+  rows:
+    - ID: "doggytalents:gyudon"
+    - Type: "Food (Rice)"
+    - Properties: "Hunger points: 10/10"
+    - Stackable: "64"
+  description: "Beef Bowl - Sukiya!"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Gyudon</div>
-  <div class="infobox-image-wrapper"><img src="/images/gyudon.png" alt="Gyudon" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>gyudon</span></div><div class="infobox-row"><b>Type</b><span>Food (Rice)</span></div><div class="infobox-row"><b>Properties</b><span>Hunger points: 10/10</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Beef Bowl - Sukiya!</div>
-</aside>
+<infobox />
 **Gyudon** is a **very delicious** food item that fills up a full hunger bar and gives you:
 
 - **Regeneration II** for **20 seconds**.

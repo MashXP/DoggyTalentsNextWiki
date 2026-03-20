@@ -1,16 +1,17 @@
 ---
 title: Sake Nigiri Sushi
+infobox:
+  title: "Sake Nigiri Sushi"
+  image: "salmon_sushi.png"
+  rows:
+    - ID: "doggytalents:salmon_sushi"
+    - Type: "Food (Rice)"
+    - Properties: "Hunger points: 4/10"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Sake Nigiri Sushi</div>
-  <div class="infobox-image-wrapper"><img src="/images/salmon_sushi.png" alt="Sake Nigiri Sushi" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>salmon_sushi</span></div><div class="infobox-row"><b>Type</b><span>Food (Rice)</span></div><div class="infobox-row"><b>Properties</b><span>Hunger points: 4/10</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Sake Nigiri Sushi** is a rice-related food item that gives you 4 hunger points.  
 

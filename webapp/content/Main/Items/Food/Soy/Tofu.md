@@ -1,17 +1,19 @@
 ---
 title: Tofu
+infobox:
+  title: "Tofu"
+  image: "tofu.png"
+  rows:
+    - ID: "doggytalents:tofu"
+    - Type: "Food (Soy)"
+    - Properties: "Hunger points: 4/10"
+    - Stackable: "8"
+  description: "Suitable for Vegans!"
 ---
 
 **Tofu** is a food item that gives you 4 hunger points.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Tofu</div>
-  <div class="infobox-image-wrapper"><img src="/images/tofu.png" alt="Tofu" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>tofu</span></div><div class="infobox-row"><b>Type</b><span>Food (Soy)</span></div><div class="infobox-row"><b>Properties</b><span>Hunger points: 4/10</span></div><div class="infobox-row"><b>Stackable</b><span>8</span></div>
-  </div>
-  <div class="infobox-description">Suitable for Vegans!</div>
-</aside>
+<infobox />
 
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining

@@ -1,16 +1,16 @@
 ---
 title: Whistle
+infobox:
+  title: "Whistle"
+  image: "whistle.png"
+  rows:
+    - ID: "doggytalents:whistle"
+    - Type: "Utilities"
+    - Stackable: "1"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Whistle</div>
-  <div class="infobox-image-wrapper"><img src="/images/whistle.png" alt="Whistle" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>whistle</span></div><div class="infobox-row"><b>Type</b><span>Utilities</span></div><div class="infobox-row"><b>Stackable</b><span>1</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 The **Whistle** item gives your dog commands that it can listen to. Different commands are expressed via several modes.
 

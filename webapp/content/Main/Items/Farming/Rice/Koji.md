@@ -1,17 +1,17 @@
 ---
 title: Koji
+infobox:
+  title: "Koji"
+  image: "koji.png"
+  rows:
+    - ID: "doggytalents:koji"
+    - Type: "Farming (Rice)"
+    - Stackable: "64"
 ---
 
 **Koji** is a rice-related crafting material.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Koji</div>
-  <div class="infobox-image-wrapper"><img src="/images/koji.png" alt="Koji" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>koji</span></div><div class="infobox-row"><b>Type</b><span>Farming (Rice)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 ## Obtaining
 

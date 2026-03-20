@@ -1,16 +1,16 @@
 ---
 title: Master Treat
+infobox:
+  title: "Master Treat"
+  image: "master_treat.png"
+  rows:
+    - ID: "doggytalents:master_treat"
+    - Type: "Treats"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Master Treat</div>
-  <div class="infobox-image-wrapper"><img src="/images/master_treat.png" alt="Master Treat" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>master_treat</span></div><div class="infobox-row"><b>Type</b><span>Treats</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 > This is the final treat as far as [basic leveling](Leveling Systems) goes. It will raise your dog's level by 1 (and 1 spendable point) until level 60.
 

@@ -1,16 +1,17 @@
 ---
 title: Head Band
+infobox:
+  title: "Head Band"
+  image: "head_band_blank.png"
+  rows:
+    - ID: "doggytalents:head_band_blank"
+    - Type: "Customization (Non-dyeable)"
+    - Stackable: "64"
+  description: "Who's that wolfy boi?"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Head Band</div>
-  <div class="infobox-image-wrapper"><img src="/images/head_band_blank.png" alt="Head Band" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>Type</b><span>Customization (Non-dyeable)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Who's that wolfy boi?</div>
-</aside>
+<infobox />
 
 **Head Band** is a non-dyeable equipable item that makes your dog look mysterious.
 

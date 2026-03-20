@@ -1,16 +1,16 @@
 ---
 title: Smarty Glasses
+infobox:
+  title: "Smarty Glasses"
+  image: "smarty_glasses.png"
+  rows:
+    - ID: "doggytalents:smarty_glasses"
+    - Type: "Customizable"
+    - Stackable: "64"
 ---
 
 
-<aside class="infobox glass">
-  <div class="infobox-title">Smarty Glasses</div>
-  <div class="infobox-image-wrapper"><img src="/images/smarty_glasses.png" alt="Smarty Glasses" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>smarty_glasses</span></div><div class="infobox-row"><b>Type</b><span>Customizable</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  
-</aside>
+<infobox />
 
 **Smarty Glasses** is a non-dyable equipable item that makes your dog look smart.
 

@@ -1,17 +1,18 @@
 ---
 title: Rice Grains
+infobox:
+  title: "Rice Grains"
+  image: "rice_grains.png"
+  rows:
+    - ID: "doggytalents:rice_grains"
+    - Type: "Farming (Rice)"
+    - Stackable: "64"
+  description: "Right-click on Farmland to plant Rice Crops. Sneak + Right-Click on a Grindstone to Dehusk the rice."
 ---
 
 **Rice Grains** is an item drops from breaking Grass.
 
-<aside class="infobox glass">
-  <div class="infobox-title">Rice Grains</div>
-  <div class="infobox-image-wrapper"><img src="/images/rice_grains.png" alt="Rice Grains" class="infobox-image" /></div>
-  <div class="infobox-content">
-    <div class="infobox-row"><b>ID</b><span>rice_grains</span></div><div class="infobox-row"><b>Type</b><span>Farming (Rice)</span></div><div class="infobox-row"><b>Stackable</b><span>64</span></div>
-  </div>
-  <div class="infobox-description">Right-click on Farmland to plant Rice Crops. Sneak + Right-Click on a Grindstone to Dehusk the rice.</div>
-</aside>
+<infobox />
 
 <recipe id="rice_grains" />
 
