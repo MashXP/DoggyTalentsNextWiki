@@ -26,7 +26,8 @@ recipes:
       count: 1
 ---
 <infobox />
-Hot Dog is a non-dyeable equipable item that stylizes your dog.
+
+**Hot Dog** is a non-dyeable equipable item that stylizes your dog.
 
 The player can also eat the item lol. It fills up **6 hunger points** and gives you:
 - **Resistance II** for **60 seconds.**
