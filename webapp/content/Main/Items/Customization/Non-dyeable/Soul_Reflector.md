@@ -34,6 +34,6 @@ The **Soul Reflector** is the ethereal, soul-flame variant of the **[Divine Retr
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
-- Introduced in **DTN 1.18.11** on March 24th, 2024.
+- Introduced in **DTN 1.18.11**.
 - This item is unique as it requires the original **Divine Retribution** in its crafting recipe, effectively upgrading it with soul energy.
 - Like its predecessor, it is a tribute to the legendary weapons of the Sun Goddess Amaterasu. More details on the original weapons can be found on the **[Okami Wiki](https://okami.fandom.com/wiki/Reflector)**.
