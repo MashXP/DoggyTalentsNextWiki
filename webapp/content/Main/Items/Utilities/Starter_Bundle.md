@@ -1,16 +1,23 @@
 ---
 title: Starter Bundle
 infobox:
-  title: "Starter Bundle"
-  image: "starter_bundle.png"
+  title: Starter Bundle
+  image: starter_bundle.png
   rows:
-    - ID: "doggytalents:starter_bundle"
-    - Type: "Utilities"
-    - Stackable: "64"
-  description: "Contains Items which assists you in starting with Doggy Talents Next. These includes:"
+  - ID: doggytalents:starter_bundle
+  - Type: Utilities
+  - Stackable: '64'
+  description: 'Contains Items which assists you in starting with Doggy Talents Next. These includes:'
+recipes:
+  tei_orb:
+    type: shapeless
+    ingredients:
+    - doggytalents:empty_locator_orb
+    - minecraft:yellow_dye
+    output:
+      item: doggytalents:tei_orb
+      count: 1
 ---
-
-
 <infobox />
 
 **Starter Bundle** is an item that gives you certain items to make the game a bit easier (suitable for beginners). These includes:
@@ -32,5 +39,5 @@ Press **<code>E</code>** in Creative mode to access the Creative menu.
 ## Usage
 - **<code>Right click</code>** to use the item.
 ## Trivia
-- It was introduced in DTN 1.17.0.
+- Introduced in DTN 1.17.0.
 - The item's sprite was designed based on the [Treasure Chests](https://okami.fandom.com/wiki/Treasure_chest) from the game <s>that started it all</s> - Okami

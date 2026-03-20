@@ -91,7 +91,7 @@ function splitByH2(content: string): Section[] {
   return sections;
 }
 
-export default function MarkdownRenderer({ content, infobox }: { content: string, infobox?: any }) {
+export default function MarkdownRenderer({ content, infobox, recipes }: { content: string, infobox?: any, recipes?: Record<string, any> }) {
   const [viewMode, setViewMode] = useState<'full' | 'tabs'>('full');
   const [isReady, setIsReady] = useState(false);
   const [activeTabIndex, setActiveTabIndex] = useState(0);
@@ -375,7 +375,9 @@ export default function MarkdownRenderer({ content, infobox }: { content: string
     ref: (props: any) => <sup className="ref-tag" title="Reference">{props.children}</sup>,
     recipe: (props: any) => {
       const id = props.id || props.node?.properties?.id;
-      return <><RecipeDisplay id={id} />{props.children}</>;
+      // If no id, pick the first recipe available in frontmatter
+      const recipeData = recipes ? (id ? recipes[id] : Object.values(recipes)[0]) : undefined;
+      return <><RecipeDisplay id={id} defaultData={recipeData} />{props.children}</>;
     },
     infobox: (props: any) => {
       return <><InfoboxDisplay defaultData={infobox} />{props.children}</>;

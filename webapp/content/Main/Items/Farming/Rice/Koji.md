@@ -1,17 +1,26 @@
 ---
 title: Koji
 infobox:
-  title: "Koji"
-  image: "koji.png"
+  title: Koji
+  image: koji.png
   rows:
-    - ID: "doggytalents:koji"
-    - Type: "Farming (Rice)"
-    - Stackable: "64"
+  - ID: doggytalents:koji
+  - Type: Farming (Rice)
+  - Stackable: '64'
+recipes:
+  koji:
+    type: shapeless
+    ingredients:
+    - doggytalents:koji
+    - doggytalents:uncooked_rice
+    - minecraft:sugar
+    output:
+      item: doggytalents:koji
+      count: 3
 ---
+<infobox />
 
 **Koji** is a rice-related crafting material.
-
-<infobox />
 
 ## Obtaining
 
@@ -20,7 +29,7 @@ infobox:
 - It can be obtained in random chance by breaking [Rice Crops](Paddy_Rice).
 
 ### Crafting
-<recipe id="koji" />
+<recipe />
 
 ## Used In
 

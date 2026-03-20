@@ -1,22 +1,32 @@
 ---
 title: Bowtie
 infobox:
-  title: "Bowtie"
-  image: "bowtie.png"
+  title: Bowtie
+  image: bowtie.png
   rows:
-    - ID: "doggytalents:bowtie"
-    - Type: "Customization (Dyeable)"
-    - Stackable: "64"
-  description: "Sneak while applying this on your Dog to give it another variant of the Accessory."
+  - ID: doggytalents:bowtie
+  - Type: Customization (Dyeable)
+  - Stackable: '64'
+  description: Sneak while applying this on your Dog to give it another variant of the Accessory.
+recipes:
+  bowtie:
+    type: shaped
+    pattern:
+    - "W W"
+    - "WSW"
+    key:
+      W: minecraft:white_wool
+      S: minecraft:string
+    output:
+      item: doggytalents:bowtie
+      count: 4
 ---
-
-
 <infobox />
 
 **Bowtie** is a dyable equipable material that you wear on your dog.
 ## Obtaining
 ### Crafting
-<recipe id="bowtie" />
+<recipe />
 
 ![Doggo with fancy bowtie!](/images/bowtie_equipped.png "Doggo with fancy bowtie!")
 

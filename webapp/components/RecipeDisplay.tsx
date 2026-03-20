@@ -5,10 +5,11 @@ import recipesData from '../data/recipes.json';
 import { CraftingGrid, RecipeData } from './CraftingGrid';
 
 interface RecipeDisplayProps {
-  id: string;
+  id?: string;
+  defaultData?: any;
 }
 
-const RecipeDisplay: React.FC<RecipeDisplayProps> = ({ id }) => {
+const RecipeDisplay: React.FC<RecipeDisplayProps> = ({ id, defaultData }) => {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -18,7 +19,7 @@ const RecipeDisplay: React.FC<RecipeDisplayProps> = ({ id }) => {
   if (!isClient) return <div className="recipe-placeholder" style={{ minHeight: '100px' }} />;
 
   try {
-    const recipe = (recipesData as Record<string, any>)[id] as RecipeData | undefined;
+    const recipe = (defaultData || (id ? (recipesData as Record<string, any>)[id] : undefined)) as RecipeData | undefined;
 
     if (!recipe) {
       return (

@@ -1,22 +1,32 @@
 ---
 title: Training Treat
 infobox:
-  title: "Training Treat"
-  image: "training_treat.png"
+  title: Training Treat
+  image: training_treat.png
   rows:
-    - ID: "doggytalents:training_treat"
-    - Type: "Treats"
-    - Stackable: "64"
+  - ID: doggytalents:training_treat
+  - Type: Treats
+  - Stackable: '64'
+recipes:
+  training_treat:
+    type: shapeless
+    ingredients:
+    - minecraft:string
+    - minecraft:bone
+    - minecraft:gunpowder
+    - minecraft:sugar
+    - doggytalents:rice_bowl
+    output:
+      item: doggytalents:training_treat
+      count: 3
 ---
-
-
 <infobox />
 
 > **Training Treat** is the first treat you'll need to make.
 > * Each treat raises your dog's level by 1 and also raises your spendable points by 1
 > * This treat is no longer usable once your dog is level 20. <ref>https://doggytalents.fandom.com/wiki/List_of_treats</ref>
 
-<recipe id="training_treat" />
+<recipe />
 
 ## Usage
 - **<code>Right click</code>** on your dog to use the item.

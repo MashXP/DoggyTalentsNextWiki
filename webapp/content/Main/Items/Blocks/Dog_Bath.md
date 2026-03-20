@@ -1,22 +1,33 @@
 ---
 title: Dog Bath
 infobox:
-  title: "Dog Bath"
-  image: "dog_bath.png"
+  title: Dog Bath
+  image: dog_bath.png
   rows:
-    - ID: "doggytalents:dog_bath"
-    - Type: "Blocks"
-    - Stackable: "64"
+  - ID: doggytalents:dog_bath
+  - Type: Blocks
+  - Stackable: '64'
+recipes:
+  dog_bath:
+    type: shaped
+    pattern:
+    - "XXX"
+    - "XYX"
+    - "XXX"
+    key:
+      X: minecraft:iron_ingot
+      Y: minecraft:water_bucket
+    output:
+      item: doggytalents:dog_bath
+      count: 1
 ---
-
-
 <infobox />
 
 **Dog Bath** is a decoration block that used to have a function.
 
 ## Obtaining
 ### Crafting
-<recipe id="dog_bath" />
+<recipe />
 
 ## Trivia
 - Dog Bath used to have a function:

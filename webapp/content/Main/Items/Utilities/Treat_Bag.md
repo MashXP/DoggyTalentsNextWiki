@@ -1,21 +1,32 @@
 ---
 title: Treat Bag
 infobox:
-  title: "Treat Bag"
-  image: "treat_bag.png"
+  title: Treat Bag
+  image: treat_bag.png
   rows:
-    - ID: "doggytalents:treat_bag"
-    - Type: "Utilities"
-    - Stackable: "1"
+  - ID: doggytalents:treat_bag
+  - Type: Utilities
+  - Stackable: '1'
+recipes:
+  treat_bag:
+    type: shaped
+    pattern:
+    - "LCL"
+    - "LLL"
+    key:
+      L: minecraft:leather
+      C: doggytalents:energizer_stick
+    output:
+      item: doggytalents:treat_bag
+      count: 1
 ---
+<infobox />
 
 **Treat Bag** is an item used to contain [Treats](Items#Treats) and [Food](Items#Food).
 
-<infobox />
-
 ## Obtaining
 ### Crafting
-<recipe id="treat_bag" />
+<recipe />
 
 ## Usage
 

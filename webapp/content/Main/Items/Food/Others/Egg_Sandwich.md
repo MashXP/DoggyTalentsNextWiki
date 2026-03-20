@@ -1,16 +1,27 @@
 ---
 title: Egg Sandwich
 infobox:
-  title: "Egg Sandwich"
-  image: "egg_sandwich.png"
+  title: Egg Sandwich
+  image: egg_sandwich.png
   rows:
-    - ID: "doggytalents:egg_sandwich"
-    - Type: "Food"
-    - Stackable: "64"
-  description: "Delicious Tamago Sando! Legoshi and Legom approved."
+  - ID: doggytalents:egg_sandwich
+  - Type: Food
+  - Stackable: '64'
+  description: Delicious Tamago Sando! Legoshi and Legom approved.
+recipes:
+  egg_sandwich:
+    type: shaped
+    pattern:
+    - " B "
+    - "EEE"
+    - " B "
+    key:
+      B: minecraft:bread
+      E: minecraft:egg
+    output:
+      item: doggytalents:egg_sandwich
+      count: 3
 ---
-
-
 <infobox />
 
 **Egg Sandwich** is a delicious food item that fills up 3 hunger points and gives you Regeneration II for 3 seconds.
@@ -18,7 +29,7 @@ infobox:
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
 ### Crafting
-<recipe id="egg_sandwich" />
+<recipe />
 
 ## Usage
 - **<code>Right click</code>** to use the item.

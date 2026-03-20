@@ -1,16 +1,29 @@
 ---
 title: Snorkel
 infobox:
-  title: "Snorkel"
-  image: "snorkel.png"
+  title: Snorkel
+  image: snorkel.png
   rows:
-    - ID: "doggytalents:snorkel"
-    - Type: "Customization (Non-dyeable)"
-    - Stackable: "64"
-  description: "Helu, I'm under the water~"
+  - ID: doggytalents:snorkel
+  - Type: Customization (Non-dyeable)
+  - Stackable: '64'
+  description: Helu, I'm under the water~
+recipes:
+  snorkel:
+    type: shaped
+    pattern:
+    - "  B"
+    - "GIG"
+    - " T "
+    key:
+      I: minecraft:iron_ingot
+      G: minecraft:glass_pane
+      B: minecraft:bamboo
+      T: doggytalents:training_treat
+    output:
+      item: doggytalents:snorkel
+      count: 1
 ---
-
-
 <infobox />
 
 **Snorkel** is a non-dyeable equipable item that makes your dog look ready to go blub blub.
@@ -19,11 +32,11 @@ infobox:
 
 ## Obtaining
 ### Crafting
-<recipe id="snorkel" />
+<recipe />
 
 *Requires Bamboo to unlock the recipe.*
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 ## Trivia
-- It was introduced in DTN 1.17.0.
+- Introduced in DTN 1.17.0.

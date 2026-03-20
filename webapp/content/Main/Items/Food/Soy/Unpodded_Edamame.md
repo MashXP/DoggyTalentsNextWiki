@@ -10,10 +10,9 @@ infobox:
     - Stackable: "64"
   description: "Itadakimasu!"
 ---
-
+<infobox />
 
 **Rice Bowl** is a snack item that gives you 0.5 hunger points.
-<infobox />
 
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining

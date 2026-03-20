@@ -1,15 +1,25 @@
 ---
 title: Wool Collar
 infobox:
-  title: "Wool Collar"
-  image: "wool_collar.png"
+  title: Wool Collar
+  image: wool_collar.png
   rows:
-    - ID: "doggytalents:wool_collar"
-    - Type: "Customization (Dyeable)"
-    - Stackable: "64"
+  - ID: doggytalents:wool_collar
+  - Type: Customization (Dyeable)
+  - Stackable: '64'
+recipes:
+  wool_collar:
+    type: shaped
+    pattern:
+    - "SSS"
+    - "S S"
+    - "SSS"
+    key:
+      S: minecraft:string
+    output:
+      item: doggytalents:wool_collar
+      count: 1
 ---
-
-
 <infobox />
 
 **Wool Collar** is a dyable equipable material that stylizes your dog's collar. This item allows you to craft more variants of collar colors.
@@ -18,7 +28,7 @@ infobox:
 
 ## Obtaining
 ### Crafting
-<recipe id="wool_collar" />
+<recipe />
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).

@@ -99,9 +99,9 @@
     "texture": "/images/demon_horns.png",
     "name": "Demon Horns"
   },
-  "doggytalents:divine_retributon": {
-    "texture": "/images/divine_retributon.png",
-    "name": "Divine Retributon"
+  "doggytalents:divine_retribution": {
+    "texture": "/images/divine_retribution.png",
+    "name": "Divine Retribution"
   },
   "doggytalents:dog_bath": {
     "texture": "/images/dog_bath.png",
@@ -117,14 +117,14 @@
   },
   "doggytalents:dog_christmas_tree": {
     "texture": "/images/dog_christmas_tree.png",
-    "name": "Dog Christmas Tree"
+    "name": "Christmas Tree Costume"
   },
   "doggytalents:dog_gift_costume": {
     "texture": "/images/dog_gift_costume.png",
     "name": "Dog Gift Costume"
   },
   "doggytalents:dog_plushie_toy": {
-    "texture": "/images/dog_plushie_toy.png",
+    "texture": "/images/dog_plushie_toy_item.png",
     "name": "Dog Plushie Toy"
   },
   "doggytalents:doggy_contacts": {

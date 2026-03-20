@@ -1,15 +1,29 @@
 ---
 title: Conan Suit
 infobox:
-  title: "Conan Suit"
-  image: "conan_suit.png"
+  title: Conan Suit
+  image: conan_suit.png
   rows:
-    - ID: "doggytalents:conan_suit"
-    - Type: "Customization (Non-dyeable)"
-    - Stackable: "64"
+  - ID: doggytalents:conan_suit
+  - Type: Customization (Non-dyeable)
+  - Stackable: '64'
+recipes:
+  conan_suit:
+    type: shaped
+    pattern:
+    - "BZB"
+    - "LCL"
+    - "R R"
+    key:
+      L: minecraft:light_blue_wool
+      Z: doggytalents:bowtie
+      R: minecraft:red_wool
+      B: minecraft:blue_wool
+      C: doggytalents:cape_coloured
+    output:
+      item: doggytalents:conan_suit
+      count: 1
 ---
-
-
 <infobox />
 
 **Conan Suit** is a non-dyable equipable item that makes your dog cosplay a very famous anime/manga character.
@@ -18,12 +32,12 @@ infobox:
 
 ## Obtaining
 ### Crafting
-<recipe id="conan_suit" />
+<recipe />
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 ## Trivia
-- It was introduced in DTN 1.12.0.
+- Introduced in DTN 1.12.0.
 - A direct reference to **Shinichi Kudo/Edogawa Conan** from the manga series **Case Closed**, also known as **Detective Conan**.<ref>https://www.imdb.com/title/tt0131179/</ref>
 
 <references />

@@ -8,10 +8,9 @@ infobox:
     - Type: "Customization (Dyeable)"
     - Stackable: "64"
 ---
+<infobox />
 
 **Midi Keyboard** is a dyable equipable accessory that makes your dog look musical.
-
-<infobox />
 
 ## Obtaining
 ### Crafting
@@ -21,4 +20,4 @@ infobox:
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
-- It was introduced in DTN 1.18.30.
+- Introduced in DTN 1.18.30.

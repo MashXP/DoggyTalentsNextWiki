@@ -1,20 +1,30 @@
 ---
 title: Whistle
 infobox:
-  title: "Whistle"
-  image: "whistle.png"
+  title: Whistle
+  image: whistle.png
   rows:
-    - ID: "doggytalents:whistle"
-    - Type: "Utilities"
-    - Stackable: "1"
+  - ID: doggytalents:whistle
+  - Type: Utilities
+  - Stackable: '1'
+recipes:
+  whistle:
+    type: shaped
+    pattern:
+    - "IRI"
+    - "II "
+    key:
+      I: minecraft:iron_ingot
+      R: minecraft:redstone
+    output:
+      item: doggytalents:whistle
+      count: 1
 ---
-
-
 <infobox />
 
 The **Whistle** item gives your dog commands that it can listen to. Different commands are expressed via several modes.
 
-<recipe id="whistle" />
+<recipe />
 
 ## Usage
 - **<code>Right click</code>** to use the item.

@@ -8,10 +8,9 @@ infobox:
     - Type: "Farming (Rice)"
     - Stackable: "64"
 ---
+<infobox />
 
 **Uncooked Rice** is a material used to craft Rice related items.
-
-<infobox />
 
 ## Obtaining
 ### Grinding

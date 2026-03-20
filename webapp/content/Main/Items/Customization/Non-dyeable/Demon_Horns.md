@@ -1,15 +1,28 @@
 ---
 title: Demon Horns
 infobox:
-  title: "Demon Horns"
-  image: "demon_horns.png"
+  title: Demon Horns
+  image: demon_horns.png
   rows:
-    - ID: "doggytalents:demon_horns"
-    - Type: "Customization (Non-dyeable)"
-    - Stackable: "64"
-  description: "Who's a Bad Boy? You are!"
+  - ID: doggytalents:demon_horns
+  - Type: Customization (Non-dyeable)
+  - Stackable: '64'
+  description: Who's a Bad Boy? You are!
+recipes:
+  demon_horns:
+    type: shaped
+    pattern:
+    - "SRS"
+    - "BCB"
+    key:
+      C: minecraft:leather_helmet
+      S: minecraft:stick
+      R: minecraft:nether_wart
+      B: minecraft:black_dye
+    output:
+      item: doggytalents:demon_horns
+      count: 1
 ---
-
 <infobox />
 
 **Demon Horns** is a non-dyeable equipable item that gives your dog a devilish look.
@@ -18,7 +31,7 @@ infobox:
 
 ## Obtaining
 ### Crafting
-<recipe id="demon_horns" />
+<recipe />
 
 *Requires Leather Helmet to unlock the recipe.*
 

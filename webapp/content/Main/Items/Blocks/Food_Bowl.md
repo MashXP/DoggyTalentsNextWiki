@@ -1,15 +1,26 @@
 ---
 title: Food Bowl
 infobox:
-  title: "Food Bowl"
-  image: "food_bowl.png"
+  title: Food Bowl
+  image: food_bowl.png
   rows:
-    - ID: "doggytalents:food_bowl"
-    - Type: "Blocks"
-    - Stackable: "64"
+  - ID: doggytalents:food_bowl
+  - Type: Blocks
+  - Stackable: '64'
+recipes:
+  food_bowl:
+    type: shaped
+    pattern:
+    - "XXX"
+    - "XYX"
+    - "XXX"
+    key:
+      X: minecraft:iron_ingot
+      Y: minecraft:bowl
+    output:
+      item: doggytalents:food_bowl
+      count: 1
 ---
-
-
 <infobox />
 
 <br>
@@ -18,7 +29,7 @@ infobox:
 It can also be used as an anchor for [Wandering Mode](Basic Core Stats#wandering-w).
 ## Obtaining
 ### Crafting
-<recipe id="food_bowl" />
+<recipe />
 
 ## Usage
 **<code>Right click</code>** the bowl to access the GUI.

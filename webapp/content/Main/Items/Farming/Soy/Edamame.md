@@ -1,22 +1,33 @@
 ---
 title: Edamame
 infobox:
-  title: "Edamame"
-  image: "edamame_unpodded.png"
+  title: Edamame
+  image: edamame_unpodded.png
   rows:
-    - ID: "doggytalents:edamame"
-    - Type: "Food (Soy)"
-    - Stackable: "64"
-  description: "Itadakimasu!"
+  - ID: doggytalents:edamame
+  - Type: Food (Soy)
+  - Stackable: '64'
+  description: Itadakimasu!
+recipes:
+  edamame:
+    type: shapeless
+    ingredients:
+    - doggytalents:soy_pods
+    - doggytalents:soy_pods
+    - doggytalents:soy_pods
+    - minecraft:sugar
+    output:
+      item: doggytalents:edamame
+      count: 3
 ---
+<infobox />
 
 **Edamame** is an item that's used to make [Unpodded Edamame](Unpodded_Edamame).
 
-<infobox />
 <span></span>
 ## Obtaining
 ### Crafting
-<recipe id="edamame" />
+<recipe />
 
 ## Usage
 - **<code>Right click</code>** to use the item.

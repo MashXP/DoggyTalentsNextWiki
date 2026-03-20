@@ -1,15 +1,26 @@
 ---
 title: Kami Treat
 infobox:
-  title: "Kami Treat"
-  image: "kami_treat.png"
+  title: Kami Treat
+  image: kami_treat.png
   rows:
-    - ID: "doggytalents:kami_treat"
-    - Type: "Treats"
-    - Stackable: "64"
+  - ID: doggytalents:kami_treat
+  - Type: Treats
+  - Stackable: '64'
+recipes:
+  kami_treat:
+    type: shapeless
+    ingredients:
+    - doggytalents:master_treat
+    - doggytalents:master_treat
+    - doggytalents:master_treat
+    - doggytalents:master_treat
+    - doggytalents:master_treat
+    - minecraft:end_stone
+    output:
+      item: doggytalents:kami_treat
+      count: 1
 ---
-
-
 <infobox />
 
 > Once your dog is level 60, you can still raise your dog's "kami level" with Kami Treats! This maxes out at level 30, at which point your dog is fully trained and acquires a nifty aura (can be enabled via [Configuration](Configuration)).
@@ -18,7 +29,7 @@ infobox:
 
 ## Obtaining
 ### Crafting
-<recipe id="kami_treat" />
+<recipe />
 
 ## Usage
 - **<code>Right click</code>** on your dog to use the item.

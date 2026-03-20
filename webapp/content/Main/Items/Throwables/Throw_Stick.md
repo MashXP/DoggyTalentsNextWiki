@@ -1,15 +1,33 @@
 ---
 title: Throw Stick
 infobox:
-  title: "Throw Stick"
-  image: "throw_stick.png"
+  title: Throw Stick
+  image: throw_stick.png
   rows:
-    - ID: "doggytalents:throw_stick"
-    - Type: "Throwables"
-    - Stackable: "1"
+  - ID: doggytalents:throw_stick
+  - Type: Throwables
+  - Stackable: '1'
+recipes:
+  throw_stick:
+    type: shaped
+    pattern:
+    - " X "
+    - "XYX"
+    - " X "
+    key:
+      X: minecraft:stick
+      Y: minecraft:slime_ball
+    output:
+      item: doggytalents:throw_stick
+      count: 1
+  throw_stick_shapeless:
+    type: shapeless
+    ingredients:
+    - doggytalents:throw_stick_wet
+    output:
+      item: doggytalents:throw_stick
+      count: 1
 ---
-
-
 <infobox />
 
 **Throw Stick** is a throwable item that lets you play and interact with your doggo!

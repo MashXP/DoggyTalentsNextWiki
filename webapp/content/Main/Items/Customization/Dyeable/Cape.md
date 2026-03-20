@@ -1,22 +1,34 @@
 ---
 title: Cape
 infobox:
-  title: "Cape"
-  image: "cape_coloured.png"
+  title: Cape
+  image: cape_coloured.png
   rows:
-    - ID: "doggytalents:cape_coloured"
-    - Type: "Customization (Dyeable)"
-    - Stackable: "64"
+  - ID: doggytalents:cape_coloured
+  - Type: Customization (Dyeable)
+  - Stackable: '64'
+recipes:
+  cape_coloured:
+    type: shaped
+    pattern:
+    - "S S"
+    - "LWL"
+    - "WLW"
+    key:
+      L: minecraft:leather
+      W: minecraft:white_wool
+      S: minecraft:string
+    output:
+      item: doggytalents:cape_coloured
+      count: 1
 ---
-
-
 <infobox />
 
 **Cape** is a dyable equipable material that makes your dog look nice.
 
 ## Obtaining
 ### Crafting
-<recipe id="cape_coloured" />
+<recipe />
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).

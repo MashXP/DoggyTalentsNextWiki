@@ -1,25 +1,36 @@
 ---
 title: Energizer Stick
 infobox:
-  title: "Energizer Stick"
-  image: "energizer_stick.png"
+  title: Energizer Stick
+  image: energizer_stick.png
   rows:
-    - ID: "doggytalents:energizer_stick"
-    - Type: "Utilities"
-    - Properties: "Gives your dog Glowing, Speed and Regeneration"
-    - Stackable: "64"
+  - ID: doggytalents:energizer_stick
+  - Type: Utilities
+  - Properties: Gives your dog Glowing, Speed and Regeneration
+  - Stackable: '64'
+recipes:
+  energizer_stick:
+    type: shaped
+    pattern:
+    - "SW "
+    - "WS "
+    key:
+      W: minecraft:wheat
+      S: minecraft:sugar
+    output:
+      item: doggytalents:energizer_stick
+      count: 1
 ---
+<infobox />
 
 **Energizer Stick** is an item that gives your dog:
-
-<infobox />
 
 - **Glowing** for 5 seconds.
 - **Speed VII** for 10 seconds.
 - **Regeneration III** for 5 seconds.
 ## Obtaining
 ### Crafting
-<recipe id="energizer_stick" />
+<recipe />
 
 ## Usage
 - **<code>Right click</code>** on your dog to use the item.

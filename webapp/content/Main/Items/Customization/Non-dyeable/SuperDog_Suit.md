@@ -1,16 +1,26 @@
 ---
 title: SuperDog Suit
 infobox:
-  title: "SuperDog Suit"
-  image: "superdog_suit.png"
+  title: SuperDog Suit
+  image: superdog_suit.png
   rows:
-    - ID: "doggytalents:superdog_suit"
-    - Type: "Customization (Non-dyeable)"
-    - Stackable: "64"
-  description: "It's a bird! No, it's a plane! It's SuperDog!"
+  - ID: doggytalents:superdog_suit
+  - Type: Customization (Non-dyeable)
+  - Stackable: '64'
+  description: It's a bird! No, it's a plane! It's SuperDog!
+recipes:
+  superdog_suit:
+    type: shapeless
+    ingredients:
+    - minecraft:yellow_dye
+    - minecraft:red_dye
+    - minecraft:blue_dye
+    - minecraft:iron_ingot
+    - doggytalents:leather_jacket
+    output:
+      item: doggytalents:superdog_suit
+      count: 1
 ---
-
-
 <infobox />
 
 **SuperDog Suit** is a non-dyeable equipable item that makes your dog look like a hero.
@@ -19,11 +29,11 @@ infobox:
 
 ## Obtaining
 ### Crafting
-<recipe id="superdog_suit" />
+<recipe />
 
 Obtaining this item requires a Leather Jacket to unlock the recipe.
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 ## Trivia
-- It was introduced in DTN 1.17.2.
+- Introduced in DTN 1.17.2.

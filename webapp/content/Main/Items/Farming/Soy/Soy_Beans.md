@@ -8,10 +8,9 @@ infobox:
     - Type: "Farming (Soy)"
     - Stackable: "64"
 ---
+<infobox />
 
 **Soy Beans** is a soy-related crafting material.
-
-<infobox />
 
 ## Obtaining
 

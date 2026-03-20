@@ -1,15 +1,33 @@
 ---
 title: Throw Bone
 infobox:
-  title: "Throw Bone"
-  image: "throw_bone.png"
+  title: Throw Bone
+  image: throw_bone.png
   rows:
-    - ID: "doggytalents:throw_bone"
-    - Type: "Throwables"
-    - Stackable: "1"
+  - ID: doggytalents:throw_bone
+  - Type: Throwables
+  - Stackable: '1'
+recipes:
+  throw_bone:
+    type: shaped
+    pattern:
+    - " X "
+    - "XYX"
+    - " X "
+    key:
+      X: minecraft:bone
+      Y: minecraft:slime_ball
+    output:
+      item: doggytalents:throw_bone
+      count: 1
+  throw_bone_shapeless:
+    type: shapeless
+    ingredients:
+    - doggytalents:throw_bone_wet
+    output:
+      item: doggytalents:throw_bone
+      count: 1
 ---
-
-
 <infobox />
 
 **Throw Bone** is a throwable item that lets you play and interact with your doggo!

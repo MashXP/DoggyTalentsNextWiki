@@ -1,16 +1,27 @@
 ---
 title: Gift Costume
 infobox:
-  title: "Gift Costume"
-  image: "dog_gift_costume.png"
+  title: Gift Costume
+  image: dog_gift_costume.png
   rows:
-    - ID: "doggytalents:dog_gift_costume"
-    - Type: "Customization (Dyeable)"
-    - Stackable: "64"
-  description: "Best gift for any occasion! Craft with Paper to add a Secondary color"
+  - ID: doggytalents:dog_gift_costume
+  - Type: Customization (Dyeable)
+  - Stackable: '64'
+  description: Best gift for any occasion! Craft with Paper to add a Secondary color
+recipes:
+  dog_gift_costume:
+    type: shaped
+    pattern:
+    - " B "
+    - "PP "
+    - "PP "
+    key:
+      B: doggytalents:bowtie
+      P: minecraft:paper
+    output:
+      item: doggytalents:dog_gift_costume
+      count: 1
 ---
-
-
 <infobox />
 
 **Gift Costume** is a double-dyeable equipable accessory that's perfect for celebrating special occasions and adding a touch of cheer.
@@ -18,7 +29,7 @@ infobox:
 ## Obtaining
 
 ### Crafting
-<recipe id="dog_gift_costume" />
+<recipe />
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).

@@ -1,22 +1,35 @@
 ---
 title: Rice Mill
 infobox:
-  title: "Rice Mill"
-  image: "rice_mill.png"
+  title: Rice Mill
+  image: rice_mill.png
   rows:
-    - ID: "doggytalents:rice_mill"
-    - Type: "Block"
-    - Stackable: "64"
+  - ID: doggytalents:rice_mill
+  - Type: Block
+  - Stackable: '64'
+recipes:
+  rice_mill:
+    type: shaped
+    pattern:
+    - "FLF"
+    - "LCL"
+    - "FDF"
+    key:
+      F: tag:fences
+      L: tag:logs
+      C: minecraft:cobblestone_slab
+      D: doggytalents:rice_wheat
+    output:
+      item: doggytalents:rice_mill
+      count: 1
 ---
-
-
 <infobox />
 
 **Rice Mill** is a placeable block that allows player to automate the process of making Rice/Soy items.
 
 ## Obtaining
 ### Crafting
-<recipe id="rice_mill" />
+<recipe />
 
 ## Usage
 

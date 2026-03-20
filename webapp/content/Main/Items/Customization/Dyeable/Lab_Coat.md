@@ -1,24 +1,36 @@
 ---
 title: Lab Coat
 infobox:
-  title: "Lab Coat"
-  image: "lab_coat.png"
+  title: Lab Coat
+  image: lab_coat.png
   rows:
-    - ID: "doggytalents:lab_coat"
-    - Type: "Customization (Dyeable)"
-    - Stackable: "64"
+  - ID: doggytalents:lab_coat
+  - Type: Customization (Dyeable)
+  - Stackable: '64'
+recipes:
+  lab_coat:
+    type: shaped
+    pattern:
+    - " C "
+    - " W "
+    - "WWW"
+    key:
+      C: doggytalents:cape_coloured
+      W: tag:wool
+    output:
+      item: doggytalents:lab_coat
+      count: 1
 ---
+<infobox />
 
 **Lab Coat** is a dyable equipable accessory that makes your dog look professional.
 
-<infobox />
-
 ## Obtaining
 ### Crafting
-<recipe id="lab_coat" />
+<recipe />
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
-- It was introduced in DTN 1.17.2.
+- Introduced in DTN 1.17.2.

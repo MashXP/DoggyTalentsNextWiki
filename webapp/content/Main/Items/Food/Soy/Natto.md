@@ -1,24 +1,33 @@
 ---
 title: Natto
 infobox:
-  title: "Natto"
-  image: "natto.png"
+  title: Natto
+  image: natto.png
   rows:
-    - ID: "doggytalents:natto"
-    - Type: "Food (Soy)"
-    - Properties: "Hunger points: 3/10"
-    - Stackable: "64"
-  description: "Sticky Sticky Fermented BEANS!"
+  - ID: doggytalents:natto
+  - Type: Food (Soy)
+  - Properties: 'Hunger points: 3/10'
+  - Stackable: '64'
+  description: Sticky Sticky Fermented BEANS!
+recipes:
+  natto:
+    type: shapeless
+    ingredients:
+    - doggytalents:soy_beans
+    - doggytalents:koji
+    - minecraft:brown_mushroom
+    output:
+      item: doggytalents:natto
+      count: 1
 ---
+<infobox />
 
 **Natto** is a food item that fills up 3 hunger points and gives you your dog [Natto Bite](Natto_Bite) effect for **3 minutes**.
-
-<infobox />
 
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
 ### Crafting
-<recipe id="natto" />
+<recipe />
 
 ## Usage
 - **<code>Right click</code>** to use the item.

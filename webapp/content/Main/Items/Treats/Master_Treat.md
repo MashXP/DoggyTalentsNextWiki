@@ -1,22 +1,33 @@
 ---
 title: Master Treat
 infobox:
-  title: "Master Treat"
-  image: "master_treat.png"
+  title: Master Treat
+  image: master_treat.png
   rows:
-    - ID: "doggytalents:master_treat"
-    - Type: "Treats"
-    - Stackable: "64"
+  - ID: doggytalents:master_treat
+  - Type: Treats
+  - Stackable: '64'
+recipes:
+  master_treat:
+    type: shapeless
+    ingredients:
+    - doggytalents:super_treat
+    - doggytalents:super_treat
+    - doggytalents:super_treat
+    - doggytalents:super_treat
+    - doggytalents:super_treat
+    - minecraft:diamond
+    output:
+      item: doggytalents:master_treat
+      count: 5
 ---
-
-
 <infobox />
 
 > This is the final treat as far as [basic leveling](Leveling Systems) goes. It will raise your dog's level by 1 (and 1 spendable point) until level 60.
 
 ## Obtaining
 ### Crafting
-<recipe id="master_treat" />
+<recipe />
 
 ## Usage
 - **<code>Right click</code>** on your dog to use the item.

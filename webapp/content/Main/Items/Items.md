@@ -44,6 +44,7 @@ title: Items
 <li><a href="/Band-Aid"><img class="item-icon" src="/images/bandaid.png" />Band-Aid</a></li>
 <li><a href="/Amnesia_Bone"><img class="item-icon" src="/images/amnesia_bone.png" />Amnesia Bone</a></li>
 <li><a href="/Gender_Bone"><img class="item-icon" src="/images/gender_bone.png" />Gender Bone</a></li>
+<li><a href="/Radio_Collar"><img class="item-icon" src="/images/radio_collar.png" />Radio Collar</a></li>
 <li><a href="/Scent_Treat"><img class="item-icon" src="/images/scent_treat.png" />Scent Treat</a></li>
 </ul></div>
 
@@ -95,6 +96,7 @@ title: Items
 <li><a href="/Onsen_Tamago"><img class="item-icon" src="/images/onsen_tamago.png" />Onsen Tamago</a></li>
 <li><a href="/Golden_A5_Wagyu"><img class="item-icon" src="/images/golden_a_five_wagyu.png" />Golden A5 Wagyu</a></li>
 <li><a href="/Sausage"><img class="item-icon" src="/images/sausage.png" />Sausage</a></li>
+<li><a href="/Easter_Egg_Candy"><img class="item-icon" src="/images/easter_egg_candy.png" />Easter Egg Candy</a></li>
 </ul></div>
 
 ## Farming
@@ -141,6 +143,7 @@ title: Items
 <li><a href="/Thick_Wool_Collar"><img class="item-icon" src="/images/wool_collar_thicc.png" />Thick Wool Collar</a></li>
 <li><a href="/Angel_Wings"><img class="item-icon" src="/images/angel_wings.png" />Angel Wings</a></li>
 <li><a href="/Dog_Plushie"><img class="item-icon" src="/images/dog_plushie_toy_item.png" />Dog Plushie</a></li>
+<li><a href="/Samoyed_Plushie"><img class="item-icon" src="/images/samoyed_plushie_toy_item.png" />Samoyed Plushie</a></li>
 <li><a href="/Midi_Keyboard"><img class="item-icon" src="/images/midi_keyboard.png" />Midi Keyboard</a></li>
 <li><a href="/Striped_Scarf"><img class="item-icon" src="/images/striped_scarf.png" />Striped Scarf</a></li>
 <li><a href="/Gift_Costume"><img class="item-icon" src="/images/dog_gift_costume.png" />Gift Costume</a></li>
@@ -179,9 +182,12 @@ title: Items
 <li><a href="/Angel_Halo"><img class="item-icon" src="/images/angel_halo.png" />Angel Halo</a></li>
 <li><a href="/MrBlueYeti's_Goose"><img class="item-icon" src="/images/goose.png" />MrBlueYeti's Goose</a></li>
 <li><a href="/Deer_Antlers"><img class="item-icon" src="/images/deer_antlers.png" />Deer Antlers</a></li>
+<li><a href="/Bunny_Ears"><img class="item-icon" src="/images/bunny_ears.png" />Bunny Ears</a></li>
 <li><a href="/Firefighter_Suits"><img class="item-icon" src="/images/firefighter_suits.gif" />Firefighter Suits</a></li>
 <li><a href="/Firefighter_Hats"><img class="item-icon" src="/images/firefighter_hats.gif" />Firefighter Hats</a></li>
-<li><a href="/Dragon_Costume"><img class="item-icon" src="/images/dragon_costume.gif" />Dragon Costume</a></li>
+<li><a href="/Dragon_Costume_Head"><img class="item-icon" src="/images/dragon_costume_head.png" />Dragon Costume Head</a></li>
+<li><a href="/Dragon_Costume_Suit"><img class="item-icon" src="/images/dragon_costume_suit.png" />Dragon Costume Suit</a></li>
+<li><a href="/Dragon_Costume_Wings"><img class="item-icon" src="/images/dragon_costume_wings.png" />Dragon Costume Wings</a></li>
 <li><a href="/Christmas_Hat"><img class="item-icon" src="/images/christmas_hat.png" />Christmas Hat</a></li>
 <li><a href="/Christmas_Tree_Costume"><img class="item-icon" src="/images/dog_christmas_tree.png" />Christmas Tree Costume</a></li>
 <li><a href="/Christmas_Star"><img class="item-icon" src="/images/dog_christmas_star.png" />Christmas Star</a></li>
@@ -197,24 +203,11 @@ title: Items
 
 ## Discs
 
-### Chopin
-
 <div class="item-grid"><ul>
-<li><a href="/Music_Discs"><img class="item-icon" src="/images/disc_chopin_op64_no1.png" />F. Chopin - Valse Du Petit Chien</a></li>
+<li><a href="/Disc_Chopin_Valse"><img class="item-icon" src="/images/disc_chopin_op64_no1.png" />F. Chopin - Valse Du Petit Chien</a></li>
 </ul></div>
 
-### Bach
 
-<div class="item-grid"><ul>
-<li><a href="/Music_Discs"><img class="item-icon" src="/images/disc_bwv_1080_fugue_11.png" />J.S Bach - Art Of Fugue: Contrapunctus XI (BWV 1080) (Kimiko Ishizaka)</a></li>
-<li><a href="/Music_Discs"><img class="item-icon" src="/images/disc_bwv_849_fugue.png" />J.S Bach - WTC I: Fugue in C♯ Minor (BWV 849) (Kimiko Ishizaka)</a></li>
-</ul></div>
-
-### Others
-
-<div class="item-grid"><ul>
-<li><a href="/Music_Discs"><img class="item-icon" src="/images/disc_okami_ryoshima_coast_arr.png" />Okami - "Ryoshima Coast" (Arr. DashieDev for Organ)</a></li>
-</ul></div>
 
 ## Creative Exclusive
 
@@ -237,4 +230,7 @@ title: Items
 <li><a href="/Radar"><img class="item-icon" src="/images/radar.png" />Radar</a></li>
 <li><a href="/Chew_Stick"><img class="item-icon" src="/images/chew_stick.png" />Chew Stick</a></li>
 <li><a href="/Change_Dog_Owner"><img class="item-icon" src="/images/owner_change.png" />Change Dog Owner</a></li>
+<li><a href="/Disc_Bach_Fugue_11"><img class="item-icon" src="/images/disc_bwv_1080_fugue_11.png" />J.S Bach - Art Of Fugue: Contrapunctus XI</a></li>
+<li><a href="/Disc_Bach_WTC_Fugue"><img class="item-icon" src="/images/disc_bwv_849_fugue.png" />J.S Bach - WTC I: Fugue in C♯ Minor</a></li>
+<li><a href="/Disc_Okami_Ryoshima_Coast"><img class="item-icon" src="/images/disc_okami_ryoshima_coast_arr.png" />Okami - "Ryoshima Coast"</a></li>
 </ul></div>

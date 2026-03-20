@@ -6,13 +6,12 @@ infobox:
   rows:
     - ID: "doggytalents:doggy_charm"
     - Type: "Utilities"
-    - Stackable: "64"
+    - Stackable: "1"
   description: "Shift + Right-Click your dog to cycle between all available Classical Variants."
 ---
+<infobox />
 
 **Doggy Charm** is a consumable item that spawns a trained dog.
-
-<infobox />
 
 ## Obtaining
 ### Upon Creating A New World
@@ -24,7 +23,7 @@ If you have **<code>enable_starting_items</code>** set to **<code>true</code>** 
 
 ## Trivia
 
-- It was introduced in the original Doggy Talents.
+- Introduced in the original Doggy Talents.
 - The Doggy Charm is used as an icon for the old DTN logo. It was also featured in many places like the banner or watermarks.
 - The item's new sprite took inspiration from the **[Charms](https://static.wikia.nocookie.net/okami/images/e/e9/traveler%27s_charm_icon.png/revision/latest?cb=20201228001834)** from the popular game Okami.<ref>https://okami.fandom.com/wiki/Tools</ref>
 <references />

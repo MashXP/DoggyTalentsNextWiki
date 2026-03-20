@@ -1,14 +1,38 @@
 ---
 title: Locator Orbs
 infobox:
-  title: "Locator Orbs"
-  image: "all_orbs.gif"
+  title: Locator Orbs
+  image: all_orbs.gif
   rows:
-    - Type: "Utilities"
-    - Stackable: "64"
+  - Type: Utilities
+  - Stackable: '64'
+recipes:
+  locator_orb_simulation:
+    type: shapeless
+    ingredients:
+    - doggytalents:empty_locator_orb
+    - - minecraft:magenta_dye
+      - minecraft:light_blue_dye
+      - minecraft:purple_dye
+      - minecraft:blue_dye
+      - minecraft:yellow_dye
+      - minecraft:lime_dye
+      - minecraft:green_dye
+      - minecraft:red_dye
+      - minecraft:paper
+    output:
+      item:
+      - doggytalents:locator_orb_chi
+      - doggytalents:locator_orb_chu
+      - doggytalents:locator_orb_ko
+      - doggytalents:locator_orb_gi
+      - doggytalents:locator_orb_tei
+      - doggytalents:locator_orb_rei
+      - doggytalents:locator_orb_shin
+      - doggytalents:locator_orb_jin
+      - doggytalents:locator_orb_dyeable
+      count: 1
 ---
-
-
 <infobox />
 
 List of Locator Orbs
@@ -28,7 +52,7 @@ List of Locator Orbs
 | 11 | ![](/images/locator_orb_sui.png) | Sui | doggytalents:locator_orb_sui | The Orb of Water. | |
 | 12 | ![](/images/locator_orb_moku.png) | Moku | doggytalents:locator_orb_moku | The Orb of Vegetation. | |
 
-<recipe id="locator_orb_simulation" />
+<recipe />
 
 <span id="usage"></span>
 

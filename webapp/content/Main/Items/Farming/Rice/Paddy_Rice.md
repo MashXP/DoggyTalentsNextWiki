@@ -9,10 +9,9 @@ infobox:
     - Stackable: "64"
   description: "Use this to craft rice grains."
 ---
+<infobox />
 
 **Paddy Rice** is a rice-related crafting material harvested from [Rice Crops](Rice_Grains).
-
-<infobox />
 
 ## Obtaining
 ### Farming

@@ -1,17 +1,31 @@
 ---
 title: Bottle of Sake
 infobox:
-  title: "Bottle of Sake"
-  image: "sake.png"
+  title: Bottle of Sake
+  image: sake.png
   rows:
-    - ID: "doggytalents:sake"
-    - Type: "Food (Rice)"
-    - Properties: "Resistance II: 1 min."
-    - Stackable: "64"
-  description: "Drink responsibly! Not suitable for underage doggos!"
+  - ID: doggytalents:sake
+  - Type: Food (Rice)
+  - Properties: 'Resistance II: 1 min.'
+  - Stackable: '64'
+  description: Drink responsibly! Not suitable for underage doggos!
+recipes:
+  sake_brewing:
+    type: brewing
+    base: minecraft:potion
+    ingredient: doggytalents:koji
+    output:
+      item: doggytalents:sake
+      count: 1
+  sake_crafting_fabric:
+    type: shapeless
+    ingredients:
+    - minecraft:potion
+    - doggytalents:koji
+    output:
+      item: doggytalents:sake
+      count: 1
 ---
-
-
 <infobox />
 
 **Bottle of Sake** is a potion that gives you:

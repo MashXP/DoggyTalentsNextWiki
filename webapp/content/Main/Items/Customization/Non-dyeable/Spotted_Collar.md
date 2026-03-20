@@ -1,15 +1,42 @@
 ---
 title: Spotted Collar
 infobox:
-  title: "Spotted Collar"
-  image: "spotted_collar.png"
+  title: Spotted Collar
+  image: spotted_collar.png
   rows:
-    - ID: "doggytalents:spotted_collar"
-    - Type: "Customization (Non-dyeable)"
-    - Stackable: "64"
+  - ID: doggytalents:spotted_collar
+  - Type: Customization (Non-dyeable)
+  - Stackable: '64'
+recipes:
+  spotted_collar:
+    type: shaped
+    pattern:
+    - "BWB"
+    - "WCW"
+    - "BSB"
+    key:
+      C: doggytalents:wool_collar
+      B: minecraft:black_dye
+      W: minecraft:white_dye
+      S: minecraft:string
+    output:
+      item: doggytalents:spotted_collar
+      count: 1
+  spotted_collar_alt:
+    type: shaped
+    pattern:
+    - "WBW"
+    - "BCB"
+    - "WSW"
+    key:
+      C: doggytalents:wool_collar
+      B: minecraft:black_dye
+      W: minecraft:white_dye
+      S: minecraft:string
+    output:
+      item: doggytalents:spotted_collar
+      count: 1
 ---
-
-
 <infobox />
 
 **Spotted Collar** is a non-dyable equipable item that stylizes your dog's collar.

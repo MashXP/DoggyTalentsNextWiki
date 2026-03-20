@@ -1,13 +1,30 @@
 ---
 title: Conducting Bone
 infobox:
-  title: "Conducting Bone"
-  image: "conducting_bone.png"
+  title: Conducting Bone
+  image: conducting_bone.png
   rows:
-    - ID: "doggytalents:conducting_bone"
+  - ID: doggytalents:conducting_bone
+  - Type: Utilities
+  - Stackable: '1'
+  - Fire Resistant: '✔'
+recipes:
+  conducting_bone:
+    type: shaped
+    pattern:
+    - " B "
+    - "RBR"
+    - "PEP"
+    key:
+      P: minecraft:shulker_shell
+      E: minecraft:end_crystal
+      B: minecraft:bone
+      R: minecraft:netherite_ingot
+    output:
+      item: doggytalents:conducting_bone
+      count: 1
 ---
-
-
+<infobox />
 
 > &quot;*Ever feel like being a conductor about to conduct an orchestra for a Piano Concerto when you are teaming up with your dogs?*
 > *But wait, where is the doggy orchestra?*
@@ -19,7 +36,6 @@ infobox:
 > *With its universal power, you can conduct any dog to teleport to you from **ANYWHERE** in the world, and when you no longer need them, you can conduct them to go back to their beds from **ANYWHERE** in the world so that they can have a nice rest!* &quot;
 
 ----
-<infobox />
 
 **Conducting Bone** is a craftable dev-tier item that allows you to &quot;orchestrate&quot; your pups!
 
@@ -28,7 +44,7 @@ This item is **fire/lava proof**.
 ## Obtaining
 
 ### Crafting
-<recipe id="conducting_bone" />
+<recipe />
 
 ## Usage
 
@@ -55,4 +71,4 @@ This item is **fire/lava proof**.
 > (*Error Code:* **<code>BEDDESTROYED</code>**) and the block above it should be cleared of any obstacles (*Error Code:* <code>BEDOBSTRUCTED</code>).
 
 = Trivia =
-- It was introduced in DTN 1.9.0.
+- Introduced in DTN 1.9.0.

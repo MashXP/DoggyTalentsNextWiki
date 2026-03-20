@@ -1,15 +1,25 @@
 ---
 title: Breeding Bone
 infobox:
-  title: "Breeding Bone"
-  image: "breeding_bone.png"
+  title: Breeding Bone
+  image: breeding_bone.png
   rows:
-    - ID: "doggytalents:breeding_bone"
-    - Type: "Utilities"
-    - Stackable: "64"
+  - ID: doggytalents:breeding_bone
+  - Type: Utilities
+  - Stackable: '64'
+recipes:
+  breeding_bone:
+    type: shapeless
+    ingredients:
+    - doggytalents:master_treat
+    - minecraft:cooked_beef
+    - minecraft:cooked_porkchop
+    - minecraft:cooked_chicken
+    - minecraft:cooked_cod
+    output:
+      item: doggytalents:breeding_bone
+      count: 2
 ---
-
-
 <infobox />
 
 > Breeding Bones, when fed to two different dogs, will cause your dogs to produce a puppy!
@@ -18,7 +28,7 @@ infobox:
 
 ## Obtaining
 ### Crafting
-<recipe id="breeding_bone" />
+<recipe />
 
 ## Usage
 - **<code>Right click</code>** on both of your dogs to use the item.

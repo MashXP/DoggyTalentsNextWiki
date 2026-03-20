@@ -1,15 +1,28 @@
 ---
 title: Tartan Cape
 infobox:
-  title: "Tartan Cape"
-  image: "tantan_cape.png"
+  title: Tartan Cape
+  image: tantan_cape.png
   rows:
-    - ID: "doggytalents:tantan_cape"
-    - Type: "Customization (Non-dyeable)"
-    - Stackable: "64"
+  - ID: doggytalents:tantan_cape
+  - Type: Customization (Non-dyeable)
+  - Stackable: '64'
+recipes:
+  tantan_cape:
+    type: shaped
+    pattern:
+    - "S S"
+    - "RBR"
+    - "BYB"
+    key:
+      R: minecraft:red_wool
+      S: minecraft:string
+      B: minecraft:blue_wool
+      Y: minecraft:yellow_wool
+    output:
+      item: doggytalents:tantan_cape
+      count: 1
 ---
-
-
 <infobox />
 
 **Tartan Cape** is a non-dyable equipable that makes your dog look neat.
@@ -17,7 +30,7 @@ infobox:
 ![frameless](/images/tantan_cape_display.png "frameless")
 ## Obtaining
 ### Crafting
-<recipe id="tantan_cape" />
+<recipe />
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).

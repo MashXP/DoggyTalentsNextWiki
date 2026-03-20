@@ -1,17 +1,35 @@
 ---
 title: Dried Soy Beans
 infobox:
-  title: "Dried Soy Beans"
-  image: "soy_beans_dried.png"
+  title: Dried Soy Beans
+  image: soy_beans_dried.png
   rows:
-    - ID: "doggytalents:soy_beans_dried"
-    - Type: "Farming (Soy)"
-    - Stackable: "64"
+  - ID: doggytalents:soy_beans_dried
+  - Type: Farming (Soy)
+  - Stackable: '64'
+recipes:
+  soy_beans_dried_smelting:
+    type: smelting
+    input: doggytalents:soy_beans
+    output:
+      item: doggytalents:soy_beans_dried
+      count: 1
+  soy_beans_dried_campfire:
+    type: campfire
+    input: doggytalents:soy_beans
+    output:
+      item: doggytalents:soy_beans_dried
+      count: 1
+  soy_beans_dried_smoking:
+    type: smoking
+    input: doggytalents:soy_beans
+    output:
+      item: doggytalents:soy_beans_dried
+      count: 1
 ---
+<infobox />
 
 **Dried Soy Beans** is a soy-related crafting material.
-
-<infobox />
 
 ## Obtaining
 ### Smelting

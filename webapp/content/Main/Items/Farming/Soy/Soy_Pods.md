@@ -9,10 +9,9 @@ infobox:
     - Stackable: "64"
   description: "Right-click to unpod the beans."
 ---
+<infobox />
 
 **Soy Pods** is an item harvested from [Soy Crops](Soy Beans).
-
-<infobox />
 
 ## Obtaining
 

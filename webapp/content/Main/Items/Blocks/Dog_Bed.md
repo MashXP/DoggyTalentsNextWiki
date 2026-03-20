@@ -1,15 +1,26 @@
 ---
 title: Dog Bed
 infobox:
-  title: "Dog Bed"
-  image: "dog_bed.png"
+  title: Dog Bed
+  image: dog_bed.png
   rows:
-    - ID: "doggytalents:dog_bed"
-    - Type: "Blocks"
-    - Stackable: "1"
+  - ID: doggytalents:dog_bed
+  - Type: Blocks
+  - Stackable: '1'
+recipes:
+  dog_bed:
+    type: shaped
+    pattern:
+    - "WDW"
+    - "WDW"
+    - "WWW"
+    key:
+      W: minecraft:spruce_planks
+      D: minecraft:white_wool
+    output:
+      item: doggytalents:dog_bed
+      count: 1
 ---
-
-
 <infobox />
 
 A **Dog Bed** is a placeable block that allows your dog (who's already linked to the bed) to respawn if it happens fall in the void.
@@ -27,7 +38,7 @@ If [Immortal Dogs](Immortal_Dogs) is set to False: This block allows a slain dog
 
 ## Obtaining
 ### Crafting
-<recipe id="dog_bed" />
+<recipe />
 
 ## Usage
 <code>Shift (or crouch) + Right click</code> with your dog nearby with **BOTH of your hands emptied** and they will come and make the bed their own.
