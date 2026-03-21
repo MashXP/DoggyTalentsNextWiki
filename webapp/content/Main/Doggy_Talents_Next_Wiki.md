@@ -4,9 +4,9 @@ title: Doggy Talents Next Wiki
 
 <div class="mainpage-left">
 
-<div style="text-align:center;font-weight:bold;font-size:20pt;margin:0 0 10px;">
+<div class="font-otsutome" style="text-align:center;font-weight:bold;font-size:20pt;margin:0 0 10px;">
 Welcome to the official <br>
-<span style="font-family:'otsutome';font-weight:bold;font-size:40pt">🦴 Doggy Talents Next Wiki! 🦴</span>
+<span class="font-otsutome" style="font-weight:bold;font-size:30pt">🦴 Doggy Talents Next Wiki! 🦴</span>
 </div>
 
 ![Official Banner](/images/official_banner.jpg)
