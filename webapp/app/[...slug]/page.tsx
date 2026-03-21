@@ -37,6 +37,7 @@ export default async function WikiPage({
           content={pageContent.content} 
           infobox={pageContent.infobox} 
           recipes={pageContent.recipes} 
+          gallery={pageContent.gallery}
           allItems={allItems}
         />
       </div>
