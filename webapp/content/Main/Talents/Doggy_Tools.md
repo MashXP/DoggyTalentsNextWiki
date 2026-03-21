@@ -34,7 +34,7 @@ Make sure you:
 
 ## Trivia
 
-- Introduced in DTN 1.12.0.
+- Introduced in **DTN 1.12.0**.
 - **DTN 1.18.48** added the **Bridging** capability for max-level dogs.
 - **DTN 1.18.54** overhauled the **Farming AI**, adding support for all hoes/crops, reduced durability usage, and the ability to specify separate seeds for harvesting and planting.
 - There's an instance where **Doggy Tools** desync when [Immortal Dogs](Immortal_Dogs) is disabled, it's recommended to keep [Immortal Dogs](Immortal_Dogs) on.

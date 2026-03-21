@@ -20,6 +20,6 @@ Note: In order to traverse lava lakes with [Wolf Mount](Wolf_Mount)
 
 ## Trivia
 
-- Introduced in the original DT.
+- Introduced In the original **Doggy Talents**.
 - Couple with [Wolf Mount](Wolf_Mount) talent to make traveling in Lava lakes a breeze! Note that you need to increase the dog's size with the [Magnifying Bone](Magnifying_Bone) for your hitbox not to touch lava. 
 - "*...when combined with [Mob Retriever](Mob_Retriever) to transport your other Dogs across the Nether.*" Or retrieve your injured dogs in lava.

@@ -12,5 +12,5 @@ title: Happy Eater
 
 ![No longer be able to eat Rotten Flesh](/images/happy_eater_talent_old.gif "No longer be able to eat Rotten Flesh")
 
-- Introduced in the original DT.
+- Introduced In the original **Doggy Talents**.
 - Back then, DTN Dogs can eat Rotten Flesh, but later the Dev's decided that they deserved better quality food.

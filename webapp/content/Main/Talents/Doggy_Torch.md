@@ -12,4 +12,4 @@ At **level 5,** it **no longer needs any Torches** in its inventory.
 
 ![Doggy Torch (Legacy)](/images/doggy_torch_talent_old.gif "Doggy Torch (Legacy)")
 
-- Introduced in the original DT.
+- Introduced In the original **Doggy Talents**.

@@ -14,6 +14,6 @@ Since **DTN 1.18.45**, you can manually allow or disallow flying while riding yo
 
 ## Trivia
 
-- Introduced in DTN 1.17.2.
+- Introduced in **DTN 1.17.2**.
 - **DTN 1.18.45** added an option to toggle flying for Dogs being ridden.
 - Very OP when combined with [Wolf Mount](Wolf_Mount) talent.

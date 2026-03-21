@@ -99,5 +99,5 @@ These are modes that only can be used with corresponding talents.
 
 ## Trivia
 - Introduced in the original **Doggy Talents**.
-- The Whistle Mode Changing User Interface was added in DTN 1.3.0beta since the old Mode Cycling method *"has proven itself to be relatively annoying and unintuitive, by allowing a great chance of accidental mode switch and trigger."*
+- The Whistle Mode Changing User Interface was added in **DTN 1.3.0beta** since the old Mode Cycling method *"has proven itself to be relatively annoying and unintuitive, by allowing a great chance of accidental mode switch and trigger."*
 - A legacy mode called "**Ok?**" (used to stand only healthy dogs) was removed in **DTN 1.18.21** due to its impracticality.

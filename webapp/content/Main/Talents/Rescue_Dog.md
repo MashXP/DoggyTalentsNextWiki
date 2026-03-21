@@ -13,4 +13,4 @@ title: Rescue Dog
 
 ## Trivia
 
-- Introduced in the original DT.
+- Introduced In the original **Doggy Talents**.

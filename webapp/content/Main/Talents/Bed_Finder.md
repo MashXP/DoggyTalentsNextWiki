@@ -14,6 +14,6 @@ title: Bed Finder
 
 ## Trivia
 
-- Introduced in the original DT.
+- Introduced In the original **Doggy Talents**.
 - This talent is useful for marking home location.
 - Be careful when carrying your dog through narrow areas! (Allow for 3 blocks high at least.)

@@ -40,4 +40,4 @@ recipes:
 ## Usage
 - **<code>Right click</code>** to use the item.
 ## Trivia
-- Introduced in DTN 1.18.0
+- Introduced in **DTN 1.18.0**.
