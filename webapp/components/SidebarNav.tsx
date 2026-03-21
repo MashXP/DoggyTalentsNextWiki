@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 import Search from "./Search";
 import { SearchItem } from "@/lib/wiki";
+import { getAssetPath } from "@/lib/utils";
 
 interface NavTreeNode {
   slug?: string;
@@ -276,7 +277,7 @@ export default function SidebarNav({ slugs, searchData }: { slugs: string[]; sea
       <div className="sidebar-header">
         <Link href="/" className="sidebar-logo">
           <Image
-            src="/images/site-logo.png"
+            src={getAssetPath("/images/site-logo.png")}
             alt="Doggy Talents Next Logo"
             width={500}
             height={500}
