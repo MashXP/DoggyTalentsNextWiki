@@ -17,9 +17,10 @@ interface InfoboxData {
 
 interface InfoboxDisplayProps {
   defaultData?: InfoboxData;
+  onImageClick?: (src: string, alt: string) => void;
 }
 
-const InfoboxDisplay: React.FC<InfoboxDisplayProps> = ({ defaultData }) => {
+const InfoboxDisplay: React.FC<InfoboxDisplayProps> = ({ defaultData, onImageClick }) => {
   const [isClient, setIsClient] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -67,7 +68,11 @@ const InfoboxDisplay: React.FC<InfoboxDisplayProps> = ({ defaultData }) => {
     <aside className="infobox glass">
       <div className="infobox-title">{data.title}</div>
       {images.length > 0 && (
-        <div className="infobox-image-wrapper">
+        <div 
+          className="infobox-image-wrapper"
+          onClick={() => onImageClick?.(getAssetPath(`/images/${images[currentImageIndex]}`), data.title)}
+          style={{ cursor: onImageClick ? 'zoom-in' : 'default' }}
+        >
           <img
             src={getAssetPath(`/images/${images[currentImageIndex]}`)}
             alt={data.title}
