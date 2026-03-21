@@ -85,6 +85,6 @@ These are modes that only can be used with corresponding talents.
 - **Bed Dog:** Allows [Bed Dog](Bed_Dog) Talent dogs to enter sleep mode. "...To begin sleeping on your Dog, interact with it using the Bed Dog Whistle to make it lay down, then interact with it with the whistle again after it has laid down to begin sleeping on it..."
 
 ## Trivia
-- Introduced in the original Doggy Talents.
+- Introduced in the original **Doggy Talents**.
 - The Whistle Mode Changing User Interface was added in DTN 1.3.0beta since the old Mode Cycling method *"has proven itself to be relatively annoying and unintuitive, by allowing a great chance of accidental mode switch and trigger."*
 - A legacy mode called "**Ok?**" (used to stand only healthy dogs) was removed in **DTN 1.18.21** due to its impracticality.

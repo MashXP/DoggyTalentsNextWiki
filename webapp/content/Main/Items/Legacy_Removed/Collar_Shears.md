@@ -4,7 +4,7 @@ title: Collar Shears
 
 **Collar Shear** is an item that is used to remove accessories.
 ## Trivia
-- Introduced in the original Doggy Talents.
+- Introduced in the original **Doggy Talents**.
 - The item was removed due to the release of the new GUI and the [Amnesia Bone](Amnesia_Bone).
 - Legacy: <ref><p>https://doggytalents.fandom.com/wiki/List_of_Items_and_Equipment*</ref>
 

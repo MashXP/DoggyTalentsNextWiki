@@ -23,7 +23,7 @@ recipes:
 ---
 <infobox />
 
-A **Dog Bed** is a placeable cozy resting place where your canine companions can claim their own territory and recover from their adventures and allow your dog (who's already linked to the bed) to respawn if it happens fall in the void.
+**Dog Bed** is a placeable cozy resting place where your canine companions can claim their own territory and recover from their adventures and allow your dog (who's already linked to the bed) to respawn if it happens fall in the void.
 
 **NOTE:** 
 

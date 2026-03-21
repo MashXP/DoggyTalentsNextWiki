@@ -18,5 +18,5 @@ infobox:
 ## Obtaining
 Press **<code>E</code>** in Creative mode to access the Creative menu.
 ## Trivia
-- Introduced in the original Doggy Talents.
+- Introduced in the original **Doggy Talents**.
 - Glint added in **DTN 1.15.0**.

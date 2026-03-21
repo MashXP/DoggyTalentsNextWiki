@@ -11,5 +11,3 @@ Sample Page: <span class="item-link-wrapper"><img src="/images/baker_hat.png" cl
 - <span class="item-link-wrapper"><img src="/images/fedora.png" class="item-icon" />[Fedora](Fedora)</span>
 - <span class="item-link-wrapper"><img src="/images/propeller_hat.png" class="item-icon" />[Propeller Hat](Propeller_Hat)</span>
 - <span class="item-link-wrapper"><img src="/images/angel_halo.png" class="item-icon" />[Angel Halo](Angel_Halo)</span>
-- ![](/images/upright_piano.gif)[Upright Piano](Upright_Piano)
-- ![](/images/grand_piano.gif)[Grand Piano](Grand_Piano)

@@ -2,7 +2,7 @@
 title: Christmas Star
 infobox:
   title: Christmas Star
-  image: christmas_star.png
+  image: dog_christmas_star.png
   rows:
   - ID: doggytalents:dog_christmas_star
   - Type: Customization (Non-dyeable)

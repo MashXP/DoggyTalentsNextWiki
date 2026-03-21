@@ -25,6 +25,8 @@ recipes:
 
 **Broomstick** is a specialized accessory specifically designed to emulate the unique textured coat of a **Hungarian Puli**. 
 
+![Broomstick Display](/images/broomstick_display.png "Broomstick Display")
+
 ## Obtaining
 ### Crafting
 <recipe />

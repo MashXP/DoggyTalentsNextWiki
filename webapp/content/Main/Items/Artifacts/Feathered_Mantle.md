@@ -24,7 +24,7 @@ recipes:
 ---
 <infobox />
 
-The **Feathered Mantle** is a craftable artifact that grants your dog the ability to float gracefully. 
+**Feathered Mantle** is a craftable artifact that grants your dog the ability to float gracefully. 
 
 ## Obtaining
 ### Crafting
