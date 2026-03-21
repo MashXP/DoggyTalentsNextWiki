@@ -61,6 +61,7 @@ recipes:
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the orb or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 - When tracking a dog equipped with an orb, the **[Canine Tracker](Canine_Tracker)** will display the tracking text in the orb's specific color.
+- **Inventory Customization:** When equipped, the Dog Menu's inventory slots will adopt the color of the Locator Orb. Note that Thicc Collars also provide slot colors, but Locator Orbs take priority if both are equipped.
 
 ![Orb Frenzy!](/images/rgb_doggo.gif "Orb Frenzy!")
 
@@ -68,6 +69,7 @@ recipes:
 - The primary Eight Orbs (1-8) were added in **DTN 1.16.0**.
 - The **Double Dyeable Orb** was introduced in **DTN 1.18.12**.
 - The Elemental Orbs (**Ka**, **Sui**, **Moku**) were introduced in **DTN 1.18.33**.
+- **DTN 1.18.45** introduced the feature where inventory slots in the Dog Menu reflect the color of the equipped Locator Orb.
 - These items are direct references to **The Satomi Power Orbs** from the game **Okami**, which represent the eight Canine Warriors of Princess Fuse <ref>https://okami.fandom.com/wiki/Canine_Warriors</ref>.
 
 <references />

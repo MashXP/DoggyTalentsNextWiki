@@ -33,10 +33,14 @@ The **Whistle** is the essential command tool for any serious dog trainer, allow
 ### Options:
 - **<code>Shift + Right Click</code>** with the item in the main hand, and a GUI will open.
 ### Whistle GUI
-Via this GUI, you will be presented with the list of modes available now:
+Via this GUI, you will be presented with the list of modes available now. You can also view in-game help for each mode directly within this screen.
 
-- Use **<code>Arrow keys</code>** or your mouse to select the mode you want, you can also type to search for the mode and finally <code>Enter</code> to set the mode.
-- Additionally, you can use the corresponding <code>Number keys</code> for each mode (shown before the mode in Orange) to quickly select it.
+#### Controls:
+- **Search Bar:** The search bar is not focused by default. To focus it, press your **`Jump`** key while holding **`Sneak`**. While focused, you can type to search for a mode and press **`Enter`** to select it. To unfocus, **`Left click`** anywhere.
+- **Navigation:** When the search bar is unfocused, you can use your **Movement Keys** (default **`WASD`**) or **`Arrow keys`** to highlight entries and navigate between pages.
+- **Selection:** Press your **`Jump`** key (without sneaking) or **`Enter`** to select the highlighted mode. You can also use the mouse to click or press the corresponding **Number keys** (shown in Orange) to quickly pick a mode.
+
+#### Hotkeys:
 1. Press **<code>Set Hotkey</code>**.
 2. Then, **<code>Left click</code>** to assign; **<code>Right click</code>** to unassign.
 Commands also can be issued without opening this menu via keybinds which can be configured via **<code>Minecraft's option menu</code>**.
@@ -59,11 +63,18 @@ Currently, the default radius of the whistle resides in an **<code>100*50*100</c
 - **Heel**: Make all *standing* dogs come to you.
 - **Stay**: Make all *standing* dogs sit.
 - **Go Behind**: Make all *standing* dogs run behind you.
-- **Tactical**: Use this mode to command all of your dogs in [Tactical Mode](Basic_Core_Stats#Modes) to start attacking a certain target by aiming and using the whistle at the target (this will shoot a projectile and a hit signifies attack to the dogs if the target is eligible).
-
+- **Tactical**: Use this mode to command all of your dogs in [Tactical Mode](Basic_Core_Stats#Modes) to start attacking a target. 
+  - Aim and use the whistle to fire a projectile; a successful hit signifies an attack order. 
+  - **Tactical Whistle projectiles can pass through allies.** 
+  - When attacking via this whistle, dogs will focus on the target, ignoring other behaviors that might cause them to switch targets.
+- **Duty Whistle:** Used to toggle a dog's **"On Duty"** status. 
+  - Using this whistle sets nearby standing dogs to be "On Duty" (and vice versa). 
+  - While holding this whistle, "On Duty" dogs will have their names highlighted. 
+  - You can configure the Whistle (via its GUI) to target either all dogs or only those currently **On Duty**.
+- **Catch Up:** Commands dogs that are far away to teleport to your current location.
 - **Heel By Name**: Use this mode to command certain dogs to come to you, even when they are sitting. Upon usage, a GUI will be presented.
-  - Use the **<code>Arrow keys</code>** to select the dog you want to heel, you can also type to search and finally **<code>Enter</code>** to complete the command.
-  - In default, the dog will stand up but you can force the dog to sit by **<code>Shift + Enter</code>** when completing the command (you will see the highlight color turns to Orange).
+  - Use the **`WASD`** or **`Arrow keys`** to select the dog you want to heel, you can also type to search and finally **`Enter`** to complete the command.
+  - In default, the dog will stand up but you can force the dog to sit by **`Shift + Enter`** when completing the command (you will see the highlight color turns to Orange).
     - ** Soft Heel:**
     - * By default, the dog will always **teleport** to you upon using this command.
     - * If this option is set to **<code>true</code>**, dog will **stand up** (if sitting), **run to owner** as usual and **only teleport if too far**.
@@ -83,6 +94,8 @@ These are modes that only can be used with corresponding talents.
 - **Roaring** : Make dogs with [Roaring Gale](Roaring_Gale) Talent start roaring.
 - **Mob Retriever:** Make dogs with [Mob Retriever](Mob_Retriever) to go and retrieve mobs.
 - **Bed Dog:** Allows [Bed Dog](Bed_Dog) Talent dogs to enter sleep mode. "...To begin sleeping on your Dog, interact with it using the Bed Dog Whistle to make it lay down, then interact with it with the whistle again after it has laid down to begin sleeping on it..."
+- **Carry Me:** Commands a nearby dog with the [Wolf Mount](Wolf_Mount) talent to pick you up and carry you on its back.
+- **Dog Bridging:** Commands a dog with max-level [Doggy Tools](Doggy_Tools) to begin bridging. The dog must have building blocks in its toolbar and will bridge in the direction you are facing.
 
 ## Trivia
 - Introduced in the original **Doggy Talents**.

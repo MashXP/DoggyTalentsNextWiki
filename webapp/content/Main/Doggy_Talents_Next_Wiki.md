@@ -52,7 +52,7 @@ Welcome to the official <br>
 
 <div class="mainpage-right">
 
-### Last Updated: 1.18.42
+### Last Updated: 1.19.0
 
 ---
 

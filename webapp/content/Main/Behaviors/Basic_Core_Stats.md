@@ -21,7 +21,10 @@ The tips of each mode appear when you hover above the modes.
 - **Guard (G):** Your dog will follow you closely and will attack any mob that draws near.
   - **Guard Flat: (Gb):** Won't attack Piglins and Endermen.
   - **Guard Minor: (Gm):** Won't attack any mobs, but will growl to warn you if any hostile mobs get close; with the exception of dogs who have the [Creeper Sweeper](Creeper_Sweeper) Talent, in which case they will only growl if the mob is a Creeper (configurable).
-- **Tactical (T):** Your dog will follow you but will not attack anything unless you use the [Whistle](Whistle) and right-click with the item in hand to call an attack order on the entity.
+- **Tactical (T):** Your dog follows you but remains passive until commanded. It behaves like in Aggressive Mode when responding to long-distance attack orders (issued via the **Tactical Whistle**).
+  - When targeting an entity far away, the dog will focus exclusively on that target, ignoring other Aggressive mode behaviors that might cause it to switch targets.
+  - While attacking a tactical target, its **follow range increases to 32 blocks** (from 16), and its maximum distance from its owner is increased by 10.
+  - You can change the target by issuing another tactical command or interrupt the dog to invalidate the current target.
 - **Injured (I):** *Check out [Immortal Dogs](Immortal_Dogs) for more information.*
   - In this mode, your dog's health will be fixed at ½ a heart (1 HP) and will not reach 0, preventing the dog from dying.
   - Your dog will be visually injured and will not attack nor let you interact with it (except when it's sitting down).

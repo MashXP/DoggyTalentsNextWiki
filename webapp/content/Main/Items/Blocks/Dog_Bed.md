@@ -30,6 +30,13 @@ recipes:
 - If the bed is claimed by a dog, it will belong to the dog **PERMANENTLY**, even if broken and placed again. To avoid this, make sure you only let the dog you intend on claiming the bed with, be the only dog standing and the rest of the others sitting. A [Whistle](Whistle) could help if you have a large amount of dogs.
 - When a Dog reacts to the **To Bed** *order from the* [Whistle](Whistle), if its Linked Bed has been previously destroyed and moved somewhere else, initially it will still navigate to the Bed's old Position instead of where the Bed is moved to. To teach the Dog the new Bed location, right click on its Bed with a Vanilla Bone with the Dog nearby.
 
+### Custom Materials & Variants
+Since **DTN 1.18.42**, players and modpack authors can explicitly specify which materials are valid for creating Dog Bed variants using two data tags:
+- `doggytalents:dog_bed_planks`
+- `doggytalents:dog_bed_wool`
+
+When these tags are populated, the mod will specifically use these values instead of automatically gathering all available plank and wool materials.
+
 
 *(**DTN 1.18.0+**)*
 - Dogs that haven’t been linked to a Bed can still be revived (picked at random) on an unclaimed Bed by using a Totem of Undying.
@@ -52,5 +59,8 @@ If the unimaginable happens and they do die <code>Right-click</code> the bed to 
 ## Trivia
 - Introduced in the original **Doggy Talents**.
 - Dynamic wood and wool support for both vanilla and modded variants was introduced in **DTN 1.16.3**.
-- This item is useful if [Immortal Dogs](Immortal_Dogs) are disabled. (or problems that occur with third-party entity storage by other mods.)  
+- **DTN 1.18.40** introduced a configurable limit on how many Dog Bed variants can be rendered. When this limit is exceeded, beds will render with the default variant to preserve performance.
+- **DTN 1.18.42** added support for manually specifying valid materials for bed variants via data tags.
+- This item is useful if [Immortal Dogs](Immortal_Dogs) are disabled. (or problems that occur with third-party entity storage by other mods.)
+
 - When your dog is [injured](Immortal Dogs), if enough [Band-Aid](Band-Aid) applied your dog will path-find to the nearest vacant Dog Bed or Vanilla [Bed](https://minecraft.wiki/w/Bed)(regardless of the occupation) and rest on it, significantly increase its recovery speed.
