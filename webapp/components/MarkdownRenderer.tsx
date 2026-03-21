@@ -23,6 +23,8 @@ export interface ItemInfo {
   slug: string;
   image: string | null;
   type: string | null;
+  category: string;
+  recipes?: Record<string, any>;
 }
 
 function CollapsibleDetails({ children, ...props }: any) {
@@ -482,7 +484,7 @@ export default function MarkdownRenderer({ content, infobox, recipes, allItems }
       
       const talents = allItems.filter(item => 
         item.category === 'Talents' && item.slug.toLowerCase() !== 'talents'
-      ).sort((a, b) => a.title.localeCompare(b.title));
+      ).sort((a: ItemInfo, b: ItemInfo) => a.title.localeCompare(b.title));
 
       if (talents.length === 0) {
         return <div className="item-grid-empty">No talents found. {props.children}</div>;
