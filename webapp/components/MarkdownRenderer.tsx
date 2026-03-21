@@ -391,7 +391,19 @@ export default function MarkdownRenderer({ content, infobox, recipes, gallery, a
       return <><RecipeDisplay id={id} defaultData={recipeData} />{props.children}</>;
     },
     infobox: (props: any) => {
-      return <><InfoboxDisplay defaultData={infobox} />{props.children}</>;
+      return (
+        <>
+          <InfoboxDisplay 
+            defaultData={infobox} 
+            onImageClick={(src, alt) => {
+              setSelectedImage({ src, alt });
+              setIsInfoActive(true);
+              resetZoom();
+            }}
+          />
+          {props.children}
+        </>
+      );
     },
     item: (props: any) => {
       const id = props.id || props.node?.properties?.id;
