@@ -6,7 +6,7 @@ infobox:
   rows:
   - ID: doggytalents:soul_reflector
   - Type: Customization (Non-dyeable)
-  - Stackable: '1'
+  - Stackable: '64'
 recipes:
   soul_reflector:
     type: shaped

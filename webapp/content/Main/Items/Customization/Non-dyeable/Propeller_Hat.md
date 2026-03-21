@@ -6,7 +6,7 @@ infobox:
   rows:
   - ID: doggytalents:propeller_hat
   - Type: Customization (Non-dyeable)
-  - Stackable: '1'
+  - Stackable: '64'
   description: "Spinna!"
 recipes:
   propeller_hat:

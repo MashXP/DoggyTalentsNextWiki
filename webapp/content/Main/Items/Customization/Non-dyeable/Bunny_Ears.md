@@ -6,7 +6,7 @@ infobox:
   rows:
   - ID: doggytalents:bunny_ears
   - Type: Customization (Non-dyeable)
-  - Stackable: '1'
+  - Stackable: '64'
   description: "Caution: Wearing it may cause the dog to drop Easter Egg Candy after killing a mob!"
 recipes:
   bunny_ears:

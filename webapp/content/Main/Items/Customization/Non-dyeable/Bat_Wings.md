@@ -6,7 +6,7 @@ infobox:
   rows:
   - ID: doggytalents:bat_wings
   - Type: Customization (Non-dyeable)
-  - Stackable: '1'
+  - Stackable: '64'
 recipes:
   bat_wings:
     type: shaped

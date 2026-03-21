@@ -6,7 +6,7 @@ infobox:
   rows:
   - ID: doggytalents:dog_christmas_star
   - Type: Customization (Non-dyeable)
-  - Stackable: '1'
+  - Stackable: '64'
 recipes:
   dog_christmas_star:
     type: shaped

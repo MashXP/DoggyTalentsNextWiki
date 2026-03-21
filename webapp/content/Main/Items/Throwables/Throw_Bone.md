@@ -6,7 +6,7 @@ infobox:
   rows:
   - ID: doggytalents:throw_bone
   - Type: Throwables
-  - Stackable: '1'
+  - Stackable: '2'
 recipes:
   throw_bone:
     type: shaped

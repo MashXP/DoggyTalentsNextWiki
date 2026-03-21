@@ -6,7 +6,7 @@ infobox:
   rows:
   - ID: doggytalents:scent_treat
   - Type: Utilities
-  - Stackable: '1'
+  - Stackable: '64'
   description: Right-Click a Block to collect a sample of its scent.
 recipes:
   scent_treat:

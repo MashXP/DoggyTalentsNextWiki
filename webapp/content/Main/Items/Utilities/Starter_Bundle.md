@@ -6,7 +6,7 @@ infobox:
   rows:
   - ID: doggytalents:starter_bundle
   - Type: Utilities
-  - Stackable: '64'
+  - Stackable: '1'
   description: 'Contains Items which assists you in starting with Doggy Talents Next. These includes:'
 ---
 <infobox />

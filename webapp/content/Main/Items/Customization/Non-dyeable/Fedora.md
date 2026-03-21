@@ -6,7 +6,7 @@ infobox:
   rows:
   - ID: doggytalents:fedora
   - Type: Customization (Non-dyeable)
-  - Stackable: '1'
+  - Stackable: '64'
 recipes:
   fedora:
     type: shaped

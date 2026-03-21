@@ -6,7 +6,7 @@ infobox:
   rows:
   - ID: doggytalents:divine_retribution
   - Type: Customization (Non-dyeable)
-  - Stackable: '1'
+  - Stackable: '64'
   description: '"Ow ow ow! Take it off my back! It burns!" - Said Normal Wolfie. "You''ll get used to it." - Replied Kumi.'
 recipes:
   divine_retribution:

@@ -6,7 +6,7 @@ infobox:
   rows:
   - ID: doggytalents:christmas_hat
   - Type: Customization (Non-dyeable)
-  - Stackable: '1'
+  - Stackable: '64'
 recipes:
   christmas_hat:
     type: shaped

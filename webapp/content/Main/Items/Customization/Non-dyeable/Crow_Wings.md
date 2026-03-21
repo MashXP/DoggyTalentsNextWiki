@@ -6,7 +6,7 @@ infobox:
   rows:
   - ID: doggytalents:crow_wings
   - Type: Customization (Non-dyeable)
-  - Stackable: '1'
+  - Stackable: '64'
 recipes:
   crow_wings:
     type: shaped

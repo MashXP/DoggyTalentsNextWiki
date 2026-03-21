@@ -6,7 +6,7 @@ infobox:
   rows:
   - ID: doggytalents:throw_stick
   - Type: Throwables
-  - Stackable: '1'
+  - Stackable: '8'
 recipes:
   throw_stick:
     type: shaped
