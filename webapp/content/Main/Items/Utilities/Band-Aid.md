@@ -19,6 +19,13 @@ recipes:
     output:
       item: doggytalents:bandaid
       count: 5
+gallery:
+  - image: Band aid render light.png
+    caption: 0-3 Band-Aids
+  - image: Band aid render medium.png
+    caption: 4-7 Band-Aids
+  - image: Band aid render full.png
+    caption: 8 Band-Aids (max)
 ---
 <infobox />
 
@@ -37,8 +44,4 @@ It takes exactly **8 Band-Aids** to fully "heal" an injured dog and allow them t
 ## Trivia
 - Introduced in to **DTN 1.13.0**.
 
-<gallery>
-File:Band aid render light.png|0-3 Band-Aids
-File:Band aid render medium.png|4-7 Band-Aids
-File:Band aid render full.png|8 Band-Aids (max)
-</gallery>
+<gallery />

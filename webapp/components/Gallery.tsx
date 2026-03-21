@@ -4,11 +4,12 @@ import { useState, useCallback } from 'react';
 import { getAssetPath } from '@/lib/utils';
 
 interface GalleryProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   onImageClick: (src: string, alt: string) => void;
+  defaultData?: any[];
 }
 
-export default function Gallery({ children, onImageClick }: GalleryProps) {
+export default function Gallery({ children, onImageClick, defaultData }: GalleryProps) {
   const [activeIndex, setActiveIndex] = useState(0);
 
   // Extract text content from children
@@ -22,22 +23,51 @@ export default function Gallery({ children, onImageClick }: GalleryProps) {
     return '';
   };
 
-  const content = getTextContent(children);
-  const lines = content.split('\n').filter((l) => l.trim() !== '');
-  
-  const items = lines.map((line) => {
-    const [filePart, caption] = line.split('|');
-    let filename = filePart.replace(/File:/i, '').trim();
-    
-    let src = filename;
-    if (src && !src.startsWith('http') && !src.startsWith('data:') && !src.startsWith('/')) {
-      const normalizedFilename = filename.toLowerCase().replace(/\s+/g, '_');
-      src = '/images/' + normalizedFilename;
+  const processItems = () => {
+    if (defaultData && Array.isArray(defaultData)) {
+      return defaultData.map((item: any) => {
+        let filename = '';
+        let caption = '';
+
+        if (typeof item === 'string') {
+          const [filePart, cap] = item.split('|');
+          filename = filePart.replace(/File:/i, '').trim();
+          caption = cap?.trim() || '';
+        } else if (typeof item === 'object') {
+          filename = (item.image || item.file || '').replace(/File:/i, '').trim();
+          caption = item.caption || '';
+        }
+
+        let src = filename;
+        if (src && !src.startsWith('http') && !src.startsWith('data:') && !src.startsWith('/')) {
+          const normalizedFilename = filename.toLowerCase().replace(/\s+/g, '_');
+          src = '/images/' + normalizedFilename;
+        }
+        src = getAssetPath(src);
+
+        return { src, caption };
+      });
     }
-    src = getAssetPath(src);
+
+    const content = getTextContent(children);
+    const lines = content.split('\n').filter((l) => l.trim() !== '');
     
-    return { src, caption: caption?.trim() || '' };
-  });
+    return lines.map((line) => {
+      const [filePart, caption] = line.split('|');
+      let filename = filePart.replace(/File:/i, '').trim();
+      
+      let src = filename;
+      if (src && !src.startsWith('http') && !src.startsWith('data:') && !src.startsWith('/')) {
+        const normalizedFilename = filename.toLowerCase().replace(/\s+/g, '_');
+        src = '/images/' + normalizedFilename;
+      }
+      src = getAssetPath(src);
+      
+      return { src, caption: caption?.trim() || '' };
+    });
+  };
+
+  const items = processItems();
 
   const nextImage = useCallback(() => {
     setActiveIndex((prev) => (prev + 1) % items.length);

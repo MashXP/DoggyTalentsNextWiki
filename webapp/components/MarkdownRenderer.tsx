@@ -101,7 +101,7 @@ function splitByH2(content: string): Section[] {
   return sections;
 }
 
-export default function MarkdownRenderer({ content, infobox, recipes, allItems }: { content: string, infobox?: any, recipes?: Record<string, any>, allItems?: ItemInfo[] }) {
+export default function MarkdownRenderer({ content, infobox, recipes, gallery, allItems }: { content: string, infobox?: any, recipes?: Record<string, any>, gallery?: any[], allItems?: ItemInfo[] }) {
   const [viewMode, setViewMode] = useState<'full' | 'tabs'>('full');
   const [isReady, setIsReady] = useState(false);
   const [activeTabIndex, setActiveTabIndex] = useState(0);
@@ -405,6 +405,7 @@ export default function MarkdownRenderer({ content, infobox, recipes, allItems }
           setIsInfoActive(true);
           resetZoom();
         }}
+        defaultData={gallery}
       >
         {props.children}
       </Gallery>

@@ -12,6 +12,7 @@ export interface WikiPage {
   description?: string;
   infobox?: any;
   recipes?: Record<string, any>;
+  gallery?: any[];
 }
 
 export interface SearchItem {
@@ -160,6 +161,7 @@ export function getPageBySlug(slug: string): WikiPage | null {
     description: data.description,
     infobox: data.infobox,
     recipes: data.recipes,
+    gallery: data.gallery,
   };
 }
 
