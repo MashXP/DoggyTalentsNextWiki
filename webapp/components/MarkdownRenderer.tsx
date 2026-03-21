@@ -417,8 +417,8 @@ export default function MarkdownRenderer({ content, infobox, recipes, allItems }
         if (targetTypes.length === 0) return true;
         const itemTypes = item.type ? item.type.split(',').map((s: string) => s.trim().toLowerCase()) : [];
         // Match if any of the target types matches any of the item's types
-        return targetTypes.some(t => itemTypes.includes(t));
-      }).sort((a, b) => a.title.localeCompare(b.title));
+        return targetTypes.some((t: string) => itemTypes.includes(t));
+      }).sort((a: ItemInfo, b: ItemInfo) => a.title.localeCompare(b.title));
 
       if (filteredItems.length === 0) {
         return <div className="item-grid-empty">No items found for "{typeStr}". {props.children}</div>;
