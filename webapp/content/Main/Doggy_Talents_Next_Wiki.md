@@ -11,8 +11,9 @@ Welcome to the official <br>
 
 ![Official Banner](/images/official_banner.jpg)
 
-<div style="text-align:center;margin:20px 0;">
-*"Maybe he was trying to set an example by showing you how anyone, even a dog could have an adventure." - Issun, Ōkami (2006)*
+<div class="hero-quote">
+  <p>"Maybe he was trying to set an example by showing you how anyone, even a dog could have an adventure."</p>
+  <cite>— Issun, Ōkami (2006) —</cite>
 </div>
 
 ## 🦴 What this mod is about
