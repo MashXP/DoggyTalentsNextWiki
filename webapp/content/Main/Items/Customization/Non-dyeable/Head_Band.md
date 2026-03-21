@@ -2,9 +2,11 @@
 title: Head Band
 infobox:
   title: Head Band
-  image: head_band_blank.png
+  image:
+    - head_band_blank.png
+    - head_band_mystery.png
+    - head_band_highhh.png
   rows:
-  - ID: doggytalents:head_band_blank
   - Type: Customization (Non-dyeable)
   - Stackable: '64'
   description: Who's that wolfy boi?

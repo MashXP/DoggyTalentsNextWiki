@@ -2,7 +2,9 @@
 title: Firefighter Hats
 infobox:
   title: Firefighter Hats
-  image: firefighter_hats.gif
+  image:
+    - firefighter_hat_red.png
+    - firefighter_hat_blue.png
   rows:
     - Type: Customization (Non-dyeable)
     - Stackable: "64"

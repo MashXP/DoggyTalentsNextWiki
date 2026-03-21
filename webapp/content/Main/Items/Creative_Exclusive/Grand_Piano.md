@@ -2,9 +2,10 @@
 title: Grand Piano
 infobox:
   title: Grand Piano
-  image: grand_piano.gif
+  image:
+    - grand_piano_black_item.png
+    - grand_piano_white_item.png
   rows:
-  - ID: doggytalents:grand_piano
   - Type: Creative Exclusive
   - Stackable: '1'
 ---

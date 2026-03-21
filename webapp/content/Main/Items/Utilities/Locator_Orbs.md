@@ -2,7 +2,19 @@
 title: Locator Orbs
 infobox:
   title: Locator Orbs
-  image: all_orbs.gif
+  image:
+    - locator_orb_chi.png
+    - locator_orb_chu.png
+    - locator_orb_ko.png
+    - locator_orb_gi.png
+    - locator_orb_tei.png
+    - locator_orb_rei.png
+    - locator_orb_shin.png
+    - locator_orb_jin.png
+    - locator_orb_dyable.png
+    - locator_orb_ka.png
+    - locator_orb_sui.png
+    - locator_orb_moku.png
   rows:
   - Type: Utilities
   - Stackable: '64'
@@ -36,8 +48,6 @@ recipes:
 <infobox />
 
 **Locator Orbs** are stylish and functional accessories that infuse your dog's presence with mystical energy. Inspired by the legendary **Satomi Power Orbs**, these items synchronize with your **[Canine Tracker](Canine_Tracker)** to provide color-coded feedback during exploration.
-
-## The Twelve Orbs
 
 | No. | Orb | Name | ID | Description | Unique Material |
 | --- | --- | --- | --- | --- | --- |
