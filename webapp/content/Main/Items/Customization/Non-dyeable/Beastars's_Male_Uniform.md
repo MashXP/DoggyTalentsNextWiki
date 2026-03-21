@@ -28,7 +28,7 @@ recipes:
 
 **Beastars's Male Uniform** is a non-dyable equipable that makes your dog <s>impersonate a famous anime character</s> a good boy.
 
-![frameless](/images/beastars_uniform_male_display.png "frameless")
+![Beastars's Male Uniform Display](/images/beastars_uniform_male_display.png "Beastars's Male Uniform Display")
 
 ## Obtaining
 ### Crafting

@@ -29,7 +29,7 @@ recipes:
 
 It can be used 10 times and can be enchanted with Unbreaking and Mending.
 
-![frameless](/images/magnifying_bone_display.png "frameless")
+![Magnifying Bone Display](/images/magnifying_bone_display.png "Magnifying Bone Display")
 
 ## Obtaining
 ### Crafting

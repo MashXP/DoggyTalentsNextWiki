@@ -26,7 +26,7 @@ recipes:
 
 **Shrinking Mallet** is a curious golden tool used to reduce the size of your dogs, even back to their adorable puppy-like forms. It offers a unique way to customize your pack’s physique, making even the fiercest wolf fit for a lap.
 
-![frameless](/images/shrinking_mallet_display.png "frameless")
+![Shrinking Mallet Display](/images/shrinking_mallet_display.png "Shrinking Mallet Display")
 
 It can be used **10 times** and can be enchanted with Unbreaking and Mending.
 
