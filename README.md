@@ -1,13 +1,9 @@
-<div align="center">
 
-<div style="text-align:center;font-weight:bold;font-size:20pt;margin:0 0 10px;">
-Welcome to the official <br>
-<span style="font-weight:bold;font-size:30pt">🦴 Doggy Talents Next Wiki! 🦴</span>
-</div>
+Welcome to the official
 
+# 🦴 Doggy Talents Next Wiki! 🦴
 ![Official Banner](webapp/public/images/official_banner.jpg)
 
-</div>
 
 > "Maybe he was trying to set an example by showing you how anyone, even a dog could have an adventure."
 > — Issun, Ōkami (2006) —
@@ -24,11 +20,9 @@ Welcome to the official <br>
 - **#NEVER LOSE YOUR PUPS!** Ride them as mounts, or let them ride you! **COMMAND** them with a Whistle or **TRACK** your Canines! Or even **TELEPORT** them from anywhere! Your furry companion will **surely always** be by your side!
 - Not only that, we also offer you tons of ways to make your dog truly one-of-a-kind with our diverse **BREED SELECTION, VARIANTS** customization *(creative-only)*, and a **RANDOM NAME GENERATOR** to help you find the perfect fit for your furry companions!
 
-<br>
+And much so more and yet to be discovered by you - the benevolent dog owner!
 
-<small>And much so more and yet to be discovered by you - the benevolent dog owner! </small>
-
-<small>*~ May Mother Amaterasu bless you and your canine crews! ~*</small>
+*~ May Mother Amaterasu bless you and your canine crews! ~*
 
 ## 🦴 Our vision
 
