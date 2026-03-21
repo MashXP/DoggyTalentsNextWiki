@@ -1,51 +1,68 @@
-# DoggyTalentsNext Wiki
+<div align="center">
 
-This repository contains the source code for the DoggyTalentsNext Wiki.
+<div style="text-align:center;font-weight:bold;font-size:20pt;margin:0 0 10px;">
+Welcome to the official <br>
+<span style="font-weight:bold;font-size:30pt">🦴 Doggy Talents Next Wiki! 🦴</span>
+</div>
 
-## Running the Wiki Locally
+![Official Banner](webapp/public/images/official_banner.jpg)
 
-To run the wiki locally, follow these steps:
+</div>
 
-### Prerequisites
+> "Maybe he was trying to set an example by showing you how anyone, even a dog could have an adventure."
+> — Issun, Ōkami (2006) —
 
-*   Node.js (LTS version recommended)
-*   npm or Yarn
+## 🦴 What this mod is about
 
-### Installation
+- **#REFINED-AI!** Your dogs are now **SMARTER** than ever! Much more **RELIABLE** and **REFINED** in many aspects. Navigate terrain with **deadly precision**? Cliffs? Lava? Underwater? Just a walk in the park. *Jumping in lava?* A thing of the past!
+- **#IT’S “NOT” OVER!** Say goodbye to heartbreaking…well, *goodbyes*. Experiencing a bond that **TRANSCENDS** *death* itself! When the *unthinkable* does happen, with **good care**, your dog will endure any hardship, and **RETURNING** to fight another day.
+- **#IMMERSIVE ANIMATIONS!** A fluid and immersive canine experience that introduces **“life-like”** animations, from **playful interactions** to **in-game mechanics integrations**.
+- **#PET YOUR DOG… WITH STYLE!** What do all doggos have in common? They all love some **gooooood ol' BELLY RUBZZZZ!!!** Finally, you can now immersively give your beloved Wolfies giant petting strokes from **SCRATCHIES** to **HUGGIES!!!** 
+- **#FASHIONABLE FURBALLS!** Explore a HUGE bundle of **canine costumes** with our **multicultural** range of doggy apparel ranging from a simple bowtie to a majestic **Fiery Reflector**!
+- **#CULINARY DELIGHTS TO SHARE!** Worrying about your dogs getting hungry? *Say no more!* We've introduced a wide range of culinary delights featuring **premium, sustainable**, ingredients and **authentic recipes!** *(and vegan food too)*. And **YES!** You can **definitely** share them with your hungry pals.
+- **#TRAIN YOUR DOGS!** Discover a variety of talents you can give to your Dog to make him a *good-er* boy. Your doggos can master virtually **ANYTHING** from **UTILITY** to **COMBAT**!!!
+- **#NEVER LOSE YOUR PUPS!** Ride them as mounts, or let them ride you! **COMMAND** them with a Whistle or **TRACK** your Canines! Or even **TELEPORT** them from anywhere! Your furry companion will **surely always** be by your side!
+- Not only that, we also offer you tons of ways to make your dog truly one-of-a-kind with our diverse **BREED SELECTION, VARIANTS** customization *(creative-only)*, and a **RANDOM NAME GENERATOR** to help you find the perfect fit for your furry companions!
 
-1.  Navigate to the `webapp` directory:
-    ```bash
-    cd webapp
-    ```
-2.  Install the dependencies:
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
+<br>
 
-### Running in Development Mode
+<small>And much so more and yet to be discovered by you - the benevolent dog owner! </small>
 
-1.  From the `webapp` directory, start the development server:
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    ```
-2.  Open your browser and navigate to `http://localhost:3000` (or the port indicated in your terminal).
+<small>*~ May Mother Amaterasu bless you and your canine crews! ~*</small>
 
-### Building and Starting in Production Mode
+## 🦴 Our vision
 
-1.  From the `webapp` directory, build the project for production:
-    ```bash
-    npm run build
-    # or
-    yarn build
-    ```
-2.  Start the production server:
-    ```bash
-    npm start
-    # or
-    yarn start
-    ```
-3.  Open your browser and navigate to `http://localhost:3000` (or the port indicated in your terminal).
+> *This mod aims to create **Harmony** between the dogs and the player throughout the game. Imagine playing a Piano Concerto, you as the pianist and the dogs as the orchestra. When the two sounds are being played, it creates **harmony**, which our ears love so much. Thus, the orchestra doesn’t **overwhelm** but **empowers** the pianist. The mod is and will be designed along that principle. The dogs should accompany the player well while not becoming overpowered in the context. Although when on-demand, sufficient abilities should be granted to them, they should be required to work to achieve those. And you, the responsible owner, should help them throughout the journey.*
+
+![Cute](webapp/public/images/cute.png)
+
+---
+
+### Discord Server
+
+[![Discord Banner](webapp/public/images/discord_banner.jpg)](https://discord.gg/7T8K6rX)
+
+---
+
+## 🔗 Wiki Links
+
+You can access the full interactive wiki at: [https://mashxp.github.io/DoggyTalentsNextWiki/](https://mashxp.github.io/DoggyTalentsNextWiki/)
+
+- [Getting Started](https://mashxp.github.io/DoggyTalentsNextWiki/Getting_Started/)
+- [Dog Menu](https://mashxp.github.io/DoggyTalentsNextWiki/Dog_Menu/)
+- [Behaviors](https://mashxp.github.io/DoggyTalentsNextWiki/Behaviors/)
+- [Items](https://mashxp.github.io/DoggyTalentsNextWiki/Items/)
+- [Talents](https://mashxp.github.io/DoggyTalentsNextWiki/Talents/)
+- [FAQ](https://mashxp.github.io/DoggyTalentsNextWiki/FAQ/)
+
+---
+
+## 🛠 Running the Wiki Locally
+
+If you'd like to run this wiki locally for development:
+
+1.  **Prerequisites**: Node.js (LTS).
+2.  **Navigate**: `cd webapp`
+3.  **Install**: `npm install`
+4.  **Run**: `npm run dev`
+5.  **Access**: `http://localhost:3000`
