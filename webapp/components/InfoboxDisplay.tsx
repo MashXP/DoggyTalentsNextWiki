@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import { getAssetPath } from '@/lib/utils';
 
 interface InfoboxRow {
   label: string;
@@ -43,7 +44,7 @@ const InfoboxDisplay: React.FC<InfoboxDisplayProps> = ({ defaultData }) => {
       {data.image && (
         <div className="infobox-image-wrapper">
           <img
-            src={`/images/${data.image}`}
+            src={getAssetPath(`/images/${data.image}`)}
             alt={data.title}
             className="infobox-image"
           />

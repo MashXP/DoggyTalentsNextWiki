@@ -2,11 +2,13 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Sidebar from '@/components/Sidebar';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export const metadata: Metadata = {
   title: 'Doggy Talents Next Wiki',
   description: 'The official wiki for Doggy Talents Next Minecraft Mod',
   icons: {
-    icon: '/images/site-favicon.ico',
+    icon: `${basePath}/images/site-favicon.ico`,
   },
 };
 

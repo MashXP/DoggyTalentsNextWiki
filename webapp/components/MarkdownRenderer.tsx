@@ -6,6 +6,7 @@ import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import rehypeSlug from 'rehype-slug';
 import Link from 'next/link';
+import { getAssetPath } from '@/lib/utils';
 
 import RecipeDisplay from './RecipeDisplay';
 import InfoboxDisplay from './InfoboxDisplay';
@@ -362,15 +363,16 @@ export default function MarkdownRenderer({ content, infobox, recipes, allItems }
         src = '/images/' + src;
       }
       const isIcon = props.className?.includes('recipe-item-icon') || props.className?.includes('item-icon');
+      const assetSrc = getAssetPath(src);
       return (
         <img 
           loading="lazy" 
           {...props} 
-          src={src} 
+          src={assetSrc} 
           alt={props.alt || ''} 
           onClick={() => {
             if (!isIcon) {
-              setSelectedImage({ src, alt: props.alt || '', title: props.title });
+              setSelectedImage({ src: assetSrc, alt: props.alt || '', title: props.title });
               setIsInfoActive(true);
               resetZoom();
             }
@@ -430,9 +432,10 @@ export default function MarkdownRenderer({ content, infobox, recipes, allItems }
                 <Link href={`/${item.slug}`}>
                   <img 
                     className="item-icon" 
-                    src={item.image ? (item.image.startsWith('http') || item.image.startsWith('/') ? item.image : `/images/${item.image}`) : '/images/placeholder.png'} 
+                    src={getAssetPath(item.image ? (item.image.startsWith('http') || item.image.startsWith('/') ? item.image : `/images/${item.image}`) : '/images/placeholder.png')} 
                     alt={item.title} 
                   />
+
                   {item.title}
                 </Link>
               </li>

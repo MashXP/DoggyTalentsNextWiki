@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'otsutome';
-  src: url('/fonts/otsutome.ttf') format('truetype');
+  src: url('../public/fonts/otsutome.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

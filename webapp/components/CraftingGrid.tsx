@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import itemTextures from '../data/item_textures.json';
+import { getAssetPath } from '@/lib/utils';
 
 interface ItemSlotProps {
   itemId?: string | string[];
@@ -24,7 +25,8 @@ export const ItemSlot: React.FC<ItemSlotProps> = ({ itemId, count, size = 'norma
   }
 
   const itemData = (itemTextures as any)[currentId];
-  const texture = itemData?.texture || (currentId.startsWith('/') ? currentId : '');
+  const rawTexture = itemData?.texture || (currentId.startsWith('/') ? currentId : '');
+  const texture = rawTexture ? getAssetPath(rawTexture) : '';
   const name = itemData?.name || currentId;
 
   const getLink = () => {

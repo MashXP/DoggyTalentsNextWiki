@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Fuse from 'fuse.js';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { SearchItem } from '@/lib/wiki';
 
 interface SearchProps {
@@ -59,6 +60,8 @@ export default function Search({ data }: SearchProps) {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  const router = useRouter();
+
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'ArrowDown') {
       e.preventDefault();
@@ -69,7 +72,9 @@ export default function Search({ data }: SearchProps) {
     } else if (e.key === 'Enter' && activeIndex >= 0) {
       e.preventDefault();
       const target = results[activeIndex];
-      window.location.href = `/${target.slug}`;
+      router.push(`/${target.slug}`);
+      setIsOpen(false);
+      setQuery('');
     } else if (e.key === 'Escape') {
       setIsOpen(false);
       inputRef.current?.blur();

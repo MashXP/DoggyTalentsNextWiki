@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useCallback } from 'react';
+import { getAssetPath } from '@/lib/utils';
 
 interface GalleryProps {
   children: React.ReactNode;
@@ -33,6 +34,7 @@ export default function Gallery({ children, onImageClick }: GalleryProps) {
       const normalizedFilename = filename.toLowerCase().replace(/\s+/g, '_');
       src = '/images/' + normalizedFilename;
     }
+    src = getAssetPath(src);
     
     return { src, caption: caption?.trim() || '' };
   });

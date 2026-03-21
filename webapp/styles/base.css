@@ -8,7 +8,7 @@ body {
   background:
     linear-gradient(rgba(8, 9, 14, 0.6), rgba(8, 9, 14, 0.6)),
     /* Dark overlay for readability */
-    url('/images/site-background.jpg') no-repeat center center fixed;
+    url('../public/images/site-background.jpg') no-repeat center center fixed;
   background-size: cover;
   color: var(--text-main);
   font-family: var(--font-sans);
