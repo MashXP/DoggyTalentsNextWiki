@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect, useRef } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
@@ -441,6 +441,38 @@ export default function MarkdownRenderer({ content, infobox, recipes, allItems }
           {props.children}
         </div>
       );
+    },
+    p: (props: any) => {
+      const { children } = props;
+      
+      // Check if any child is a block-level element or one of our custom components that renders block elements
+      const hasBlockElement = React.Children.toArray(children).some((child: any) => {
+        if (!child) return false;
+        
+        // If it's a DOM element string
+        if (typeof child.type === 'string') {
+          return ['div', 'ul', 'ol', 'li', 'section', 'article', 'aside', 'blockquote', 'table'].includes(child.type);
+        }
+        
+        // If it's one of our custom components (which we know render block elements)
+        const componentName = child.type?.name || child.type?.displayName;
+        if (['itemgrid', 'talentgrid', 'usedin', 'RecipeDisplay', 'InfoboxDisplay', 'Gallery'].includes(componentName)) {
+          return true;
+        }
+
+        // rehype-raw elements might have a tagName property in props
+        if (child.props?.node?.tagName) {
+          return ['div', 'ul', 'ol', 'li', 'section', 'article', 'aside', 'blockquote', 'table', 'itemgrid', 'talentgrid', 'usedin', 'recipe', 'infobox', 'gallery'].includes(child.props.node.tagName);
+        }
+
+        return false;
+      });
+
+      if (hasBlockElement) {
+        return <div className="mb-4">{children}</div>;
+      }
+      
+      return <p>{children}</p>;
     },
     talentgrid: (props: any) => {
       if (!allItems) return <div>Talent data not available. {props.children}</div>;
