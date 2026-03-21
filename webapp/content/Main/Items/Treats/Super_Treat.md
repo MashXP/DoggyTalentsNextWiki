@@ -35,8 +35,8 @@ recipes:
 - **<code>Right click</code>** on your dog to use the item.
 
 ## Used In
-- **[Master Treat](Master_Treat)**
-- **[Feathered Mantle](Feathered_Mantle)**
+<usedin />
+
 
 ## Trivia
 - Introduced in the original **Doggy Talents**.

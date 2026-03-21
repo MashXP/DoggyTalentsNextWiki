@@ -38,8 +38,8 @@ recipes:
 - **Sneaking** while applying the bowtie to your dog will equip an alternative variant (such as the Head Bowtie).
 
 ## Used In
-- **[Conan Suit](Conan_Suit)**
-- **[Gift Costume](Gift_Costume)**
+<usedin />
+
 
 ## Trivia
 - Introduced in **DTN 1.11.0**.

@@ -19,6 +19,8 @@ infobox:
 - **<code>Right click</code>** [Rice Grains](Rice_Grains) on Farmland and let it fully grown into Paddy Rice.
 
 ## Used In
-- [Rice Grains](Rice_Grains)
+<usedin />
+
+
 ## Trivia
 - Introduced in **DTN 1.18.0**.

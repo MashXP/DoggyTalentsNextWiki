@@ -25,7 +25,7 @@ export default async function WikiPage({
     notFound();
   }
 
-  const allItems = slugJoined === 'Items' ? getAllItemsInfo() : undefined;
+  const allItems = getAllItemsInfo();
 
   return (
     <article>

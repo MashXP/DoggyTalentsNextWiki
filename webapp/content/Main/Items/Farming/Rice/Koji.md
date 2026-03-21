@@ -33,11 +33,8 @@ recipes:
 
 ## Used In
 
-- [Band-Aid](Band-Aid)
-- [Miso Paste](Miso_Paste)
-- [Natto](Natto)
-- [Doggy Contact Lenses](Doggy_Contact_Lenses)
-- [Sake](Bottle_of_Sake)
+<usedin />
+
 
 ## Trivia
 

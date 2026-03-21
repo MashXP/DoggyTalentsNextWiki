@@ -37,10 +37,8 @@ Each treat raises your dog's level by 1 (and 1 spendable point) until they reach
 - As of **DTN 1.18.0+**, a Training Treat can be used to directly convert an untamed wolf (even an angry one) into a **Doggy Talents Next** Dog. See more in **[Getting Started](Getting_Started)**.
 
 ## Used In
-- **[Super Treat](Super_Treat)**
-- **[Hot Dog](Hot_Dog)**
-- **[Golden A5 Wagyu](Golden_A5_Wagyu)**
-- **[Birthday Hat](Birthday_Hat)**
+<usedin />
+
 
 ## Trivia
 - Introduced in the original **Doggy Talents**.

@@ -18,8 +18,8 @@ infobox:
 - You can harvest 1-3 Soy Pods per fully grown Soy Crop.
 
 ## Used In
-- **[Dried Soy Pods](Dried_Soy_Pods)**
-- **[Edamame](Edamame)**
+<usedin />
+
 
 ## Trivia
 - Introduced in **DTN 1.18.0**.

@@ -35,8 +35,8 @@ recipes:
 - **<code>Right click</code>** on your dog to use the item.
 
 ## Used In
-- **[Kami Treat](Kami_Treat)**
-- **[Breeding Bone](Breeding_Bone)**
+<usedin />
+
 
 ## Trivia
 - Introduced in the original **Doggy Talents**.

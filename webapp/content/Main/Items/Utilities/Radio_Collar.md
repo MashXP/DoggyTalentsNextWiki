@@ -33,7 +33,8 @@ recipes:
 - Once equipped, the dog will appear on the **Canine Tracker** interface if you are holding one.
 
 ## Used In
-- **[Canine Tracker](Canine_Tracker)**
+<usedin />
+
 
 ## Trivia
 - Added in the original **Doggy Talents**.

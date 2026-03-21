@@ -34,10 +34,8 @@ recipes:
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Used In
-- **[Spotted Collar](Spotted_Collar)**
-- **[Multicoloured Collar](Multicoloured_Collar)**
-- **[Beastars's Female Uniform](Beastars's_Female_Uniform)**
-- **[Thick Wool Collar](Thick_Wool_Collar)**
+<usedin />
+
 
 ## Trivia
 - Added in the original **Doggy Talents**.

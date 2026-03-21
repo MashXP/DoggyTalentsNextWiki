@@ -442,6 +442,56 @@ export default function MarkdownRenderer({ content, infobox, recipes, allItems }
         </div>
       );
     },
+    usedin: (props: any) => {
+      let targetId = props.id || props.node?.properties?.id;
+      if (!targetId && infobox && infobox.rows) {
+        const idRow = infobox.rows.find((r: any) => r.ID);
+        if (idRow) targetId = idRow.ID;
+      }
+
+      if (!targetId || !allItems) return null;
+
+      const isUsedInRecipe = (r: any) => {
+        if (!r) return false;
+        
+        if (r.ingredients && Array.isArray(r.ingredients)) {
+          if (r.ingredients.some((ing: any) => Array.isArray(ing) ? ing.includes(targetId) : ing === targetId)) return true;
+        }
+        
+        if (r.key) {
+          if (Object.values(r.key).some((val: any) => {
+            if (Array.isArray(val)) return val.includes(targetId);
+            if (typeof val === 'object' && val !== null && val.item) return val.item === targetId;
+            return val === targetId;
+          })) return true;
+        }
+        
+        if (r.input) {
+          if (Array.isArray(r.input) && r.input.includes(targetId)) return true;
+          if (typeof r.input === 'object' && r.input !== null && r.input.item === targetId) return true;
+          if (typeof r.input === 'string' && r.input === targetId) return true;
+        }
+        
+        return false;
+      };
+
+      const usedInItems = allItems.filter(item => {
+        if (!item.recipes) return false;
+        return Object.values(item.recipes).some(recipe => isUsedInRecipe(recipe));
+      }).sort((a, b) => a.title.localeCompare(b.title));
+
+      if (usedInItems.length === 0) return null;
+
+      return (
+        <ul>
+          {usedInItems.map(item => (
+            <li key={item.slug}>
+              <Link href={`/${item.slug}`}>{item.title}</Link>
+            </li>
+          ))}
+        </ul>
+      );
+    },
     details: (props: any) => <CollapsibleDetails {...props} />
   };
 

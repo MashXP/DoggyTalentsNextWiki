@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import recipesData from '../data/recipes.json';
 import { CraftingGrid, RecipeData } from './CraftingGrid';
 
 interface RecipeDisplayProps {
@@ -19,7 +18,7 @@ const RecipeDisplay: React.FC<RecipeDisplayProps> = ({ id, defaultData }) => {
   if (!isClient) return <div className="recipe-placeholder" style={{ minHeight: '100px' }} />;
 
   try {
-    const recipe = (defaultData || (id ? (recipesData as Record<string, any>)[id] : undefined)) as RecipeData | undefined;
+    const recipe = defaultData as RecipeData | undefined;
 
     if (!recipe) {
       return (

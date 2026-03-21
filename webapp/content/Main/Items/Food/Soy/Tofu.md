@@ -34,8 +34,8 @@ Your dog can also eat this, so don't be shy to share it with your furry pal!
 - **<code>Right click</code>** to consume.
 
 ## Used In
-- **[Aburaage](Aburaage)**
-- **[Miso Soup](Miso_Soup)**
+<usedin />
+
 
 ## Trivia
 - Introduced in **DTN 1.18.0**.

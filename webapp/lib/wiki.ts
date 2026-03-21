@@ -213,9 +213,14 @@ export interface ItemInfo {
   slug: string;
   image: string | null;
   type: string | null;
+  id: string | null;
+  recipes?: Record<string, any>;
 }
 
+let cachedItemsInfo: ItemInfo[] | null = null;
+
 export function getAllItemsInfo(): ItemInfo[] {
+  if (cachedItemsInfo) return cachedItemsInfo;
   if (!fs.existsSync(contentDirectory)) return [];
   
   const items: ItemInfo[] = [];
@@ -237,9 +242,13 @@ export function getAllItemsInfo(): ItemInfo[] {
           : path.join(currentPath, fileName);
           
         let itemType = null;
+        let itemId = null;
         if (data.infobox && data.infobox.rows) {
           const typeRow = data.infobox.rows.find((row: any) => row.Type);
           if (typeRow) itemType = typeRow.Type;
+          
+          const idRow = data.infobox.rows.find((row: any) => row.ID);
+          if (idRow) itemId = idRow.ID;
         }
         if (!itemType) {
           itemType = data.Type || data.type || null;
@@ -249,12 +258,15 @@ export function getAllItemsInfo(): ItemInfo[] {
           title: data.title || fileName.replace(/_/g, ' '),
           slug: slug,
           image: data.infobox?.image || data.image || null,
-          type: itemType
+          type: itemType,
+          id: itemId,
+          recipes: data.recipes
         });
       }
     }
   };
   
   readDirRecursive(contentDirectory);
+  cachedItemsInfo = items;
   return items;
 }

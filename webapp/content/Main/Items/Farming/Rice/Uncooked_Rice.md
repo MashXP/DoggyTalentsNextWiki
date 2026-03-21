@@ -19,8 +19,8 @@ infobox:
 
 ## Used In
 
-- [Uncooked Rice in a Bowl](Uncooked_Rice_in_a_Bowl)
-- [Koji](Koji)
+<usedin />
+
 
 ## Trivia
 - Introduced in **DTN 1.18.0**.

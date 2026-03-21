@@ -42,12 +42,8 @@ Your dog can also eat this, so don't be shy to share it with your furry pal!
 - **<code>Right click</code>** to consume.
 
 ## Used In
-- **[Training Treat](Training_Treat)**
-- **[Onigiri](Onigiri)**
-- **[Gyudon](Gyudon)**
-- **[Oyakodon](Oyakodon)**
-- **[Natto Rice](Natto_Rice)**
-- **[Sake Nigiri Sushi](Sake_Nigiri_Sushi)**
+<usedin />
+
 
 ## Trivia
 - Introduced in **DTN 1.18.0**.

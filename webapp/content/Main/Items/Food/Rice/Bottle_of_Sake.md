@@ -49,7 +49,8 @@ On Fabric, combine a **Water Bottle** with **[Koji](Koji)** in a crafting grid.
 - **<code>Right click</code>** to consume. Drink moderately!
 
 ## Used In
-- **[Doggy Contact Lenses](Doggy_Contact_Lenses)**
+<usedin />
+
 
 ## Trivia
 - Introduced in **DTN 1.18.0**.

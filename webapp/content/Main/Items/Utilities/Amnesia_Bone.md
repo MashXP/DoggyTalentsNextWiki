@@ -39,7 +39,8 @@ When granted **Operator permission,** you can **<code>Sneak + Right click</code>
 <recipe />
 
 ## Used In
-- [Gender Bone](Gender_Bone)
+<usedin />
+
 
 ## Usage
 

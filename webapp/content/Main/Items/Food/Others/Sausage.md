@@ -31,7 +31,8 @@ recipes:
 - **<code>Right click</code>** to consume the item, restoring 4 hunger points. Your dog can also enjoy this treat, so feel free to share!
 
 ## Used In
-- **[Hot Dog](Hot_Dog)**
+<usedin />
+
 
 ## Trivia
 - Introduced in **DTN 1.17.2**.

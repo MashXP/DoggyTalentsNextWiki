@@ -34,7 +34,8 @@ Your dog can also eat this, so don't be shy to share it with your furry pal!
 - Grants **Natto Bite** for 3 minutes when eaten by a dog.
 
 ## Used In
-- **[Natto Rice](Natto_Rice)**
+<usedin />
+
 
 ## Trivia
 - Introduced in **DTN 1.18.0**.

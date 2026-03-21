@@ -34,7 +34,8 @@ Your dog can also drink this, so don't be shy to share it with your furry pal!
 - **<code>Right click</code>** to consume.
 
 ## Used In
-- **[Tofu](Tofu)**
+<usedin />
+
 
 ## Trivia
 - Introduced in **DTN 1.18.0**.
