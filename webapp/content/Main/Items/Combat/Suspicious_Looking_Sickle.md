@@ -35,6 +35,7 @@ recipes:
 ## Usage
 - **<code>Left click</code>** to use the item.
 ## Trivia
+- Introduced in **DTN 1.17.0**.
 - This item is a direct reference to **Death's** sickle from the movie **Puss in Boots: The Last Wish** <ref>https://www.imdb.com/title/tt3915174/</ref>.
 - The item used [Iron Sword](https://minecraft.wiki/w/Sword#Iron)'s code as the base. 
 - Death with Sickle<ref>https://www.imdb.com/title/tt3915174/mediaviewer/rm785921281/</ref>

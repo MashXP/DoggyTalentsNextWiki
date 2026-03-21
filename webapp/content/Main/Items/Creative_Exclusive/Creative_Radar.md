@@ -15,4 +15,4 @@ infobox:
 
 It has been replaced by the [Creative Canine Tracker](Creative_Canine_Tracker).
 ## Trivia
-- Introduced in the original Doggy Talents.
+- Introduced in the original **Doggy Talents**.

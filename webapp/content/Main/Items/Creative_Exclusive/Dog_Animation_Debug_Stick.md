@@ -46,5 +46,5 @@ Press **<code>E</code>** in Creative mode to access the Creative menu.
 
 ## Trivia
 
-- Introduced in DTN 1.18.34
+- Introduced in **DTN 1.18.34**.
 - You can use it to instantly create unique screenshots and videos of their dogs performing specific animations!
