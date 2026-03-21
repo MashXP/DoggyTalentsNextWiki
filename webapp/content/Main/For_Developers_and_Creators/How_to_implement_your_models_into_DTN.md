@@ -295,7 +295,7 @@ Example:
 
 ## Build and Finalizing
 
-- Go to your Terminal (**<code>Ctrl+`</code>**), then type: **<code>./gradlew build</code>**
+- Open your Terminal (`Ctrl + \``), then type: `./gradlew build`
 - Locate: build -> libs**, your brand-new Addon** should be there once the build is finished.
 
 It is necessary to test-run your Addon for errors. 

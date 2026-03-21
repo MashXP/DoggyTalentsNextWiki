@@ -41,11 +41,12 @@ title: Setting up your Dev Environment
    - **Extension Pack for Java** (Mandatory)
    - GitHub Pull Requests and Issues (Optional)
    - GitLens (Optional)
-2. Open the Terminal  (**<code>Ctrl+`</code>**). Type `./gradlew build` and wait for it to finish.
+2. Open the Terminal (`Ctrl + \``). Type `./gradlew build` and wait for it to finish.
    ```batch
    BUILD SUCCESSFUL in...
    ```
-   *If you encounter a `JAVA_HOME` error, ensure your Java installation is correctly added to your system's PATH.*
+   
+*If you encounter a `JAVA_HOME` error, ensure your Java installation is correctly added to your system's PATH.*
 
 #### Reload and Execute
 1. Go to `settings.json` (`Ctrl + P` then type `settings.json`).
