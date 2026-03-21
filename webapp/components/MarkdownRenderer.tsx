@@ -442,6 +442,32 @@ export default function MarkdownRenderer({ content, infobox, recipes, allItems }
         </div>
       );
     },
+    talentgrid: (props: any) => {
+      if (!allItems) return <div>Talent data not available. {props.children}</div>;
+      
+      const talents = allItems.filter(item => 
+        item.category === 'Talents' && item.slug.toLowerCase() !== 'talents'
+      ).sort((a, b) => a.title.localeCompare(b.title));
+
+      if (talents.length === 0) {
+        return <div className="item-grid-empty">No talents found. {props.children}</div>;
+      }
+
+      return (
+        <div className="item-grid">
+          <ul>
+            {talents.map(item => (
+              <li key={item.slug}>
+                <Link href={`/${item.slug}`}>
+                  {item.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          {props.children}
+        </div>
+      );
+    },
     usedin: (props: any) => {
       let targetId = props.id || props.node?.properties?.id;
       if (!targetId && infobox && infobox.rows) {

@@ -214,6 +214,7 @@ export interface ItemInfo {
   image: string | null;
   type: string | null;
   id: string | null;
+  category: string;
   recipes?: Record<string, any>;
 }
 
@@ -254,12 +255,15 @@ export function getAllItemsInfo(): ItemInfo[] {
           itemType = data.Type || data.type || null;
         }
 
+        const category = currentPath.split(path.sep)[0] || 'Main';
+
         items.push({
           title: data.title || fileName.replace(/_/g, ' '),
           slug: slug,
           image: data.infobox?.image || data.image || null,
           type: itemType,
           id: itemId,
+          category: category,
           recipes: data.recipes
         });
       }
