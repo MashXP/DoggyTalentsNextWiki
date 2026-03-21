@@ -53,7 +53,7 @@ Additionally, you can go into **<code>F3</code>** mode and navigate with **<code
 
 Next to the [Bar](Basic Core Stats#Modes) is the ≡ button to access the **Edit Info** Menu.
 
-### Edit Info **≡**
+### Edit Info ( ≡ )
 Here you can change your dog’s name. Enter the new name in the black text box then press **<code>Apply</code>**.
 - **Friendly Fire:** If set to **<code>true</code>**, you’ll be able to hurt your dog. <s>(Seriously, why tho?)</s>
 - **Obey Others:** If set to **<code>true</code>**
