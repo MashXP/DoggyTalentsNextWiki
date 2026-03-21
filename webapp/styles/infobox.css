@@ -30,7 +30,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem; /* Increased padding for the icon wrapper */
+  padding: 1.5rem 1rem 2.5rem 1rem; /* Added bottom padding for dots */
+  position: relative;
+  min-height: 140px;
 }
 
 .infobox-image {
@@ -39,6 +41,74 @@
   image-rendering: pixelated;
   filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.3));
   transition: transform 0.3s ease;
+}
+
+.infobox-nav {
+  position: absolute;
+  top: calc(50% - 8px); /* Adjusted for bottom padding to stay centered relative to image */
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+  padding: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  z-index: 10;
+}
+
+.infobox-nav:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.infobox-nav.prev {
+  left: 5px;
+}
+
+.infobox-nav.next {
+  right: 5px;
+}
+
+.infobox-dots-container {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 16px;
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, black 25%, black 75%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 25%, black 75%, transparent);
+  display: flex;
+  align-items: center;
+}
+
+.infobox-image-dots {
+  display: flex;
+  gap: 6px;
+  position: absolute;
+  left: 0;
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  align-items: center;
+}
+
+.infobox-image-dots .dot {
+  width: 6px;
+  height: 6px;
+  min-width: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.4s ease;
+}
+
+.infobox-image-dots .dot.active {
+  background: white;
+  opacity: 1 !important;
+  transform: scale(1.1) !important;
 }
 
 .infobox-image:hover {

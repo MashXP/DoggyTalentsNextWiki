@@ -2,7 +2,11 @@
 title: Firefighter Suits
 infobox:
   title: Firefighter Suits
-  image: firefighter_suits.gif
+  image:
+    - firefighter_suit_red.png
+    - firefighter_suit_blue.png
+    - firefighter_suit_kaki.png
+    - firefighter_suit_black.png
   rows:
     - Type: Customization (Non-dyeable)
     - Stackable: "64"

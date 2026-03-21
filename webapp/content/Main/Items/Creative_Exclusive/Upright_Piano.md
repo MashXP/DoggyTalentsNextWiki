@@ -2,9 +2,11 @@
 title: Upright Piano
 infobox:
   title: Upright Piano
-  image: upright_piano.gif
+  image:
+    - upright_piano_black_item.png
+    - upright_piano_brown_item.png
+    - upright_piano_white_item.png
   rows:
-  - ID: doggytalents:upright_piano
   - Type: Creative Exclusive
   - Stackable: '1'
 ---
