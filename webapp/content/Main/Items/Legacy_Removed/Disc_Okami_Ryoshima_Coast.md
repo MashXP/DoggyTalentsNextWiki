@@ -5,7 +5,7 @@ infobox:
   image: "disc_okami_ryoshima_coast_arr.png"
   rows:
     - ID: "doggytalents:disc_okami_ryoshima_coast_arr"
-    - Type: "Discs"
+    - Type: "Discs, Legacy/Removed"
     - Stackable: "1"
   description: "Okami - \"Ryoshima Coast\" (Arr. DashieDev for Organ)"
 ---

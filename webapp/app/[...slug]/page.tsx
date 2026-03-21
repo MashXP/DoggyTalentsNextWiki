@@ -1,4 +1,4 @@
-import { getPageBySlug, getAllPageSlugs } from '@/lib/wiki';
+import { getPageBySlug, getAllPageSlugs, getAllItemsInfo } from '@/lib/wiki';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import { notFound, redirect } from 'next/navigation';
 
@@ -25,6 +25,7 @@ export default async function WikiPage({
     notFound();
   }
 
+  const allItems = slugJoined === 'Items' ? getAllItemsInfo() : undefined;
 
   return (
     <article>
@@ -36,6 +37,7 @@ export default async function WikiPage({
           content={pageContent.content} 
           infobox={pageContent.infobox} 
           recipes={pageContent.recipes} 
+          allItems={allItems}
         />
       </div>
     </article>

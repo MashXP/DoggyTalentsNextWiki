@@ -5,7 +5,7 @@ infobox:
   image: "disc_bwv_1080_fugue_11.png"
   rows:
     - ID: "doggytalents:disc_bwv_1080_fugue_11"
-    - Type: "Discs"
+    - Type: "Discs, Legacy/Removed"
     - Stackable: "1"
   description: "J.S. Bach - Art Of Fugue: Contrapunctus XI (Kimiko Ishizaka)"
 ---

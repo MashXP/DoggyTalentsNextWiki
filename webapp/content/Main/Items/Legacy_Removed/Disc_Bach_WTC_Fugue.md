@@ -5,7 +5,7 @@ infobox:
   image: "disc_bwv_849_fugue.png"
   rows:
     - ID: "doggytalents:disc_bwv_849_fugue"
-    - Type: "Discs"
+    - Type: "Discs, Legacy/Removed"
     - Stackable: "1"
   description: "J.S. Bach - WTC I: Fugue in C# Minor (Kimiko Ishizaka)"
 ---

@@ -1,5 +1,7 @@
 ---
 title: Chew Stick
+Type: Legacy/Removed
+image: chew_stick.png
 ---
 
 **Chew Stick** is a treat that temporarily increases your dog's speed and other stats.

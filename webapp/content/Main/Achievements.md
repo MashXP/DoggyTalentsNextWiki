@@ -6,15 +6,15 @@ Here is the list of advancements and how you can get in DTN:
 
 ## Normal
 
-| + | Achievement/Advancement | How to get? |
-| --- | --- | --- |
-| Hajimemashite, Buddy! | Train your first dog! |  |
-| Ah, you scared me! | Summon your first dog via the Doggy Charm. |  |
-| Suuussssannooo!! | Get your dog drunk using Sake. |  |
-| DTN.. T!!!!! | Doggy TNT! Summon your first Doggy Explosion! |  |
-| Don't worry! It's Sterile. | Apply a Band-Aid on an Injured Dog. |  |
-| A Full Recovery! | Help your Injured Dog heal. |  |
-| The Best Dog-tor! | Help your injured dog heal under the best conditions. |  |
+| Achievement/Advancement | How to get? |
+| --- | --- |
+| Hajimemashite, Buddy! | Train your first dog! |
+| Ah, you scared me! | Summon your first dog via the Doggy Charm. |
+| Suuussssannooo!! | Get your dog drunk using Sake. |
+| DTN.. T!!!!! | Doggy TNT! Summon your first Doggy Explosion! |
+| Don't worry! It's Sterile. | Apply a Band-Aid on an Injured Dog. |
+| A Full Recovery! | Help your Injured Dog heal. |
+| The Best Dog-tor! | Help your injured dog heal under the best conditions. |
 
 ## Epic
 

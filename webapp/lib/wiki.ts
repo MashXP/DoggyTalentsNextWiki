@@ -207,3 +207,54 @@ export function getSearchData(): SearchItem[] {
   readDirRecursive(contentDirectory);
   return items;
 }
+
+export interface ItemInfo {
+  title: string;
+  slug: string;
+  image: string | null;
+  type: string | null;
+}
+
+export function getAllItemsInfo(): ItemInfo[] {
+  if (!fs.existsSync(contentDirectory)) return [];
+  
+  const items: ItemInfo[] = [];
+  
+  const readDirRecursive = (dir: string, currentPath: string = '') => {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    
+    for (const entry of entries) {
+      if (entry.isDirectory()) {
+        readDirRecursive(path.join(dir, entry.name), path.join(currentPath, entry.name));
+      } else if (entry.isFile() && entry.name.endsWith('.md')) {
+        const fileContents = fs.readFileSync(path.join(dir, entry.name), 'utf8');
+        const { data } = matter(fileContents);
+        const fileName = entry.name.replace(/\.md$/, '');
+        const parentDirName = path.basename(currentPath);
+        
+        const slug = (fileName.toLowerCase() === parentDirName.toLowerCase())
+          ? currentPath
+          : path.join(currentPath, fileName);
+          
+        let itemType = null;
+        if (data.infobox && data.infobox.rows) {
+          const typeRow = data.infobox.rows.find((row: any) => row.Type);
+          if (typeRow) itemType = typeRow.Type;
+        }
+        if (!itemType) {
+          itemType = data.Type || data.type || null;
+        }
+
+        items.push({
+          title: data.title || fileName.replace(/_/g, ' '),
+          slug: slug,
+          image: data.infobox?.image || data.image || null,
+          type: itemType
+        });
+      }
+    }
+  };
+  
+  readDirRecursive(contentDirectory);
+  return items;
+}

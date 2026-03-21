@@ -1,5 +1,7 @@
 ---
 title: Collar Shears
+Type: Legacy/Removed
+image: collar_shears.png
 ---
 
 **Collar Shear** is an item that is used to remove accessories.

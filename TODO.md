@@ -19,7 +19,7 @@ TODO:
 - ✅ Overhaul DTNP Variant Checklist page to be more aesthetically pleasing, image currently is too big, Probably head icons?
 - ✅ Fix immortal dogs kanji too big
 - ✅ Fix Leveling System icon in table 
-- Complete the Unfinished Pages
+- ✅ Complete the Unfinished Pages
 - ✅ Accessory use hardcode fix
 - ✅ FAQ page -> Dropdown 
 - ✅ Click on crafting materials will lead to wiki entry 
@@ -30,12 +30,12 @@ TODO:
 
 IDEA:
 - Update Dog Behavior Improvements
-- Making info box more dynamic
-- Add mod page linkings
-- Add a "Quick Info" section to the top of each page with the most important information, like a summary.
+- ✅ Making info box more dynamic
+- ✅ Add mod page linkings
+- ✅ Add a "Quick Info" section to the top of each page with the most important information, like a summary.
 - Add CHANGELOG page. and link trivia to that specific changelog.
-- Dynamic Used Ins
-- Click on folders without links will navigate and highlight that section. ./Items page
+- ✅ Dynamic Used Ins
+- ⚠️ Click on folders without links will navigate and highlight that section. ./Items page
 - Optimize webload, low quality mode (removing animations)
 - Add icons to sidebar
 - Configure Galery tag to be yaml based

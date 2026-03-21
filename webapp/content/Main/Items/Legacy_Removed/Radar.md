@@ -1,5 +1,7 @@
 ---
 title: Radar
+Type: Legacy/Removed
+image: radar.png
 ---
 
 **Radar** is the item that is used to ping your dog's location if it has a [Radio Collar](Radio_Collar) equipped.

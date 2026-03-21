@@ -1,5 +1,7 @@
 ---
 title: Big Bone
+Type: Legacy/Removed
+image: big_bone.png
 ---
 
 **Big Bone** is the item that is used to adjust the size of your pup.

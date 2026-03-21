@@ -5,7 +5,7 @@ infobox:
   image: hot_dog.png
   rows:
   - ID: doggytalents:hot_dog
-  - Type: Customization (Non-dyeable)
+  - Type: "Customization (Non-dyeable), Food"
   - Properties: 'Hunger points: 6/10'
   - Stackable: '64'
   description: It tastes...funny?

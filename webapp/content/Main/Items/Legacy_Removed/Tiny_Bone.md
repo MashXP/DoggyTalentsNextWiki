@@ -1,5 +1,7 @@
 ---
 title: Tiny Bone
+Type: Legacy/Removed
+image: tiny_bone.png
 ---
 
 **Tiny Bone** is the item that is used to adjust the size of your pup.

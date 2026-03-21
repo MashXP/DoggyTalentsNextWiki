@@ -17,6 +17,13 @@ interface Section {
   content: string;
 }
 
+export interface ItemInfo {
+  title: string;
+  slug: string;
+  image: string | null;
+  type: string | null;
+}
+
 function CollapsibleDetails({ children, ...props }: any) {
   const [isOpen, setIsOpen] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
@@ -91,7 +98,7 @@ function splitByH2(content: string): Section[] {
   return sections;
 }
 
-export default function MarkdownRenderer({ content, infobox, recipes }: { content: string, infobox?: any, recipes?: Record<string, any> }) {
+export default function MarkdownRenderer({ content, infobox, recipes, allItems }: { content: string, infobox?: any, recipes?: Record<string, any>, allItems?: ItemInfo[] }) {
   const [viewMode, setViewMode] = useState<'full' | 'tabs'>('full');
   const [isReady, setIsReady] = useState(false);
   const [activeTabIndex, setActiveTabIndex] = useState(0);
@@ -398,6 +405,43 @@ export default function MarkdownRenderer({ content, infobox, recipes }: { conten
         {props.children}
       </Gallery>
     ),
+    itemgrid: (props: any) => {
+      const typeStr = props.type || props.node?.properties?.type;
+      if (!allItems) return <div>Item data not available. {props.children}</div>;
+      
+      const targetTypes = typeStr ? typeStr.split(',').map((s: string) => s.trim().toLowerCase()) : [];
+      
+      const filteredItems = allItems.filter(item => {
+        if (targetTypes.length === 0) return true;
+        const itemTypes = item.type ? item.type.split(',').map((s: string) => s.trim().toLowerCase()) : [];
+        // Match if any of the target types matches any of the item's types
+        return targetTypes.some(t => itemTypes.includes(t));
+      }).sort((a, b) => a.title.localeCompare(b.title));
+
+      if (filteredItems.length === 0) {
+        return <div className="item-grid-empty">No items found for "{typeStr}". {props.children}</div>;
+      }
+
+      return (
+        <div className="item-grid">
+          <ul>
+            {filteredItems.map(item => (
+              <li key={item.slug}>
+                <Link href={`/${item.slug}`}>
+                  <img 
+                    className="item-icon" 
+                    src={item.image ? (item.image.startsWith('http') || item.image.startsWith('/') ? item.image : `/images/${item.image}`) : '/images/placeholder.png'} 
+                    alt={item.title} 
+                  />
+                  {item.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          {props.children}
+        </div>
+      );
+    },
     details: (props: any) => <CollapsibleDetails {...props} />
   };
 
