@@ -25,9 +25,8 @@ recipes:
 ---
 <infobox />
 
-**Tartan Cape** is a non-dyable equipable that makes your dog look neat.
+**Tartan Cape** is a classic accessory inspired by traditional Scottish patterns, giving your dog a distinguished and heritage-filled look.
 
-![frameless](/images/tantan_cape_display.png "frameless")
 ## Obtaining
 ### Crafting
 <recipe />
@@ -36,7 +35,7 @@ recipes:
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
-- It was added in the original Doggy Talents.
-- **Tartan** (Scottish Gaelic: breacan [ˈpɾʲɛxkən]) is a patterned cloth consisting of crisscrossed, horizontal and vertical bands in multiple colors, forming simple or complex rectangular patterns. The pattern is made famous by the Scottish.<ref>https://en.wikipedia.org/wiki/Tartan#/media/File:Three_tartans.jpg</ref>
+- Added in the original **Doggy Talents**.
+- **Tartan** is a patterned cloth iconic to Scottish culture, famously used for kilts and clan identity <ref>https://en.wikipedia.org/wiki/Tartan</ref>.
 
 <references />

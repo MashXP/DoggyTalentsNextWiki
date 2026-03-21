@@ -18,5 +18,5 @@ title: Mob Retriever
 
 ## Trivia
 
-- It was added in DTN 1.17.0.
+- Introduced in DTN 1.17.0.
 - You can increase the size of your dog using a [Magnifying Bone](Magnifying_Bone) in order to retrieve bigger mobs!

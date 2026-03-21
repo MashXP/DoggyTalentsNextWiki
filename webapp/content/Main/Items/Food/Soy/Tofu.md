@@ -23,7 +23,7 @@ recipes:
 ---
 <infobox />
 
-**Tofu** is a food item that gives you 4 hunger points.
+**Tofu** is a versatile soy-based food item that restores 4 hunger points. It is a key ingredient for more advanced dishes like **[Aburaage](Aburaage)** and **[Miso Soup](Miso_Soup)**.
 
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
@@ -31,9 +31,13 @@ Your dog can also eat this, so don't be shy to share it with your furry pal!
 <recipe />
 
 ## Usage
-- **<code>Right click</code>** to use the item.
-## Used in
-- [Aburaage](Aburaage)
-- [Miso Soup](Miso_Soup)
+- **<code>Right click</code>** to consume.
+
+## Used In
+- **[Aburaage](Aburaage)**
+- **[Miso Soup](Miso_Soup)**
+
 ## Trivia
-- It was added in DTN 1.18.0.
+- Introduced in **DTN 1.18.0**.
+
+<references />

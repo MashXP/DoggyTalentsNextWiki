@@ -10,7 +10,7 @@ infobox:
 ---
 <infobox />
 
-**Uncooked Rice** is a material used to craft Rice related items.
+**Uncooked Rice** is the polished form of rice grains, ready for the final stages of food preparation. By dehusking rice grains on a grindstone, you unlock this essential ingredient for crafting **[Rice Bowls](Rice_Bowl)** and other traditional delicacies.
 
 ## Obtaining
 ### Grinding
@@ -23,4 +23,4 @@ infobox:
 - [Koji](Koji)
 
 ## Trivia
-- It was added in DTN 1.18.0.
+- Introduced in **DTN 1.18.0**.

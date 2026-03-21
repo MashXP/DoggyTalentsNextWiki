@@ -23,21 +23,24 @@ recipes:
 ---
 <infobox />
 
-**Energizer Stick** is an item that gives your dog:
+**Energizer Stick** is a fast-acting utility item designed to give your dog a temporary surge of energy and resilience. Whether you're navigating a dangerous environment or need a quick burst of speed for a strategic retreat, this sugar-infused stick provides a powerful "sugar rush" that can save your canine companion from sticky situations.
 
-- **Glowing** for 5 seconds.
-- **Speed VII** for 10 seconds.
-- **Regeneration III** for 5 seconds.
+When consumed, the dog receives:
+- **Glowing** (5 seconds)
+- **Speed VII** (10 seconds)
+- **Regeneration III** (5 seconds)
+
 ## Obtaining
 ### Crafting
 <recipe />
 
 ## Usage
 - **<code>Right click</code>** on your dog to use the item.
-**Note:**
-- While giving it to your good boy, make sure he's sitting, because the &quot;sugar rush&quot; might put him in danger.
-- **Tip:** While in sticky situations, if you have yourself a [Wolf Mount](Wolf_Mount) nearby, use an **Energizer Stick** to quickly escape!
+- **Tip**: Make sure your dog is sitting before applying the stick, as the sudden burst of speed might cause them to wander into danger!
+- **Escape Strategy**: If you have a **[Wolf Mount](Wolf_Mount)**, use an Energizer Stick to quickly outrun enemies or cross vast distances in seconds.
 
 ## Trivia
+- Originally introduced as the **Chew Stick**.
+- The item is a core component for crafting the **[Treat Bag](Treat_Bag)**.
 
-- It was originally called [Chew Stick](Chew_Stick).
+<references />

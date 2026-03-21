@@ -14,5 +14,5 @@ title: Doggy Armor
 
 ## Trivia
 
-- It was added in DTN 1.4.1.
+- Introduced in DTN 1.4.1.
 - DTN 1.18.5 supports third-party armors, so your dogs can basically wear any armor from any mods (however, there won't any boost effects).

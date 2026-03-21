@@ -11,7 +11,7 @@ infobox:
 ---
 <infobox />
 
-**MrBlueYeti's Goose** is an accessory that adds a feathered companion to your dog's back. This iconic goose is a tribute to **MrBlueYeti** - the Owner of BetterDogs Resource Pack
+**MrBlueYeti's Goose** is a hilarious and iconic accessory that adds a feathered companion to your dog's back. As a tribute to the creator of the **BetterDogs** Resource Pack, this goose ensures your dog is never lonely while roaming the world (and maybe scares off some intruders with a well-timed "HONK").
 
 ## Obtaining
 This item is not currently craftable in survival mode. (yet...)
@@ -21,7 +21,7 @@ This item is not currently craftable in survival mode. (yet...)
 
 ## Trivia
 - Introduced in **DTN 1.18.19**.
-- The model was created by **MrBlueYeti**, who is also the owner of the **BetterDogs** Resource Pack <ref>https://www.curseforge.com/minecraft/texture-packs/better-dogs</ref>.
-- Pair it with the **[MIDI Keyboard](Midi_Keyboard)** for the full musical experience!
+- The model was created by **MrBlueYeti**, the owner of the **BetterDogs** Resource Pack, who has been a frequent collaborator on the mod's visual assets <ref>https://www.curseforge.com/minecraft/texture-packs/better-dogs</ref>.
+- Pair it with the **[MIDI Keyboard](Midi_Keyboard)** for the ultimate "Geese with talent" aesthetic!
 
 <references />

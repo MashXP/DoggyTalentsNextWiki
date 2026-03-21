@@ -26,17 +26,20 @@ recipes:
 ---
 <infobox />
 
-**Gender Bone** is an item that changes your dogs biological mechanics aka Genders.
+**Gender Bone** is a specialized utility item used to toggle your dog's biological gender.
 
 It can be used **10 times** and can be enchanted with **Unbreaking and Mending**.
+
 ## Obtaining
 ### Crafting
 <recipe />
 
 ## Usage
-- **<code>Right click</code>** on your dog to use the item.
+- **<code>Right click</code>** on your dog to instantly toggle their gender between male and female.
+
 ## Trivia
+- Introduced in **DTN 1.16.3**.
+- Below is a comparison of the item's modern look versus its original design:
+![Old texture of Gender Bone](/images/gender_bone_old.png "Legacy Gender Bone Sprite")
 
-![Old texture of Gender Bone](/images/gender_bone_old.png "Old texture of Gender Bone")
-
-- Introduced in DTN 1.16.3.
+<references />

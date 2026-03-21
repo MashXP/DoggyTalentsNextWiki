@@ -11,15 +11,15 @@ infobox:
 ---
 <infobox />
 
-**Angel Halo** is an accessory that will make your dog look like an angel. It is the ultimate sign of a "Very Good Boy." 
-
-Pair it with [Angel Wings](Angel_Wings) for the full celestial experience.
+**Angel Halo** is a divine accessory for those "Very Good Boys." Pair it with the **[Angel Wings](Angel_Wings)** for the full celestial experience.
 
 ## Obtaining
-This item is not currently craftable in survival mode. (yet...)
+This item is not currently craftable in survival mode.
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
 - Introduced in **DTN 1.18.19**.
+
+<references />

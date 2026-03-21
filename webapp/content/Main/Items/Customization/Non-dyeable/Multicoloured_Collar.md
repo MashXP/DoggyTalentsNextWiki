@@ -25,9 +25,9 @@ recipes:
 ---
 <infobox />
 
-**Multicolored Collar** is a non-dyable equipable item that *fabulizes* your dog's collar.
+**Multicoloured Collar** is a vibrant and eye-catching accessory that brings a rainbow of colors to your dog's neck. It's the perfect way to *fabulize* any pup's appearance and ensure they stand out as the most colorful dog in the world.
 
-![frameless](/images/multicoloured_collar_display.png "frameless")
+![Multicoloured Collar Display](/images/multicoloured_collar_display.png "Multicoloured Collar Display")
 
 ## Obtaining
 ### Crafting
@@ -35,5 +35,8 @@ recipes:
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
 ## Trivia
-It was added in the original Doggy Talents.
+- Added in the original **Doggy Talents**.
+
+<references />

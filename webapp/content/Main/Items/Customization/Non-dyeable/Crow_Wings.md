@@ -15,21 +15,12 @@ recipes:
     - "BEB"
     - "FBF"
     key:
-      F: minecraft:feather
-      B: minecraft:black_dye
-      E: minecraft:phantom_membrane
-    output:
-      item: doggytalents:crow_wings
-      count: 1
-  crow_wings_alt:
-    type: shaped
-    pattern:
-    - "FBF"
-    - "BEB"
-    - "FBF"
-    key:
-      B: minecraft:feather
-      F: minecraft:black_dye
+      F: 
+      - minecraft:feather
+      - minecraft:black_dye
+      B: 
+      - minecraft:black_dye
+      - minecraft:feather
       E: minecraft:phantom_membrane
     output:
       item: doggytalents:crow_wings
@@ -47,5 +38,8 @@ recipes:
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
-- Introduced in **DTN 1.17.2** as part of the **Halloween Update** on October 30th, 2023.
-- Unlike other wings, these are purely cosmetic and do not grant flight on their own (unless combined with specific talents).
+- Introduced in **DTN 1.17.2**.
+- Unlike some other wing types, these are purely cosmetic and do not grant the ability to fly or glide without additional **[airborne talents](Flying_Furball)**.
+- The recipe is flexible, allowing you to swap the positions of the feathers and black dye.
+
+<references />

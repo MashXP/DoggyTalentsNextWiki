@@ -23,18 +23,22 @@ recipes:
 ---
 <infobox />
 
-**Miso Soup** is a **very delicious** food item that fills up **5 hunger points** and gives you:
+**Miso Soup** is a highly nutritious dish that restores 5 hunger points and grants multiple life-saving status effects.
 
-- **Regeneration III** for **1 minute.**
-- **Haste II** for **1 minute.**
-- **Absorption II** for **1 minute.**
-- **Instant Heal**
-Your dog can also eat this, so don't be shy to share it with your furry pal!
+## Effects
+- **Instant Health I**
+- **Regeneration III** (60s)
+- **Haste II** (60s)
+- **Absorption II** (60s)
+
 ## Obtaining
 ### Crafting
 <recipe />
 
 ## Usage
-- **<code>Right click</code>** to use the item.
+- **<code>Right click</code>** to consume.
+
 ## Trivia
-- It was added in DTN 1.18.0.
+- Introduced in **DTN 1.18.0**.
+
+<references />

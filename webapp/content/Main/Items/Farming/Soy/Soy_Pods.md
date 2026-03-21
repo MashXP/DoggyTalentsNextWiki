@@ -11,23 +11,17 @@ infobox:
 ---
 <infobox />
 
-**Soy Pods** is an item harvested from [Soy Crops](Soy Beans).
+**Soy Pods** are harvested from **[Soy Beans](Soy_Beans)** (crops) and serve as a primary ingredient for soy-based foods.
 
 ## Obtaining
-
 ### Farming
-
 - You can harvest 1-3 Soy Pods per fully grown Soy Crop.
 
 ## Used In
-
-- [Dried Soy Pods](Dried_Soy_Pods)
-- [Edamame](Edamame)
-
-## Usage
-
-- **<code>Right click</code>** to use the item.
+- **[Dried Soy Pods](Dried_Soy_Pods)**
+- **[Edamame](Edamame)**
 
 ## Trivia
+- Introduced in **DTN 1.18.0**.
 
-- It was added in DTN 1.18.0
+<references />

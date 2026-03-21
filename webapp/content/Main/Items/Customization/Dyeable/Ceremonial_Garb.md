@@ -21,18 +21,10 @@ recipes:
     output:
       item: doggytalents:ceremonial_garb
       count: 1
-  gi_orb:
-    type: shapeless
-    ingredients:
-    - doggytalents:empty_locator_orb
-    - minecraft:blue_dye
-    output:
-      item: doggytalents:gi_orb
-      count: 1
 ---
 <infobox />
 
-**Ceremonial Garb** is a dyable equipable accessory that makes your dog look powerful.
+**Ceremonial Garb** is a dyeable accessory that makes your dog look like a powerful divine guardian.
 
 ## Obtaining
 ### Crafting
@@ -42,4 +34,8 @@ recipes:
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
-- Introduced in DTN 1.18.0
+- Introduced in **DTN 1.18.0**.
+- This item is a direct reference to **Tei**, the **Canine Warrior of Brotherhood** from the popular game **Okami** <ref>https://okami.fandom.com/wiki/Tei</ref>.
+- The garb reflects traditional Japanese **Shinto** ritual attire, specifically incorporating elements like the **Shimenawa** (sacred rope) and **Shide** (zigzag paper streamers) typically worn by divine protectors and used to mark sacred spaces.
+
+<references />

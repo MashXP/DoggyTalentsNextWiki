@@ -34,7 +34,7 @@ title: Pack Puppy
 
 ![Arcanine - Kaiken - Kishu Inu](/images/pack_puppy_collar_color_demo.png "Arcanine - Kaiken - Kishu Inu")
 
-- It was added in the original DT.
+- Introduced in the original DT.
 - This is useful for long distance travelling with a pack of doggos, as this talent serves as a mobile [Food Bowl](Food_Bowl).
 - Dogs will not eat nor offer other dogs raw foods from the **Pack Puppy** inventory, preventing them from eating the food that the player s<nowiki/>tores inside **Pack Puppy** inventory for later cooking purposes.
 - This talent is necessary for lower level (less than 5) [Doggy Torch](Doggy_Torch).

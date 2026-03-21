@@ -24,7 +24,7 @@ recipes:
 ---
 <infobox />
 
-**Christmas Hat** is a festive accessory that brings the holiday spirit to your dog. Perfect for seasonal celebrations and keeping those ears warm during cold winter adventures.
+The **Christmas Hat** is a festive non-dyeable accessory that brings the holiday spirit to your dog.
 
 ## Obtaining
 ### Crafting
@@ -35,3 +35,5 @@ recipes:
 
 ## Trivia
 - Introduced in **DTN 1.18.39**.
+
+<references />

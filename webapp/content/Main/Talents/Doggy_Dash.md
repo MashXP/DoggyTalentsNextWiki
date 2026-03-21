@@ -16,6 +16,6 @@ title: Doggy Dash
 
 ## Trivia
 
-- It was added in the original DT.
+- Introduced in the original DT.
 - This talent is useful for combat (along with [Black Pelt](Black_Pelt) + [Doggy Tools](Doggy_Tools)), and [Wolf Mount](Wolf_Mount).
 - Beware when controlling a speedy doggo, you might get yourself in sticky situations!

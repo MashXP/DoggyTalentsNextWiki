@@ -10,11 +10,11 @@ infobox:
 ---
 <infobox />
 
-**Samoyed Plushie** is a is a dyeable, placeable entity for you and your dog to floof on (ft. BetterDogs).
+**Samoyed Plushie** is a dyeable, placeable decoration for you and your dog to enjoy (ft. BetterDogs).
 
 ## Obtaining
 ### Crafting
-This item is not currently craftable in survival mode. (yet...)
+This item is not currently craftable in survival mode.
 
 ## Usage
 - **<code>Right click</code>** to place the item down.
@@ -22,6 +22,8 @@ This item is not currently craftable in survival mode. (yet...)
 - **<code>Right Click</code>** a dog with this item to copy the dog's variant and collar into the plushie.
 
 ## Trivia
-- Introduced in DTN 1.18.47.
-- One of the DTN Okami is really obsessed with floofy Samoyeds.
-- The model was made by MrBlueYeti - the Owner of BetterDogs Resource Pack.
+- Introduced in **DTN 1.18.47**.
+- The model was made by **MrBlueYeti** - the owner of the **BetterDogs** Resource Pack.
+- This item was added because one of the developers is especially fond of floofy Samoyeds!
+
+<references />

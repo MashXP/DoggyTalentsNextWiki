@@ -20,17 +20,19 @@ recipes:
 ---
 <infobox />
 
-**Death Hood** is a non-dyable equipable that makes your dog look scary.
+**Death Hood** is a non-dyeable accessory that gives your dog a mysterious and fearsome appearance. Inspired by legendary portrayals of the afterlife's herald, this hood is the ultimate choice for the darker side of your dog's personality.
 
-![frameless](/images/death_hood_display.png "frameless")
+![Death Hood Display](/images/death_hood_display.png "Death Hood Display")
+
 ## Obtaining
 ### Crafting
 <recipe />
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
 ## Trivia
-- Introduced in DTN 1.11.0.
-- This item + skin is a direct reference to **Death**, also known as the Wolf - the overarching antagonist of DreamWorks' 43rd full-length animated film **Puss in Boots: The Last Wish**.<ref>https://www.imdb.com/title/tt3915174/mediaviewer/rm77544705?ref_=ttmi_mi_all_sf_87</ref>
+- Introduced in **DTN 1.11.0**.
+- This item, especially when paired with a matching skin, is a direct reference to **Death** (also known as the **Wolf**), the antagonist from the film **Puss in Boots: The Last Wish** <ref>https://www.imdb.com/title/tt3915174/</ref>.
 
 <references />

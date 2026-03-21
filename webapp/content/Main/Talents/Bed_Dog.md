@@ -20,4 +20,4 @@ In order for the talent to work:
 - The dog's size is not too big nor too small. 
 ## Trivia
 
-- It was added in DTN 1.18.40.
+- Introduced in DTN 1.18.40.

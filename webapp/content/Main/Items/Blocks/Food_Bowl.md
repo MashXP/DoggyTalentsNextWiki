@@ -23,10 +23,9 @@ recipes:
 ---
 <infobox />
 
-<br>
 **Dog Food Bowl** is a utility block that automatically feeds the dog whenever its nourishment point drops to a certain range.
 
-It can also be used as an anchor for [Wandering Mode](Basic Core Stats#wandering-w).
+It can also be used as an anchor for [Wandering Mode](Basic_Core_Stats#Modes).
 ## Obtaining
 ### Crafting
 <recipe />
@@ -34,6 +33,7 @@ It can also be used as an anchor for [Wandering Mode](Basic Core Stats#wandering
 ## Usage
 **<code>Right click</code>** the bowl to access the GUI.
 ## Trivia
+- Introduced in the original **Doggy Talents**.
 - Dog Food Bowl description on the old wiki:
 
 > The dog food bowl allows your dog to regenerate health! Thankfully, the Doggy Talents mod makes this an easy process. Trained dogs will automatically feed when you "set" the dog's food bowl to the dog by bringing it within one block of the bowl. You can then put food in the bowl. When your dog gets hungry it will eat it. <ref>https://doggytalents.fandom.com/wiki/List_of_Items_and_Equipment</ref>

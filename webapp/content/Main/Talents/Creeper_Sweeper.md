@@ -18,6 +18,6 @@ You can set your **Creeper Sweeper** Dog to Only Target Creepers in the Talents 
 
 ## Trivia
 
-- It was added in the original DT.
+- Introduced in the original DT.
 - Back then, max level **Creeper Sweeper** only reset the Creeper's detonation time. 
 - The talent harmonizes well with [Berserker Mode](Basic Core Stats).

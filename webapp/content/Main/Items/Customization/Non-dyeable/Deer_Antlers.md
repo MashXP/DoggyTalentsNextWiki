@@ -24,7 +24,7 @@ recipes:
 ---
 <infobox />
 
-**Deer Antlers** is a non-dyeable accessory to make your dog look like they belong among the ancient trees (or maybe just looking like a very silly deer). <s>Shikanokonokonoko koshitantan!</s>
+**Deer Antlers** are a charming non-dyeable accessory that allows your dog to embrace their inner forest spirit. Whether they're blending in with the ancient trees or just being a "silly deer friend" <s>Shikanokonokonoko koshitantan!</s>
 
 ## Obtaining
 ### Crafting
@@ -35,7 +35,7 @@ recipes:
 
 ## Trivia
 - Introduced in **DTN 1.18.30**.
-- The item's description is a direct reference to the anime **Shikanokonokonoko Koshitantan** <ref>https://myanimelist.net/anime/58483/Shikanoko_Nokonoko_Koshitantan</ref>.
-- Coincidentally, dogs wearing this item bear a striking resemblance to the majestic wolf from the game **Neva** <ref>https://neva.game/</ref>.
+- The item's description is a direct reference to the anime **Shikanoko Nokonoko Koshitantan** <ref>https://myanimelist.net/anime/58483/Shikanoko_Nokonoko_Koshitantan</ref>.
+- Coincidentally, dogs wearing these antlers bear a striking resemblance to the majestic wolf-like companion from the game **Neva** <ref>https://neva.game/</ref>.
 
 <references />

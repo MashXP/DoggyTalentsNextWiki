@@ -23,7 +23,7 @@ recipes:
 ---
 <infobox />
 
-**Birthday Hat** is a double-dyeable equipable item that customizes your dog to look ready for a party.
+**Birthday Hat** is a special double-dyeable accessory that ensures your dog is the center of attention at any celebration. With the ability to customize both primary and secondary colors, it's the ultimate party outfit for your favorite canine.
 
 ![Double-Dyeable!](/images/doggy_contacts_display2.png "Double-Dyeable!")
 
@@ -35,6 +35,9 @@ recipes:
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
 ## Trivia
-- Introduced to DTN 1.17.2.
-- It was added to celebrate MrBlueYeti - Owner of BetterDogs and DTN's Birthday.
+- Introduced in **DTN 1.17.2**.
+- It was added to celebrate the birthday of **MrBlueYeti**, the owner of **BetterDogs** and a prominent collaborator for Doggy Talents Next.
+
+<references />

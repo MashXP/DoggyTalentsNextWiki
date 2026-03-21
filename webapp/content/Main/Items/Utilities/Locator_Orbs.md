@@ -35,9 +35,11 @@ recipes:
 ---
 <infobox />
 
-List of Locator Orbs
+**Locator Orbs** are stylish and functional accessories that infuse your dog's presence with mystical energy. Inspired by the legendary **Satomi Power Orbs**, these items synchronize with your **[Canine Tracker](Canine_Tracker)** to provide color-coded feedback during exploration.
 
-| No. | Orb | Name | ID | Description | Unique Crafting Material |
+## The Twelve Orbs
+
+| No. | Orb | Name | ID | Description | Unique Material |
 | --- | --- | --- | --- | --- | --- |
 | 1 | ![](/images/locator_orb_chi.png) | Chi | doggytalents:locator_orb_chi | The Orb of Wisdom and Knowledge. | <item id="minecraft:magenta_dye" /> |
 | 2 | ![](/images/locator_orb_chu.png) | Chu | doggytalents:locator_orb_chu | The Orb of Loyalty and Faithfulness. | <item id="minecraft:light_blue_dye" /> |
@@ -52,20 +54,20 @@ List of Locator Orbs
 | 11 | ![](/images/locator_orb_sui.png) | Sui | doggytalents:locator_orb_sui | The Orb of Water. | |
 | 12 | ![](/images/locator_orb_moku.png) | Moku | doggytalents:locator_orb_moku | The Orb of Vegetation. | |
 
+## Obtaining
+### Crafting
 <recipe />
 
-<span id="usage"></span>
-
 ## Usage
-- **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+- **<code>Right click</code>** on your dog to quickly equip the orb or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+- When tracking a dog equipped with an orb, the **[Canine Tracker](Canine_Tracker)** will display the tracking text in the orb's specific color.
 
 ![Orb Frenzy!](/images/rgb_doggo.gif "Orb Frenzy!")
 
 ## Trivia
-- The (1-8) orbs were added in DTN 1.16.0.
-- The Double Dyeable Orb was introduced in DTN 1.18.12.
-- The (10-12) orbs were introduced in DTN 1.18.33.
-- When using [Canine Tracker](Canine_Tracker) the color of the text will change according to the Orbs color.
-- The items are direct references to **The Satomi Power Orbs** from the game **OKAMI** <ref><p>https://okami.fandom.com/wiki/Canine_Warriors</ref>
+- The primary Eight Orbs (1-8) were added in **DTN 1.16.0**.
+- The **Double Dyeable Orb** was introduced in **DTN 1.18.12**.
+- The Elemental Orbs (**Ka**, **Sui**, **Moku**) were introduced in **DTN 1.18.33**.
+- These items are direct references to **The Satomi Power Orbs** from the game **Okami**, which represent the eight Canine Warriors of Princess Fuse <ref>https://okami.fandom.com/wiki/Canine_Warriors</ref>.
 
 <references />

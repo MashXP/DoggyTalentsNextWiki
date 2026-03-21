@@ -25,9 +25,9 @@ recipes:
 ---
 <infobox />
 
-**Pianist Suit** is a non-dyable equipable item that makes your dog look like a professional musician.<br>
+**Pianist Suit** is a non-dyeable accessory that transforms your dog into a professional musician. Whether they're performing a concerto or just howling along to a music disc, this suit ensures they look the part of a virtuoso canine.
 
-![RachRufff](/images/rachruff.png)
+![RachRuff](/images/rachruff.png)
 
 ## Obtaining
 ### Crafting
@@ -35,6 +35,7 @@ recipes:
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
 ## Trivia
 
 - Introduced in DTN 1.11.0.
@@ -42,12 +43,10 @@ recipes:
 
 <s>both of which DashieDev really loves</s> 
 
-<img src="https://mf.b37mrtl.ru/rbthmedia/images/2021.10/article/6172c92585600a07e7563441.jpg" width=75% height=75%>
-
-*- Sergei Rachmaninoff -* <ref>https://www.rbth.com/arts/334338-sergei-rachmaninoff-piano-masterpieces</ref>
-
-<img src="https://pbs.twimg.com/media/DA3NgQaXcAAtkTi.jpg" width=75% height=75%>
-
-*- Ash's Rockruff -* <ref>https://www.imdb.com/title/tt6824788/</ref>
+<img src="https://mf.b37mrtl.ru/rbthmedia/images/2021.10/article/6172c92585600a07e7563441.jpg" width=300px>
+- Sergei Rachmaninoff <ref>https://www.rbth.com/arts/334338-sergei-rachmaninoff-piano-masterpieces</ref>
+  
+<img src="https://pbs.twimg.com/media/DA3NgQaXcAAtkTi.jpg" width=300px>
+- Ash's Rockruff <ref>https://www.imdb.com/title/tt6824788/</ref>
 
 <references />

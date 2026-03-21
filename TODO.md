@@ -38,3 +38,4 @@ IDEA:
 - Click on folders without links will navigate and highlight that section. ./Items page
 - Optimize webload, low quality mode (removing animations)
 - Add icons to sidebar
+- Configure Galery tag to be yaml based

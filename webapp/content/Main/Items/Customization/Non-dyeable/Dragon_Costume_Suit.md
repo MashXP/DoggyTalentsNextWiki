@@ -20,7 +20,7 @@ recipes:
 ---
 <infobox />
 
-The **Dragon Costume Suit** is a unique piece of apparel that covers your dog's torso, completing the draconic transformation.
+The **Dragon Costume Suit** is a unique piece of apparel that covers your dog's torso, completing the draconic transformation. 
 
 ## Obtaining
 ### Crafting
@@ -30,5 +30,7 @@ The **Dragon Costume Suit** is a unique piece of apparel that covers your dog's 
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
-- This item is part of the **Dragon Costume** set, which includes the [Head](Dragon_Costume_Head) and [Wings](Dragon_Costume_Wings).
 - Introduced in **DTN 1.18.33**.
+- Part of the **Dragon Costume** set, which also includes the **[Head](Dragon_Costume_Head)** and **[Wings](Dragon_Costume_Wings)**.
+
+<references />

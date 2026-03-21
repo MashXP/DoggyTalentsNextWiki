@@ -33,5 +33,5 @@ Make sure you:
 
 ## Trivia
 
-- It was added in DTN 1.12.0.
+- Introduced in DTN 1.12.0.
 - There's an instance where **Doggy Tools** desync when [Immortal Dogs](Immortal_Dogs) is disabled, it's recommended to keep [Immortal Dogs](Immortal_Dogs) on.

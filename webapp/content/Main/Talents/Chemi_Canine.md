@@ -17,4 +17,4 @@ title: Chemi Canine
 
 ## Trivia
 
-- It was added in DTN 1.17.2.
+- Introduced in DTN 1.17.2.

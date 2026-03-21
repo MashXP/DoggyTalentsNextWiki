@@ -34,4 +34,4 @@ recipes:
 - **<code>Right click</code>** on both of your dogs to use the item.
 
 ## Trivia
-- It was added in the original Doggy Talents.
+- Introduced in the original Doggy Talents.

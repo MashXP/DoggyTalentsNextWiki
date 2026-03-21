@@ -22,19 +22,20 @@ recipes:
 ---
 <infobox />
 
-**Band-Aid** is an item that speeds up your dog’s [Injured Mode](Basic Core Stats#Modes).
+**Band-Aid** is a primary utility item used to accelerate your dog's recovery from **[Injured Mode](Basic_Core_Stats#Modes)**. By providing immediate first aid to an incapacitated pup, you can significantly reduce their downtime and get them back into the adventure more quickly.
 
-The number of band-aids needed for an injured dog to stand up is 8.
+It takes exactly **8 Band-Aids** to fully "heal" an injured dog and allow them to stand back up immediately.
 
 ## Obtaining
 ### Crafting
 <recipe />
 
 ## Usage
-- **<code>Right click</code>** on your injured dog to use the item.
+- **<code>Right click</code>** on an injured dog to apply a Band-Aid.
+- Visual indicators will show the dog's progress toward recovery as more Band-Aids are applied.
 
 ## Trivia
-- It was added to DTN 1.13.0.
+- Introduced in to **DTN 1.13.0**.
 
 <gallery>
 File:Band aid render light.png|0-3 Band-Aids

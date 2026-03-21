@@ -21,7 +21,7 @@ title: Sniffer Dog
 
 ## Trivia
 
-- It was added in DTN 1.18.5.
+- Introduced in DTN 1.18.5.
 - Dialogues corresponds to the distance:
   - **Close:**
     - *Hey, come check this out! I think I found something! It is VERY CLOSE!*

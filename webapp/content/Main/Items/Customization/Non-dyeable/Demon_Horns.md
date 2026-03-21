@@ -25,7 +25,7 @@ recipes:
 ---
 <infobox />
 
-**Demon Horns** is a non-dyeable equipable item that gives your dog a devilish look.
+**Demon Horns** are a devilish accessory for the "bad boy" of the pack. They give your dog a fierce and intimidating look, perfect for those who want to show off their mischievous side and "frighten" off unwanted visitors.
 
 ![Who's a Bad Boy? You are!](/images/demon_horns_display.png)
 
@@ -33,9 +33,11 @@ recipes:
 ### Crafting
 <recipe />
 
-*Requires Leather Helmet to unlock the recipe.*
-
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
 ## Trivia
-- It was ntroduced in DTN 1.17.2.
+- Introduced in **DTN 1.17.2**.
+- The item's description quip, "**Who's a Bad Boy? You are!**", is a playful inversion of the common "Good Boy" praise.
+
+<references />

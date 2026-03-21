@@ -23,4 +23,4 @@ infobox:
 
 ## Trivia
 - A placeholder version (Musescore recording) was introduced in **DTN 1.16.0**.
-- The current high-quality recording was performed by **DashieDev** on his Kawai upright piano and post-processed by **MashXP**. It was added in **DTN 1.17.3**.
+- The current high-quality recording was performed by **DashieDev** on his Kawai upright piano and post-processed by **MashXP**. Introduced in **DTN 1.17.3**.

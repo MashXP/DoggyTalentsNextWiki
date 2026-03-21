@@ -40,5 +40,5 @@ recipes:
 ## Used in
 - [Soy Milk](Soy_Milk)
 ## Trivia
-- It was added in DTN 1.18.0
+- Introduced in DTN 1.18.0
 - The **soybean**, **soy bean**, or **soya bean** (***Glycine max***) is a species of legume native to East Asia, widely grown for its edible bean, which has numerous uses.

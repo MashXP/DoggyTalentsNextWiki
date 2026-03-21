@@ -24,11 +24,11 @@ recipes:
 ---
 <infobox />
 
-**Shrinking Mallet** is an item that decreases your dog's size.
+**Shrinking Mallet** is a curious golden tool used to reduce the size of your dogs, even back to their adorable puppy-like forms. It offers a unique way to customize your pack’s physique, making even the fiercest wolf fit for a lap.
 
 ![frameless](/images/shrinking_mallet_display.png "frameless")
 
-It can be used **10 times** and can be enchanted with Unbreaking and Mending.<br>
+It can be used **10 times** and can be enchanted with Unbreaking and Mending.
 
 If used 4 times on a normal-sized doggo, it'll turn into a puppy and won't grow up until you use the [Magnifying Bone](Magnifying_Bone).
 ## Obtaining
@@ -38,6 +38,6 @@ If used 4 times on a normal-sized doggo, it'll turn into a puppy and won't grow 
 ## Usage
 - **<code>Right click</code>** on your dog to use the item.
 ## Trivia
-- Introduced in DTN 1.15.0.
+- Introduced in **DTN 1.15.0**.
 - The item is a reference to the **Lucky Mallet** - a special treasure from the game **Okami**.<ref>https://www.okaminow.org/magnifying-glass-over-issun-okami-fanart-gallery-8/</ref>
 <references />

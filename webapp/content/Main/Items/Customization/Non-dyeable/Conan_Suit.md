@@ -26,9 +26,9 @@ recipes:
 ---
 <infobox />
 
-**Conan Suit** is a non-dyable equipable item that makes your dog cosplay a very famous anime/manga character.
+**Conan Suit** is a non-dyeable accessory that allows your dog to cosplay a legendary detective. Complete with a bowtie and cape, it's the perfect outfit for solving mysteries and sniffing out clues.
 
-![frameless](/images/conan_suit_display.png "frameless")
+![Conan Suit Display](/images/conan_suit_display.png "Conan Suit Display")
 
 ## Obtaining
 ### Crafting
@@ -36,8 +36,9 @@ recipes:
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
 ## Trivia
-- Introduced in DTN 1.12.0.
-- A direct reference to **Shinichi Kudo/Edogawa Conan** from the manga series **Case Closed**, also known as **Detective Conan**.<ref>https://www.imdb.com/title/tt0131179/</ref>
+- Introduced in **DTN 1.12.0**.
+- This suit is a direct reference to **Shinichi Kudo / Edogawa Conan** from the manga and anime series **Detective Conan** (also known as **Case Closed**) <ref>https://www.imdb.com/title/tt0131179/</ref>.
 
 <references />

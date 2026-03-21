@@ -27,6 +27,4 @@ The normal leveling system is the default leveling path, in which the dog just g
 | --- |
 | ![frameless](/images/dog_menu_talents.jpg "frameless") |
 
-<br>
-
 *More information can be obtained about each individual talent on the [Talents](Talents) page.*

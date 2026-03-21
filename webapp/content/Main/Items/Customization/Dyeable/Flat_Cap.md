@@ -22,7 +22,7 @@ recipes:
 ---
 <infobox />
 
-**Flat Cap** is a dyable equipable accessory that makes your dog look stylish.
+**Flat Cap** is a dyeable accessory that gives your dog a sophisticated and classic look. Ideal for long walks in the countryside or just adding a touch of vintage style to their wardrobe, this cap is a timeless choice.
 
 ## Obtaining
 ### Crafting
@@ -32,4 +32,7 @@ recipes:
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
-- Introduced in DTN 1.18.5.
+- Introduced in **DTN 1.18.5**.
+- Pair it with the **[Leather Jacket](Leather_Jacket)** for a truly distinguished look.
+
+<references />

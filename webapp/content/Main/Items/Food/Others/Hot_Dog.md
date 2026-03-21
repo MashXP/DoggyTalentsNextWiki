@@ -27,7 +27,7 @@ recipes:
 ---
 <infobox />
 
-**Hot Dog** is a non-dyeable equipable item that stylizes your dog.
+**Hot Dog** is a whimsical, non-dyeable accessory that lets your dog sport the look of a classic ballpark snack. While it’s primarily an equipable costume, hungry players can actually consume it for a substantial boost, making it a literal "hot dog" in every sense of the word.
 
 The player can also eat the item lol. It fills up **6 hunger points** and gives you:
 - **Resistance II** for **60 seconds.**
@@ -44,4 +44,4 @@ The player can also eat the item lol. It fills up **6 hunger points** and gives 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 ## Trivia
-- Introduced to DTN 1.17.0.
+- Introduced to **DTN 1.17.0**.

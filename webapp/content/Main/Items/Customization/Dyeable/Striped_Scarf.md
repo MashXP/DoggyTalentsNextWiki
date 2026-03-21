@@ -21,7 +21,7 @@ recipes:
 ---
 <infobox />
 
-**Striped Scarf** is a dyable equipable accessory that makes your dog look lovely.
+**Striped Scarf** is a dyeable accessory that keeps your dog warm and stylish, even in the coldest biomes. 
 
 ## Obtaining
 ### Crafting
@@ -31,4 +31,7 @@ recipes:
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
-- Introduced in DTN 1.18.30.
+- Introduced in **DTN 1.18.30**.
+- Inspired by the patterned scarves worn by the **Oina merchants** in the **Kamui** region from **Okami** <ref>https://okami.fandom.com/wiki/Kamui</ref>.
+
+<references />

@@ -31,18 +31,17 @@ recipes:
 ---
 <infobox />
 
-**Aburaage** is a delicious food item that gives you 5 hunger points.
-
-Your dog can also eat this, so don't be shy to share it with your furry pal!
+**Aburaage** is a savory, deep-fried tofu slice that offers a delightful 5 hunger points of nourishment. Its light and airy texture makes it a beloved ingredient in more complex recipes, such as the upcoming **Inarizushi**, adding a unique flavor and crispiness to your dog's diet.
 
 ## Obtaining
 ### Smelting
-
 <recipe id="aburaage_smelting" />
 
 ## Usage
-- **<code>Right click</code>** to use the item.
-## Used In
-- Inarizushi (WIP)
+- **<code>Right click</code>** to consume.
+- Used in the upcoming **Inarizushi** (WIP).
+
 ## Trivia
-- It was added in DTN 1.18.0.
+- Introduced in **DTN 1.18.0**.
+
+<references />

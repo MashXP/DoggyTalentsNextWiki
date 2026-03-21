@@ -21,16 +21,19 @@ recipes:
 ---
 <infobox />
 
-**Sausage** is a food item that gives you 4 hunger points.
+**Sausage** is a hearty and delicious food item that provides a quick boost of energy for both you and your dog. While it's a staple for any trainer's inventory, it's also a key ingredient for crafting more complex meals like the savory **[Hot Dog](Hot_Dog)**.
 
-Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
 ### Crafting
 <recipe />
 
 ## Usage
-- **<code>Right click</code>** to use the item.
-## Used in
-- [Hot Dog](Hot_Dog)
+- **<code>Right click</code>** to consume the item, restoring 4 hunger points. Your dog can also enjoy this treat, so feel free to share!
+
+## Used In
+- **[Hot Dog](Hot_Dog)**
+
 ## Trivia
-- It was added in DTN 1.17.2.
+- Introduced in **DTN 1.17.2**.
+
+<references />

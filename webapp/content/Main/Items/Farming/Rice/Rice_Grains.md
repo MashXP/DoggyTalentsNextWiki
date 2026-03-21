@@ -19,13 +19,7 @@ recipes:
 ---
 <infobox />
 
-**Rice Grains** is an item drops from breaking Grass.
-
-<recipe />
-
-<span></span>
-
-It can also be dehusk and make [Uncooked Rice](Uncooked_Rice).
+**Rice Grains** are the heart of the rice crop, obtained by breaking grass or harvesting paddy rice. These versatile seeds can be planted to grow more rice, or further refined into **[Uncooked Rice](Uncooked_Rice)** for culinary use.
 
 ## Obtaining
 ### Breaking Grass
@@ -38,4 +32,4 @@ It can also be dehusk and make [Uncooked Rice](Uncooked_Rice).
 - To dehusk the rice, **<code>Sneak + Right click</code>** **Rice Grains** on a [Grindstone](https://minecraft.wiki/w/Grindstone). After dehusking you should have [Uncooked Rice](Uncooked_Rice).
 
 ## Trivia
-- It was added in DTN 1.18.0.
+- Introduced in **DTN 1.18.0**.

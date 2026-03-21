@@ -11,7 +11,7 @@ infobox:
 ---
 <infobox />
 
-**Paddy Rice** is a rice-related crafting material harvested from [Rice Crops](Rice_Grains).
+**Paddy Rice** represents the raw, unrefined stalks of rice harvested directly from your crops. These golden bundles are the essential starting material for producing refined **[Rice Grains](Rice_Grains)** and eventually crafting various nourishing rice dishes for your pack.
 
 ## Obtaining
 ### Farming
@@ -21,4 +21,4 @@ infobox:
 ## Used In
 - [Rice Grains](Rice_Grains)
 ## Trivia
-- It was added in DTN 1.18.0.
+- Introduced in **DTN 1.18.0**.

@@ -30,7 +30,9 @@ To begin interacting with your dog, <code>Right-click</code> the Dog anytime wit
 
 ***(DTN 1.18.0+):*** <code>Sneak + Right click</code>  the GUI will open. 
 
-From there you can start **customizing your dog by naming, adjusting your dog mode,** etc.<br> *More information can be found in the* [Dog Menu](Dog_Menu)...
+From there you can start **customizing your dog by naming, adjusting your dog mode,** etc. 
+
+*More information can be found in the* [Dog Menu](Dog_Menu)...
 
 *Note:*
 - Trained Dogs are now becoming [Immortal](Immortal Dogs).

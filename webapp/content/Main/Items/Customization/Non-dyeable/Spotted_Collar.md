@@ -39,9 +39,9 @@ recipes:
 ---
 <infobox />
 
-**Spotted Collar** is a non-dyable equipable item that stylizes your dog's collar.
+**Spotted Collar** is a stylish accessory featuring a classic dalmatian-like pattern. Whether your dog is a natural spotted breed or just wants to rock the look, this collar is a timeless and visually striking choice.
 
-![frameless](/images/spotted_collar_display.png "frameless")
+![Spotted Collar Display](/images/spotted_collar_display.png "Spotted Collar Display")
 
 ## Obtaining
 ### Crafting
@@ -51,4 +51,6 @@ recipes:
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
-It was added in the original Doggy Talents.
+- Added in the original **Doggy Talents**.
+
+<references />

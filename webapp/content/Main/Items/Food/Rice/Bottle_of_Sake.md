@@ -28,36 +28,30 @@ recipes:
 ---
 <infobox />
 
-**Bottle of Sake** is a potion that gives you:
+**Bottle of Sake** is a potent drink that grants significant buffs, though it carries a risk of intoxication for both you and your dog.
 
-- **Resistance II** for **1 minute.**
-- **Strength II** for **1 minute.**
-- **Speed** for **1 minute.**
-- **Haste** for **1 minute.**
+## Effects
+### Primary Buffs (1 Minute)
+- **Resistance II**, **Strength II**, **Speed**, and **Haste**.
 
-However, there's a random chance of you and your dog getting drunk so be careful! The drunk effect includes:
+### Drunk Effect (Random Chance)
+- **Nausea II**, **Slowness IV**, **Mining Fatigue II**, and **Blindness IV** for 1-2 minutes (30-45 seconds for dogs).
 
-- **Nausea II**
-- **Slowness IV**
-- **Mining Fatigue II**
-- **Blindness IV**
-
-for **1 to 2 minutes**.
-
-*(for Dogs: 30 - 45 seconds.)*
-
-Your dog can also drink this, so don't be shy to share it with your furry pal! (Drink moderately.)
 ## Obtaining
 ### Brewing
 <recipe id="sake_brewing" />
 
 ### Crafting (Fabric)
-In the Fabric version of the mod, Bottle of Sake can be crafted by combining a Water Bottle with Koji in a crafting grid.
+On Fabric, combine a **Water Bottle** with **[Koji](Koji)** in a crafting grid.
 <recipe id="sake_crafting_fabric" />
 
 ## Usage
-- **<code>Right click</code>** to use the item.
+- **<code>Right click</code>** to consume. Drink moderately!
+
 ## Used In
-- [Doggy Contact Lenses](Doggy_Contact_Lenses)
+- **[Doggy Contact Lenses](Doggy_Contact_Lenses)**
+
 ## Trivia
-- It was added in DTN 1.18.0.
+- Introduced in **DTN 1.18.0**.
+
+<references />

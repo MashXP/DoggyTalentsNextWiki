@@ -24,7 +24,7 @@ recipes:
 ---
 <infobox />
 
-**Scent Treat** is an item that is used to record the scent of the target block for the [Sniffer Dog](Sniffer_Dog) Talent.
+**Scent Treat** is a specialized utility item designed to harness the incredible olfactory abilities of your dogs. By using this treat to record and store the unique scents of various blocks, you can train your **[Sniffer Dog](Sniffer_Dog)** to track down specific resources precisely across the world.
 
 ## Obtaining
 ### Crafting
@@ -37,8 +37,10 @@ recipes:
 - **<code>Right click</code>** a ![](/images/drool_scent_treat.png)Drool Scent Treat to get rid of the drool.
 
 ### Clear
-- **<code>Right click</code>** on a Water Cauldron to clear its collected scent.
+- **<code>Right click</code>** on a [Water Cauldron](https://minecraft.wiki/w/Cauldron) to clear its collected scent.
 
 ## Trivia
+- Introduced in **DTN 1.18.5**.
+- This item is the core component for the **[Sniffer Dog](Sniffer_Dog)** talent.
 
-- It was added in DTN 1.18.5.
+<references />

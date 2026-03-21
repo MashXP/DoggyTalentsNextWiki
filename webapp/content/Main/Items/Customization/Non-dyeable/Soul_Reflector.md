@@ -23,8 +23,7 @@ recipes:
 ---
 <infobox />
 
-The **Soul Reflector** is the ethereal, soul-flame variant of the **[Divine Retribution](Divine_Retribution)**. It shares the same sacred origin, referencing the reflectors from the game **[Okami](https://www.capcom-games.com/okami/)**, but burns with a ghostly blue light.
-- Ideal for spectral dogs or those who prefer the chilling glow of soul fire.
+The **Soul Reflector** is the ethereal, soul-flame variant of the **[Divine Retribution](Divine_Retribution)**, inspired by the reflectors from **Okami**. 
 
 ## Obtaining
 ### Crafting
@@ -35,5 +34,7 @@ The **Soul Reflector** is the ethereal, soul-flame variant of the **[Divine Retr
 
 ## Trivia
 - Introduced in **DTN 1.18.11**.
-- This item is unique as it requires the original **Divine Retribution** in its crafting recipe, effectively upgrading it with soul energy.
-- Like its predecessor, it is a tribute to the legendary weapons of the Sun Goddess Amaterasu. More details on the original weapons can be found on the **[Okami Wiki](https://okami.fandom.com/wiki/Reflector)**.
+- This item requires the original **[Divine Retribution](Divine_Retribution)** to craft, essentially upgrading it with soul energy.
+- It is a direct reference to the spectral reflectors used by **Amaterasu** in **Okami** <ref>https://okami.fandom.com/wiki/Reflector</ref>.
+
+<references />

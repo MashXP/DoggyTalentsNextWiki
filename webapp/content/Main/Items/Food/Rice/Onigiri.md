@@ -24,7 +24,7 @@ recipes:
 ---
 <infobox />
 
-**Onigiri** is a tasty food item that fills up 3.5 hunger points.
+**Onigiri** (or Rice Balls) is a simple and portable food item that restores 3.5 hunger points.
 
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
@@ -32,7 +32,10 @@ Your dog can also eat this, so don't be shy to share it with your furry pal!
 <recipe />
 
 ## Usage
-- **<code>Right click</code>** to use the item.
+- **<code>Right click</code>** to consume.
+
 ## Trivia
-- It was added in DTN 1.17.2.
-- The hunger points were buffed from 2 to 3.5 in DTN 1.18.5
+- Introduced in **DTN 1.17.2**.
+- Hunger restoration was buffed from 2 to 3.5 in **DTN 1.18.5**.
+
+<references />

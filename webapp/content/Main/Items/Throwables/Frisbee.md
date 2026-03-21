@@ -22,7 +22,7 @@ recipes:
 ---
 <infobox />
 
-**Frisbee** is a dyeable throwable item that lets you play and interact with your doggo!
+**Frisbee** is a dyeable, throwable toy that turns any open field into a playground for your pack. Designed for high-flying fetch sessions, it’s the perfect way to build a bond with your dog while keeping them active and alert.
 
 ## Obtaining
 ### Crafting
@@ -34,7 +34,7 @@ recipes:
 > * It will be covered in dog drool, so you'll have to **<code>Right click</code>** to wipe it off before you can throw it again. <ref>https://doggytalents.fandom.com/wiki/List_of_Items_and_Equipment</ref>
 
 ## Trivia
-* Introduced in DTN 1.17.2. Texture made by Canid.
+* Introduced in **DTN 1.17.2**. Texture made by @Canid.
 * It functions identically to the [Throw Stick](Throw_Stick) or [Throw Bone](Throw_Bone).
 * It was showcased in a Youtube Shorts: "[Hakachan use Fetch! It's super effective!](https://www.youtube.com/shorts/GZhyGjDpek0)"
 

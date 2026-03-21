@@ -2,7 +2,8 @@
 title: Radar
 ---
 
-**Radar** is the item that is used to ping your dog's location if it has a [Radio Collar](Radio_Collar) equipped. <br>
+**Radar** is the item that is used to ping your dog's location if it has a [Radio Collar](Radio_Collar) equipped.
+
 It has been replaced by the [Canine Tracker](Canine_Tracker).
 ## Trivia
 - The item was added to the original Doggy Talents.

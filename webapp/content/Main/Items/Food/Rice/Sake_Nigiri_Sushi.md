@@ -28,12 +28,14 @@ recipes:
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 
 ## Obtaining
-
 ### Crafting
 <recipe />
 
 ## Usage
-- **<code>Right click</code>** to use the item.
+- **<code>Right click</code>** to consume.
+
 ## Trivia
-- The item was also known as Salmon Sushi.
-- It was added in DTN 1.17.2.
+- Introduced in **DTN 1.17.2**.
+- Also known as **Salmon Sushi**.
+
+<references />

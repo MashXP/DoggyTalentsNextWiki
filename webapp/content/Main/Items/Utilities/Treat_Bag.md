@@ -22,20 +22,18 @@ recipes:
 ---
 <infobox />
 
-**Treat Bag** is an item used to contain [Treats](Items#Treats) and [Food](Items#Food).
+**Treat Bag** is a versatile utility item designed for trainers who need to feed or command their dogs from a distance. By serving as a long-range projectile launcher for **[Treats](Items#Treats)** and **[Food](Items#Food)**, it allows you to maintain your pack's health and readiness even in the heat of battle or across difficult terrain.
 
 ## Obtaining
 ### Crafting
 <recipe />
 
 ## Usage
-
-### For [Food](Items#Food) Items
-- **<code>Right-click</code>** to throw Dog food from far away! Your dog will attempt to backflip to catch the item if it's too high. Useful for healing/feeding doggos from a distance!
-
-### For [Ookamikaze](Ookamikaze) Talent
-
-- **<code>Right-click</code>** to consume and throw a gunpowder (directly in your inventory) from a distance. Your dog will attempt to backflip to catch the item if it's too high.
+- **Feeding from Distance**: **<code>Right-click</code>** to throw dog food toward your pets. If the item is thrown high, your dog will attempt a stylish backflip to catch it in mid-air!
+- **Ookamikaze Support**: If your dog has the **[Ookamikaze](Ookamikaze)** talent, **<code>Right-click</code>** will consume and throw **[Gunpowder](https://minecraft.fandom.com/wiki/Gunpowder)** from your inventory, allowing for remote-detonation commands.
 
 ## Trivia
-- It was added to the original Doggy Talents.
+- Added in the original **Doggy Talents**.
+- The backflip mechanic is not just visual; it slightly increases the range at which a dog can successfully receive an item.
+
+<references />

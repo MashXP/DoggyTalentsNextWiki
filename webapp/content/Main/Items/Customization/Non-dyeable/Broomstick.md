@@ -23,19 +23,18 @@ recipes:
 ---
 <infobox />
 
-**Broomstick** is a non-dyeable equipable item that makes your dog look like a mop.
-
-Sadly, the model for the Puli was lost so we can't fix the stick so as to fit with the other dogs...
-
-![Best used for Hungarian Pulis!](/images/broomstick_display.png "Best used for Hungarian Pulis!")
+**Broomstick** is a specialized accessory specifically designed to emulate the unique textured coat of a **Hungarian Puli**. 
 
 ## Obtaining
+### Crafting
 <recipe />
-
-*Requires Stick to unlock the recipe.*
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
 ## Trivia
-- Introduced in DTN 1.17.0.
-- It was used to be called Giant Stick but a lot of people confused this with the regular Stick so the name was changed.
+- Introduced in **DTN 1.17.0**.
+- Originally called the **Giant Stick**, the name was changed to "Broomstick" to avoid confusion with the regular **[Stick](https://minecraft.wiki/w/Stick)**.
+- The model was designed specifically for the **Hungarian Puli** variant.
+
+<references />

@@ -24,10 +24,11 @@ recipes:
 ---
 <infobox />
 
-**Gift Costume** is a double-dyeable equipable accessory that's perfect for celebrating special occasions and adding a touch of cheer.
+**Gift Costume** is a double-dyeable accessory that's perfect for celebrating special occasions or simply letting your dog know they're the best gift you've ever received. With the ability to customize both the box and the ribbon colors, it's the ultimate festive look.
+
+![Festive Doggos!](/images/bowtie_demo2.png "Festive Doggos!")
 
 ## Obtaining
-
 ### Crafting
 <recipe />
 
@@ -35,8 +36,5 @@ recipes:
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
-
-- It was added to DTN 1.18.39.
-
-![Festive Doggos!](/images/bowtie_demo2.png "Festive Doggos!")
-
+- Introduced in **DTN 1.18.39**.
+- By crafting the costume with **Paper**, you can unlock a secondary color slot, allowing for even more creative color combinations.

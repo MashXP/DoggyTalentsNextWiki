@@ -13,4 +13,4 @@ title: Shock Absorber
 
 ## Trivia
 
-- It was added in DTN 1.12.0.
+- Introduced in DTN 1.12.0.

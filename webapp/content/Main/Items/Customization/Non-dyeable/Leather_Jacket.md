@@ -5,7 +5,7 @@ infobox:
   image: leather_jacket.png
   rows:
   - ID: doggytalents:leather_jacket
-  - Type: Customization (Non_dyeable)
+  - Type: Customization (Non-dyeable)
   - Stackable: '64'
 recipes:
   leather_jacket:
@@ -23,14 +23,18 @@ recipes:
 ---
 <infobox />
 
-**Leather Jacket** is a non-dyable equipable item that makes your dog look rad. B)
+**Leather Jacket** is a non-dyeable accessory that makes your dog look "rad." B) It's the perfect choice for the rebellious pup who wants to ride with the big dogs and show off their tough exterior.
 
-![frameless](/images/leather_jacket_display.png "frameless")
+![Leather Jacket Display](/images/leather_jacket_display.png "Leather Jacket Display")
+
 ## Obtaining
 ### Crafting
 <recipe />
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
 ## Trivia
-It was added in the original Doggy Talents.
+- Added in the original **Doggy Talents**.
+
+<references />

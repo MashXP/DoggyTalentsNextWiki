@@ -29,7 +29,7 @@ recipes:
 ---
 <infobox />
 
-**Propeller Hat** is a whimsical and colorful accessory for dogs who are young at heart. While it won't actually make them fly, it certainly adds a "spin" to their personality!
+**Propeller Hat** is a whimsical non-dyeable accessory for dogs who are young at heart. While it won't actually grant flight, it certainly adds a fun "spin" to their personality!
 
 ## Obtaining
 ### Crafting
@@ -40,4 +40,5 @@ recipes:
 
 ## Trivia
 - Introduced in **DTN 1.18.5**.
-- This hat is one of the more vibrant accessories, using multiple colors of wool in its recipe.
+
+<references />

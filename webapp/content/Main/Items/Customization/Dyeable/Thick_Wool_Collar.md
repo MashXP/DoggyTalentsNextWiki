@@ -19,7 +19,7 @@ recipes:
 ---
 <infobox />
 
-**Thick Collar** is a dyable equipable accessory that makes your dog look stylish.
+**Thick Wool Collar** is a dyeable accessory that offers a more prominent and robust look, providing a distinct alternative to the classic **[Wool Collar](Wool_Collar)**.
 
 ## Obtaining
 ### Crafting
@@ -29,4 +29,7 @@ recipes:
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
-- Introduced in DTN 1.18.11.
+- Introduced in **DTN 1.18.11**.
+- Created to add more diversity to collar options, specifically offering a design inspired by the newer, thicker **[Minecraft Wolf Collar](https://minecraft.wiki/w/Wolf)** texture.
+
+<references />

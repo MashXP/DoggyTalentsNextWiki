@@ -23,16 +23,20 @@ recipes:
 ---
 <infobox />
 
-**Soy Milk** is a food item that gives you 3 hunger points.
+**Soy Milk** is a creamy and nutritious plant-based drink that serves as the foundation for many soy-related delicacies. Extracted from dried soybeans, it restores 3 hunger points and is the essential first step towards crafting high-quality **[Tofu](Tofu)** for your canine companions.
 
 Your dog can also drink this, so don't be shy to share it with your furry pal!
 ## Obtaining
 ### Crafting
 <recipe />
 
-## Used In
-- [Tofu](Tofu)
 ## Usage
-- **<code>Right click</code>** to use the item.
+- **<code>Right click</code>** to consume.
+
+## Used In
+- **[Tofu](Tofu)**
+
 ## Trivia
-- It was added in DTN 1.18.0
+- Introduced in **DTN 1.18.0**.
+
+<references />

@@ -23,20 +23,26 @@ recipes:
 ---
 <infobox />
 
-**Bowtie** is a dyable equipable material that you wear on your dog.
+**Bowtie** is a charming dyeable accessory that makes any dog look like a dapper gentleman or a refined lady. It's the perfect finishing touch for a formal outfit and a great way to "fancy up" your canine companion for any event.
+
+![Dog avec fancy bowtie!](/images/bowtie_equipped.png "Dog avec fancy bowtie!")
+
+![Festive Doggos!](/images/bowtie_demo2.png "Festive Doggos!")
+
 ## Obtaining
 ### Crafting
 <recipe />
 
-![Doggo with fancy bowtie!](/images/bowtie_equipped.png "Doggo with fancy bowtie!")
-
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+- **Sneaking** while applying the bowtie to your dog will equip an alternative variant (such as the Head Bowtie).
 
 ## Used In
-- ![Festive Doggos!](/images/bowtie_demo2.png "Festive Doggos!")
+- **[Conan Suit](Conan_Suit)**
+- **[Gift Costume](Gift_Costume)**
 
-[Conan Suit](Conan_Suit)
 ## Trivia
-- It was added to DTN 1.11.0.
-- The Head Bowtie variant is added in DTN 1.18.39.
+- Introduced in **DTN 1.11.0**.
+- The **Head Bowtie** variant was added later in **DTN 1.18.39**.
+
+<references />

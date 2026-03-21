@@ -24,7 +24,7 @@ recipes:
 ---
 <infobox />
 
-**Christmas Tree Costume** is a whimsical outfit that transforms your dog into a walking, barking festive centerpiece. Complete with piney details, it's the ultimate way to celebrate the season.
+The **Christmas Tree Costume** is a whimsical outfit that transforms your dog into a festive centerpiece. 
 
 ## Obtaining
 ### Crafting
@@ -35,4 +35,6 @@ recipes:
 
 ## Trivia
 - Introduced in **DTN 1.18.39**.
-- Pair it with the **[Christmas Star](Christmas_Star)** for the full festive look!
+- Pair it with the **[Christmas Star](Christmas_Star)** for the full festive experience!
+
+<references />

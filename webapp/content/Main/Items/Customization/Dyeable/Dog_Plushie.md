@@ -26,15 +26,17 @@ recipes:
 ---
 <infobox />
 
-**Dog Plushie** is a dyable placeable entity for you and your dog to hug to sleep. 
+**Dog Plushie** is a dyeable, placeable decoration for you and your dog to enjoy.
 
 ## Obtaining
 ### Crafting
 <recipe />
 
 ## Usage
-- <code>Right click</code> to place the item down.
+- **<code>Right click</code>** to place the item down.
 
 ## Trivia
-- Introduced in DTN 1.18.5.
-- Fun fact: DashieDev has 2 of them on his bed.
+- Introduced in **DTN 1.18.5**.
+- Fun fact: DashieDev actually has two of these on his bed!
+
+<references />

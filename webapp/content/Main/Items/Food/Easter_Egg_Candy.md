@@ -14,11 +14,11 @@ infobox:
 
 ## Obtaining
 ### Special Drops
-When a dog is wearing **[Bunny Ears](Bunny_Ears)**, there is a chance they will drop **Easter Egg Candy** after defeating a mob. 
+- Obtained randomly when a dog equipped with **[Bunny Ears](Bunny_Ears)** defeats a mob.
 
 ## Usage
-- **<code>Right-click</code>** to feed the candy to your dog for a quick boost in nourishment.
-- It is also edible for players, though it's much more rewarding to see your pup enjoy the treat.
+- **<code>Right-click</code>** to feed the candy to your dog for a quick nourishment boost.
+- Also edible for players.
 
 ## Trivia
 - Introduced in **DTN 1.18.47** specifically for the **Easter Sunday**.

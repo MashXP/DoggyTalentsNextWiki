@@ -5,6 +5,8 @@ infobox:
   image: radio_collar.png
   rows:
   - ID: doggytalents:radio_collar
+  - Type: Utilities
+  - Stackable: '64'
 recipes:
   radio_collar:
     type: shaped
@@ -20,17 +22,20 @@ recipes:
 ---
 <infobox />
 
-**Radio Collar** is an equipable item that is used alongside the [Canine Tracker](Canine_Tracker)
+**Radio Collar** is a high-tech tracking accessory that allows you to keep a constant eye on your dog's location. When used in conjunction with the **[Canine Tracker](Canine_Tracker)**, it ensures that your furry friends are never truly lost, no matter how far they wander through the wilderness.
 
 ## Obtaining
 ### Crafting
 <recipe />
 
 ## Usage
-- **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog Menu#Style).
+- **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+- Once equipped, the dog will appear on the **Canine Tracker** interface if you are holding one.
 
 ## Used In
-- [Canine Tracker](Canine_Tracker)
+- **[Canine Tracker](Canine_Tracker)**
 
 ## Trivia
-- It was added in the original Doggy Talents.
+- Added in the original **Doggy Talents**.
+
+<references />

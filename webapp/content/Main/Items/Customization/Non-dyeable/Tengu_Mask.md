@@ -22,9 +22,9 @@ recipes:
 ---
 <infobox />
 
-**Tengu Mask** is a non-dyeable equipable item that makes your dog look mystical.
+**Tengu Mask** is a mystical accessory that grants your dog a legendary and honorable appearance. Inspired by powerful spirits from Japanese folklore, it's the perfect choice for dogs with a spirit of adventure and a touch of the supernatural.
 
-![No MATTER WHAT! Don't go out at night!](/images/tengu_mask_display.png "No MATTER WHAT! Don't go out at night!")
+![Tengu Mask Display](/images/tengu_mask_display.png "No MATTER WHAT! Don't go out at night!")
 
 ## Obtaining
 ### Crafting
@@ -32,8 +32,10 @@ recipes:
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+- **<code>Right click</code>** the dog with a **String** to switch the mask's position.
+
 ## Trivia
-- Introduced in DTN 1.17.2.
-- The mask was based on a mythical creature depicted in Japanese folklore.<ref>[Tengu - Wikipedia](https://en.wikipedia.org/wiki/Tengu)</ref>
+- Introduced in **DTN 1.17.2**.
+- The mask is based on the **Tengu**, a mythical creature depicted in Japanese folklore as a legendary spirit or demon <ref>https://en.wikipedia.org/wiki/Tengu</ref>.
 
 <references />

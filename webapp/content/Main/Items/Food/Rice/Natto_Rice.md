@@ -24,7 +24,7 @@ recipes:
 ---
 <infobox />
 
-**Natto Rice** is a delicious food item that fills up 4 hunger points and gives your dog [Natto Bite](Natto_Bite) effect for 5 minutes.
+**Natto Rice** is a nutritious dish that restores 4 hunger points and grants your dog the **[Natto Bite](Natto_Bite)** effect.
 
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
@@ -32,6 +32,10 @@ Your dog can also eat this, so don't be shy to share it with your furry pal!
 <recipe />
 
 ## Usage
-- **<code>Right click</code>** to use the item.
+- **<code>Right click</code>** to consume.
+- Grants **Natto Bite** for 5 minutes when eaten by a dog.
+
 ## Trivia
-- It was added in DTN 1.18.0.
+- Introduced in **DTN 1.18.0**.
+
+<references />

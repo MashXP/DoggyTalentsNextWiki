@@ -23,7 +23,7 @@ recipes:
 ---
 <infobox />
 
-**Flying Cape** is a dyable equipable accessory that makes your dog look like a superhero!
+**Flying Cape** is a dyeable accessory that makes your dog look like a true superhero! While it adds a valiant touch to their style, it captures the spirit of flight and heroic adventure, especially for dogs with high-tier talents.
 
 ![A dog flying in style!](/images/flying_cape_display.png)
 
@@ -35,4 +35,7 @@ recipes:
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
-- Introduced in DTN 1.17.2.
+- Introduced in **DTN 1.17.2**.
+- This accessory is particularly popular for dogs with the **[Flying Furball](Flying_Furball)** talent, though the cape itself is purely cosmetic.
+
+<references />

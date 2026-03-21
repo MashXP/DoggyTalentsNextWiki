@@ -25,17 +25,19 @@ recipes:
 ---
 <infobox />
 
-**Witch Hat** is a non-dyeable equipable item that makes your dog smells a bit funky.
+**Witch Hat** is a magical accessory that might make your dog smell a bit "funky," but it certainly makes them look enchanting. It's the perfect fit for dogs assisting with potion brewing or those simply wishing to add a bewitching touch to their style for Halloween.
 
-![Funky Witch](/images/witch_hat_display.png)   
+![Funky Witch](/images/witch_hat_display.png)
 
 ## Obtaining
 ### Crafting
 <recipe />
 
-Obtaining this item requires Potion to unlock the recipe.
-
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
 ## Trivia
-- Introduced in DTN 1.17.2.
+- Introduced in **DTN 1.17.2**.
+- The model for this hat was taken directly from the **[Minecraft Witch](https://minecraft.wiki/w/Witch)** mob model.
+
+<references />

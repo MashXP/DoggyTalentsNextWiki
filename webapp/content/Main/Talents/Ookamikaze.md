@@ -14,4 +14,4 @@ title: Ookamikaze
 > Throw the Dog a Gunpowder using the Treat Bag to make him summon the Explosion, which indeed doesn't hurt itself, you or your team! Notice that the Dog Explosion still deals full damage to any entity nearby other than the aforementioned, you have been warned!
 
 ## Trivia
-- It was added in DTN 1.18.9.
+- Introduced in DTN 1.18.9.

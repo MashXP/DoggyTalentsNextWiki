@@ -31,24 +31,25 @@ recipes:
 ---
 <infobox />
 
-**Rice Bowl** is a food item that gives you 2.5 hunger points.
+**Rice Bowl** is a staple food item that restores 2.5 hunger points and serves as a base for many other dishes.
 
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
-
 ### Smelting
-
 <recipe id="rice_bowl_smelting" />
 
 ## Usage
-- **<code>Right click</code>** to use the item.
+- **<code>Right click</code>** to consume.
 
 ## Used In
-- [Training Treat](Training_Treat)
-- [Natto Rice](Natto_Rice)
-- [Sake Nigiri Sushi](Sake_Nigiri_Sushi)
-- [Onigiri](Onigiri)
-- [Gyudon](Gyudon)
-- [Oyakodon](Oyakodon)
+- **[Training Treat](Training_Treat)**
+- **[Onigiri](Onigiri)**
+- **[Gyudon](Gyudon)**
+- **[Oyakodon](Oyakodon)**
+- **[Natto Rice](Natto_Rice)**
+- **[Sake Nigiri Sushi](Sake_Nigiri_Sushi)**
+
 ## Trivia
-- It was added in DTN 1.18.0.
+- Introduced in **DTN 1.18.0**.
+
+<references />

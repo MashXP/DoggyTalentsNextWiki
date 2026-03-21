@@ -23,7 +23,7 @@ recipes:
 ---
 <infobox />
 
-Baker's Hat is a dyeable equipable item that stylizes your dog.
+**Baker's Hat** is a dyeable accessory that lets everyone know your dog is the head of the bakery.
 
 ![Display provided by @Archon](/images/baker_hat_display.png "Display provided by @Archon")
 
@@ -35,6 +35,9 @@ Baker's Hat is a dyeable equipable item that stylizes your dog.
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
 ## Trivia
-- Introduced to DTN 1.17.2.
-- The item's description is a sneak peek for an upcoming DTN skin - a Pokemon.
+- Introduced in **DTN 1.17.2**.
+- The item's description is a reference to **[Dachsbun](https://bulbapedia.bulbagarden.net/wiki/Dachsbun_(Pok%C3%A9mon))**, a bread-themed Pokémon which the hat complements perfectly.
+
+<references />

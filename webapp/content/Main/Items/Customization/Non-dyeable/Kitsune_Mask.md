@@ -22,9 +22,9 @@ recipes:
 ---
 <infobox />
 
-**Kitsune Mask** is a non-dyeable equipable item that makes your dog look mystical.
+The **Kitsune Mask** is a mystical non-dyeable accessory inspired by traditional Japanese folklore.
 
-![Don't go out at night!](/images/kitsune_mask_display.png "Don't go out at night!")
+![Mask Display](/images/kitsune_mask_display.png)
 
 ## Obtaining
 ### Crafting
@@ -32,8 +32,10 @@ recipes:
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+- **<code>Right click</code>** with a **[String](https://minecraft.wiki/w/String)** in hand to switch the mask's position (e.g., to the side of the head).
+
 ## Trivia
-- Introduced in DTN 1.17.2.
-- The mask was based on a mythical creature depicted in Japanese folklore.<ref>[Kitsune - Wikipedia](https://en.wikipedia.org/wiki/Kitsune)</ref>
+- Introduced in **DTN 1.17.2**.
+- The mask is based on the **Kitsune** (fox spirit) from Japanese mythology <ref>https://en.wikipedia.org/wiki/Kitsune</ref>.
 
 <references />

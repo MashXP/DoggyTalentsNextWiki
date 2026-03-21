@@ -12,6 +12,6 @@ title: Pillow Paw
 > **Mastering** this skill will allow your Dog to **completely** **negate fall damage.**
 
 ## Trivia
-
+- Introduced in the original **Doggy Talents**.
 - You can achieve the same effect with the [Feathered Mantle](Feathered_Mantle).
 - This talent will be disabled when [Flying Furball](Flying_Furball) is active, any points spent will be refunded.

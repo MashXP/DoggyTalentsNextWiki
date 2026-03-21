@@ -12,7 +12,7 @@ infobox:
 ---
 <infobox />
 
-**Rice Bowl** is a snack item that gives you 0.5 hunger points.
+**Unpodded Edamame** is a light snack that restores 0.5 hunger points. Be careful with these around your dogs, as they might snack on them if provided in a **[Food Bowl](Food_Bowl)**!
 
 Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
@@ -20,7 +20,8 @@ Your dog can also eat this, so don't be shy to share it with your furry pal!
 You can get 2-3 of these when right-clicking [Edamame](Edamame).
 
 ## Usage
-- **<code>Right click</code>** to use the item.
+- **<code>Right click</code>** to consume.
+
 ## Trivia
-- It was added in DTN 1.18.0.
+- Introduced in **DTN 1.18.0**.
 - Be careful when loading these in [Pack Puppy](Pack_Puppy) Inventory or [Food Bowl](Food_Bowl), your dogs might snack them all!

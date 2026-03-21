@@ -31,5 +31,7 @@ The **Dragon Costume Wings** allow your dog to sport the majestic wings of an En
 
 ## Trivia
 - Introduced in **DTN 1.18.33**.
-- This item is part of the **Dragon Costume** set, which includes the [Head](Dragon_Costume_Head) and [Suit](Dragon_Costume_Suit).
-- The "Do a Barrel Roll!" flavor text is a classic gaming reference, often associated with *Star Fox*.
+- Part of the **Dragon Costume** set, which also includes the **[Head](Dragon_Costume_Head)** and **[Suit](Dragon_Costume_Suit)**.
+- The description quip, "**Do a Barrel Roll!**", is a classic gaming reference to the *Star Fox* series.
+
+<references />

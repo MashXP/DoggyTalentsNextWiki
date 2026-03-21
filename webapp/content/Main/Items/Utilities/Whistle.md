@@ -22,8 +22,10 @@ recipes:
 ---
 <infobox />
 
-The **Whistle** item gives your dog commands that it can listen to. Different commands are expressed via several modes.
+The **Whistle** is the essential command tool for any serious dog trainer, allowing for instant and precise communication with your entire pack. With a wide variety of modes and a dedicated interface, it provides complete control over your dogs' behavior, from basic positioning to complex talent-specific maneuvers.
 
+## Obtaining
+### Crafting
 <recipe />
 
 ## Usage
@@ -36,7 +38,7 @@ Via this GUI, you will be presented with the list of modes available now:
 - Use **<code>Arrow keys</code>** or your mouse to select the mode you want, you can also type to search for the mode and finally <code>Enter</code> to set the mode.
 - Additionally, you can use the corresponding <code>Number keys</code> for each mode (shown before the mode in Orange) to quickly select it.
 1. Press **<code>Set Hotkey</code>**.
-1. Then, **<code>Left click</code>** to assign; **<code>Right click</code>** to unassign.
+2. Then, **<code>Left click</code>** to assign; **<code>Right click</code>** to unassign.
 Commands also can be issued without opening this menu via keybinds which can be configured via **<code>Minecraft's option menu</code>**.
 
 > * Currently, you can assign up to **4** functions to be triggered using their respective keybinds.
@@ -57,7 +59,7 @@ Currently, the default radius of the whistle resides in an **<code>100*50*100</c
 - **Heel**: Make all *standing* dogs come to you.
 - **Stay**: Make all *standing* dogs sit.
 - **Go Behind**: Make all *standing* dogs run behind you.
-- **Tactical**: Use this mode to command all of your dogs in [Tactical Mode](Basic Core Stats#Modes) to start attacking a certain target by aiming and using the whistle at the target (this will shoot a projectile and a hit signifies attack to the dogs if the target is eligible).
+- **Tactical**: Use this mode to command all of your dogs in [Tactical Mode](Basic_Core_Stats#Modes) to start attacking a certain target by aiming and using the whistle at the target (this will shoot a projectile and a hit signifies attack to the dogs if the target is eligible).
 
 - **Heel By Name**: Use this mode to command certain dogs to come to you, even when they are sitting. Upon usage, a GUI will be presented.
   - Use the **<code>Arrow keys</code>** to select the dog you want to heel, you can also type to search and finally **<code>Enter</code>** to complete the command.
@@ -83,6 +85,6 @@ These are modes that only can be used with corresponding talents.
 - **Bed Dog:** Allows [Bed Dog](Bed_Dog) Talent dogs to enter sleep mode. "...To begin sleeping on your Dog, interact with it using the Bed Dog Whistle to make it lay down, then interact with it with the whistle again after it has laid down to begin sleeping on it..."
 
 ## Trivia
-- It was added in the original Doggy Talents.
+- Introduced in the original Doggy Talents.
 - The Whistle Mode Changing User Interface was added in DTN 1.3.0beta since the old Mode Cycling method *"has proven itself to be relatively annoying and unintuitive, by allowing a great chance of accidental mode switch and trigger."*
-- There used to be a whistle mode called: Ok? which stands the healthy dogs, but it seemed too impractical so in 1.18.21 it was removed.
+- A legacy mode called "**Ok?**" (used to stand only healthy dogs) was removed in **DTN 1.18.21** due to its impracticality.

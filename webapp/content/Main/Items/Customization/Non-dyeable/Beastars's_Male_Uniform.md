@@ -37,7 +37,7 @@ recipes:
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 ## Trivia
-- Introduced in DTN 1.12.0.
+- Introduced in **DTN 1.12.0**.
 - This item + skin is a direct reference to **Legoshi** and **Jack** - characters in **Beastars** <s>an anime that DashieDev really likes, especially Legoshi.<ref>SS 1 Ep 5: Two sides to the story - 02:31.</ref></s>
 
 <img src="https://camo.githubusercontent.com/18f90f42f618172336c5f40b061dd1a84f3266f44531f6269079e0b434eae90b/68747470733a2f2f6d656469612e74656e6f722e636f6d2f5f366e447544456a43554541414141432f62656173746172732d6a61636b2e676966" width="300" />

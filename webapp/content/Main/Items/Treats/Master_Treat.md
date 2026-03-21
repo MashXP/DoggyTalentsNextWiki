@@ -23,7 +23,9 @@ recipes:
 ---
 <infobox />
 
-> This is the final treat as far as [basic leveling](Leveling Systems) goes. It will raise your dog's level by 1 (and 1 spendable point) until level 60.
+> This is the final treat as far as [basic leveling](Leveling_Systems) goes. It will raise your dog's level by 1 (and 1 spendable point) until level 60.
+
+**Master Treat** is the pinnacle of basic canine training, used to refine your dog's skills to the highest standard. It is the final step in the **[basic leveling](Leveling_Systems)** journey, raising your dog's level by 1 (granting 1 spendable point) for each treat consumed until they reach level 60.
 
 ## Obtaining
 ### Crafting
@@ -33,9 +35,11 @@ recipes:
 - **<code>Right click</code>** on your dog to use the item.
 
 ## Used In
-- [Kami Treat](Kami_Treat)
-- [Breeding Bone](Breeding_Bone)
+- **[Kami Treat](Kami_Treat)**
+- **[Breeding Bone](Breeding_Bone)**
 
 ## Trivia
-- It was added in the original Doggy Talents.
-- In the future, there might be a massive overhaul of the treat mechanism.
+- Introduced in the original **Doggy Talents**.
+- A potential overhaul of the treat system is being considered for future development.
+
+<references />

@@ -25,7 +25,7 @@ recipes:
 ---
 <infobox />
 
-**Rice Mill** is a placeable block that allows player to automate the process of making Rice/Soy items.
+**Rice Mill** is a versatile processing station that automates the laborious task of refining crops like rice and soybeans. When strategically placed near flowing water, this mechanical marvel powers through your harvests, ensuring a steady supply of ingredients for your canine companions.
 
 ## Obtaining
 ### Crafting
@@ -46,94 +46,23 @@ With its wheel facing away from you:
 ### Rice Mill Recipes:
 *(*note that the bowl is optional)*
 
-<table>
-  <thead>
-    <tr>
-      <th>Input</th>
-      <th>Bowl?</th>
-      <th>Output</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td colspan="4" style="text-align: center; font-weight: bold; font-weight: bold;">Rice</td>
-    </tr>
-    <tr>
-      <td><item id="doggytalents:rice_grains" count="3" /></td>
-      <td>✔</td>
-      <td><item id="doggytalents:uncooked_rice_bowl" /></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><item id="doggytalents:uncooked_rice" count="3" /></td>
-      <td>✔</td>
-      <td><item id="doggytalents:uncooked_rice_bowl" /></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><item id="doggytalents:rice_wheat" /></td>
-      <td>✔</td>
-      <td><item id="doggytalents:uncooked_rice_bowl" /></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><item id="doggytalents:rice_grains" /></td>
-      <td></td>
-      <td><item id="doggytalents:uncooked_rice" /></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><item id="doggytalents:rice_wheat" /></td>
-      <td></td>
-      <td><item id="doggytalents:uncooked_rice" count="3" /></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td colspan="4" style="text-align: center; font-weight: bold;">Soy</td>
-    </tr>
-    <tr>
-      <td><item id="doggytalents:soy_pods" /></td>
-      <td></td>
-      <td><item id="doggytalents:soy_beans" count="3" /></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><item id="doggytalents:soy_pods_dried" /></td>
-      <td></td>
-      <td><item id="doggytalents:soy_beans_dried" count="3" /></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><item id="doggytalents:edamame" /></td>
-      <td></td>
-      <td><item id="doggytalents:edamame_unpodded" count="3" /></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><item id="doggytalents:soy_beans_dried" count="3" /></td>
-      <td>✔</td>
-      <td><item id="doggytalents:soy_milk" /></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><item id="doggytalents:soy_pods_dried" /></td>
-      <td>✔</td>
-      <td><item id="doggytalents:soy_milk" /></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td colspan="4" style="text-align: center; font-weight: bold;">Others</td>
-    </tr>
-    <tr>
-      <td><item id="minecraft:wheat" /></td>
-      <td></td>
-      <td><item id="minecraft:bread" /></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Input | Bowl? | Output |
+| :--- | :---: | :--- |
+| **Rice** | | |
+| <item id="doggytalents:rice_grains" count="3" /> | ✔ | <item id="doggytalents:uncooked_rice_bowl" /> |
+| <item id="doggytalents:uncooked_rice" count="3" /> | ✔ | <item id="doggytalents:uncooked_rice_bowl" /> |
+| <item id="doggytalents:rice_wheat" /> | ✔ | <item id="doggytalents:uncooked_rice_bowl" /> |
+| <item id="doggytalents:rice_grains" /> | | <item id="doggytalents:uncooked_rice" /> |
+| <item id="doggytalents:rice_wheat" /> | | <item id="doggytalents:uncooked_rice" count="3" /> |
+| **Soy** | | |
+| <item id="doggytalents:soy_pods" /> | | <item id="doggytalents:soy_beans" count="3" /> |
+| <item id="doggytalents:soy_pods_dried" /> | | <item id="doggytalents:soy_beans_dried" count="3" /> |
+| <item id="doggytalents:edamame" /> | | <item id="doggytalents:edamame_unpodded" count="3" /> |
+| <item id="doggytalents:soy_beans_dried" count="3" /> | ✔ | <item id="doggytalents:soy_milk" /> |
+| <item id="doggytalents:soy_pods_dried" /> | ✔ | <item id="doggytalents:soy_milk" /> |
+| **Others** | | |
+| <item id="minecraft:wheat" /> | | <item id="minecraft:bread" /> |
 
 ## Trivia
-- It was added in DTN 1.18.8.
+- Introduced in **DTN 1.18.8**.
 - It was the first animated block entity of DTN.

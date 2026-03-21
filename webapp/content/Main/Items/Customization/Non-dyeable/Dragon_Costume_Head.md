@@ -7,7 +7,7 @@ infobox:
     - ID: "doggytalents:dragon_costume_head"
     - Type: "Customization (Non-dyeable)"
     - Stackable: "1"
-  description: "Smells like Dragon Breath..."
+  description: "I'm a dragon now, fear me!"
 recipes:
   dragon_costume_head:
     type: shapeless
@@ -20,7 +20,7 @@ recipes:
 ---
 <infobox />
 
-The **Dragon Costume Head** is a fearsome accessory crafted from the remnants of a defeated Ender Dragon. It gives your dog the imposing look of the End's ultimate ruler.
+The **Dragon Costume Head** allows your dog to wear the head of an Ender Dragon. 
 
 ## Obtaining
 ### Crafting
@@ -30,5 +30,7 @@ The **Dragon Costume Head** is a fearsome accessory crafted from the remnants of
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
-- This item is part of the **Dragon Costume** set, which includes the [Suit](Dragon_Costume_Suit) and [Wings](Dragon_Costume_Wings).
 - Introduced in **DTN 1.18.33**.
+- Part of the **Dragon Costume** set, which also includes the **[Suit](Dragon_Costume_Suit)** and **[Wings](Dragon_Costume_Wings)**.
+
+<references />

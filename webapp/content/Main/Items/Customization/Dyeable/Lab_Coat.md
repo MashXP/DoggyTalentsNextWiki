@@ -23,7 +23,7 @@ recipes:
 ---
 <infobox />
 
-**Lab Coat** is a dyable equipable accessory that makes your dog look professional.
+The **Lab Coat** is a dyeable accessory designed for the dog who is more into the sciences. 
 
 ## Obtaining
 ### Crafting
@@ -33,4 +33,7 @@ recipes:
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
 
 ## Trivia
-- Introduced in DTN 1.17.2.
+- Introduced in **DTN 1.17.2**.
+- This accessory is ideal for dogs with **scientific-themed talents**; it pairs especially well with the **[Smarty Glasses](Smarty_Glasses)**.
+
+<references />

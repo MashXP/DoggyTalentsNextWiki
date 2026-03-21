@@ -25,7 +25,7 @@ recipes:
 ---
 <infobox />
 
-**Empty Locator Orb** is a material used to craft the [Locator Orbs](Locator_Orbs).
+**Empty Locator Orb** is a fundamental crafting component used to create the diverse array of **[Locator Orbs](Locator_Orbs)**. Serving as a neutral vessel, it can be combined with various dyes and materials to manifest mystical properties that enhance your dog's presence and tracking.
 
 ## Obtaining
 ### Crafting
@@ -35,7 +35,7 @@ recipes:
 - [Locator Orbs](Locator_Orbs)
 
 ## Trivia
-- Introduced in DTN 1.16.0.
-- The item is a direct reference to **The Satomi Power Orbs** from the game **OKAMI** <ref>https://okami.fandom.com/wiki/Canine_Warriors</ref>
+- Introduced in **DTN 1.16.0**.
+- The item is a direct reference to the **Satomi Power Orbs** from the game **Okami**, which are central to the story of the Canine Warriors <ref>https://okami.fandom.com/wiki/Canine_Warriors</ref>.
 
 <references />

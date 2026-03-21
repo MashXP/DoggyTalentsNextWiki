@@ -8,4 +8,4 @@ title: Fire Drill
 
 ## Trivia
 
-- It was added in DTN 1.17.4.
+- Introduced in DTN 1.17.4.

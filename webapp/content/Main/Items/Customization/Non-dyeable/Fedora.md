@@ -25,7 +25,7 @@ recipes:
 ---
 <infobox />
 
-**Fedora** is an iconic headwear that adds a touch of mystery and professionalism to your dog. Whether they're solving mysteries or just looking dapper, it is a must-have for any secretive agent.
+**Fedora** is an iconic headwear that adds a touch of mystery and professionalism to your dog. Whether they're solving mysteries or just looking dapper, it is a must-have for any secretive agent in the field.
 
 ## Obtaining
 ### Crafting
@@ -36,4 +36,6 @@ recipes:
 
 ## Trivia
 - Introduced in **DTN 1.18.5**.
--  It is a reference to **Perry the Platypus** from the show *Phineas and Ferb*, a childhood favorite of the developer.
+- The hat is a direct reference to **Perry the Platypus** from the animated show **Phineas and Ferb**, a childhood favorite of the devs.
+
+<references />

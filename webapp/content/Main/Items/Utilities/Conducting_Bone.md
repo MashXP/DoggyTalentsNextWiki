@@ -28,7 +28,7 @@ recipes:
 
 > &quot;*Ever feel like being a conductor about to conduct an orchestra for a Piano Concerto when you are teaming up with your dogs?*
 > *But wait, where is the doggy orchestra?*
-> <br>
+>
 > *Yikes, you left them at home. No worries, every conductor needs **a Baton**!*
 > 
 > *Behold... the* ***Conducting Bone!***
@@ -37,12 +37,11 @@ recipes:
 
 ----
 
-**Conducting Bone** is a craftable dev-tier item that allows you to &quot;orchestrate&quot; your pups!
+The **Conducting Bone** is a high-tier utility item that grants you absolute command over your pack's positioning across the world. Acting as a "baton" for your canine orchestra, it allows you to summon dogs to your side or send them back to their beds from anywhere within the same dimension, bypassing the range limitations of standard whistles.
 
 This item is **fire/lava proof**.
 
 ## Obtaining
-
 ### Crafting
 <recipe />
 
@@ -53,7 +52,7 @@ This item is **fire/lava proof**.
 - You can also **type to search** and finally **<code>Enter</code>** to conduct.
 - **Note:**
 
-> It may take a second for the conduct to finish. For the **<code>To Self</code>** conduct, you will see the dog present with a bit of **Purple Particles**.<br>
+> It may take a second for the conduct to finish. For the **<code>To Self</code>** conduct, you will see the dog present with a bit of **Purple Particles**.
 > 
 > A message will be prompted letting you know that the conduct is either **fulfilled or rejected**, and providing you with the ***Error Code***
 
@@ -70,5 +69,5 @@ This item is **fire/lava proof**.
 
 > (*Error Code:* **<code>BEDDESTROYED</code>**) and the block above it should be cleared of any obstacles (*Error Code:* <code>BEDOBSTRUCTED</code>).
 
-= Trivia =
-- Introduced in DTN 1.9.0.
+## Trivia
+- Introduced in **DTN 1.9.0**.

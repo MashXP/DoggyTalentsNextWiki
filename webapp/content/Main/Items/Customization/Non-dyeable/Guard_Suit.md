@@ -24,9 +24,9 @@ recipes:
 ---
 <infobox />
 
-**Guard Suit** is a non-dyable equipable item that makes your dog look more trusty and stylish.
+**Guard Suit** is a non-dyeable accessory that gives your dog a trusty and stylish appearance. Ideal for dogs assigned to sentry duty or those that simply want to look like professional protectors of their home and owner.
 
-![frameless](/images/guard_suit_display.png "frameless")
+![Guard Suit Display](/images/guard_suit_display.png "Guard Suit Display")
 
 ## Obtaining
 ### Crafting
@@ -34,5 +34,8 @@ recipes:
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
 ## Trivia
-- It was added in the original Doggy Talents.
+- Added in the original **Doggy Talents**.
+
+<references />

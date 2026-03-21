@@ -21,5 +21,5 @@ title: Water Holder
 
 ## Trivia
 
-- It was added in DTN 1.7.0.
+- Introduced in DTN 1.7.0.
 - This talent is very useful when traveling in the Nether

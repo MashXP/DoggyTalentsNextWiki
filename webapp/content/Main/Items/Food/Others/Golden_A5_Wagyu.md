@@ -26,20 +26,23 @@ recipes:
 ---
 <infobox />
 
-**Golden A5 Wagyu** is a **very delicious** food item that fills up a full hunger bar and gives you:
+**Golden A5 Wagyu** is an ultra-premium, "very delicious" food item that represents the pinnacle of canine (and player) dining. Infused with the power of gold and high-grade training, it provides extensive status buffs and is the **only way** to revive a dog that has been **[incapacitated](Immortal_Dogs)** due to starvation.
 
-- **Regeneration II** for **1 minute**.
-- **Resistance II** for **1 minute.**
-- **Saturation II** for **1 minute.**
-Your dog can also eat this, so don't be shy to share it with your furry pal!
+Consuming this luxury meal restores a full hunger bar and grants:
+- **Regeneration II** (1 minute)
+- **Resistance II** (1 minute)
+- **Saturation II** (1 minute)
 
-If your dog gets [incapacited](Immortal Dogs) by starving, this is the **only way** you can bring it back.
 ## Obtaining
 ### Crafting
 <recipe />
 
 ## Usage
-- **<code>Right click</code>** to use the item.
+- **<code>Right click</code>** to consume the item, gaining immense buffs and full nourishment.
+
 ## Trivia
-- It was added in DTN 1.17.2.
-<s>Not sponsored by SaltBae</s>
+- Introduced in **DTN 1.17.2**.
+- The flavor text "**It tastes expensive...and funny?**" is a reference to the training treat used in its creation.
+- <s>Not sponsored by SaltBae.</s>
+
+<references />

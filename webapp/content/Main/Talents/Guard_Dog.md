@@ -14,4 +14,4 @@ title: Guard Dog
 
 ## Trivia
 
-- It was added in the original DT.
+- Introduced in the original DT.

@@ -11,4 +11,4 @@ title: Gate Woof
 
 ## Trivia
 
-- It was added in DTN 1.18.5.
+- Introduced in DTN 1.18.5.

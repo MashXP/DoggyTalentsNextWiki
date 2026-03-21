@@ -11,5 +11,5 @@ title: Flying Furball
 
 ## Trivia
 
-- It was added in DTN 1.17.2.
+- Introduced in DTN 1.17.2.
 - Very OP when combined with [Wolf Mount](Wolf_Mount).

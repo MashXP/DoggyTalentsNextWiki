@@ -13,4 +13,4 @@ title: Quick Healer
 
 ## Trivia
 
-- It was added in the original DT.
+- Introduced in the original DT.

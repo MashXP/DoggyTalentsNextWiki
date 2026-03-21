@@ -22,14 +22,16 @@ recipes:
 ---
 <infobox />
 
-**Edamame** is an item that's used to make [Unpodded Edamame](Unpodded_Edamame).
+**Edamame** is a prepared soy snack that can be unpodded to obtain **[Unpodded Edamame](Unpodded_Edamame)**.
 
 ## Obtaining
 ### Crafting
 <recipe />
 
 ## Usage
-- **<code>Right click</code>** to use the item.
+- **<code>Right click</code>** to consume or unpod.
 
 ## Trivia
-- It was added in DTN 1.18.0.
+- Introduced in **DTN 1.18.0**.
+
+<references />

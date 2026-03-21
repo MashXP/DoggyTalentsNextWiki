@@ -25,6 +25,8 @@ recipes:
 
 > This treat will raise your dog's level up by 1 (also by 1 spendable point) until your dog reaches level 40.
 
+**Super Treat** is the next step in advancing your dog's training, providing the necessary nutrients for more complex skills. It allows you to raise your dog's level by 1 for each treat (granting 1 spendable point) until they reach level 40, bridging the gap between basic training and master-level expertise.
+
 ## Obtaining
 ### Crafting
 <recipe />
@@ -33,9 +35,11 @@ recipes:
 - **<code>Right click</code>** on your dog to use the item.
 
 ## Used In
-- [Master Treat](Master_Treat)
-- [Feathered Mantle](Feathered_Mantle)
+- **[Master Treat](Master_Treat)**
+- **[Feathered Mantle](Feathered_Mantle)**
 
 ## Trivia
-- It was added in the original Doggy Talents.
-- In the future, there might be a massive overhaul of the treat mechanism.
+- Introduced in the original **Doggy Talents**.
+- A potential overhaul of the treat system is being considered for future development.
+
+<references />

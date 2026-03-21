@@ -5,7 +5,7 @@ infobox:
   image: sunglasses.png
   rows:
   - ID: doggytalents:sunglasses
-  - Type: Customization (Non-dyeab;e)
+  - Type: Customization (Non-dyeable)
   - Stackable: '64'
 recipes:
   sunglasses:
@@ -22,9 +22,9 @@ recipes:
 ---
 <infobox />
 
-**Dog Sunglasses** is a non-dyable equipable item that makes your dog look cooler. B)
+**Dog Sunglasses** are the ultimate accessory for the pup that's just too cool for school. Not only do they make your dog look "cooler" B), but they're also a key component for crafting even smarter eyewear for your canine companions.
 
-![frameless](/images/sunglasses_display.png "frameless")
+![Dog Sunglasses Display](/images/sunglasses_display.png "Dog Sunglasses Display")
 
 ## Obtaining
 ### Crafting
@@ -32,8 +32,11 @@ recipes:
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
 ## Used In
-- [Smarty Glasses](Smarty_Glasses)
+- **[Smarty Glasses](Smarty_Glasses)**
 
 ## Trivia
-It was added in the original Doggy Talents.
+- Added in the original **Doggy Talents**.
+
+<references />

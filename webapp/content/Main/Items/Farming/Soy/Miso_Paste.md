@@ -30,4 +30,4 @@ recipes:
 ## Used in
 - [Miso Soup](Miso_Soup)
 ## Trivia
-- It was added in DTN 1.18.0
+- Introduced in DTN 1.18.0

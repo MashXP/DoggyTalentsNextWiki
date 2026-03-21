@@ -19,12 +19,11 @@ recipes:
 ---
 <infobox />
 
-**Onsen Tamago** is a delicious food item that fills up 2 hunger points and gives you **Absorption I** for **10 seconds**.
+**Onsen Tamago** (literally "Hot Spring Eggs") is a traditional Japanese delicacy recognized for its unique silky and soft texture. These eggs are naturally "cooked" using the consistent heat of hot springs, providing 2 hunger points and a brief **Absorption I** shield—the perfect snack for a relaxing break after a long trek through the world.
 
-Your dog can also eat this, so don't be shy to share it with your furry pal!
 ## Obtaining
 ### Boiling Cauldron
-Can be instantly cooked by throwing an Egg into a Water-filled [Cauldron](https://minecraft.wiki/w/Cauldron) with a Burning block (Fire, Campfire, Magma Block, Lava...) underneath.
+The traditional and preferred method for obtaining these eggs is to throw a standard **[Egg](https://minecraft.wiki/w/Egg)** into a water-filled **[Cauldron](https://minecraft.wiki/w/Cauldron)** that has a burning block (Fire, Campfire, Magma Block, or Lava) placed directly underneath it. The egg will "boil" instantly into its Onsen form.
 
 ### Smelting
 <recipe />
@@ -34,4 +33,7 @@ Can be instantly cooked by throwing an Egg into a Water-filled [Cauldron](https:
 ## Usage
 - **<code>Right click</code>** to use the item.
 ## Trivia
-- It was added in DTN 1.18.0.
+- Introduced in **DTN 1.18.0**.
+- Despite being an egg-based dish, it is safe to share with your dog, granting them the same absorption benefits.
+
+<references />

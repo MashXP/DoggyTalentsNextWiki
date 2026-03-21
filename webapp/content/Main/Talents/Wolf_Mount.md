@@ -14,7 +14,7 @@ title: Wolf Mount
 
 ## Trivia
 
-- It was added in the original DT.
+- Introduced in the original DT.
 - Back then before DTN 1.17.0, you have to be in the air and right click the dog to mount.
 - - Give your good boy an [Energizer Stick](Energizer_Stick) and zoom with Mach K9! Useful to get away when you're stuck in a sticky situation.
 - Combine with [Flying Furball](Flying_Furball) talent for the best transportation you can get in a game!

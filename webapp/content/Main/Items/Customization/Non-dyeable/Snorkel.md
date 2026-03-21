@@ -26,7 +26,7 @@ recipes:
 ---
 <infobox />
 
-**Snorkel** is a non-dyeable equipable item that makes your dog look ready to go blub blub.
+**Snorkel** is a non-dyeable accessory that ensures your dog is ready for underwater adventures (even if they can already swim!). It adds a playful and aquatic touch to their look, perfect for beach days or exploring deep oceans with their owner.
 
 ![You don't need that! You can swim, remember?](/images/snorkel_display.png "You don't need that! You can swim, remember?")
 
@@ -38,5 +38,9 @@ recipes:
 
 ## Usage
 - **<code>Right click</code>** on your dog to quickly equip the item or use the **Style tab** within the [Dog Menu](Dog_Menu#Style).
+
 ## Trivia
-- Introduced in DTN 1.17.0.
+- Introduced in **DTN 1.17.0**.
+- The item's description, "**Helu, I'm under the water~**", is a reference to a popular meme of an Indian guy pretending to be underwater.
+
+<references />
