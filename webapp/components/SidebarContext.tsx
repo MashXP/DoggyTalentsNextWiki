@@ -4,35 +4,56 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 
 interface SidebarContextType {
-  isOpen: boolean;
-  setIsOpen: (isOpen: boolean) => void;
-  toggle: () => void;
+  isSidebarOpen: boolean;
+  setIsSidebarOpen: (isOpen: boolean) => void;
+  toggleSidebar: () => void;
+  isTOCOpen: boolean;
+  setIsTOCOpen: (isOpen: boolean) => void;
+  toggleTOC: () => void;
+  closeAll: () => void;
 }
 
 const SidebarContext = createContext<SidebarContextType | undefined>(undefined);
 
 export function SidebarProvider({ children }: { children: React.ReactNode }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isTOCOpen, setIsTOCOpen] = useState(false);
   const pathname = usePathname();
 
-  const toggle = () => setIsOpen(prev => !prev);
+  const toggleSidebar = () => {
+    setIsSidebarOpen(prev => !prev);
+    if (!isSidebarOpen) setIsTOCOpen(false); // Close TOC if opening sidebar
+  };
 
-  // Close sidebar when navigating to a new page
+  const toggleTOC = () => {
+    setIsTOCOpen(prev => !prev);
+    if (!isTOCOpen) setIsSidebarOpen(false); // Close sidebar if opening TOC
+  };
+
+  const closeAll = () => {
+    setIsSidebarOpen(false);
+    setIsTOCOpen(false);
+  };
+
+  // Close everything when navigating to a new page
   useEffect(() => {
-    setIsOpen(false);
+    closeAll();
   }, [pathname]);
 
-  // Prevent scrolling when sidebar is open on mobile
+  // Prevent scrolling when either sidebar is open on mobile
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 768) {
-        setIsOpen(false);
+        setIsSidebarOpen(false);
+      }
+      if (window.innerWidth > 1200) {
+        setIsTOCOpen(false);
       }
     };
     
     window.addEventListener('resize', handleResize);
     
-    if (isOpen && window.innerWidth <= 768) {
+    if ((isSidebarOpen && window.innerWidth <= 768) || (isTOCOpen && window.innerWidth <= 1200)) {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = '';
@@ -42,10 +63,14 @@ export function SidebarProvider({ children }: { children: React.ReactNode }) {
       window.removeEventListener('resize', handleResize);
       document.body.style.overflow = '';
     };
-  }, [isOpen]);
+  }, [isSidebarOpen, isTOCOpen]);
 
   return (
-    <SidebarContext.Provider value={{ isOpen, setIsOpen, toggle }}>
+    <SidebarContext.Provider value={{ 
+      isSidebarOpen, setIsSidebarOpen, toggleSidebar,
+      isTOCOpen, setIsTOCOpen, toggleTOC,
+      closeAll
+    }}>
       {children}
     </SidebarContext.Provider>
   );

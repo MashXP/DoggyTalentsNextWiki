@@ -208,12 +208,12 @@ export default function SidebarNav({ slugs, searchData }: { slugs: string[]; sea
   const tree = buildTree(slugs.filter(s => s !== 'Doggy_Talents_Next_Wiki'));
   const pathname = usePathname();
   const navRef = useRef<HTMLElement>(null);
-  const { isOpen, setIsOpen } = useSidebar();
+  const { isSidebarOpen, setIsSidebarOpen, isTOCOpen, closeAll } = useSidebar();
   
   // Touch gesture state
   const touchStart = useRef<{ x: number, y: number } | null>(null);
   const touchEnd = useRef<{ x: number, y: number } | null>(null);
-  const minSwipeDistance = 40;
+  const minSwipeDistance = 60;
 
   useEffect(() => {
     const handleTouchStart = (e: globalThis.TouchEvent) => {
@@ -236,13 +236,19 @@ export default function SidebarNav({ slugs, searchData }: { slugs: string[]; sea
       
       const xDiff = touchStart.current.x - touchEnd.current.x;
       const yDiff = touchStart.current.y - touchEnd.current.y;
-      
+
       // Ensure horizontal swipe is dominant and exceeds threshold
       if (Math.abs(xDiff) > Math.abs(yDiff) && Math.abs(xDiff) > minSwipeDistance) {
-        if (xDiff < 0 && !isOpen) {
-          setIsOpen(true);
-        } else if (xDiff > 0 && isOpen) {
-          setIsOpen(false);
+        if (xDiff < 0) { // Left to Right swipe
+          // Only open sidebar if nothing else is open
+          if (!isSidebarOpen && !isTOCOpen) {
+            setIsSidebarOpen(true);
+          }
+        } else if (xDiff > 0) { // Right to Left swipe
+          // Only close sidebar if it is open
+          if (isSidebarOpen) {
+            setIsSidebarOpen(false);
+          }
         }
       }
     };
@@ -256,7 +262,7 @@ export default function SidebarNav({ slugs, searchData }: { slugs: string[]; sea
       window.removeEventListener('touchmove', handleTouchMove);
       window.removeEventListener('touchend', handleTouchEnd);
     };
-  }, [isOpen, setIsOpen]);
+  }, [isSidebarOpen, setIsSidebarOpen, isTOCOpen]);
 
   const [indicatorStyle, setIndicatorStyle] = useState<React.CSSProperties>({
     opacity: 0,
@@ -326,11 +332,11 @@ export default function SidebarNav({ slugs, searchData }: { slugs: string[]; sea
   return (
     <>
       <div 
-        className={`sidebar-overlay ${isOpen ? 'active' : ''}`} 
-        onClick={() => setIsOpen(false)}
+        className={`sidebar-overlay ${isSidebarOpen ? 'active' : ''}`} 
+        onClick={closeAll}
       />
       <aside 
-        className={`sidebar glass ${isOpen ? 'open' : ''}`}
+        className={`sidebar glass ${isSidebarOpen ? 'open' : ''}`}
       >
         <div className="sidebar-header">
           <Link href="/" className="sidebar-logo">

@@ -13,6 +13,8 @@ import InfoboxDisplay from './InfoboxDisplay';
 import { ItemSlot } from './CraftingGrid';
 import Gallery from './Gallery';
 
+import TableOfContents from './TableOfContents';
+
 interface Section {
   title: string;
   content: string;
@@ -73,6 +75,13 @@ function CollapsibleDetails({ children, ...props }: any) {
   );
 }
 
+function stripMarkdown(text: string): string {
+  return text
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // Links
+    .replace(/[*_~`]/g, '') // Formatting characters
+    .trim();
+}
+
 function splitByH2(content: string): Section[] {
   const sections: Section[] = [];
   const lines = content.split('\n');
@@ -84,7 +93,7 @@ function splitByH2(content: string): Section[] {
     if (line.startsWith('## ') && !line.startsWith('### ')) {
       const contentStr = currentContent.join('\n').trim();
       if (contentStr !== '') {
-        sections.push({ title: currentTitle, content: currentContent.join('\n') });
+        sections.push({ title: stripMarkdown(currentTitle), content: currentContent.join('\n') });
       }
       currentTitle = line.replace('## ', '').trim();
       currentContent = [line];
@@ -95,7 +104,7 @@ function splitByH2(content: string): Section[] {
 
   const lastContentStr = currentContent.join('\n').trim();
   if (lastContentStr !== '') {
-    sections.push({ title: currentTitle, content: currentContent.join('\n') });
+    sections.push({ title: stripMarkdown(currentTitle), content: currentContent.join('\n') });
   }
 
   return sections;
@@ -146,7 +155,8 @@ export default function MarkdownRenderer({ content, infobox, recipes, gallery, a
   };
 
   const sections = useMemo(() => splitByH2(content), [content]);
-  const hasMultipleSections = sections.length > 1;
+  const isMainPage = useMemo(() => content.includes('mainpage-left'), [content]);
+  const hasMultipleSections = sections.length > 1 && !isMainPage;
 
   // Combined effect to handle initial mount, content changes, and hash changes
   useEffect(() => {
@@ -587,34 +597,47 @@ export default function MarkdownRenderer({ content, infobox, recipes, gallery, a
 
   return (
     <div className="article-body">
-      {hasMultipleSections && (
-        <div className={`view-toggle ${isReady ? 'ready' : ''}`}>
-          <div className={`view-toggle-pill ${viewMode}`}></div>
-          <button className={`view-toggle-btn ${viewMode === 'full' ? 'active' : ''}`} onClick={() => handleToggleView('full')}>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="3" y1="15" x2="21" y2="15"></line><line x1="9" y1="3" x2="9" y2="21"></line><line x1="15" y1="3" x2="15" y2="21"></line></svg>
-            Full View
-          </button>
-          <button className={`view-toggle-btn ${viewMode === 'tabs' ? 'active' : ''}`} onClick={() => handleToggleView('tabs')}>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
-            Tab View
-          </button>
-        </div>
-      )}
+      <div className={`article-layout-container ${hasMultipleSections && viewMode === 'full' ? 'has-toc' : ''}`}>
+        <div className={`view-mode-container ${isReady ? 'ready' : ''}`}>
+          {hasMultipleSections && (
+            <div className={`view-toggle ${isReady ? 'ready' : ''}`}>
+              <div className={`view-toggle-pill ${viewMode}`}></div>
+              <button className={`view-toggle-btn ${viewMode === 'full' ? 'active' : ''}`} onClick={() => handleToggleView('full')}>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="3" y1="15" x2="21" y2="15"></line><line x1="9" y1="3" x2="9" y2="21"></line><line x1="15" y1="3" x2="15" y2="21"></line></svg>
+                Full View
+              </button>
+              <button className={`view-toggle-btn ${viewMode === 'tabs' ? 'active' : ''}`} onClick={() => handleToggleView('tabs')}>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                Tab View
+              </button>
+            </div>
+          )}
 
-      <div className={`view-mode-container ${isReady ? 'ready' : ''}`}>
-        {viewMode === 'tabs' && hasMultipleSections ? (
-          <div className="tabs-content-wrapper">
-            <div className="tabs-container">
-              {sections.map((s, idx) => (
-                <button key={idx} className={`tab-btn ${activeTabIndex === idx ? 'active' : ''}`} onClick={() => setActiveTabIndex(idx)}>{s.title}</button>
-              ))}
+          {viewMode === 'tabs' && hasMultipleSections ? (
+            <div className="tabs-content-wrapper">
+              <div className="tabs-container">
+                {sections.map((s, idx) => (
+                  <button key={idx} className={`tab-btn ${activeTabIndex === idx ? 'active' : ''}`} onClick={() => setActiveTabIndex(idx)}>{s.title}</button>
+                ))}
+              </div>
+              <div className="tab-content" key={activeTabIndex}>
+                <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, rehypeSlug]} components={MarkdownComponents as any}>{sections[activeTabIndex].content}</ReactMarkdown>
+              </div>
             </div>
-            <div className="tab-content" key={activeTabIndex}>
-              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, rehypeSlug]} components={MarkdownComponents as any}>{sections[activeTabIndex].content}</ReactMarkdown>
-            </div>
-          </div>
-        ) : (
-          <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, rehypeSlug]} components={MarkdownComponents as any}>{content}</ReactMarkdown>
+          ) : (
+            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, rehypeSlug]} components={MarkdownComponents as any}>{content}</ReactMarkdown>
+          )}
+        </div>
+        
+        {hasMultipleSections && (
+          <aside className="toc-sidebar">
+            <TableOfContents 
+              sections={sections} 
+              viewMode={viewMode}
+              activeTabIndex={activeTabIndex}
+              onTabChange={setActiveTabIndex}
+            />
+          </aside>
         )}
       </div>
 
