@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import Fuse from 'fuse.js';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
@@ -18,14 +18,14 @@ export default function Search({ data }: SearchProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const fuse = new Fuse(data, {
+  const fuse = useMemo(() => new Fuse(data, {
     keys: [
       { name: 'title', weight: 1 },
       { name: 'content', weight: 0.3 }
     ],
     threshold: 0.3,
     includeMatches: true,
-  });
+  }), [data]);
 
   useEffect(() => {
     function handleGlobalKeyDown(e: KeyboardEvent) {
@@ -110,13 +110,13 @@ export default function Search({ data }: SearchProps) {
               }}
             >
               <div className="search-result-title">{result.title}</div>
+              {result.category && (
+                <div className="search-result-category">{result.category}</div>
+              )}
               {result.content && (
                 <div className="search-result-snippet">
                   {result.content.length > 100 ? `${result.content.slice(0, 100)}...` : result.content}
                 </div>
-              )}
-              {result.category && (
-                <div className="search-result-category">{result.category}</div>
               )}
             </Link>
           ))}

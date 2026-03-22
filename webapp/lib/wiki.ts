@@ -186,21 +186,24 @@ export function getSearchData(): SearchItem[] {
           ? currentPath
           : path.join(currentPath, fileName);
           
-        // Simple regex to strip basic markdown for search indexing
-        const cleanContent = content
+        // Use description if available, otherwise strip basic markdown for search indexing
+        const searchContent = data.description || content
           .replace(/\[(.*?)\]\(.*?\)/g, '$1') // [text](url) -> text
           .replace(/#{1,6}\s+/g, '')         // # headers
+          .replace(/^>\s*/gm, '')            // blockquotes
           .replace(/(\*\*|__)(.*?)\1/g, '$2') // bold
           .replace(/(\*|_)(.*?)\1/g, '$2')    // italic
           .replace(/`{1,3}[\s\S]*?`{1,3}/g, '') // code blocks
           .replace(/<.*?>/g, '')              // html tags
+          .replace(/\n+/g, ' ')               // newlines to spaces
+          .trim()
           .slice(0, 500);                     // Limit content length for scaling
           
         items.push({
           title: data.title || fileName.replace(/_/g, ' '),
           slug: slug,
           category: currentPath.split('/')[0] || 'Main',
-          content: cleanContent,
+          content: searchContent,
         });
       }
     }
