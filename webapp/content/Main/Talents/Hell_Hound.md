@@ -1,20 +1,20 @@
 ---
 title: Hell Hound
 ---
+Trains your dog to withstand extreme heat, allowing them to walk on, bathe in, and even set enemies on fire with lava.
 
+## Detailed Description
+This skill trains your Dog to **withstand extreme scorching heat.**
 
+![Doggie likes bathing in lava~](hellhound_talent_1.webp "Doggie likes bathing in lava~")
 
-> ![Doggie likes bathing in lava~](hellhound_talent_1.webp "Doggie likes bathing in lava~")
-> 
-> This skill trains your Dog to **withstand extreme scorching heat.**
-> 
-> *The higher the level, the more heat the Dog can handle and the less flammable your Dog will be.*
-> 
-> *Dogs who have mastered this skill will be completely non-flammable and will treat lava like water. They may even prefer to bathe in it, as its thick consistency gives them a massage.*
-> 
-> Your Dog may also have the ability to **set things on fire when attacking** if trained enough (level 4).
-> 
-> ...Mastering this skill will also allow Dogs to **walk on lava.**
+*The higher the level, the more heat the Dog can handle and the less flammable your Dog will be.*
+
+*Dogs who have mastered this skill will be completely non-flammable and will treat lava like water. They may even prefer to bathe in it, as its thick consistency gives them a massage.*
+
+Your Dog may also have the ability to **set things on fire when attacking** if trained enough (level 4).
+
+...Mastering this skill will also allow Dogs to **walk on lava.**
 
 Note: In order to traverse lava lakes with [Wolf Mount](Wolf_Mount)
 

@@ -1,10 +1,10 @@
 ---
 title: Puppy Eyes
 ---
+Warms the hearts of villagers to increase your player reputation and trade standing.
 
-
-
-> With this skill, your dog will warm the hearts of every Villager, **increasing your reputation**.
+## Detailed Description
+With this skill, your dog will warm the hearts of every Villager, **increasing your reputation**.
 
 ## Trivia
 

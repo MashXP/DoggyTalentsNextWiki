@@ -1,16 +1,14 @@
 ---
 title: Doggy Armor
 ---
+Enables your dog to wear and benefit from various types of armor, including modded versions.
 
+## Detailed Description
+Allows your dog to **wear Armor**.
 
+To start, **<code>Right-click</code>** on a Dog with this talent with any **Armor pieces** in hand (or access via the Talents Menu) and a GUI will appear allowing you to put it on your dog.
 
-> Allows your dog to **wear Armor**.
-> 
-> 
-> To start, **<code>Right-click</code>** on a Dog with this talent with any **Armor pieces** in hand (or access via the Talents Menu) and a GUI will appear allowing you to put it on your dog.
-> 
-> 
-> At **level 3**, your dog will **automatically gain XP** to **repair any Armor with the Mending Enchantment**.
+At **level 3**, your dog will **automatically gain XP** to **repair any Armor with the Mending Enchantment**.
 
 ## Trivia
 

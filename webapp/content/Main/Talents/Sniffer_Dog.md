@@ -1,23 +1,23 @@
 ---
 title: Sniffer Dog
 ---
+Trains your dog to track down specific blocks or ores by memorizing their scent from a treat.
+
+## Detailed Description
+This talent allows your dog to **sniff out any block, like valuable ores** for example.
 
 
+**Each level** **increases** your dog's **sniffing distance**, thus increasing the chance of finding the desired block, such as ore.
 
-> This talent allows your dog to **sniff out any block, like valuable ores** for example.
-> 
-> 
-> **Each level** **increases** your dog's **sniffing distance**, thus increasing the chance of finding the desired block, such as ore.
-> 
-> 
-> To make your dog start detecting a certain block, a [Scent Treat](Scent_Treat) is required to mark the scent of the block:
-> 
-> * The treat then be **given to the dog** who will **lick** the treat, **memorize the scent** and **give you back.**
-> * To make your dog **stop** detecting, give it a **empty Scent Treat**.
-> * To **check** which block your Dog are looking for, **<code>Sneak + Right click</code>** it with any [Scent Treat](Scent_Treat) in hand.
-> 
-> 
-> *"...Dogs are **not quite good** at detecting blocks **vertically**, so despite the radius increase that each level provides along the horizontal plane, they are only capable of locating blocks which is not around **3 blocks higher or lower** than where they are standing. Be sure to **pay close attention** to what the Dog is trying to tell you to have a better idea of where the block is..."*
+
+To make your dog start detecting a certain block, a [Scent Treat](Scent_Treat) is required to mark the scent of the block:
+
+* The treat then be **given to the dog** who will **lick** the treat, **memorize the scent** and **give you back.**
+* To make your dog **stop** detecting, give it a **empty Scent Treat**.
+* To **check** which block your Dog are looking for, **<code>Sneak + Right click</code>** it with any [Scent Treat](Scent_Treat) in hand.
+
+
+*"...Dogs are **not quite good** at detecting blocks **vertically**, so despite the radius increase that each level provides along the horizontal plane, they are only capable of locating blocks which is not around **3 blocks higher or lower** than where they are standing. Be sure to **pay close attention** to what the Dog is trying to tell you to have a better idea of where the block is..."*
 
 ## Trivia
 

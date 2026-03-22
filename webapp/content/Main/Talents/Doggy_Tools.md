@@ -1,22 +1,19 @@
 ---
 title: Doggy Tools
 ---
+Equips your dog with the ability to use tools for combat, automated farming, or even assisting with bridge building.
 
+## Detailed Description
+![When attacking, Dogs with any weapon in their toolbar will find and equip the closest weapon from the left.](doggy_tools_talent_1.webp "When attacking, Dogs with any weapon in their toolbar will find and equip the closest weapon from the left.")
 
+![Dogs with a Hoe inside the toolbar will help their owner farm/harvest wheat & rice.](doggy_tools_talent_2.webp "Dogs with a Hoe inside the toolbar will help their owner farm/harvest wheat & rice.")
 
-> ![When attacking, Dogs with any weapon in their toolbar will find and equip the closest weapon from the left.](doggy_tools_talent_1.webp "When attacking, Dogs with any weapon in their toolbar will find and equip the closest weapon from the left.")
-> 
-> 
-> 
-> ![Dogs with a Hoe inside the toolbar will help their owner farm/harvest wheat & rice.](doggy_tools_talent_2.webp "Dogs with a Hoe inside the toolbar will help their owner farm/harvest wheat & rice.")
-> 
 Allows your Dog to utilize specific tools to help you with certain tasks. Tools can be added to your Dog's toolbar, which can be accessed by **<code>Right-clicking</code>** your Dog with any variation of the Pickaxe.
-
 The higher the level, the greater the capacity of the toolbar.
 
 ### Abilities
 - **Combat:** Dogs with any weapon (Axes, Swords, Bows, Tridents and Crossbows) in their toolbar will find and equip the left-most weapon.
-  - Arrows for the Bow and Crossbow can be stored either in the toolbar or in [Pack Puppy](Pack_Puppy)<nowiki/>'s inventory.
+  - Arrows for the Bow and Crossbow can be stored either in the toolbar or in [Pack Puppy](Pack_Puppy)'s inventory.
   - Trident can only be used as a Ranged Attack weapon if enchanted with Loyalty 2 or greater, it can still be used as a Melee weapon otherwise.
 - **Farming:** Dogs with any Hoe in their toolbar will help you harvest and plant crops. They now support any farmable crop, including modded ones.
 - **Bridging:** Max-level (Level 5) Dogs can assist with bridging if they have building blocks in their toolbar. Use the **Dog Bridging Whistle** to command them.

@@ -1,16 +1,16 @@
 ---
 title: Wolf Mount
 ---
+Allows you to mount and ride your dog anywhere, each level will increase jump height.
 
-
+## Detailed Description
+Allows you to ride your Dog anywhere at speed.
 
 ![Lilith the Wolf](wolf_mount_talent.webp "Lilith the Wolf")
 
-> Allows you to ride your Dog anywhere at speed.
-> 
-> Every level allows your Dog to **jump higher.**
-> 
-> To ride your Dog, have an **Empty Hand** then **Rapidly Right-click** the Dog at least **Twice** to get on.
+Every level allows your Dog to **jump higher.**
+
+To ride your Dog, have an **Empty Hand** then **Rapidly Right-click** the Dog at least **Twice** to get on.
 
 ### Wolf Mount Status Overlay
 Since **DTN 1.18.51**, mounting a dog displays a dedicated status overlay instead of the vanilla vehicle hearts. This overlay shows the percentage of the dog's **Health**, **Hunger**, and **Air**, allowing for better monitoring of your companion's condition during travel. 

@@ -1,20 +1,20 @@
 ---
 title: Mob Retriever
 ---
+Enables your dog to pick up and carry other mobs on its back for easy transportation.
+
+## Detailed Description
+Allow your Dog to **retrieve mobs** by **forcing them onto its back.**
+
+* To start, have a Dog with this ability nearby.
+* You can then use a [Mob Retriever Whistle](Whistle) by pointing at the target you want the Dog to pick up and pressing Use.
+* The Dog will go and retrieve the target.
+* The target will continue to ride the Dog until the Dog sits down.
 
 
+**Level determines the maximum volume of the mob's hitbox that the Dog can retrieve.**
 
-> Allow your Dog to **retrieve mobs** by **forcing them onto its back.**
-> 
-> * To start, have a Dog with this ability nearby.
-> * You can then use a [Mob Retriever Whistle](Whistle) by pointing at the target you want the Dog to pick up and pressing Use.
-> * The Dog will go and retrieve the target.
-> * The target will continue to ride the Dog until the Dog sits down.
-> 
-> 
-> **Level determines the maximum volume of the mob's hitbox that the Dog can retrieve.**
-> 
-> **Mastering** it **removes the hitbox constraint.**
+**Mastering** it **removes the hitbox constraint.**
 
 ## Trivia
 

@@ -1,10 +1,10 @@
 ---
 title: Fire Drill
 ---
+Teaches your dog how to quickly extinguish itself if it catches on fire.
 
-
-
-> This talent teaches your dog how to put itself out when it catches on fire. Stop, Drop and Roll!
+## Detailed Description
+This talent teaches your dog how to put itself out when it catches on fire. Stop, Drop and Roll!
 
 ## Trivia
 

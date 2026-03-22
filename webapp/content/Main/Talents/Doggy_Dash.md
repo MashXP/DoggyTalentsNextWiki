@@ -1,18 +1,17 @@
 ---
 title: Doggy Dash
 ---
+Increases your dog's movement speed, making them faster companions and better mounts.
+
+## Detailed Description
+Increases your Dog's movement speed.
+![Without Doggy Dash - With Doggy Dash](doggy_dash_talent.webp "Without Doggy Dash - With Doggy Dash")
 
 
 
-> ![Without Doggy Dash - With Doggy Dash](doggy_dash_talent.webp "Without Doggy Dash - With Doggy Dash")
-> 
-> Increases your Dog's movement speed.
-> 
-> 
-> 
-> Every level grants a 12% increase.
-> 
-> Mastering it grants an additional 15% increase.
+Every level grants a 12% increase.
+
+Mastering it grants an additional 15% increase.
 
 ## Trivia
 

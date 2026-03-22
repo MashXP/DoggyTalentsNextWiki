@@ -1,16 +1,16 @@
 ---
 title: Bed Finder
 ---
+Highlights your spawn point with a yellow outline while the dog is carried on your head.
 
+## Detailed Description
+While a Dog with this ability is on your head, your bed will have a yellow outline around it.
 
+![Sneak + Right-click to put your dog on your head](bed_finder_talent.webp "Sneak + Right-click to put your dog on your head")
 
-> ![Sneak + Right-click to put your dog on your head](bed_finder_talent.webp "Sneak + Right-click to put your dog on your head")
-> 
-> While a Dog with this ability is on your head, your bed will have a yellow outline around it.
-> 
-> To place the Dog on your head, **<code>Sneak + Right click</code>** on the Dog with a [Bone](https://minecraft.wiki/w/Bone) in your hand. (You can still do this without Bed Finder.)
-> 
-> The range is **200 blocks per level** but becomes **infinite at level 5**.
+To place the Dog on your head, **<code>Sneak + Right click</code>** on the Dog with a [Bone](https://minecraft.wiki/w/Bone) in your hand. (You can still do this without Bed Finder.)
+
+The range is **200 blocks per level** but becomes **infinite at level 5**.
 
 ## Trivia
 

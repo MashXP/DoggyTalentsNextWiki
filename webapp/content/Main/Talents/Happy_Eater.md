@@ -1,12 +1,12 @@
 ---
 title: Happy Eater
 ---
+Increases the nourishment gained from food and expands the dog's diet to include cooked fish.
 
+## Detailed Description
+Increases the [Nourishment Points](Behaviors/Basic_Core_Stats) your Dog gets from food items by **10%** per level.
 
-
-> Increases the [Nourishment Points](Behaviors/Basic_Core_Stats) your Dog gets from food items by **10%** per level.
-> 
-> In addition, from **level 2,** your Dog will be less of a picky eater and accept [Cooked Fishes](https://minecraft.wiki/w/Cooked_Fish) on their own.
+In addition, from **level 2,** your Dog will be less of a picky eater and accept [Cooked Fishes](https://minecraft.wiki/w/Cooked_Fish) on their own.
 
 ## Trivia
 

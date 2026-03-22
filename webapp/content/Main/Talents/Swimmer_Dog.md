@@ -1,15 +1,14 @@
 ---
 title: Swimmer Dog
 ---
+Overhauls aquatic navigation, allowing your dog to swim properly.
 
+## Detailed Description
+Allows your Dog to **dive and swim properly and breathe underwater for longer.**
 
+![Nyooom~ *blub blub](swimmer_dog_talent.webp "Nyooom~ *blub blub")
 
-> ![Nyooom~ *blub blub](swimmer_dog_talent.webp "Nyooom~ *blub blub")
-> 
-> Allows your Dog to **dive and swim properly and breathe underwater for longer.**
-> 
-> 
-> Once **mastered**, your Dog will be able to **breathe underwater indefinitely** and will grant the **rider ([Wolf Mount](Wolf_Mount)) Conduit Power**.
+Once **mastered**, your Dog will be able to **breathe underwater indefinitely** and will grant the **rider ([Wolf Mount](Wolf_Mount)) Conduit Power**.
 
 ### Water Navigation
 Since **DTN 1.18.58**, Swimmer dogs (along with Wolf Mounts) will float when carrying entities that cannot breathe underwater, ensuring their safety during aquatic travel.
