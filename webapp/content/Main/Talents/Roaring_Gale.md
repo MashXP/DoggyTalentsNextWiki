@@ -5,7 +5,7 @@ Uses a whistle to unleash a powerful roar that stuns and damages surrounding ene
 
 ## Detailed Description
 Use the **[Roaring Whistle](Whistle)** and unleash your Dog's inner roar!
-![Notice how passive mobs aren't affected.](roaring_gale_talent.webp "Notice how passive mobs aren't affected.")
+![Notice how passive mobs aren't affected.](roaring_gale_talent.gif "Notice how passive mobs aren't affected.")
 
 
 The duration of the **Stun effects** and **Damage** per roar will **increase** and the

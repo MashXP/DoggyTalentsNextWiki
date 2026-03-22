@@ -8,7 +8,7 @@ A Dog with this ability can sniff out [Creepers](https://minecraft.wiki/w/Creepe
 
 The range at which your Dog can detect Creepers increases by 6 blocks per level.
 
-![Creeper Sweeper (Legacy)](creeper_sweeper_talent_old.webp "Creeper Sweeper (Legacy)")
+![Creeper Sweeper (Legacy)](creeper_sweeper_talent_old.gif "Creeper Sweeper (Legacy)")
 
 Mastering this skill allows your Dog to attack Creepers, instantly killing the Creeper.
 

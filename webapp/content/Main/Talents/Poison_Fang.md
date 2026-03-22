@@ -5,7 +5,7 @@ Causes your dog's attacks to inflict poison on enemies and grants them immunity 
 
 ## Detailed Description
 Your Dog's **attacks will poison its target**, and the **duration of the poison increases with level.**
-![Very effective against Witches!](poison_fang_talent.webp "Very effective against Witches!")
+![Very effective against Witches!](poison_fang_talent.gif "Very effective against Witches!")
 
 
 At **level 3** your Dog becomes **immune to poison.**

@@ -6,7 +6,7 @@ Trains your dog to withstand extreme heat, allowing them to walk on, bathe in, a
 ## Detailed Description
 This skill trains your Dog to **withstand extreme scorching heat.**
 
-![Doggie likes bathing in lava~](hellhound_talent_1.webp "Doggie likes bathing in lava~")
+![Doggie likes bathing in lava~](hellhound_talent_1.gif "Doggie likes bathing in lava~")
 
 *The higher the level, the more heat the Dog can handle and the less flammable your Dog will be.*
 

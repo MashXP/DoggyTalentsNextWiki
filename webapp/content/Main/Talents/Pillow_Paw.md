@@ -5,7 +5,7 @@ Reduces and eventually negates all fall damage taken by your dog.
 
 ## Detailed Description
 Each level allows your Dog to fall **3 more blocks before taking damage**.
-![Fluffy~](pillow_paw_talent.webp "Fluffy~")
+![Fluffy~](pillow_paw_talent.gif "Fluffy~")
 
 
 **Mastering** this skill will allow your Dog to **completely** **negate fall damage.**

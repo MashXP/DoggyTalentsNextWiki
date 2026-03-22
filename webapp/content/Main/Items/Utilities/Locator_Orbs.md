@@ -73,7 +73,7 @@ recipes:
 - When tracking a dog equipped with an orb, the **[Canine Tracker](Canine_Tracker)** will display the tracking text in the orb's specific color.
 - **Inventory Customization:** When equipped, the Dog Menu's inventory slots will adopt the color of the Locator Orb. Note that Thicc Collars also provide slot colors, but Locator Orbs take priority if both are equipped.
 
-![Orb Frenzy!](rgb_doggo.webp "Orb Frenzy!")
+![Orb Frenzy!](rgb_doggo.gif "Orb Frenzy!")
 
 ## Trivia
 - The primary Eight Orbs (1-8) were added in **DTN 1.16.0**.

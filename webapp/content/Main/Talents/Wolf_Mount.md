@@ -6,7 +6,7 @@ Allows you to mount and ride your dog anywhere, each level will increase jump he
 ## Detailed Description
 Allows you to ride your Dog anywhere at speed.
 
-![Lilith the Wolf](wolf_mount_talent.webp "Lilith the Wolf")
+![Lilith the Wolf](wolf_mount_talent.gif "Lilith the Wolf")
 
 Every level allows your Dog to **jump higher.**
 

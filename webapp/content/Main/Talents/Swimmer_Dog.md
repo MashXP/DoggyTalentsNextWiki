@@ -6,7 +6,7 @@ Overhauls aquatic navigation, allowing your dog to swim properly.
 ## Detailed Description
 Allows your Dog to **dive and swim properly and breathe underwater for longer.**
 
-![Nyooom~ *blub blub](swimmer_dog_talent.webp "Nyooom~ *blub blub")
+![Nyooom~ *blub blub](swimmer_dog_talent.gif "Nyooom~ *blub blub")
 
 Once **mastered**, your Dog will be able to **breathe underwater indefinitely** and will grant the **rider ([Wolf Mount](Wolf_Mount)) Conduit Power**.
 

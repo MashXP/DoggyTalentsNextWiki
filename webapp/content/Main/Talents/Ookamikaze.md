@@ -6,7 +6,7 @@ A Kami-level talent that allows your dog to create controlled, harmless explosio
 ## Detailed Description
 *Only Kami-level Dogs can learn this talent!!!*
 
-![KABOOM!](ookamikaze_talent.webp "KABOOM!")
+![KABOOM!](ookamikaze_talent.gif "KABOOM!")
 
 *The most adorable harbinger of chaos and destruction the world has ever known! Feed it gunpowder, and it will create an explosion that doesn't hurt it!"*
 

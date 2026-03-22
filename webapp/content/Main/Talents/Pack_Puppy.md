@@ -6,7 +6,7 @@ Grants your dog dedicated inventory slots and the ability to automatically pick 
 ## Detailed Description
 Each level gives your Dog **3 inventory slots** in its **Pack Puppy GUI.**
 
-![Mimic auto-picks up the item.](pack_puppy_talent.webp "Mimic auto-picks up the item.")
+![Mimic auto-picks up the item.](pack_puppy_talent.gif "Mimic auto-picks up the item.")
 
 To open the GUI, press **<code>E</code>** to access your inventory, then navigate to **Dog Inventories!**
 

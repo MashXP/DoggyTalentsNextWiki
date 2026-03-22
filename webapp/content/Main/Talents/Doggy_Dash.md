@@ -5,7 +5,7 @@ Increases your dog's movement speed, making them faster companions and better mo
 
 ## Detailed Description
 Increases your Dog's movement speed.
-![Without Doggy Dash - With Doggy Dash](doggy_dash_talent.webp "Without Doggy Dash - With Doggy Dash")
+![Without Doggy Dash - With Doggy Dash](doggy_dash_talent.gif "Without Doggy Dash - With Doggy Dash")
 
 
 

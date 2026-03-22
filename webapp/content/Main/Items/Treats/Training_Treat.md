@@ -45,7 +45,7 @@ Each treat raises your dog's level by 1 (and 1 spendable point) until they reach
 - It is considered the most important item for accessing DTN's core content.
 - Its recipe was updated in **DTN 1.18.0** to include more diverse ingredients.
 - A legacy recipe animation can be seen below:
-![](training_treat_crafting_legacy.webp)
+![](training_treat_crafting_legacy.gif)
 - A potential overhaul of the treat system is being considered for future development.
 
 <references />

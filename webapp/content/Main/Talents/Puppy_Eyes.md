@@ -8,7 +8,7 @@ With this skill, your dog will warm the hearts of every Villager, **increasing y
 
 ## Trivia
 
-![Puppy eyes talent (legacy)](puppy_eyes_talent_old.webp "Puppy eyes talent (legacy)")
+![Puppy eyes talent (legacy)](puppy_eyes_talent_old.gif "Puppy eyes talent (legacy)")
 
 - Introduced In the original **Doggy Talents**.
 - The talent is heavily nerfed in 1.15.0, <s>due to the cringey dialogues</s>. The Devs have greater plans for the future of this talent.

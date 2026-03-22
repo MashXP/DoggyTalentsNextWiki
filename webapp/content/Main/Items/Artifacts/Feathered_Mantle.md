@@ -31,7 +31,7 @@ recipes:
 <recipe id="feathered_mantle" />
 
 ## Usage
-![Artifact Menu](doggy_artifacts_menu.webp)
+![Artifact Menu](doggy_artifacts_menu.gif)
 
 - **<code>Right click</code>** your dog with a [Stick](https://minecraft.wiki/w/Stick) to access the [Dog Menu](Dog_Menu). 
 - Navigate to the **Info Tab** and click on **<code>Doggy Artifacts</code>** to equip the mantle.

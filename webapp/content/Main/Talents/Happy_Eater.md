@@ -10,7 +10,7 @@ In addition, from **level 2,** your Dog will be less of a picky eater and accept
 
 ## Trivia
 
-![No longer be able to eat Rotten Flesh](happy_eater_talent_old.webp "No longer be able to eat Rotten Flesh")
+![No longer be able to eat Rotten Flesh](happy_eater_talent_old.gif "No longer be able to eat Rotten Flesh")
 
 - Introduced In the original **Doggy Talents**.
 - Back then, DTN Dogs can eat Rotten Flesh, but later the Dev's decided that they deserved better quality food.

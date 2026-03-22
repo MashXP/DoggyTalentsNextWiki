@@ -9,7 +9,7 @@ Before anything, you must obtain a ***Trained Dog*** first. There are currently 
 
 ### From Vanilla Wolves/Dogs to Trained Dogs
 
-![Use a Training Treat to train your first Doggo!](train_your_first_doggo.webp "Use a Training Treat to train your first Doggo!")
+![Use a Training Treat to train your first Doggo!](train_your_first_doggo.gif "Use a Training Treat to train your first Doggo!")
 
 This is the standard way to get your **Trained Dog**. A [**vanilla wolf**](https://minecraft.wiki/w/Wolf) is required (or one of the variants).
 

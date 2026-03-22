@@ -6,7 +6,7 @@ Enables your dog to store water in its fur to extinguish fire on itself or nearb
 ## Detailed Description
 This talent allows your Dog to **store water.**
 
-![*Notice the Dog's fur, it loves absorbing water. And the Dog loves shaking it dry.*](water_holder_talent.webp "*Notice the Dog's fur, it loves absorbing water. And the Dog loves shaking it dry.*")
+![*Notice the Dog's fur, it loves absorbing water. And the Dog loves shaking it dry.*](water_holder_talent.gif "*Notice the Dog's fur, it loves absorbing water. And the Dog loves shaking it dry.*")
 
 If you or your other wolves/dogs are **on fire,** it will run to each and shake its fur, **reducing the burn time or completely extinguishing the target**.
 
