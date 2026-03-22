@@ -433,7 +433,6 @@
     -webkit-backdrop-filter: blur(25px);
     transform: translateX(100%);
     border-left: 1px solid var(--surface-border);
-    padding-top: 60px; /* Space for mobile header */
   }
 
   .toc-container.open {

@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useState, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { useSidebar } from './SidebarContext';
 
 interface TOCItem {
@@ -19,11 +20,23 @@ export default function TableOfContents({ sections, viewMode = 'full', activeTab
   const [activeId, setActiveId] = useState<string>('');
   const [tocItems, setTocItems] = useState<TOCItem[]>([]);
   const { isTOCOpen, setIsTOCOpen, isSidebarOpen, closeAll } = useSidebar();
+  const [mounted, setMounted] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   // Touch gesture state
   const touchStart = useRef<{ x: number, y: number } | null>(null);
   const touchEnd = useRef<{ x: number, y: number } | null>(null);
   const minSwipeDistance = 60;
+
+  useEffect(() => {
+    setMounted(true);
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 1200);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   // Slugification matching rehype-slug (github-slugger style)
   const slugify = (text: string) => {
@@ -176,7 +189,7 @@ export default function TableOfContents({ sections, viewMode = 'full', activeTab
 
   if (tocItems.length === 0 && !sections.length) return null;
 
-  return (
+  const tocContent = (
     <>
       <div 
         className={`sidebar-overlay toc-overlay ${isTOCOpen ? 'active' : ''}`} 
@@ -218,4 +231,10 @@ export default function TableOfContents({ sections, viewMode = 'full', activeTab
       </nav>
     </>
   );
+
+  if (mounted && isMobile) {
+    return createPortal(tocContent, document.body);
+  }
+
+  return tocContent;
 }
