@@ -4,7 +4,7 @@ title: For Developers and Creators
 
 > This is where you can find all of the **necessary documentation** to be assisted in **building upon or extending Doggy Talents Next**, either through contributions directly to the base source code, assets, or external means like resource packs.
 
-<img src="/images/code_dogs.png" width="100%" />
+<img src="/images/code_dogs.jpg" width="100%" />
 
 Depending on which group your intentions classify on, proceed through the following:
 

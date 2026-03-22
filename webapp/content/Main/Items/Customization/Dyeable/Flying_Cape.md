@@ -25,7 +25,7 @@ recipes:
 
 **Flying Cape** is a dyeable accessory that makes your dog look like a true superhero! While it adds a valiant touch to their style, it captures the spirit of flight and heroic adventure, especially for dogs with high-tier talents.
 
-![A dog flying in style!](/images/flying_cape_display.png)
+![A dog flying in style!](/images/flying_cape_display.jpg)
 
 ## Obtaining
 ### Crafting

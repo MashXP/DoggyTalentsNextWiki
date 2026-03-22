@@ -111,4 +111,4 @@ I hope you find this guide helpful! Feel free to ask any questions.
 
 **Good luck!!! がんばってね〜！(⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠✧**
 
-<img src="/images/code_dogs.png" width="100%" />
+<img src="/images/code_dogs.jpg" width="100%" />

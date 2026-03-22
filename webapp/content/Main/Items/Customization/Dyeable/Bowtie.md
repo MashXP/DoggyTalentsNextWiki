@@ -27,7 +27,7 @@ recipes:
 
 ![Dog avec fancy bowtie!](/images/bowtie_equipped.png "Dog avec fancy bowtie!")
 
-![Festive Doggos!](/images/bowtie_demo2.png "Festive Doggos!")
+![Festive Doggos!](/images/bowtie_demo2.jpg "Festive Doggos!")
 
 ## Obtaining
 ### Crafting

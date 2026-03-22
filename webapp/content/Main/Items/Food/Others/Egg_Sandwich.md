@@ -41,7 +41,7 @@ Don't forget that your dog can also enjoy this delicious sandwich, making it a g
 - According to the developers, the item's original code was based on **[Cooked Chicken](https://minecraft.wiki/w/Cooked_Chicken)** <s>(sorry Legom)</s>.
 - Below is a real-life replica of the sandwich made at DashieDev's home:
 
-<img src="/images/mashxp's_egg_sandwich.png" width="300" />
+<img src="/images/mashxp's_egg_sandwich.jpg" width="300" />
 
 <img src="https://media.tenor.com/0vF7P1lNTFwAAAAd/beastars-egg-sandwich.gif" width="300" />
 

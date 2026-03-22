@@ -24,7 +24,7 @@ recipes:
 
 The **Kitsune Mask** is a mystical non-dyeable accessory inspired by traditional Japanese folklore.
 
-![Mask Display](/images/kitsune_mask_display.png)
+![Mask Display](/images/kitsune_mask_display.jpg)
 
 ## Obtaining
 ### Crafting

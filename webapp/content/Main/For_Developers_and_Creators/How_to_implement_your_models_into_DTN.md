@@ -312,4 +312,4 @@ Here are some **common errors** that I've encountered:
 
 I hope you find this guide helpful, feel free to ask any questions during the process. (or maybe later on, I don't mind xD).
 
-**Good luck!!! がんばってね〜！(⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠✧**![](/images/code_dogs.png)
+**Good luck!!! がんばってね〜！(⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠✧**![](/images/code_dogs.jpg)

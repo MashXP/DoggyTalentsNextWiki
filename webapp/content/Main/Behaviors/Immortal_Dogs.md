@@ -51,7 +51,7 @@ With **Immortal Dogs** disabled *(which is not recommended)*, when the dog's hea
 | Starve | **餓**- > hunger, famine | ![frameless](/images/starve.png "frameless") |
 | Burn | 焼 -> grill, burn | ![frameless](/images/burnt.png "frameless") |
 
-![An Injured Dog](/images/an_injured_dog.png "An Injured Dog")
+![An Injured Dog](/images/an_injured_dog.jpg "An Injured Dog")
 
 - Dogs **cannot teleport** in this mode.
 - Upon entering the mode, his [Nourishment Points](Basic_Core_Stats#Nourishment_Points) will be set to <code>-64</code> and will gradually regenerate to <code>0</code>. When it hits 0, the dog leaves the mode with its health and [Nourishment Points](Basic_Core_Stats#Nourishment_Points) maxed out and will be considered fully recovered and ready for another adventure.

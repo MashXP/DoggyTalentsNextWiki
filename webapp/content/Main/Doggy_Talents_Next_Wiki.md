@@ -38,7 +38,7 @@ Welcome to the official <br>
 
 > *This mod aims to create **Harmony** between the dogs and the player throughout the game. Imagine playing a Piano Concerto, you as the pianist and the dogs as the orchestra. When the two sounds are being played, it creates **harmony**, which our ears love so much. Thus, the orchestra doesn’t **overwhelm** but **empowers** the pianist. The mod is and will be designed along that principle. The dogs should accompany the player well while not becoming overpowered in the context. Although when on-demand, sufficient abilities should be granted to them, they should be required to work to achieve those. And you, the responsible owner, should help them throughout the journey.*
 
-![Cute](/images/cute.png)
+![Cute](/images/cute.jpg)
 
 
 ---

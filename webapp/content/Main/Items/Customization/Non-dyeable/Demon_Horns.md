@@ -27,7 +27,7 @@ recipes:
 
 **Demon Horns** are a devilish accessory for the "bad boy" of the pack. They give your dog a fierce and intimidating look, perfect for those who want to show off their mischievous side and "frighten" off unwanted visitors.
 
-![Who's a Bad Boy? You are!](/images/demon_horns_display.png)
+![Who's a Bad Boy? You are!](/images/demon_horns_display.jpg)
 
 ## Obtaining
 ### Crafting

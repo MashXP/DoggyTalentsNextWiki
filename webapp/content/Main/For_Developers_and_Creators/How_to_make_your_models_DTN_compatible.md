@@ -102,5 +102,5 @@ I hope you find this guide helpful! Feel free to ask any questions during the pr
 **Good luck!!! がんばってね〜！(⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠✧**
 
 <div class="tutorial-figure">
-  <img src="/images/code_dogs.png" alt="Developer Banner" />
+  <img src="/images/code_dogs.jpg" alt="Developer Banner" />
 </div>
