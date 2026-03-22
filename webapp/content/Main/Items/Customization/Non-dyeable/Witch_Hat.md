@@ -27,7 +27,7 @@ recipes:
 
 **Witch Hat** is a magical accessory that might make your dog smell a bit "funky," but it certainly makes them look enchanting. It's the perfect fit for dogs assisting with potion brewing or those simply wishing to add a bewitching touch to their style for Halloween.
 
-![Funky Witch](/images/witch_hat_display.jpg)
+![Funky Witch](images/witch_hat_display.jpg)
 
 ## Obtaining
 ### Crafting

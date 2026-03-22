@@ -15,8 +15,8 @@ infobox:
 
 | No. | Hat | Name | ID |
 | --- | --- | --- | --- |
-| 1 | ![](/images/firefighter_hat_red.png) | **Red** Fire Fighter Hat | doggytalents:firefighter_hat_red |
-| 2 | ![](/images/firefighter_hat_blue.png) | **Blue** Fire Fighter Hat | doggytalents:firefighter_hat_blue |
+| 1 | ![](images/firefighter_hat_red.png) | **Red** Fire Fighter Hat | doggytalents:firefighter_hat_red |
+| 2 | ![](images/firefighter_hat_blue.png) | **Blue** Fire Fighter Hat | doggytalents:firefighter_hat_blue |
 
 ## Obtaining
 This item is not currently craftable in survival mode.

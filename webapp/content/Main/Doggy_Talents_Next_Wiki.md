@@ -9,7 +9,7 @@ Welcome to the official <br>
 <span class="font-otsutome" style="font-weight:bold;font-size:30pt">🦴 Doggy Talents Next Wiki! 🦴</span>
 </div>
 
-![Official Banner](/images/official_banner.jpg)
+![Official Banner](images/official_banner.jpg)
 
 <div class="hero-quote">
   <p>"Maybe he was trying to set an example by showing you how anyone, even a dog could have an adventure."</p>
@@ -38,14 +38,14 @@ Welcome to the official <br>
 
 > *This mod aims to create **Harmony** between the dogs and the player throughout the game. Imagine playing a Piano Concerto, you as the pianist and the dogs as the orchestra. When the two sounds are being played, it creates **harmony**, which our ears love so much. Thus, the orchestra doesn’t **overwhelm** but **empowers** the pianist. The mod is and will be designed along that principle. The dogs should accompany the player well while not becoming overpowered in the context. Although when on-demand, sufficient abilities should be granted to them, they should be required to work to achieve those. And you, the responsible owner, should help them throughout the journey.*
 
-![Cute](/images/cute.jpg)
+![Cute](images/cute.jpg)
 
 
 ---
 
 ### Discord Server
 
-[![Discord Banner](/images/discord_banner.jpg)](https://discord.gg/7T8K6rX)
+[![Discord Banner](images/discord_banner.jpg)](https://discord.gg/7T8K6rX)
 
 
 </div>

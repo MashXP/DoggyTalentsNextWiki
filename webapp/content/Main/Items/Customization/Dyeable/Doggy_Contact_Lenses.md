@@ -24,9 +24,9 @@ recipes:
 
 **Doggy Contact Lenses** are special double-dyeable accessories that allow for complete customization of your dog's eye colors. With the ability to dye each lens separately, you can create unique heterochromatic looks or match any style with precision.
 
-![Double-Dyeable Example](/images/doggy_contacts_display2.png "Double-Dyeable Example")
+![Double-Dyeable Example](images/doggy_contacts_display2.png "Double-Dyeable Example")
 
-![Doggy Contact Lenses Display](/images/doggy_contacts_display.png "Doggy Contact Lenses Display")
+![Doggy Contact Lenses Display](images/doggy_contacts_display.png "Doggy Contact Lenses Display")
 
 ## Obtaining
 ### Crafting
@@ -39,6 +39,6 @@ recipes:
 - Introduced in **DTN 1.18.5**.
 - This item was suggested by a Discord community member, **@pipthewolfy**.
 - By crafting the lenses with **Paper**, you can unlock the ability to dye the other lens a different color.
-- The use of **[Sake](Sake)** in the crafting recipe is a humorous, if slightly far-fetched, justification for "sterilizing" the lenses before use.
+- The use of **[Sake](Bottle_of_Sake)** in the crafting recipe is a humorous, if slightly far-fetched, justification for "sterilizing" the lenses before use.
 
 <references />

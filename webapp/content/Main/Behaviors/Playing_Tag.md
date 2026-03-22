@@ -4,7 +4,7 @@ title: Playing Tag
 
 ## Activating the Mode
 
-1. Set your dog's [mode](Basic Core Stats) to Docile.
+1. Set your dog's [mode](Behaviors/Basic_Core_Stats) to Docile.
 1. Throw a [Snowball](https://minecraft.wiki/w/Snowball) at your dog.
 1. Your doggo will start chasing you. 
 

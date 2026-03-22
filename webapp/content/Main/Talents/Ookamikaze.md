@@ -4,7 +4,7 @@ title: Ookamikaze
 
 *Only Kami-level Dogs can learn this talent!!!*
 
-> ![KABOOM!](/images/ookamikaze_talent.webp "KABOOM!")
+> ![KABOOM!](images/ookamikaze_talent.webp "KABOOM!")
 > 
 > *The most adorable harbinger of chaos and destruction the world has ever known! Feed it gunpowder, and it will create an explosion that doesn't hurt it!"*
 > 

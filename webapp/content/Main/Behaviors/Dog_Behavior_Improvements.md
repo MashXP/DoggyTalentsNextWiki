@@ -19,7 +19,7 @@ title: Dog Behavior Improvements
 - Beg if Hungry.
 - Show Health in the dog's name when sneaking.
 - Auto-eat from nearby [Pack Puppy](Pack_Puppy) dogs who have eligible food when hungry.
-- Stick to [Owner/Flee](Dog Menu#Info Tab) when on Low Health. (Low Health Strategy.)
+- Stick to [Owner/Flee](Dog_Menu#Info Tab) when on Low Health. (Low Health Strategy.)
 - Whistle Mode Picking Interface: Redesigned the interface for a more user-friendly experience.
 - Injured Mode: No dogs shall ever die! (Low-Graphics Texture included.)
 - Conducting Bone: Added for summoning and recalling dogs.

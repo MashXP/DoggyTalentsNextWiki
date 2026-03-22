@@ -12,7 +12,7 @@ infobox:
 
 <infobox />
 
-![*notice how the points are negative*](/images/creative_collar_negative_points_demo.png "*notice how the points are negative*")
+![*notice how the points are negative*](images/creative_collar_negative_points_demo.png "*notice how the points are negative*")
 
 **Creative Collar** is an equipable item that bypasses the talent points limit.
 ## Obtaining

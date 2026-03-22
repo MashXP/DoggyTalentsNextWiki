@@ -24,7 +24,7 @@ recipes:
 
 **Tengu Mask** is a mystical accessory that grants your dog a legendary and honorable appearance. Inspired by powerful spirits from Japanese folklore, it's the perfect choice for dogs with a spirit of adventure and a touch of the supernatural.
 
-![Tengu Mask Display](/images/tengu_mask_display.jpg "No MATTER WHAT! Don't go out at night!")
+![Tengu Mask Display](images/tengu_mask_display.jpg "No MATTER WHAT! Don't go out at night!")
 
 ## Obtaining
 ### Crafting

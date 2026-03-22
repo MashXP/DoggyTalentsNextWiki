@@ -26,7 +26,7 @@ recipes:
 
 **Gift Costume** is a double-dyeable accessory that's perfect for celebrating special occasions or simply letting your dog know they're the best gift you've ever received. With the ability to customize both the box and the ribbon colors, it's the ultimate festive look.
 
-![Festive Doggos!](/images/bowtie_demo2.jpg "Festive Doggos!")
+![Festive Doggos!](images/bowtie_demo2.jpg "Festive Doggos!")
 
 ## Obtaining
 ### Crafting

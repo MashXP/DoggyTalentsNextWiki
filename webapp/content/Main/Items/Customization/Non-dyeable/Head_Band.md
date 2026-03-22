@@ -30,11 +30,11 @@ recipes:
 
 | No. | Image | Pattern | ID | Description | Craftable? |
 | --- | --- | --- | --- | --- | --- |
-| 1 | ![](/images/head_band_blank.png) | Blank | `doggytalents:head_band_blank` | | Yes |
-| 2 | ![](/images/head_band_mystery.png) | Mysterious | `doggytalents:head_band_mystery` | Who's that wolfy boi? | No |
-| 3 | ![](/images/head_band_highhh.png) | Highhh | `doggytalents:head_band_highhh` | The Dev's favorite emoji. | No |
+| 1 | ![](images/head_band_blank.png) | Blank | `doggytalents:head_band_blank` | | Yes |
+| 2 | ![](images/head_band_mystery.png) | Mysterious | `doggytalents:head_band_mystery` | Who's that wolfy boi? | No |
+| 3 | ![](images/head_band_highhh.png) | Highhh | `doggytalents:head_band_highhh` | The Dev's favorite emoji. | No |
 
-![](/images/head_band_display.png)
+![](images/head_band_display.png)
 
 ## Obtaining
 - Currently you can only craft the **Head Band Blank**; the others can be obtained via the Creative menu.

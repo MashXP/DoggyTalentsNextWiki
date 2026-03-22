@@ -24,7 +24,7 @@ recipes:
 
 **Dog Sunglasses** are the ultimate accessory for the pup that's just too cool for school. Not only do they make your dog look "cooler" B), but they're also a key component for crafting even smarter eyewear for your canine companions.
 
-![Dog Sunglasses Display](/images/sunglasses_display.png "Dog Sunglasses Display")
+![Dog Sunglasses Display](images/sunglasses_display.png "Dog Sunglasses Display")
 
 ## Obtaining
 ### Crafting

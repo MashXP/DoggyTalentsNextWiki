@@ -25,9 +25,9 @@ recipes:
 
 **Bowtie** is a charming dyeable accessory that makes any dog look like a dapper gentleman or a refined lady. It's the perfect finishing touch for a formal outfit and a great way to "fancy up" your canine companion for any event.
 
-![Dog avec fancy bowtie!](/images/bowtie_equipped.png "Dog avec fancy bowtie!")
+![Dog avec fancy bowtie!](images/bowtie_equipped.png "Dog avec fancy bowtie!")
 
-![Festive Doggos!](/images/bowtie_demo2.jpg "Festive Doggos!")
+![Festive Doggos!](images/bowtie_demo2.jpg "Festive Doggos!")
 
 ## Obtaining
 ### Crafting

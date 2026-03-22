@@ -11,11 +11,11 @@ image: collar_shears.png
 - Legacy: <ref><p>https://doggytalents.fandom.com/wiki/List_of_Items_and_Equipment*</ref>
 
 - *Item sprite*
-![Item sprite](/images/collar_shears.png)
+![Item sprite](images/collar_shears.png)
 
 - *Item in use*
 
-![image](/images/collar_shears_use_1.png)
-![image](/images/collar_shears_use_2.png)
+![image](images/collar_shears_use_1.png)
+![image](images/collar_shears_use_2.png)
 
 *Screenshot of the old wiki*

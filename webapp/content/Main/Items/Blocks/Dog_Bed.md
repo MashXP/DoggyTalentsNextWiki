@@ -63,4 +63,4 @@ If the unimaginable happens and they do die <code>Right-click</code> the bed to 
 - **DTN 1.18.42** added support for manually specifying valid materials for bed variants via data tags.
 - This item is useful if [Immortal Dogs](Immortal_Dogs) are disabled. (or problems that occur with third-party entity storage by other mods.)
 
-- When your dog is [injured](Immortal Dogs), if enough [Band-Aid](Band-Aid) applied your dog will path-find to the nearest vacant Dog Bed or Vanilla [Bed](https://minecraft.wiki/w/Bed)(regardless of the occupation) and rest on it, significantly increase its recovery speed.
+- When your dog is [injured](Behaviors/Immortal_Dogs), if enough [Band-Aid](Band-Aid) applied your dog will path-find to the nearest vacant Dog Bed or Vanilla [Bed](https://minecraft.wiki/w/Bed)(regardless of the occupation) and rest on it, significantly increase its recovery speed.

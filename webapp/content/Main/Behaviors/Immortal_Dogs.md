@@ -39,19 +39,19 @@ With **Immortal Dogs** disabled *(which is not recommended)*, when the dog's hea
 - **Unclaimed Beds** will pick from a **random Dog** *(that **you** own that died)* to be revived when using an **Totem of Undying** or [**commands**](commands)**.**
 
 ## Injured Mode
-- It can't manually be accessed nor switched by changing the mode on the [Menu GUI](Dog Menu).
+- It can't manually be accessed nor switched by changing the mode on the [Menu GUI](Dog_Menu).
 - In this mode, the dog is **immobilized**. It won't be able to listen to any commands or respond to any interactions from anyone, including his owner. His health stays at ½ a heart <code>(1 HP)</code> and undamageable in that state.
 - His texture will also be changed (if graphic visuals are enabled). The textures signify the dog has been **injured** and is different based on how the dog was defeated. Right now, the default texture signifies the dog is bleeding and only changes when the dog is burned or poisoned, in which he will render with additional "charred" spots with smoke and ashes *or* green "poison stain" respectively.
 
 | Cause | Kanji Meaning | Kanji Image |
 | --- | --- | --- |
-| Default | **敗** -> fail, lose | ![frameless](/images/default.png "frameless") |
-| Drown | **溺** -> drown | ![frameless](/images/drown.png "frameless") |
-| Poison | **毒** -> poison | ![frameless](/images/poison.png "frameless") |
-| Starve | **餓**- > hunger, famine | ![frameless](/images/starve.png "frameless") |
-| Burn | 焼 -> grill, burn | ![frameless](/images/burnt.png "frameless") |
+| Default | **敗** -> fail, lose | ![frameless](images/default.png "frameless") |
+| Drown | **溺** -> drown | ![frameless](images/drown.png "frameless") |
+| Poison | **毒** -> poison | ![frameless](images/poison.png "frameless") |
+| Starve | **餓**- > hunger, famine | ![frameless](images/starve.png "frameless") |
+| Burn | 焼 -> grill, burn | ![frameless](images/burnt.png "frameless") |
 
-![An Injured Dog](/images/an_injured_dog.jpg "An Injured Dog")
+![An Injured Dog](images/an_injured_dog.jpg "An Injured Dog")
 
 - Dogs **cannot teleport** in this mode.
 - Upon entering the mode, his [Nourishment Points](Basic_Core_Stats#Nourishment_Points) will be set to <code>-64</code> and will gradually regenerate to <code>0</code>. When it hits 0, the dog leaves the mode with its health and [Nourishment Points](Basic_Core_Stats#Nourishment_Points) maxed out and will be considered fully recovered and ready for another adventure.

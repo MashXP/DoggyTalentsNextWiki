@@ -4,7 +4,7 @@ title: Roaring Gale
 
 
 
-> ![Notice how passive mobs aren't affected.](/images/roaring_gale_talent.webp "Notice how passive mobs aren't affected.")
+> ![Notice how passive mobs aren't affected.](images/roaring_gale_talent.webp "Notice how passive mobs aren't affected.")
 > 
 > Use the **[Roaring Whistle](Whistle)** and unleash your Dog's inner roar!
 > 

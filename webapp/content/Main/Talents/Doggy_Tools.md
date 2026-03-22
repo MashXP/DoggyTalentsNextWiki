@@ -4,11 +4,11 @@ title: Doggy Tools
 
 
 
-> ![When attacking, Dogs with any weapon in their toolbar will find and equip the closest weapon from the left.](/images/doggy_tools_talent_1.webp "When attacking, Dogs with any weapon in their toolbar will find and equip the closest weapon from the left.")
+> ![When attacking, Dogs with any weapon in their toolbar will find and equip the closest weapon from the left.](images/doggy_tools_talent_1.webp "When attacking, Dogs with any weapon in their toolbar will find and equip the closest weapon from the left.")
 > 
 > 
 > 
-> ![Dogs with a Hoe inside the toolbar will help their owner farm/harvest wheat & rice.](/images/doggy_tools_talent_2.webp "Dogs with a Hoe inside the toolbar will help their owner farm/harvest wheat & rice.")
+> ![Dogs with a Hoe inside the toolbar will help their owner farm/harvest wheat & rice.](images/doggy_tools_talent_2.webp "Dogs with a Hoe inside the toolbar will help their owner farm/harvest wheat & rice.")
 > 
 Allows your Dog to utilize specific tools to help you with certain tasks. Tools can be added to your Dog's toolbar, which can be accessed by **<code>Right-clicking</code>** your Dog with any variation of the Pickaxe.
 
@@ -30,7 +30,7 @@ Make sure you:
   - **Pro Tip:** You can optionally tell the Dog to plant a different seed from the one it is harvesting by placing that seed directly to the right of the harvesting one in its toolbar.
 - Always Pick First Slot set to False.
 
-![2 Dogs decimating a Vindicator using Bows and Tridents](/images/doggy_tool_talent_3.webp "2 Dogs decimating a Vindicator using Bows and Tridents")
+![2 Dogs decimating a Vindicator using Bows and Tridents](images/doggy_tool_talent_3.webp "2 Dogs decimating a Vindicator using Bows and Tridents")
 
 ## Trivia
 

@@ -194,7 +194,7 @@ If the problem persists even without Radium, feel free to contact us on our Disc
 
 
 - If you're using Fabric with **Sodium**, you need to also install **Indium** as well.
-- For JEI users, DTN hasn't provided support for JEI yet so for now you the quick crafting recipe in JEI's Menu is unavailable. Instead, you have to manually craft them using [this recipe](Dog Bed#Crafting).
+- For JEI users, DTN hasn't provided support for JEI yet so for now you the quick crafting recipe in JEI's Menu is unavailable. Instead, you have to manually craft them using [this recipe](Dog_Bed#Crafting).
 - Let us know in the Discord server if you don't see yourself on this list, or the problem persists.
 
 </details>
@@ -225,8 +225,8 @@ If the problem persists even without Radium, feel free to contact us on our Disc
 - [Cross-Origin Teleport](Dog_Menu#Edit_Info_Menu)
 - [Heel Whistle Commands.](Whistle#Whistle_Modes)  etc...
 - In case you, however, accidentally use that item on the dog and the dog is discarded by that mod,  you won't be able to retrieve your dog back from that mod since DTN prevents it due to Duplication Issues. To get your dog back, you must either:
-- Use its [linked bed.](Dog Bed)
-- Right-click an [unclaimed bed](Dog Bed) with a Totem Of Undying
+- Use its [linked bed.](Dog_Bed)
+- Right-click an [unclaimed bed](Dog_Bed) with a Totem Of Undying
 - Use the [Respawn Command](Commands)
 </details>
 

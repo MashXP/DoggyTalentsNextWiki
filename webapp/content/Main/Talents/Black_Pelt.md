@@ -4,7 +4,7 @@ title: Black Pelt
 
 
 
-> ![Black Pelt Doggie one-shot a Zombie](/images/black_pelt_talent.webp "Black Pelt Doggie one-shot a Zombie")
+> ![Black Pelt Doggie one-shot a Zombie](images/black_pelt_talent.webp "Black Pelt Doggie one-shot a Zombie")
 > 
 > Increases critical hit rate by half a heart per level, plus an additional heart upon mastery.
 

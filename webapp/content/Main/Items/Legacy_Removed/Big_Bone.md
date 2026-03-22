@@ -11,5 +11,5 @@ It has been replaced by the [Magnifying Bone](Magnifying_Bone).
 - Introduced in the original **Doggy Talents**.
 - Legacy:
 - *Crafting recipe*
-- ![big_bone](/images/big_bone_crafting.png)
+- ![big_bone](images/big_bone_crafting.png)
 - *Big Bone*

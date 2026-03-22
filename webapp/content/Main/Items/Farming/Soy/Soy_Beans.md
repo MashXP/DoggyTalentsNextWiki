@@ -16,7 +16,7 @@ infobox:
 
 ### Killing Hostile Mobs
 
-- The item has a random chance of dropping from certain hostile mobs (Zombies, Skeletons, Spiders, Creepers,...) when a [trained](Getting Started) dog deals the final blow.
+- The item has a random chance of dropping from certain hostile mobs (Zombies, Skeletons, Spiders, Creepers,...) when a [trained](Getting_Started) dog deals the final blow.
 
 ### Farming
 

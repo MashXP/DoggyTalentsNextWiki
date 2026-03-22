@@ -25,7 +25,7 @@ recipes:
 
 **Leather Jacket** is a non-dyeable accessory that makes your dog look "rad." B) It's the perfect choice for the rebellious pup who wants to ride with the big dogs and show off their tough exterior.
 
-![Leather Jacket Display](/images/leather_jacket_display.png "Leather Jacket Display")
+![Leather Jacket Display](images/leather_jacket_display.png "Leather Jacket Display")
 
 ## Obtaining
 ### Crafting

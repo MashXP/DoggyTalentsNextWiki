@@ -15,7 +15,7 @@ In order for the talent to work:
 - The owner of the server [allows](Configuration) the use of this talent. (doDaylightCycle = true)
 - It must be night time.
 - The surrounding area must be unobstructed and vacant.
-- [Nourishment Point](Basic Core Stats#Nourishment Points) has to be over 20.
+- [Nourishment Point](Behaviors/Basic_Core_Stats#Nourishment Points) has to be over 20.
 - Sleep Cooldown (Level 1, 2, 3: 3 days, Level 4: 2 days, Max level: no cooldown)
 - The dog's size is not too big nor too small. 
 ## Trivia

@@ -33,7 +33,7 @@ The player can also eat the item lol. It fills up **6 hunger points** and gives 
 - **Resistance II** for **60 seconds.**
 - **Absorption II** for **60 seconds.**
 
-![The Hottest Dogs](/images/hot_dog_display.png "The Hottest Dogs")
+![The Hottest Dogs](images/hot_dog_display.png "The Hottest Dogs")
 
 ## Obtaining
 ### Crafting

@@ -73,7 +73,7 @@ license="All Right Reserved"
 issueTrackerURL=""
 displayURL=""
 logoFile="your_banner.png" #optional, but recommended
-[mods](mods) #mandatory
+`[mods]` #mandatory
     modId="addonname_dtn"
     version="${file.jarVersion}"
     1. updateJSONURL=""
@@ -100,7 +100,7 @@ logoFile="your_banner.png" #optional, but recommended
 
 ### your_banner.png (recommended)
 At the same directory as ***pack.mcmeta***
-![](/images/your_banner.png)
+![](images/your_banner.png)
 
 ### update.json
 Remember to update here after each update.
@@ -273,7 +273,7 @@ public class YourDogDerootedModel {
 After registering your model, add your model's UV texture in the ***textures*** folder***.*** 
 
 Example: 
-![](/images/dogmodelnamepng.png)
+![](images/dogmodelnamepng.png)
 
 ### skin.json
 ```json
@@ -312,4 +312,4 @@ Here are some **common errors** that I've encountered:
 
 I hope you find this guide helpful, feel free to ask any questions during the process. (or maybe later on, I don't mind xD).
 
-**Good luck!!! がんばってね〜！(⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠✧**![](/images/code_dogs.jpg)
+**Good luck!!! がんばってね〜！(⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠✧**![](images/code_dogs.jpg)

@@ -28,7 +28,7 @@ recipes:
 
 **Snorkel** is a non-dyeable accessory that ensures your dog is ready for underwater adventures (even if they can already swim!). It adds a playful and aquatic touch to their look, perfect for beach days or exploring deep oceans with their owner.
 
-![You don't need that! You can swim, remember?](/images/snorkel_display.png "You don't need that! You can swim, remember?")
+![You don't need that! You can swim, remember?](images/snorkel_display.png "You don't need that! You can swim, remember?")
 
 ## Obtaining
 ### Crafting

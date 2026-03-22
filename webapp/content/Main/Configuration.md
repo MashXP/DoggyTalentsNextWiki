@@ -119,7 +119,7 @@ Option to disable dogs who mastered [Creeper Sweeper](Creeper_Sweeper) and are a
 - <code>*max_creeper_sweeper_dont_growl = true*</code>
 Option to disable friendly fire for all players toward all dogs. This is used to always be the case with friendly fire disabled for a single dog.
 - <code>*all_player_cannot_attack_dog = false*</code>
-Option to prevent dogs from accidentally going into a portal and getting unnecessarily transferred to another dimension, causing the owner to have to take them back. The preferred way to make a dog go to another dimension is to have [Cross Origin Teleport](Dog Menu) set to true on that dog.
+Option to prevent dogs from accidentally going into a portal and getting unnecessarily transferred to another dimension, causing the owner to have to take them back. The preferred way to make a dog go to another dimension is to have [Cross Origin Teleport](Dog_Menu) set to true on that dog.
 - <code>*all_dog_block_portal = true*</code>
 Define how many dogs a player can listen to commands which summon more than one dog to you at the same time. Set this to any negative value to remove the limit completely.
 - <code>*max_heel_limit = 20*</code>
