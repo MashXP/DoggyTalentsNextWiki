@@ -15,8 +15,8 @@ infobox:
 
 | No. | Piano | Name | ID |
 | --- | --- | --- | --- |
-| 1 | ![](images/grand_piano_black_item.png) | **Black** Grand Piano | doggytalents:grand_piano_black |
-| 2 | ![](images/grand_piano_white_item.png) | **White** Grand Piano | doggytalents:grand_piano_white |
+| 1 | ![](grand_piano_black_item.png) | **Black** Grand Piano | doggytalents:grand_piano_black |
+| 2 | ![](grand_piano_white_item.png) | **White** Grand Piano | doggytalents:grand_piano_white |
 
 ## Obtaining
 Press **<code>E</code>** in Creative mode to access the Creative menu.

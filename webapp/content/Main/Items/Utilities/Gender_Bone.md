@@ -40,6 +40,6 @@ It can be used **10 times** and can be enchanted with **Unbreaking and Mending**
 ## Trivia
 - Introduced in **DTN 1.16.3**.
 - Below is a comparison of the item's modern look versus its original design:
-![Old texture of Gender Bone](images/gender_bone_old.png "Legacy Gender Bone Sprite")
+![Old texture of Gender Bone](gender_bone_old.png "Legacy Gender Bone Sprite")
 
 <references />

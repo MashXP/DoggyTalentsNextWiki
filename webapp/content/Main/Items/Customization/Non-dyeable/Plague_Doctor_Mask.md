@@ -29,7 +29,7 @@ recipes:
 
 **Plague Doctor Mask** is a spooky yet professional accessory that gives your dog the look of a historical healer. It's the ideal choice for dogs with a penchant for the macabre or those assigned to guard medical supplies in even the most treacherous environments.
 
-![Spooky and Professional](images/plague_doctor_mask_display.jpg "Spooky and Professional")
+![Spooky and Professional](plague_doctor_mask_display.jpg "Spooky and Professional")
 
 ## Obtaining
 ### Crafting

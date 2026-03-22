@@ -64,17 +64,27 @@ const InfoboxDisplay: React.FC<InfoboxDisplayProps> = ({ defaultData, onImageCli
     setCurrentImageIndex((prev) => (prev - 1 + images.length) % images.length);
   };
 
+  const getFullImgSrc = (img: string) => {
+    if (!img) return '';
+    if (img.startsWith('http') || img.startsWith('data:') || img.startsWith('/')) {
+      if (img.startsWith('/images/')) return getAssetPath(img);
+      if (img.startsWith('/')) return getAssetPath(img); // Assume external or absolute
+      return img;
+    }
+    return getAssetPath(`/images/${img}`);
+  };
+
   return (
     <aside className="infobox glass">
       <div className="infobox-title">{data.title}</div>
       {images.length > 0 && (
         <div 
           className="infobox-image-wrapper"
-          onClick={() => onImageClick?.(getAssetPath(`/images/${images[currentImageIndex]}`), data.title)}
+          onClick={() => onImageClick?.(getFullImgSrc(images[currentImageIndex]), data.title)}
           style={{ cursor: onImageClick ? 'zoom-in' : 'default' }}
         >
           <img
-            src={getAssetPath(`/images/${images[currentImageIndex]}`)}
+            src={getFullImgSrc(images[currentImageIndex])}
             alt={data.title}
             className="infobox-image"
           />

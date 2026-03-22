@@ -24,7 +24,7 @@ recipes:
 
 **Wool Collar** is the fundamental dyeable accessory for any Doggy Talents pup. As a versatile base material, it not only stylizes your dog's neck but also serves as the essential foundation for crafting a wide variety of specialized collars and costumes.
 
-![Wool Collar Display](images/wool_collar_display.png "Wool Collar Display")
+![Wool Collar Display](wool_collar_display.png "Wool Collar Display")
 
 ## Obtaining
 ### Crafting

@@ -4,7 +4,7 @@ title: Fisher Dog
 
 
 
-> ![Shakey shaky fishy fishy~](images/fisher_dog_talent.webp "Shakey shaky fishy fishy~")
+> ![Shakey shaky fishy fishy~](fisher_dog_talent.webp "Shakey shaky fishy fishy~")
 > 
 > Whenever your Dog enters the water, it **may catch a [Fish](https://minecraft.wiki/w/Fish)** which it will **give you when it shakes itself dry**.
 > 

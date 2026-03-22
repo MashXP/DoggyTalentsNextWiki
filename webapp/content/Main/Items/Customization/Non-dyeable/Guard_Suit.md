@@ -26,7 +26,7 @@ recipes:
 
 **Guard Suit** is a non-dyeable accessory that gives your dog a trusty and stylish appearance. Ideal for dogs assigned to sentry duty or those that simply want to look like professional protectors of their home and owner.
 
-![Guard Suit Display](images/guard_suit_display.png "Guard Suit Display")
+![Guard Suit Display](guard_suit_display.png "Guard Suit Display")
 
 ## Obtaining
 ### Crafting

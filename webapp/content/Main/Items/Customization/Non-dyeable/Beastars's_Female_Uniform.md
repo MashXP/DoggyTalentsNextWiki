@@ -27,7 +27,7 @@ recipes:
 
 **Beastars's Female Uniform** is a non-dyable equipable that transforms your dog into a refined student (or a famous anime character).
 
-![Female Uniform Display](images/beastars_uniform_female_display.png)
+![Female Uniform Display](beastars_uniform_female_display.png)
 
 ## Obtaining
 ### Crafting

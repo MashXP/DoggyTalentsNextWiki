@@ -25,7 +25,7 @@ recipes:
 
 **Bach Wig** is a dyeable accessory that allows your dog to embody the spirit of a legendary Baroque composer. It's the perfect look for canines with a refined taste in music and complex counterpoint.
 
-![Bach Wig Display](images/bach_wig_display.png "Bach Wig Display")
+![Bach Wig Display](bach_wig_display.png "Bach Wig Display")
 
 ## Obtaining
 ### Crafting

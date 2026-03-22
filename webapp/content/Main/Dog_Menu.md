@@ -19,7 +19,7 @@ To navigate to a tab, you can either use the navigation bar at the bottom of the
 ## Home
 The information in the top right (Health, Speed, Owner, Age, and Gender) shows the important and basic information about your dog.
 
-![Dog Menu - Home Tab](images/dog_menu_home.jpg "Dog Menu - Home Tab")
+![Dog Menu - Home Tab](dog_menu_home.jpg "Dog Menu - Home Tab")
 
 - **Health:** Displays your dog’s current health and its maximum amount.
 - **Speed:** Shows your dog’s current movement speed.
@@ -33,7 +33,7 @@ Below the basic information, you will be greeted with a [Bar](Behaviors/Basic_Co
 
 ### Petting
 
-![Be careful! Nether doggos might give you a love burn!](images/petting_demo.webp "Be careful! Nether doggos might give you a love burn!")
+![Be careful! Nether doggos might give you a love burn!](petting_demo.webp "Be careful! Nether doggos might give you a love burn!")
 
 **(DTN 1.18.21+)** After clicking your Dog at the Home menu, you'll enter Pet Mode. 
 
@@ -66,7 +66,7 @@ Here you can change your dog’s name. Enter the new name in the black text box 
 - **Auto Mount:** Like vanilla entities, dogs will auto-mount boats, minecarts, etc...
 - **Low Health Strategy:**
 
-![Dog Menu - Doggy Artifact](images/dog_menu_doggy_artifact.jpg "Dog Menu - Doggy Artifact")
+![Dog Menu - Doggy Artifact](dog_menu_doggy_artifact.jpg "Dog Menu - Doggy Artifact")
 
   - **None:** The dog continues to do whatever it’s doing despite being low on health.
   - **Run Away:** The dog will stay alert and try to run away from the enemies.
@@ -82,7 +82,7 @@ Here you can equip your doggos with various artifacts that will give your dogs a
 
 (For now there's only 1 artifact, which is the [Feathered Mantle](Feathered_Mantle)).
 
-![Dog Menu - Talents Tab](images/dog_menu_talents.jpg "Dog Menu - Talents Tab")
+![Dog Menu - Talents Tab](dog_menu_talents.jpg "Dog Menu - Talents Tab")
 
 ## Talents
 This is the core feature of the mod. 
@@ -94,7 +94,7 @@ In this tab, you can train your dogs to do all sorts of different things.
 ## Style
 ### **Accessories**
 
-![Dog Menu - Style Tab](images/dog_menu_style.jpg "Dog Menu - Style Tab")
+![Dog Menu - Style Tab](dog_menu_style.jpg "Dog Menu - Style Tab")
 
 - Here you can modify the dog's accessories. (Click on the **Accessory** item icon to equip/unequip.)
 

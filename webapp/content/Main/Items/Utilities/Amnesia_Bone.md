@@ -44,7 +44,7 @@ When granted **Operator permission,** you can **<code>Sneak + Right click</code>
 
 ## Usage
 
-![Migrate owner usage.](images/amnesia_bone_use.webp "Migrate owner usage.")
+![Migrate owner usage.](amnesia_bone_use.webp "Migrate owner usage.")
 
 - **<code>Right click</code>** on your dog to open the GUI.
 ### General

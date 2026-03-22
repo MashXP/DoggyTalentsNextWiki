@@ -24,9 +24,9 @@ recipes:
 
 **Doggy Contact Lenses** are special double-dyeable accessories that allow for complete customization of your dog's eye colors. With the ability to dye each lens separately, you can create unique heterochromatic looks or match any style with precision.
 
-![Double-Dyeable Example](images/doggy_contacts_display2.png "Double-Dyeable Example")
+![Double-Dyeable Example](doggy_contacts_display2.png "Double-Dyeable Example")
 
-![Doggy Contact Lenses Display](images/doggy_contacts_display.png "Doggy Contact Lenses Display")
+![Doggy Contact Lenses Display](doggy_contacts_display.png "Doggy Contact Lenses Display")
 
 ## Obtaining
 ### Crafting

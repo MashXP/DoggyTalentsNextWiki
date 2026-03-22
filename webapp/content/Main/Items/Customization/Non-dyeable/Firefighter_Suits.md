@@ -17,10 +17,10 @@ infobox:
 
 | No. | Suit | Name | ID |
 | --- | --- | --- | --- |
-| 1 | ![](images/firefighter_suit_red.png) | **Red** Fire Fighter Suit | doggytalents:firefighter_suit_red |
-| 2 | ![](images/firefighter_suit_blue.png) | **Blue** Fire Fighter Suit | doggytalents:firefighter_suit_blue |
-| 3 | ![](images/firefighter_suit_kaki.png) | **Kaki** Fire Fighter Suit | doggytalents:firefighter_suit_kaki |
-| 4 | ![](images/firefighter_suit_black.png) | **Black** Fire Fighter Suit | doggytalents:firefighter_suit_black |
+| 1 | ![](firefighter_suit_red.png) | **Red** Fire Fighter Suit | doggytalents:firefighter_suit_red |
+| 2 | ![](firefighter_suit_blue.png) | **Blue** Fire Fighter Suit | doggytalents:firefighter_suit_blue |
+| 3 | ![](firefighter_suit_kaki.png) | **Kaki** Fire Fighter Suit | doggytalents:firefighter_suit_kaki |
+| 4 | ![](firefighter_suit_black.png) | **Black** Fire Fighter Suit | doggytalents:firefighter_suit_black |
 
 ## Obtaining
 This item is not currently craftable in survival mode. (yet...)

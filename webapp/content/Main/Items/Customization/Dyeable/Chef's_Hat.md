@@ -26,7 +26,7 @@ recipes:
 
 **Chef's Hat** is a dyeable accessory that transforms your dog into the ultimate culinary master. Whether they're "assisting" in the kitchen or just waiting for a treat, this hat ensures they look the part in any kitchen.
 
-![Display provided by @Archon](images/chef_hat_display.png "Display provided by @Archon")
+![Display provided by @Archon](chef_hat_display.png "Display provided by @Archon")
 
 ## Obtaining
 ### Crafting

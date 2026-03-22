@@ -27,7 +27,7 @@ recipes:
 
 **Pianist Suit** is a non-dyeable accessory that transforms your dog into a professional musician. Whether they're performing a concerto or just howling along to a music disc, this suit ensures they look the part of a virtuoso canine.
 
-![RachRuff](images/rachruff.png)
+![RachRuff](rachruff.png)
 
 ## Obtaining
 ### Crafting

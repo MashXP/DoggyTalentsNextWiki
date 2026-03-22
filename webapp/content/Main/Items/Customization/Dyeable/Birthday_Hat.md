@@ -25,9 +25,9 @@ recipes:
 
 **Birthday Hat** is a special double-dyeable accessory that ensures your dog is the center of attention at any celebration. With the ability to customize both primary and secondary colors, it's the ultimate party outfit for your favorite canine.
 
-![Double-Dyeable!](images/doggy_contacts_display2.png "Double-Dyeable!")
+![Double-Dyeable!](doggy_contacts_display2.png "Double-Dyeable!")
 
-![Display provided by @Archon](images/birthday_hat_display.png "Display provided by @Archon")
+![Display provided by @Archon](birthday_hat_display.png "Display provided by @Archon")
 
 ## Obtaining
 ### Crafting

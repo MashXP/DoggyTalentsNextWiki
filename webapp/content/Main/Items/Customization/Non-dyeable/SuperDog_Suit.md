@@ -24,7 +24,7 @@ recipes:
 
 **SuperDog Suit** is a non-dyeable accessory that transforms your dog into a true canine hero. Inspired by legendary comic book protectors, this suit ensures your dog looks ready to save the day and fight for justice in the world of Minecraft.
 
-![SuperDog Suit Display](images/superdog_suit_display.jpg "SuperDog Suit Display")
+![SuperDog Suit Display](superdog_suit_display.jpg "SuperDog Suit Display")
 
 ## Obtaining
 ### Crafting

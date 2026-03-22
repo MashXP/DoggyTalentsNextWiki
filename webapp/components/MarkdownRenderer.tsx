@@ -21,7 +21,7 @@ interface Section {
 export interface ItemInfo {
   title: string;
   slug: string;
-  image: string | null;
+  image: string | string[] | null;
   type: string | null;
   category: string;
   recipes?: Record<string, any>;
@@ -361,8 +361,10 @@ export default function MarkdownRenderer({ content, infobox, recipes, gallery, a
     },
     img: ({ node: _node, ...props }: any) => {
       let src = props.src || '';
-      if (src && !src.startsWith('http') && !src.startsWith('data:') && !src.startsWith('/')) {
-        src = '/images/' + src;
+      if (src && !src.startsWith('http') && !src.startsWith('data:')) {
+        if (!src.startsWith('/')) {
+          src = '/images/' + src;
+        }
       }
       const isIcon = props.className?.includes('recipe-item-icon') || props.className?.includes('item-icon');
       const assetSrc = getAssetPath(src);
@@ -442,19 +444,31 @@ export default function MarkdownRenderer({ content, infobox, recipes, gallery, a
       return (
         <div className="item-grid">
           <ul>
-            {filteredItems.map(item => (
-              <li key={item.slug}>
-                <Link href={`/${item.slug}`}>
-                  <img 
-                    className="item-icon" 
-                    src={getAssetPath(item.image ? (item.image.startsWith('http') || item.image.startsWith('/') ? item.image : `/images/${item.image}`) : '/images/placeholder.png')} 
-                    alt={item.title} 
-                  />
-
-                  {item.title}
-                </Link>
-              </li>
-            ))}
+            {filteredItems.map(item => {
+              const primaryImage = Array.isArray(item.image) ? item.image[0] : item.image;
+              let imgSrc = '/images/placeholder.png';
+              
+              if (primaryImage) {
+                if (primaryImage.startsWith('http') || primaryImage.startsWith('data:') || primaryImage.startsWith('/')) {
+                  imgSrc = primaryImage;
+                } else {
+                  imgSrc = `/images/${primaryImage}`;
+                }
+              }
+              
+              return (
+                <li key={item.slug}>
+                  <Link href={`/${item.slug}`}>
+                    <img 
+                      className="item-icon" 
+                      src={getAssetPath(imgSrc)} 
+                      alt={item.title} 
+                    />
+                    {item.title}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
           {props.children}
         </div>

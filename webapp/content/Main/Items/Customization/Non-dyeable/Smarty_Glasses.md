@@ -21,7 +21,7 @@ recipes:
 
 **Smarty Glasses** are a non-dyeable accessory that instantly boosts your dog's intellectual aesthetic. Perfect for the canine that loves to help with Redstone or simply wants to look more studious.
 
-![Smarty Glasses Display](images/smarty_glasses_display.png "Smarty Glasses Display")
+![Smarty Glasses Display](smarty_glasses_display.png "Smarty Glasses Display")
 
 ## Obtaining
 ### Crafting

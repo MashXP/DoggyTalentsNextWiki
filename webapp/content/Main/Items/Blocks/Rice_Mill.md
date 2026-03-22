@@ -37,7 +37,7 @@ recipes:
 - In order for the Mill to work, you need a 1x3 trench of Water (source or flowing) along with the wheel's direction. 
 - Once the mill is setup correctly, animation will play and the bucket icon in the GUI will be filled with water.
 
-![You can also connect Furnaces and Hoppers to load and unload the Mill!](images/rice_mill_block.webp "You can also connect Furnaces and Hoppers to load and unload the Mill!")
+![You can also connect Furnaces and Hoppers to load and unload the Mill!](rice_mill_block.webp "You can also connect Furnaces and Hoppers to load and unload the Mill!")
 
 With its wheel facing away from you:
 - A Hopper can be placed on the left side of the mill to feed it input resources.

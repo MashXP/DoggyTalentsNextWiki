@@ -4,7 +4,7 @@ title: Pillow Paw
 
 
 
-> ![Fluffy~](images/pillow_paw_talent.webp "Fluffy~")
+> ![Fluffy~](pillow_paw_talent.webp "Fluffy~")
 > 
 > Each level allows your Dog to fall **3 more blocks before taking damage**.
 > 

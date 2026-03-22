@@ -41,7 +41,7 @@ recipes:
 
 **Spotted Collar** is a stylish accessory featuring a classic dalmatian-like pattern. Whether your dog is a natural spotted breed or just wants to rock the look, this collar is a timeless and visually striking choice.
 
-![Spotted Collar Display](images/spotted_collar_display.png "Spotted Collar Display")
+![Spotted Collar Display](spotted_collar_display.png "Spotted Collar Display")
 
 ## Obtaining
 ### Crafting

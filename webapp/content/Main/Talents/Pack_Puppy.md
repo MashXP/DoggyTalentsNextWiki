@@ -4,7 +4,7 @@ title: Pack Puppy
 
 
 
-> ![Mimic auto-picks up the item.](images/pack_puppy_talent.webp "Mimic auto-picks up the item.")
+> ![Mimic auto-picks up the item.](pack_puppy_talent.webp "Mimic auto-picks up the item.")
 > 
 > Each level gives your Dog **3 inventory slots** in its **Pack Puppy GUI.**
 > 
@@ -32,7 +32,7 @@ title: Pack Puppy
 
 ## Trivia
 
-![Arcanine - Kaiken - Kishu Inu](images/pack_puppy_collar_color_demo.png "Arcanine - Kaiken - Kishu Inu")
+![Arcanine - Kaiken - Kishu Inu](pack_puppy_collar_color_demo.png "Arcanine - Kaiken - Kishu Inu")
 
 - Introduced In the original **Doggy Talents**.
 - This is useful for long distance travelling with a pack of doggos, as this talent serves as a mobile [Food Bowl](Food_Bowl).

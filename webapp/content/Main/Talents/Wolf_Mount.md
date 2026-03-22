@@ -4,7 +4,7 @@ title: Wolf Mount
 
 
 
-![Lilith the Wolf](images/wolf_mount_talent.webp "Lilith the Wolf")
+![Lilith the Wolf](wolf_mount_talent.webp "Lilith the Wolf")
 
 > Allows you to ride your Dog anywhere at speed.
 > 

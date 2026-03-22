@@ -51,18 +51,18 @@ recipes:
 
 | No. | Orb | Name | ID | Description | Unique Material |
 | --- | --- | --- | --- | --- | --- |
-| 1 | ![](images/locator_orb_chi.png) | Chi | doggytalents:locator_orb_chi | The Orb of Wisdom and Knowledge. | <item id="minecraft:magenta_dye" /> |
-| 2 | ![](images/locator_orb_chu.png) | Chu | doggytalents:locator_orb_chu | The Orb of Loyalty and Faithfulness. | <item id="minecraft:light_blue_dye" /> |
-| 3 | ![](images/locator_orb_ko.png) | Ko | doggytalents:locator_orb_ko | The Orb of Filial Piety. | <item id="minecraft:purple_dye" /> |
-| 4 | ![](images/locator_orb_gi.png) | Gi | doggytalents:locator_orb_gi | The Orb of Justice and Morality. | <item id="minecraft:blue_dye" /> |
-| 5 | ![](images/locator_orb_tei.png) | Tei | doggytalents:locator_orb_tei | The Orb of Brotherhood. | <item id="minecraft:yellow_dye" /> |
-| 6 | ![](images/locator_orb_rei.png) | Rei | doggytalents:locator_orb_rei | The Orb of Propriety and Respectability. | <item id="minecraft:lime_dye" /> |
-| 7 | ![](images/locator_orb_shin.png) | Shin | doggytalents:locator_orb_shin | The Orb of Trustworthiness and Credibility. | <item id="minecraft:green_dye" /> |
-| 8 | ![](images/locator_orb_jin.png) | Jin | doggytalents:locator_orb_jin | The Orb of Humanity and Benevolence. | <item id="minecraft:red_dye" /> |
-| 9 | ![](images/locator_orb_dyable.png) | Dyeable | doggytalents:locator_orb_dyable | Craft with Paper to add a Secondary color. | <item id="minecraft:paper" /> |
-| 10 | ![](images/locator_orb_ka.png) | Ka | doggytalents:locator_orb_ka | The Orb of Flame. | |
-| 11 | ![](images/locator_orb_sui.png) | Sui | doggytalents:locator_orb_sui | The Orb of Water. | |
-| 12 | ![](images/locator_orb_moku.png) | Moku | doggytalents:locator_orb_moku | The Orb of Vegetation. | |
+| 1 | ![](locator_orb_chi.png) | Chi | doggytalents:locator_orb_chi | The Orb of Wisdom and Knowledge. | <item id="minecraft:magenta_dye" /> |
+| 2 | ![](locator_orb_chu.png) | Chu | doggytalents:locator_orb_chu | The Orb of Loyalty and Faithfulness. | <item id="minecraft:light_blue_dye" /> |
+| 3 | ![](locator_orb_ko.png) | Ko | doggytalents:locator_orb_ko | The Orb of Filial Piety. | <item id="minecraft:purple_dye" /> |
+| 4 | ![](locator_orb_gi.png) | Gi | doggytalents:locator_orb_gi | The Orb of Justice and Morality. | <item id="minecraft:blue_dye" /> |
+| 5 | ![](locator_orb_tei.png) | Tei | doggytalents:locator_orb_tei | The Orb of Brotherhood. | <item id="minecraft:yellow_dye" /> |
+| 6 | ![](locator_orb_rei.png) | Rei | doggytalents:locator_orb_rei | The Orb of Propriety and Respectability. | <item id="minecraft:lime_dye" /> |
+| 7 | ![](locator_orb_shin.png) | Shin | doggytalents:locator_orb_shin | The Orb of Trustworthiness and Credibility. | <item id="minecraft:green_dye" /> |
+| 8 | ![](locator_orb_jin.png) | Jin | doggytalents:locator_orb_jin | The Orb of Humanity and Benevolence. | <item id="minecraft:red_dye" /> |
+| 9 | ![](locator_orb_dyable.png) | Dyeable | doggytalents:locator_orb_dyable | Craft with Paper to add a Secondary color. | <item id="minecraft:paper" /> |
+| 10 | ![](locator_orb_ka.png) | Ka | doggytalents:locator_orb_ka | The Orb of Flame. | |
+| 11 | ![](locator_orb_sui.png) | Sui | doggytalents:locator_orb_sui | The Orb of Water. | |
+| 12 | ![](locator_orb_moku.png) | Moku | doggytalents:locator_orb_moku | The Orb of Vegetation. | |
 
 ## Obtaining
 ### Crafting
@@ -73,7 +73,7 @@ recipes:
 - When tracking a dog equipped with an orb, the **[Canine Tracker](Canine_Tracker)** will display the tracking text in the orb's specific color.
 - **Inventory Customization:** When equipped, the Dog Menu's inventory slots will adopt the color of the Locator Orb. Note that Thicc Collars also provide slot colors, but Locator Orbs take priority if both are equipped.
 
-![Orb Frenzy!](images/rgb_doggo.webp "Orb Frenzy!")
+![Orb Frenzy!](rgb_doggo.webp "Orb Frenzy!")
 
 ## Trivia
 - The primary Eight Orbs (1-8) were added in **DTN 1.16.0**.

@@ -28,7 +28,7 @@ recipes:
 
 **Conan Suit** is a non-dyeable accessory that allows your dog to cosplay a legendary detective. Complete with a bowtie and cape, it's the perfect outfit for solving mysteries and sniffing out clues.
 
-![Conan Suit Display](images/conan_suit_display.png "Conan Suit Display")
+![Conan Suit Display](conan_suit_display.png "Conan Suit Display")
 
 ## Obtaining
 ### Crafting

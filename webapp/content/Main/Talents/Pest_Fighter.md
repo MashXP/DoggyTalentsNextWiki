@@ -4,7 +4,7 @@ title: Pest Fighter
 
 
 
-> ![PEST BUSTERS!](images/pest_fighter_talent.webp "PEST BUSTERS!")
+> ![PEST BUSTERS!](pest_fighter_talent.webp "PEST BUSTERS!")
 > 
 > Inflicts 1 point of damage to all nearby [Silverfish](https://minecraft.wiki/w/Silverfish) at random ticks.
 > 

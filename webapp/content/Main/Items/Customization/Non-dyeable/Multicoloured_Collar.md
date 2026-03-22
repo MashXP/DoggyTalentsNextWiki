@@ -27,7 +27,7 @@ recipes:
 
 **Multicoloured Collar** is a vibrant and eye-catching accessory that brings a rainbow of colors to your dog's neck. It's the perfect way to *fabulize* any pup's appearance and ensure they stand out as the most colorful dog in the world.
 
-![Multicoloured Collar Display](images/multicoloured_collar_display.png "Multicoloured Collar Display")
+![Multicoloured Collar Display](multicoloured_collar_display.png "Multicoloured Collar Display")
 
 ## Obtaining
 ### Crafting

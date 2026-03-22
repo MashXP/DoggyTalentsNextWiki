@@ -16,9 +16,9 @@ infobox:
 
 | No. | Piano | Name | ID |
 | --- | --- | --- | --- |
-| 1 | ![](images/upright_piano_black_item.png) | **Black** Upright Piano | doggytalents:upright_piano_black |
-| 2 | ![](images/upright_piano_brown_item.png) | **Brown** Upright Piano | doggytalents:upright_piano_brown |
-| 3 | ![](images/upright_piano_white_item.png) | **White** Upright Piano | doggytalents:upright_piano_white |
+| 1 | ![](upright_piano_black_item.png) | **Black** Upright Piano | doggytalents:upright_piano_black |
+| 2 | ![](upright_piano_brown_item.png) | **Brown** Upright Piano | doggytalents:upright_piano_brown |
+| 3 | ![](upright_piano_white_item.png) | **White** Upright Piano | doggytalents:upright_piano_white |
 
 ## Obtaining
 Press **<code>E</code>** in Creative mode to access the Creative menu.

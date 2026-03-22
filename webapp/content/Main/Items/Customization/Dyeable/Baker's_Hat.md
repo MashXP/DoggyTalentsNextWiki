@@ -25,7 +25,7 @@ recipes:
 
 **Baker's Hat** is a dyeable accessory that lets everyone know your dog is the head of the bakery.
 
-![Display provided by @Archon](images/baker_hat_display.png "Display provided by @Archon")
+![Display provided by @Archon](baker_hat_display.png "Display provided by @Archon")
 
 ## Obtaining
 ### Crafting

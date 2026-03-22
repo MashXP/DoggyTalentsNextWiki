@@ -22,7 +22,7 @@ recipes:
 
 **Death Hood** is a non-dyeable accessory that gives your dog a mysterious and fearsome appearance. Inspired by legendary portrayals of the afterlife's herald, this hood is the ultimate choice for the darker side of your dog's personality.
 
-![Death Hood Display](images/death_hood_display.png "Death Hood Display")
+![Death Hood Display](death_hood_display.png "Death Hood Display")
 
 ## Obtaining
 ### Crafting

@@ -27,7 +27,7 @@ recipes:
 
 **Canine Tracker** is a powerful utility item that allows you to pinpoint the exact location of any dog you own. Whether you're searching for a lost pup in the wild or coordinating a large pack across a base, this device ensures your focus remains on your canine companions, keeping them safe and accounted for.
 
-![Canine Tracker Display](images/canine_tracker_display.png)
+![Canine Tracker Display](canine_tracker_display.png)
 
 ## Obtaining
 ### Crafting

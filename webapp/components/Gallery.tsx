@@ -39,9 +39,11 @@ export default function Gallery({ children, onImageClick, defaultData }: Gallery
         }
 
         let src = filename;
-        if (src && !src.startsWith('http') && !src.startsWith('data:') && !src.startsWith('/')) {
-          const normalizedFilename = filename.toLowerCase().replace(/\s+/g, '_');
-          src = '/images/' + normalizedFilename;
+        if (src && !src.startsWith('http') && !src.startsWith('data:')) {
+          if (!src.startsWith('/')) {
+            const normalizedFilename = filename.toLowerCase().replace(/\s+/g, '_');
+            src = '/images/' + normalizedFilename;
+          }
         }
         src = getAssetPath(src);
 

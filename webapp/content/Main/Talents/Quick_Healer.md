@@ -4,7 +4,7 @@ title: Quick Healer
 
 
 
-> ![Notice the tail's position](images/quick_healer_talent.webp "Notice the tail's position")
+> ![Notice the tail's position](quick_healer_talent.webp "Notice the tail's position")
 > 
 > **Improves the speed** at which your Dog **heals** without resting.
 > 

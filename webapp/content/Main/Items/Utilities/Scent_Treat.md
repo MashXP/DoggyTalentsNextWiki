@@ -33,8 +33,8 @@ recipes:
 ## Usage
 
 ### Use
-- **<code>Right click</code>** the item on your [Sniffer Dog](Sniffer_Dog), and wait until it gives you back a ![](images/drool_scent_treat.png)Drool Scent Treat. 
-- **<code>Right click</code>** a ![](images/drool_scent_treat.png)Drool Scent Treat to get rid of the drool.
+- **<code>Right click</code>** the item on your [Sniffer Dog](Sniffer_Dog), and wait until it gives you back a ![](drool_scent_treat.png)Drool Scent Treat. 
+- **<code>Right click</code>** a ![](drool_scent_treat.png)Drool Scent Treat to get rid of the drool.
 
 ### Clear
 - **<code>Right click</code>** on a [Water Cauldron](https://minecraft.wiki/w/Cauldron) to clear its collected scent.
