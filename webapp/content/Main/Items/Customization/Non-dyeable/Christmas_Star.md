@@ -23,7 +23,7 @@ recipes:
 ---
 <infobox />
 
-The **Christmas Star** is a shining accessory that lets your dog lead the way like a true celestial guide. Pair it with the **[Christmas Tree Costume](Christmas_Tree_Costume)** for the full holiday look!
+**Christmas Star** is a shining accessory that lets your dog lead the way like a true celestial guide. Pair it with the **[Christmas Tree Costume](Christmas_Tree_Costume)** for the full holiday look!
 
 ## Obtaining
 ### Crafting

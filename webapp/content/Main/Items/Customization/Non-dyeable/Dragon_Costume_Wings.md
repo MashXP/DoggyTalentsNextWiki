@@ -20,7 +20,7 @@ recipes:
 ---
 <infobox />
 
-The **Dragon Costume Wings** allow your dog to sport the majestic wings of an Ender Dragon. 
+**Dragon Costume Wings** allow your dog to sport the majestic wings of an Ender Dragon. 
 
 ## Obtaining
 ### Crafting

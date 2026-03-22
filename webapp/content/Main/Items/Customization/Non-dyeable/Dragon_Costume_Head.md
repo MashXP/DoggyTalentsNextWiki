@@ -20,7 +20,7 @@ recipes:
 ---
 <infobox />
 
-The **Dragon Costume Head** allows your dog to wear the head of an Ender Dragon. 
+**Dragon Costume Head** allows your dog to wear the head of an Ender Dragon. 
 
 ## Obtaining
 ### Crafting

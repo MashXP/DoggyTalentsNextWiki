@@ -23,7 +23,7 @@ recipes:
 ---
 <infobox />
 
-The **Lab Coat** is a dyeable accessory designed for the dog who is more into the sciences. 
+**Lab Coat** is a dyeable accessory designed for the dog who is more into the sciences. 
 
 ## Obtaining
 ### Crafting

@@ -24,7 +24,7 @@ recipes:
 ---
 <infobox />
 
-The **Christmas Tree Costume** is a whimsical outfit that transforms your dog into a festive centerpiece. Pair it with the **[Christmas Star](Christmas_Star)** for the full holiday look!
+**Christmas Tree Costume** is a whimsical outfit that transforms your dog into a festive centerpiece. Pair it with the **[Christmas Star](Christmas_Star)** for the full holiday look!
 
 ## Obtaining
 ### Crafting

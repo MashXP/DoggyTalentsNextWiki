@@ -22,7 +22,7 @@ recipes:
 ---
 <infobox />
 
-The **Whistle** is the essential command tool for any serious dog trainer, allowing for instant and precise communication with your entire pack. With a wide variety of modes and a dedicated interface, it provides complete control over your dogs' behavior, from basic positioning to complex talent-specific maneuvers.
+**Whistle** is the essential command tool for any serious dog trainer, allowing for instant and precise communication with your entire pack. With a wide variety of modes and a dedicated interface, it provides complete control over your dogs' behavior, from basic positioning to complex talent-specific maneuvers.
 
 ## Obtaining
 ### Crafting

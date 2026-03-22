@@ -23,7 +23,7 @@ recipes:
 ---
 <infobox />
 
-The **Soul Reflector** is the ethereal, soul-flame variant of the **[Divine Retribution](Divine_Retribution)**, inspired by the reflectors from **Okami**. 
+**Soul Reflector** is the ethereal, soul-flame variant of the **[Divine Retribution](Divine_Retribution)**, inspired by the reflectors from **Okami**. 
 
 ## Obtaining
 ### Crafting

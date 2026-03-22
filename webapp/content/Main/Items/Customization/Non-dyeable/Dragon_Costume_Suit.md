@@ -20,7 +20,7 @@ recipes:
 ---
 <infobox />
 
-The **Dragon Costume Suit** is a unique piece of apparel that covers your dog's torso, completing the draconic transformation. 
+**Dragon Costume Suit** is a unique piece of apparel that covers your dog's torso, completing the draconic transformation. 
 
 ## Obtaining
 ### Crafting
