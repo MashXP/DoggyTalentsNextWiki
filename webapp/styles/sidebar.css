@@ -7,10 +7,11 @@
   overflow-x: hidden;
   border-right: 1px solid var(--surface-border);
   padding: 1.5rem 0;
-  z-index: 10;
+  z-index: 100; /* Increased to be above everything */
   background: rgba(8, 9, 14, 0.4);
   backdrop-filter: var(--blur);
   -webkit-backdrop-filter: var(--blur);
+  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .sidebar-header {
@@ -122,11 +123,6 @@
   flex: 1;
 }
 
-.nav-folder-link {
-  flex: 1;
-  font-weight: 600;
-}
-
 .nav-toggle-btn {
   background: none;
   border: none;
@@ -144,10 +140,6 @@
 .nav-toggle-btn:hover {
   color: var(--primary);
   transform: scale(1.15);
-}
-
-.nav-toggle-btn:active {
-  transform: scale(0.9);
 }
 
 .nav-toggle-btn span {
@@ -173,16 +165,116 @@
 }
 
 .nav-children-inner {
-  /* Removed border-left to keep it clean with the new indicator */
   margin-left: 0;
 }
 
+/* Mobile Header */
+.mobile-header {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  padding: 0 1rem;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 90;
+  background: rgba(8, 9, 14, 0.85);
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.menu-toggle {
+  background: none;
+  border: none;
+  color: var(--primary);
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.menu-toggle:active {
+  transform: scale(0.9);
+}
+
+.mobile-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mobile-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+}
+
+/* Sidebar Overlay */
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 95;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.sidebar-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Swipe-to-Open Zone */
+.swipe-open-zone {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 40px; /* Increased for better touch target */
+  z-index: 99; /* Just below the sidebar, but above everything else */
+}
+
+/* Responsive */
 @media (max-width: 768px) {
+  .mobile-header {
+    display: flex;
+  }
+
+  .sidebar-overlay {
+    display: block;
+  }
+
+  .swipe-open-zone {
+    display: block;
+  }
+
   .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-    border-right: none;
-    border-bottom: 1px solid var(--surface-border);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: var(--sidebar-width);
+    height: 100vh;
+    transform: translateX(-100%);
+    border-right: 1px solid var(--surface-border);
+    border-bottom: none;
+    background: rgba(8, 9, 14, 0.7); /* Glassier background */
+    backdrop-filter: blur(25px); /* Stronger blur for mobile drawer */
+    -webkit-backdrop-filter: blur(25px);
+    z-index: 100;
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+    box-shadow: 10px 0 30px rgba(0, 0, 0, 0.5);
   }
 }

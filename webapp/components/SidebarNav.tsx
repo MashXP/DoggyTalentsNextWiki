@@ -7,6 +7,7 @@ import { useState, useEffect, useRef } from "react";
 import Search from "./Search";
 import { SearchItem } from "@/lib/wiki";
 import { getAssetPath } from "@/lib/utils";
+import { useSidebar } from "./SidebarContext";
 
 interface NavTreeNode {
   slug?: string;
@@ -207,6 +208,56 @@ export default function SidebarNav({ slugs, searchData }: { slugs: string[]; sea
   const tree = buildTree(slugs.filter(s => s !== 'Doggy_Talents_Next_Wiki'));
   const pathname = usePathname();
   const navRef = useRef<HTMLElement>(null);
+  const { isOpen, setIsOpen } = useSidebar();
+  
+  // Touch gesture state
+  const touchStart = useRef<{ x: number, y: number } | null>(null);
+  const touchEnd = useRef<{ x: number, y: number } | null>(null);
+  const minSwipeDistance = 40;
+
+  useEffect(() => {
+    const handleTouchStart = (e: globalThis.TouchEvent) => {
+      touchStart.current = {
+        x: e.targetTouches[0].clientX,
+        y: e.targetTouches[0].clientY
+      };
+      touchEnd.current = null;
+    };
+
+    const handleTouchMove = (e: globalThis.TouchEvent) => {
+      touchEnd.current = {
+        x: e.targetTouches[0].clientX,
+        y: e.targetTouches[0].clientY
+      };
+    };
+
+    const handleTouchEnd = () => {
+      if (!touchStart.current || !touchEnd.current) return;
+      
+      const xDiff = touchStart.current.x - touchEnd.current.x;
+      const yDiff = touchStart.current.y - touchEnd.current.y;
+      
+      // Ensure horizontal swipe is dominant and exceeds threshold
+      if (Math.abs(xDiff) > Math.abs(yDiff) && Math.abs(xDiff) > minSwipeDistance) {
+        if (xDiff < 0 && !isOpen) {
+          setIsOpen(true);
+        } else if (xDiff > 0 && isOpen) {
+          setIsOpen(false);
+        }
+      }
+    };
+
+    window.addEventListener('touchstart', handleTouchStart);
+    window.addEventListener('touchmove', handleTouchMove);
+    window.addEventListener('touchend', handleTouchEnd);
+
+    return () => {
+      window.removeEventListener('touchstart', handleTouchStart);
+      window.removeEventListener('touchmove', handleTouchMove);
+      window.removeEventListener('touchend', handleTouchEnd);
+    };
+  }, [isOpen, setIsOpen]);
+
   const [indicatorStyle, setIndicatorStyle] = useState<React.CSSProperties>({
     opacity: 0,
     transform: 'translate(0, 0)',
@@ -273,25 +324,33 @@ export default function SidebarNav({ slugs, searchData }: { slugs: string[]; sea
   }, [pathname]);
 
   return (
-    <aside className="sidebar glass">
-      <div className="sidebar-header">
-        <Link href="/" className="sidebar-logo">
-          <Image
-            src={getAssetPath("/images/site-logo.png")}
-            alt="Doggy Talents Next Logo"
-            width={500}
-            height={500}
-            style={{ width: '100%', height: 'auto' }}
-            priority
-          />
-        </Link>
-        <div className="separator" style={{ marginLeft: '-1rem', marginRight: '-1rem' }} />
-        <Search data={searchData} />
-      </div>
-      <nav className="nav-links" ref={navRef}>
-        <div className="nav-indicator" style={indicatorStyle} />
-        <NavTree node={tree} />
-      </nav>
-    </aside>
+    <>
+      <div 
+        className={`sidebar-overlay ${isOpen ? 'active' : ''}`} 
+        onClick={() => setIsOpen(false)}
+      />
+      <aside 
+        className={`sidebar glass ${isOpen ? 'open' : ''}`}
+      >
+        <div className="sidebar-header">
+          <Link href="/" className="sidebar-logo">
+            <Image
+              src={getAssetPath("/images/site-logo.png")}
+              alt="Doggy Talents Next Logo"
+              width={500}
+              height={500}
+              style={{ width: '100%', height: 'auto' }}
+              priority
+            />
+          </Link>
+          <div className="separator" style={{ marginLeft: '-1rem', marginRight: '-1rem' }} />
+          <Search data={searchData} />
+        </div>
+        <nav className="nav-links" ref={navRef}>
+          <div className="nav-indicator" style={indicatorStyle} />
+          <NavTree node={tree} />
+        </nav>
+      </aside>
+    </>
   );
 }

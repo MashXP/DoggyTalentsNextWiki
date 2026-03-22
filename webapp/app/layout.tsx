@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import Sidebar from '@/components/Sidebar';
+import { SidebarProvider } from '@/components/SidebarContext';
+import MobileHeader from '@/components/MobileHeader';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
@@ -20,12 +22,15 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        <div className="app-container">
-          <Sidebar />
-          <main className="main-content">
-            {children}
-          </main>
-        </div>
+        <SidebarProvider>
+          <div className="app-container">
+            <MobileHeader />
+            <Sidebar />
+            <main className="main-content">
+              {children}
+            </main>
+          </div>
+        </SidebarProvider>
       </body>
     </html>
   );

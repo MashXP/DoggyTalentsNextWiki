@@ -33,7 +33,7 @@ IDEA:
 - ✅ Making info box more dynamic
 - ✅ Add mod page linkings
 - ✅ Add a "Quick Info" section to the top of each page with the most important information, like a summary.
-- Add CHANGELOG page. and link trivia to that specific changelog.
+- (NO NEED) Add CHANGELOG page. and link trivia to that specific changelog.
 - ✅ Dynamic Used Ins
 - ⚠️ Click on folders without links will navigate and highlight that section. ./Items page
 - Optimize webload, low quality mode (removing animations)
