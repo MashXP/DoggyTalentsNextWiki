@@ -213,7 +213,7 @@ export function getSearchData(): SearchItem[] {
 export interface ItemInfo {
   title: string;
   slug: string;
-  image: string | null;
+  image: string | string[] | null;
   type: string | null;
   id: string | null;
   category: string;
