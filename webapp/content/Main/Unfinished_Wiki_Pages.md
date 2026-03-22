@@ -24,8 +24,8 @@ Sample Page: <span class="item-link-wrapper"><img src="/images/baker_hat.png" cl
 - <span class="item-link-wrapper"><img src="/images/dragon_costume_suit.png" class="item-icon" />[Dragon Costume: Suit](Dragon_Costume_Suit)</span>
 - <span class="item-link-wrapper"><img src="/images/dragon_costume_wings.png" class="item-icon" />[Dragon Costume: Wings](Dragon_Costume_Wings)</span>
 - <span class="item-link-wrapper"><img src="/images/fedora.png" class="item-icon" />[Fedora](Fedora)</span>
-- <span class="item-link-wrapper"><img src="/images/firefighter_hats.gif" class="item-icon" />[Firefighter Hats](Firefighter_Hats)</span>
-- <span class="item-link-wrapper"><img src="/images/firefighter_suits.gif" class="item-icon" />[Firefighter Suits](Firefighter_Suits)</span>
+- <span class="item-link-wrapper"><img src="/images/firefighter_hats.webp" class="item-icon" />[Firefighter Hats](Firefighter_Hats)</span>
+- <span class="item-link-wrapper"><img src="/images/firefighter_suits.webp" class="item-icon" />[Firefighter Suits](Firefighter_Suits)</span>
 - <span class="item-link-wrapper"><img src="/images/flatcap.png" class="item-icon" />[Flat Cap](Flat_Cap)</span>
 - <span class="item-link-wrapper"><img src="/images/dog_gift_costume.png" class="item-icon" />[Gift Costume](Gift_Costume)</span>
 - <span class="item-link-wrapper"><img src="/images/lab_coat.png" class="item-icon" />[Lab Coat](Lab_Coat)</span>

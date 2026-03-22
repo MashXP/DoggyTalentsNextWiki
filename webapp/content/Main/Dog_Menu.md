@@ -33,7 +33,7 @@ Below the basic information, you will be greeted with a [Bar](Basic Core Stats#M
 
 ### Petting
 
-![Be careful! Nether doggos might give you a love burn!](/images/petting_demo.gif "Be careful! Nether doggos might give you a love burn!")
+![Be careful! Nether doggos might give you a love burn!](/images/petting_demo.webp "Be careful! Nether doggos might give you a love burn!")
 
 **(DTN 1.18.21+)** After clicking your Dog at the Home menu, you'll enter Pet Mode. 
 

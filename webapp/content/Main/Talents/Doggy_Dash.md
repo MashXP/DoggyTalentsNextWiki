@@ -4,7 +4,7 @@ title: Doggy Dash
 
 
 
-> ![Without Doggy Dash - With Doggy Dash](/images/doggy_dash_talent.gif "Without Doggy Dash - With Doggy Dash")
+> ![Without Doggy Dash - With Doggy Dash](/images/doggy_dash_talent.webp "Without Doggy Dash - With Doggy Dash")
 > 
 > Increases your Dog's movement speed.
 > 

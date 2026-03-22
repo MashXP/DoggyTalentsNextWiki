@@ -4,7 +4,7 @@ title: Poison Fang
 
 
 
-> ![Very effective against Witches!](/images/poison_fang_talent.gif "Very effective against Witches!")
+> ![Very effective against Witches!](/images/poison_fang_talent.webp "Very effective against Witches!")
 > 
 > Your Dog's **attacks will poison its target**, and the **duration of the poison increases with level.**
 > 

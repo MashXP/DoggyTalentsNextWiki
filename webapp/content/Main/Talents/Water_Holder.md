@@ -4,7 +4,7 @@ title: Water Holder
 
 
 
-> ![*Notice the Dog's fur, it loves absorbing water. And the Dog loves shaking it dry.*](/images/water_holder_talent.gif "*Notice the Dog's fur, it loves absorbing water. And the Dog loves shaking it dry.*")
+> ![*Notice the Dog's fur, it loves absorbing water. And the Dog loves shaking it dry.*](/images/water_holder_talent.webp "*Notice the Dog's fur, it loves absorbing water. And the Dog loves shaking it dry.*")
 > 
 > This talent allows your Dog to **store water.**
 > 

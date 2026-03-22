@@ -4,7 +4,7 @@ title: Swimmer Dog
 
 
 
-> ![Nyooom~ *blub blub](/images/swimmer_dog_talent.gif "Nyooom~ *blub blub")
+> ![Nyooom~ *blub blub](/images/swimmer_dog_talent.webp "Nyooom~ *blub blub")
 > 
 > Allows your Dog to **dive and swim properly and breathe underwater for longer.**
 > 

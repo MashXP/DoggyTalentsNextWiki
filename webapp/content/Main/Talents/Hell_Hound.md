@@ -4,7 +4,7 @@ title: Hell Hound
 
 
 
-> ![Doggie likes bathing in lava~](/images/hellhound_talent_1.gif "Doggie likes bathing in lava~")
+> ![Doggie likes bathing in lava~](/images/hellhound_talent_1.webp "Doggie likes bathing in lava~")
 > 
 > This skill trains your Dog to **withstand extreme scorching heat.**
 > 

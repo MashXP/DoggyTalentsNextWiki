@@ -14,7 +14,7 @@ title: Creeper Sweeper
 
 You can set your **Creeper Sweeper** Dog to Only Target Creepers in the Talents Menu.
 
-![Creeper Sweeper (Legacy)](/images/creeper_sweeper_talent_old.gif "Creeper Sweeper (Legacy)")
+![Creeper Sweeper (Legacy)](/images/creeper_sweeper_talent_old.webp "Creeper Sweeper (Legacy)")
 
 ## Trivia
 

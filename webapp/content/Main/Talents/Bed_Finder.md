@@ -4,7 +4,7 @@ title: Bed Finder
 
 
 
-> ![Sneak + Right-click to put your dog on your head](/images/bed_finder_talent.gif "Sneak + Right-click to put your dog on your head")
+> ![Sneak + Right-click to put your dog on your head](/images/bed_finder_talent.webp "Sneak + Right-click to put your dog on your head")
 > 
 > While a Dog with this ability is on your head, your bed will have a yellow outline around it.
 > 

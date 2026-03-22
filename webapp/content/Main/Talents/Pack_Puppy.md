@@ -4,7 +4,7 @@ title: Pack Puppy
 
 
 
-> ![Mimic auto-picks up the item.](/images/pack_puppy_talent.gif "Mimic auto-picks up the item.")
+> ![Mimic auto-picks up the item.](/images/pack_puppy_talent.webp "Mimic auto-picks up the item.")
 > 
 > Each level gives your Dog **3 inventory slots** in its **Pack Puppy GUI.**
 > 
